@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy</title>
+<!--Generated on Wed Oct 29 10:47:16 2025 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link href="/static/browse/0.3.4/css/arxiv-html-papers-20250916.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+<script src="/static/browse/0.3.4/js/addons_new.js"></script>
+<script src="/static/browse/0.3.4/js/feedbackOverlay.js"></script>
+<base href="/html/2510.25378v1/"/></head>
+<body>
+<nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S1" title="In Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>Introduction</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S2" title="In Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>Related Study</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3" title="In Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>Experiments</span></a>
+<ol class="ltx_toclist ltx_toclist_section">
+<li class="ltx_tocentry ltx_tocentry_subsection"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3.SS1" title="In 3 Experiments ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.1 </span>Methodology</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_subsection">
+<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3.SS2" title="In 3 Experiments ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3.2 </span>Results</span></a>
+<ol class="ltx_toclist ltx_toclist_subsection">
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3.SS2.SSS0.Px1" title="In 3.2 Results ‣ 3 Experiments ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title">Experiment 1.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3.SS2.SSS0.Px2" title="In 3.2 Results ‣ 3 Experiments ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title">Experiment 2.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3.SS2.SSS0.Px3" title="In 3.2 Results ‣ 3 Experiments ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title">Experiment 3.</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_paragraph"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3.SS2.SSS0.Px4" title="In 3.2 Results ‣ 3 Experiments ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title">Experiment 4.</span></a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S4" title="In Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>Conclusion</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#A1" title="In Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">A </span>Model Settings</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#A2" title="In Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">B </span>Generated Records</span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line ltx_pruned_first">
+<h1 class="ltx_title ltx_title_document">Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy
+<br class="ltx_break"/>for Training Data Redundancy</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"><a class="ltx_ref ltx_href" href="https://orcid.org/0000-0002-4618-6272" title=""><img alt="[Uncaptioned image]" class="ltx_graphics ltx_img_square" height="8" id="g1" src="x1.png" width="8"/>  
+Junichiro Niimi
+</a>
+</span><span class="ltx_author_notes"><span class="ltx_text ltx_font_typewriter">jniimi@meijo-u.ac.jp</span>
+<span class="ltx_contact ltx_role_affiliation">Meijo University
+</span>
+<span class="ltx_contact ltx_role_affiliation">RIKEN AIP
+</span></span></span>
+</div>
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">Large language models (LLMs) have been increasingly applied to a wide range of tasks, from natural language understanding to code generation.
+While they have also been used to assist in bibliographic recommendation, the hallucination of non-existent papers remains a major issue.
+Building on prior studies, this study hypothesizes that an LLM’s ability to correctly produce bibliographic information depends on whether the underlying knowledge is generated or memorized, with highly cited papers (i.e., more frequently appear in the training corpus) showing lower hallucination rates.
+We therefore assume citation count as a proxy for training data redundancy (i.e., the frequency with which a given bibliographic record is repeatedly represented in the pretraining corpus) and investigate how citation frequency affects hallucinated references in LLM outputs.
+Using GPT-4.1, we generated and manually verified 100 bibliographic records across twenty computer-science domains, and measured factual consistency via cosine similarity between generated and authentic metadata. The results revealed that (i) hallucination rates vary across research domains, (ii) citation count is strongly correlated with factual accuracy, and (iii) bibliographic information becomes almost verbatimly memorized beyond approximately 1,000 citations.
+These findings suggest that highly cited papers are nearly verbatimly retained in the model, indicating a threshold where generalization shifts into memorization.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="p2">
+<p class="ltx_p"><em class="ltx_emph ltx_font_bold ltx_font_italic">Keywords</em> Large language model  <math alttext="\cdot" class="ltx_Math" display="inline" id="p2.m1" intent=":literal"><semantics><mo>⋅</mo><annotation encoding="application/x-tex">\cdot</annotation></semantics></math>
+Natural language processing  <math alttext="\cdot" class="ltx_Math" display="inline" id="p2.m2" intent=":literal"><semantics><mo>⋅</mo><annotation encoding="application/x-tex">\cdot</annotation></semantics></math>
+Hallucination  <math alttext="\cdot" class="ltx_Math" display="inline" id="p2.m3" intent=":literal"><semantics><mo>⋅</mo><annotation encoding="application/x-tex">\cdot</annotation></semantics></math>
+Information retrieval  <math alttext="\cdot" class="ltx_Math" display="inline" id="p2.m4" intent=":literal"><semantics><mo>⋅</mo><annotation encoding="application/x-tex">\cdot</annotation></semantics></math>
+Recommendation system</p>
+</div>
+<section class="ltx_section" id="S1">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+<div class="ltx_para ltx_noindent" id="S1.p1">
+<p class="ltx_p">Large language models (LLMs) have achieved remarkable fluency across a wide range of domains <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib1" title="">1</a>]</cite>.
+However, they are also known to generate hallucinations that are nonsensical or unfaithful to the provided source content <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib2" title="">2</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib3" title="">3</a>]</cite>.
+In particular, the generation of non-existent academic references or legal precedents has been widely recognized as a critical issue <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib4" title="">4</a>]</cite>.
+For example, in the field of marketing, where Recency–Frequency–Monetary (RFM) analysis <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib5" title="">5</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib6" title="">6</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib7" title="">7</a>]</cite> is commonly employed as a customer relationship management (CRM) <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib8" title="">8</a>]</cite>, when prompted to “Please suggest recent academic papers on RFM analysis with Author (Year) Title, Journal, Vol, No, pp style,” the model (GPT-4.1) produced the following response:</p>
+<blockquote class="ltx_quote">
+<p class="ltx_p">Chitturi, P., Raghunathan, B., Sciandra, R., &amp; Sikora, J. (2010).
+“RFM and CLV: Using Customer Data for Improved Decision Making.”
+Journal of Direct, Data, and Digital Marketing Practice, 12(1), 1–10.</p>
+</blockquote>
+<p class="ltx_p">Although the output follows the correct bibliographic format, the paper itself does not exist. Each component imitates genuine studies, such as the author names (e.g., Chitturi and Raghunathan <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib9" title="">9</a>]</cite>), journal name (Journal of Direct, Data, and Digital Marketing Practice <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib10" title="">10</a>]</cite>), and the paper title (e.g., “RFM and CLV” <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib11" title="">11</a>]</cite>), but the numerical details are fictitious, suggesting that multiple authentic entries were probabilistically merged into a coherent yet fabricated citation.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S1.p2">
+<p class="ltx_p">These fabricated yet plausible references suggest that hallucinations in bibliographic recommendation may not occur arbitrarily, but rather reflect how knowledge is represented within the model. For example, the probability of reproducing training data has been shown to correlate with its frequency of appearance <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib12" title="">12</a>]</cite>.
+This study therefore focuses on bibliographic recommendation using LLMs and empirically examines how factual correctness varies with domain popularity (number of papers in the field) and citation prominence (citation count of the generated reference).
+Our findings suggest that hallucinations arise not randomly but systematically from imbalanced knowledge distributions within the representation space.</p>
+</div>
+</section>
+<section class="ltx_section" id="S2">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>Related Study</h2>
+<div class="ltx_para ltx_noindent" id="S2.p1">
+<p class="ltx_p">Hallucination in LLMs has been examined from diverse perspectives <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib2" title="">2</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib4" title="">4</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib13" title="">13</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib14" title="">14</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib15" title="">15</a>]</cite>.
+OpenAI’s analysis <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib15" title="">15</a>]</cite> argued that reinforcement learning with human feedback (RLHF) <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib16" title="">16</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib17" title="">17</a>]</cite> may inherently encourage hallucination, as current LLMs are penalized for responding “I don’t know” (IDK) and instead rewarded for producing statistically plausible continuations.
+This alignment objective can thus promote confident but unreliable statements.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S2.p2">
+<p class="ltx_p">Conversely, security-oriented studies have highlighted the opposite tendency: information repeated multiple times during pretraining is more likely to be memorized and reproduced verbatim <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib18" title="">18</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib19" title="">19</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib20" title="">20</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib12" title="">12</a>]</cite>.
+This view aligns with recent theoretical accounts positioning LLMs as probabilistic pattern recognizers that approximate data distributions rather than explicitly “understanding” knowledge <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib21" title="">21</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib22" title="">22</a>]</cite>. From this perspective, hallucination and <span class="ltx_text ltx_font_italic">exposure</span> <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib23" title="">23</a>]</cite> (i.e., training data leakage) represent opposite outcomes of the same probabilistic learning dynamics, where the frequency of exposure governs whether information is faithfully recalled or spuriously synthesized.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S2.p3">
+<p class="ltx_p">In the context of citation recommendation <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib24" title="">24</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib25" title="">25</a>, <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib26" title="">26</a>]</cite>, this implies that frequently cited papers which appear across numerous publications and other web sources are more likely to be verbatimly recalled by LLMs, whereas sparsely represented works tend to be fabricated. This study hypothesizes that hallucination in bibliographic recommendation is systematically related to <span class="ltx_text ltx_font_italic">the training data redundancy</span> (i.e., the frequency with which a given bibliographic record is repeatedly represented in the pretraining corpus).
+Highly cited papers are expected to be more robustly represented, leading to lower hallucination rates, while limited-redundancy papers are more prone to plausible but non-existent references.</p>
+</div>
+</section>
+<section class="ltx_section" id="S3">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>Experiments</h2>
+<section class="ltx_subsection" id="S3.SS1">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.1 </span>Methodology</h3>
+<div class="ltx_para ltx_noindent" id="S3.SS1.p1">
+<p class="ltx_p">Bibliographic records were generated using GPT-4.1 accessed via API (knowledge cutoff: June 2024).
+To minimize domain-specific citation bias, twenty topics were selected within the field of computer science (e.g., transformer <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib27" title="">27</a>]</cite>, diffusion model <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib28" title="">28</a>]</cite>, retrieval-augmented generation <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib29" title="">29</a>]</cite>).
+For each topic, the model was prompted to recommend five academic papers in JSON format (Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#A1.F3" title="Figure 3 ‣ Appendix A Model Settings ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_tag">3</span></a>; see Appendix A), yielding a total of 100 samples.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS1.p2">
+<p class="ltx_p">Each output record was manually validated using Google Scholar.
+Existence of the paper was confirmed primarily by its title; minor coincidences in author or journal names were not considered sufficient.
+Each record was scored as completely correct (<math alttext="score=2" class="ltx_Math" display="inline" id="S3.SS1.p2.m1" intent=":literal"><semantics><mrow><mrow><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>c</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi></mrow><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">score=2</annotation></semantics></math>), partially hallucinated (<math alttext="score=1" class="ltx_Math" display="inline" id="S3.SS1.p2.m2" intent=":literal"><semantics><mrow><mrow><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>c</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi></mrow><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">score=1</annotation></semantics></math>; when some metadata such as author names, journal, or year were inaccurate), or completely hallucinated (<math alttext="score=0" class="ltx_Math" display="inline" id="S3.SS1.p2.m3" intent=":literal"><semantics><mrow><mrow><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>c</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi></mrow><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">score=0</annotation></semantics></math>).
+Citation counts were retrieved from Google Scholar (as of October 2025).
+Semantic similarity between generated and authentic bibliographic metadata was computed using Sentence-BERT <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib30" title="">30</a>]</cite> (all-MiniLM-L6-v2) embeddings with cosine similarity, and the relationship between citation frequency and similarity was analyzed.</p>
+</div>
+</section>
+<section class="ltx_subsection" id="S3.SS2">
+<h3 class="ltx_title ltx_title_subsection">
+<span class="ltx_tag ltx_tag_subsection">3.2 </span>Results</h3>
+<section class="ltx_paragraph" id="S3.SS2.SSS0.Px1">
+<h4 class="ltx_title ltx_title_paragraph">Experiment 1.</h4>
+<div class="ltx_para ltx_noindent" id="S3.SS2.SSS0.Px1.p1">
+<p class="ltx_p">We first compared low- and high-citation groups divided at the median citation count (<math alttext="M_{dn}=818" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m1" intent=":literal"><semantics><mrow><msub><mi>M</mi><mrow><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi></mrow></msub><mo>=</mo><mn>818</mn></mrow><annotation encoding="application/x-tex">M_{dn}=818</annotation></semantics></math>).
+A one-tailed <math alttext="t" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m2" intent=":literal"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math>-test revealed that the high-citation group achieved significantly higher factual scores than the low-citation group (<math alttext="t(98)=-5.12" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m3" intent=":literal"><semantics><mrow><mrow><mi>t</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mn>98</mn><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo>−</mo><mn>5.12</mn></mrow></mrow><annotation encoding="application/x-tex">t(98)=-5.12</annotation></semantics></math>, <math alttext="p&lt;.001" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m4" intent=":literal"><semantics><mrow><mi>p</mi><mo>&lt;</mo><mn>.001</mn></mrow><annotation encoding="application/x-tex">p&lt;.001</annotation></semantics></math>; <math alttext="M_{\text{high}}=1.245" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m5" intent=":literal"><semantics><mrow><msub><mi>M</mi><mtext>high</mtext></msub><mo>=</mo><mn>1.245</mn></mrow><annotation encoding="application/x-tex">M_{\text{high}}=1.245</annotation></semantics></math>, <math alttext="M_{\text{low}}=0.725" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px1.p1.m6" intent=":literal"><semantics><mrow><msub><mi>M</mi><mtext>low</mtext></msub><mo>=</mo><mn>0.725</mn></mrow><annotation encoding="application/x-tex">M_{\text{low}}=0.725</annotation></semantics></math>).</p>
+</div>
+</section>
+<section class="ltx_paragraph" id="S3.SS2.SSS0.Px2">
+<h4 class="ltx_title ltx_title_paragraph">Experiment 2.</h4>
+<div class="ltx_para" id="S3.SS2.SSS0.Px2.p1">
+<p class="ltx_p">Figure <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3.F1" title="Figure 1 ‣ Experiment 2. ‣ 3.2 Results ‣ 3 Experiments ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_tag">1</span></a> shows the average factual scores across research domains. The scores differ markedly among domains: Domains related to image processing, such as Vision Transformer (ViT) <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib31" title="">31</a>]</cite> and Diffusion Model <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib28" title="">28</a>]</cite>, achieved notably higher accuracy, whereas recent LLM-oriented techniques, such as RAG <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib29" title="">29</a>]</cite> and LoRA <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib32" title="">32</a>]</cite>, exhibited substantially lower scores.
+This discrepancy likely reflects the popularity of the research domain, which is related with the data redundancy. Consequently, hallucinations occurred more frequently in underrepresented domains such as LoRA and Graph Transformer <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib33" title="">33</a>]</cite>.</p>
+</div>
+<figure class="ltx_figure" id="S3.F1"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="328" id="S3.F1.g1" src="x2.png" width="830"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>Average factual score by domain. Error bars indicate the 95% confidence interval. Accuracy varies by domain familiarity.</figcaption>
+</figure>
+</section>
+<section class="ltx_paragraph" id="S3.SS2.SSS0.Px3">
+<h4 class="ltx_title ltx_title_paragraph">Experiment 3.</h4>
+<div class="ltx_para ltx_noindent" id="S3.SS2.SSS0.Px3.p1">
+<p class="ltx_p">Using only valid records (<math alttext="score&gt;0" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px3.p1.m1" intent=":literal"><semantics><mrow><mrow><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>c</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi></mrow><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">score&gt;0</annotation></semantics></math>; <math alttext="n=81" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px3.p1.m2" intent=":literal"><semantics><mrow><mi>n</mi><mo>=</mo><mn>81</mn></mrow><annotation encoding="application/x-tex">n=81</annotation></semantics></math>), we analyzed the relationship between log-transformed citation counts and cosine similarity (Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3.F2" title="Figure 2 ‣ Experiment 3. ‣ 3.2 Results ‣ 3 Experiments ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_tag">2</span></a>).
+A strong positive correlation (<math alttext="r=0.75" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px3.p1.m3" intent=":literal"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0.75</mn></mrow><annotation encoding="application/x-tex">r=0.75</annotation></semantics></math>, <math alttext="p&lt;.001" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px3.p1.m4" intent=":literal"><semantics><mrow><mi>p</mi><mo>&lt;</mo><mn>.001</mn></mrow><annotation encoding="application/x-tex">p&lt;.001</annotation></semantics></math>) indicates a clear log-linear relationship, which reflects the memorization scaling law <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib12" title="">12</a>]</cite>.
+In this context, we may interpret our finding as a form of a redundancy scaling law, where the probability of factual recall significantly increases as <math alttext="\log" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px3.p1.m5" intent=":literal"><semantics><mi>log</mi><annotation encoding="application/x-tex">\log</annotation></semantics></math>(citation) rises.</p>
+</div>
+<figure class="ltx_figure" id="S3.F2"><img alt="Refer to caption" class="ltx_graphics ltx_centering ltx_img_landscape" height="438" id="S3.F2.g1" src="x3.png" width="788"/>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>Relationship between citation frequency and generation fidelity.
+Each dot represents a factual citation generated by the model, colored by research domain.
+The dashed line indicates the fitted linear regression (95% CI in gray).
+The correlation (<math alttext="r=0.75" class="ltx_Math" display="inline" id="S3.F2.m5" intent=":literal"><semantics><mrow><mi>r</mi><mo>=</mo><mn>0.75</mn></mrow><annotation encoding="application/x-tex">r=0.75</annotation></semantics></math>, <math alttext="p&lt;.001" class="ltx_Math" display="inline" id="S3.F2.m6" intent=":literal"><semantics><mrow><mi>p</mi><mo>&lt;</mo><mn>.001</mn></mrow><annotation encoding="application/x-tex">p&lt;.001</annotation></semantics></math>) demonstrates a strong log-linear relationship between citations and factual accuracy, with saturation near <math alttext="\log" class="ltx_Math" display="inline" id="S3.F2.m7" intent=":literal"><semantics><mi>log</mi><annotation encoding="application/x-tex">\log</annotation></semantics></math>(citation) <math alttext="\approx" class="ltx_Math" display="inline" id="S3.F2.m8" intent=":literal"><semantics><mo>≈</mo><annotation encoding="application/x-tex">\approx</annotation></semantics></math> 7.</figcaption>
+</figure>
+</section>
+<section class="ltx_paragraph" id="S3.SS2.SSS0.Px4">
+<h4 class="ltx_title ltx_title_paragraph">Experiment 4.</h4>
+<div class="ltx_para ltx_noindent" id="S3.SS2.SSS0.Px4.p1">
+<p class="ltx_p">Notably, Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#S3.F2" title="Figure 2 ‣ Experiment 3. ‣ 3.2 Results ‣ 3 Experiments ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_tag">2</span></a> also indicates the saturation near 1.0 when <math alttext="\log" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px4.p1.m1" intent=":literal"><semantics><mi>log</mi><annotation encoding="application/x-tex">\log</annotation></semantics></math>(citation) exceeded 7 (approximately 1,000 citations), suggesting that highly cited papers are almost verbatimly retained within the model. In that regime, frequently cited papers are not merely represented through probabilistic token associations but are instead recalled almost verbatim.
+To quantify this non-linear pattern, we conducted logistic regression using min–max-normalized cosine similarity as the dependent variable.
+The model revealed a significant positive relationship between <math alttext="\log" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px4.p1.m2" intent=":literal"><semantics><mi>log</mi><annotation encoding="application/x-tex">\log</annotation></semantics></math>(citation) and normalized similarity (<math alttext="\beta_{1}=0.523" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px4.p1.m3" intent=":literal"><semantics><mrow><msub><mi>β</mi><mn>1</mn></msub><mo>=</mo><mn>0.523</mn></mrow><annotation encoding="application/x-tex">\beta_{1}=0.523</annotation></semantics></math>, <math alttext="p=0.003" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px4.p1.m4" intent=":literal"><semantics><mrow><mi>p</mi><mo>=</mo><mn>0.003</mn></mrow><annotation encoding="application/x-tex">p=0.003</annotation></semantics></math>) with a low intercept (<math alttext="\beta_{0}=-2.360" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px4.p1.m5" intent=":literal"><semantics><mrow><msub><mi>β</mi><mn>0</mn></msub><mo>=</mo><mrow><mo>−</mo><mn>2.360</mn></mrow></mrow><annotation encoding="application/x-tex">\beta_{0}=-2.360</annotation></semantics></math>, <math alttext="p=0.020" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px4.p1.m6" intent=":literal"><semantics><mrow><mi>p</mi><mo>=</mo><mn>0.020</mn></mrow><annotation encoding="application/x-tex">p=0.020</annotation></semantics></math>).
+The estimated inflection point (<math alttext="-\beta_{0}/\beta_{1}\approx 5" class="ltx_Math" display="inline" id="S3.SS2.SSS0.Px4.p1.m7" intent=":literal"><semantics><mrow><mrow><mo>−</mo><mrow><msub><mi>β</mi><mn>0</mn></msub><mo>/</mo><msub><mi>β</mi><mn>1</mn></msub></mrow></mrow><mo>≈</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">-\beta_{0}/\beta_{1}\approx 5</annotation></semantics></math>) corresponds to roughly 100 citations, marking the transition from generalization to memorization.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S3.SS2.SSS0.Px4.p2">
+<p class="ltx_p">These four experiments collectively support our initial hypothesis that citation count acts as a proxy for the training data redundancy. The positive and non-linear relationship between log(citation) and cosine similarity indicates that hallucination is not random but structurally linked to uneven knowledge distributions within the model’s representation space.</p>
+</div>
+</section>
+</section>
+</section>
+<section class="ltx_section" id="S4">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>Conclusion</h2>
+<div class="ltx_para ltx_noindent" id="S4.p1">
+<p class="ltx_p">This study empirically examined how citation frequency functions as a proxy for hallucination in bibliographic recommendation by LLMs.
+The model was instructed to output JSON-formatted results without explanations, effectively disabling
+IDK responses. In line with previous study <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib15" title="">15</a>]</cite>, such output constraints encourage the model to produce plausible yet non-existent entries.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="S4.p2">
+<p class="ltx_p">The key findings are as follows:
+(i) hallucination rates vary across research domains,
+(ii) citation count is strongly correlated with factual accuracy, and
+(iii) bibliographic information becomes almost verbatimly memorized beyond approximately 1,000 citations.
+In other words, while LLMs can faithfully reproduce information about highly cited papers, they struggle in domains with shorter publication histories or limited redundancy in the training corpus.
+Contrary to the discoverability phenomenon <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib12" title="">12</a>]</cite> where memorization emerges only when sufficient context is given, our results suggest the opposite direction: highly redundant knowledge can be recalled even with minimal prompting.
+Although this study focused on GPT-4.1 within the computer science domain, future research should extend the analysis to other models, disciplines, and multilingual contexts to assess the generality of this threshold behavior.</p>
+</div>
+</section>
+<section class="ltx_bibliography" id="bib">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+<ul class="ltx_biblist">
+<li class="ltx_bibitem" id="bib.bib1">
+<span class="ltx_tag ltx_tag_bibitem">[1]</span>
+<span class="ltx_bibblock">
+Jan Ole Krugmann and Jochen Hartmann.
+
+</span>
+<span class="ltx_bibblock">Sentiment analysis in the age of generative ai.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Customer Needs and Solutions</span>, 11(1):3, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib2">
+<span class="ltx_tag ltx_tag_bibitem">[2]</span>
+<span class="ltx_bibblock">
+Sebastian Farquhar, Jannik Kossen, Lorenz Kuhn, and Yarin Gal.
+
+</span>
+<span class="ltx_bibblock">Detecting hallucinations in large language models using semantic
+entropy.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Nature</span>, 630(8017):625–630, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib3">
+<span class="ltx_tag ltx_tag_bibitem">[3]</span>
+<span class="ltx_bibblock">
+Ziwei Xu, Sanjay Jain, and Mohan Kankanhalli.
+
+</span>
+<span class="ltx_bibblock">Hallucination is inevitable: An innate limitation of large language
+models.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">arXiv preprint arXiv:2401.11817</span>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib4">
+<span class="ltx_tag ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock">
+Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang,
+Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, et al.
+
+</span>
+<span class="ltx_bibblock">A survey on hallucination in large language models: Principles,
+taxonomy, challenges, and open questions.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">ACM Transactions on Information Systems</span>, 43(2):1–55, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib5">
+<span class="ltx_tag ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock">
+Connie L Bauer.
+
+</span>
+<span class="ltx_bibblock">A direct mail customer purchase model.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Journal of Direct Marketing</span>, 2(3):16–24, 1988.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib6">
+<span class="ltx_tag ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">
+Jan Roelf Bult and Tom Wansbeek.
+
+</span>
+<span class="ltx_bibblock">Optimal selection for direct mail.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Marketing Science</span>, 14(4):378–394, 1995.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib7">
+<span class="ltx_tag ltx_tag_bibitem">[7]</span>
+<span class="ltx_bibblock">
+Sunil Gupta and Donald R Lehmann.
+
+</span>
+<span class="ltx_bibblock">Customer lifetime value and firm valuation.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Journal of Relationship Marketing</span>, 5(2-3):87–110, 2006.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib8">
+<span class="ltx_tag ltx_tag_bibitem">[8]</span>
+<span class="ltx_bibblock">
+Jacob Jacoby and Robert W Chestnut.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Brand loyalty: Measurement and management</span>.
+
+</span>
+<span class="ltx_bibblock">John Wiley &amp;amp; Sons Incorporated, 1978.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib9">
+<span class="ltx_tag ltx_tag_bibitem">[9]</span>
+<span class="ltx_bibblock">
+Ravindra Chitturi, Rajagopal Raghunathan, and Vijay Mahajan.
+
+</span>
+<span class="ltx_bibblock">Form versus function: How the intensities of specific emotions evoked
+in functional versus hedonic trade-offs mediate product preferences.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Journal of marketing research</span>, 44(4):702–714, 2007.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib10">
+<span class="ltx_tag ltx_tag_bibitem">[10]</span>
+<span class="ltx_bibblock">
+Efthymios Constantinides and Stefan J Fountain.
+
+</span>
+<span class="ltx_bibblock">Web 2.0: Conceptual foundations and marketing issues.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Journal of direct, data and digital marketing practice</span>,
+9(3):231–244, 2008.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib11">
+<span class="ltx_tag ltx_tag_bibitem">[11]</span>
+<span class="ltx_bibblock">
+Peter S Fader, Bruce GS Hardie, and Ka Lok Lee.
+
+</span>
+<span class="ltx_bibblock">Rfm and clv: Using iso-value curves for customer base analysis.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Journal of marketing research</span>, 42(4):415–430, 2005.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib12">
+<span class="ltx_tag ltx_tag_bibitem">[12]</span>
+<span class="ltx_bibblock">
+Nicholas Carlini, Daphne Ippolito, Matthew Jagielski, Katherine Lee, Florian
+Tramer, and Chiyuan Zhang.
+
+</span>
+<span class="ltx_bibblock">Quantifying memorization across neural language models.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">The Eleventh International Conference on Learning
+Representations</span>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib13">
+<span class="ltx_tag ltx_tag_bibitem">[13]</span>
+<span class="ltx_bibblock">
+Hoang Anh Dang, Vu Tran, and Le-Minh Nguyen.
+
+</span>
+<span class="ltx_bibblock">Survey and analysis of hallucinations in large language models:
+attribution to prompting strategies or model behavior.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Frontiers in Artificial Intelligence</span>, 8:1622292, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib14">
+<span class="ltx_tag ltx_tag_bibitem">[14]</span>
+<span class="ltx_bibblock">
+Joseph Spracklen, Raveen Wijewickrama, AHM Nazmus Sakib, Anindya Maiti, and
+Bimal Viswanath.
+
+</span>
+<span class="ltx_bibblock">We have a package for you! a comprehensive analysis of package
+hallucinations by code generating <math alttext="\{" class="ltx_Math" display="inline" id="bib.bib14.m1" intent=":literal"><semantics><mo stretchy="false">{</mo><annotation encoding="application/x-tex">\{</annotation></semantics></math>LLMs<math alttext="\}" class="ltx_Math" display="inline" id="bib.bib14.m2" intent=":literal"><semantics><mo stretchy="false">}</mo><annotation encoding="application/x-tex">\}</annotation></semantics></math>.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">34th USENIX Security Symposium (USENIX Security 25)</span>, pages
+3687–3706, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib15">
+<span class="ltx_tag ltx_tag_bibitem">[15]</span>
+<span class="ltx_bibblock">
+Adam Tauman Kalai, Ofir Nachum, Santosh S Vempala, and Edwin Zhang.
+
+</span>
+<span class="ltx_bibblock">Why language models hallucinate.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">arXiv preprint arXiv:2509.04664</span>, 2025.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib16">
+<span class="ltx_tag ltx_tag_bibitem">[16]</span>
+<span class="ltx_bibblock">
+Paul F Christiano, Jan Leike, Tom Brown, Miljan Martic, Shane Legg, and Dario
+Amodei.
+
+</span>
+<span class="ltx_bibblock">Deep reinforcement learning from human preferences.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Advances in neural information processing systems</span>, 30, 2017.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib17">
+<span class="ltx_tag ltx_tag_bibitem">[17]</span>
+<span class="ltx_bibblock">
+Daniel M Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B Brown, Alec Radford, Dario
+Amodei, Paul Christiano, and Geoffrey Irving.
+
+</span>
+<span class="ltx_bibblock">Fine-tuning language models from human preferences.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">arXiv preprint arXiv:1909.08593</span>, 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib18">
+<span class="ltx_tag ltx_tag_bibitem">[18]</span>
+<span class="ltx_bibblock">
+Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck,
+Chris Callison-Burch, and Nicholas Carlini.
+
+</span>
+<span class="ltx_bibblock">Deduplicating training data makes language models better.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">Proceedings of the 60th Annual Meeting of the Association for
+Computational Linguistics (Volume 1: Long Papers)</span>, pages 8424–8445, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib19">
+<span class="ltx_tag ltx_tag_bibitem">[19]</span>
+<span class="ltx_bibblock">
+Nikhil Kandpal, Eric Wallace, and Colin Raffel.
+
+</span>
+<span class="ltx_bibblock">Deduplicating training data mitigates privacy risks in language
+models.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">International Conference on Machine Learning</span>, pages
+10697–10707. PMLR, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib20">
+<span class="ltx_tag ltx_tag_bibitem">[20]</span>
+<span class="ltx_bibblock">
+Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel
+Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar
+Erlingsson, et al.
+
+</span>
+<span class="ltx_bibblock">Extracting training data from large language models.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">30th USENIX security symposium (USENIX Security 21)</span>, pages
+2633–2650, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib21">
+<span class="ltx_tag ltx_tag_bibitem">[21]</span>
+<span class="ltx_bibblock">
+Suvir Mirchandani, Fei Xia, Pete Florence, Brian Ichter, Danny Driess,
+Montserrat Gonzalez Arenas, Kanishka Rao, Dorsa Sadigh, and Andy Zeng.
+
+</span>
+<span class="ltx_bibblock">Large language models as general pattern machines.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">Conference on Robot Learning</span>, pages 2498–2518. PMLR, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib22">
+<span class="ltx_tag ltx_tag_bibitem">[22]</span>
+<span class="ltx_bibblock">
+Pablo Contreras Kallens and Morten H Christiansen.
+
+</span>
+<span class="ltx_bibblock">Distributional semantics: Meaning through culture and interaction.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Topics in cognitive science</span>, 2024.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib23">
+<span class="ltx_tag ltx_tag_bibitem">[23]</span>
+<span class="ltx_bibblock">
+Nicholas Carlini, Chang Liu, Úlfar Erlingsson, Jernej Kos, and Dawn Song.
+
+</span>
+<span class="ltx_bibblock">The secret sharer: Evaluating and testing unintended memorization in
+neural networks.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">28th USENIX security symposium (USENIX security 19)</span>, pages
+267–284, 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib24">
+<span class="ltx_tag ltx_tag_bibitem">[24]</span>
+<span class="ltx_bibblock">
+Chanwoo Jeong, Sion Jang, Eunjeong Park, and Sungchul Choi.
+
+</span>
+<span class="ltx_bibblock">A context-aware citation recommendation model with bert and graph
+convolutional networks.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Scientometrics</span>, 124(3):1907–1922, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib25">
+<span class="ltx_tag ltx_tag_bibitem">[25]</span>
+<span class="ltx_bibblock">
+Zitong Zhang, Braja Gopal Patra, Ashraf Yaseen, Jie Zhu, Rachit Sabharwal, Kirk
+Roberts, Tru Cao, and Hulin Wu.
+
+</span>
+<span class="ltx_bibblock">Scholarly recommendation systems: a literature survey.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Knowledge and Information Systems</span>, 65(11):4433–4478, 2023.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib26">
+<span class="ltx_tag ltx_tag_bibitem">[26]</span>
+<span class="ltx_bibblock">
+Jie Zhu, Braja G Patra, and Ashraf Yaseen.
+
+</span>
+<span class="ltx_bibblock">Recommender system of scholarly papers using public datasets.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">AMIA summits on translational science proceedings</span>, 2021:672,
+2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib27">
+<span class="ltx_tag ltx_tag_bibitem">[27]</span>
+<span class="ltx_bibblock">
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin.
+
+</span>
+<span class="ltx_bibblock">Attention is all you need.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Advances in neural information processing systems</span>, 30, 2017.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib28">
+<span class="ltx_tag ltx_tag_bibitem">[28]</span>
+<span class="ltx_bibblock">
+Jonathan Ho, Ajay Jain, and Pieter Abbeel.
+
+</span>
+<span class="ltx_bibblock">Denoising diffusion probabilistic models.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Advances in neural information processing systems</span>,
+33:6840–6851, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib29">
+<span class="ltx_tag ltx_tag_bibitem">[29]</span>
+<span class="ltx_bibblock">
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim
+Rocktäschel, et al.
+
+</span>
+<span class="ltx_bibblock">Retrieval-augmented generation for knowledge-intensive nlp tasks.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Advances in neural information processing systems</span>,
+33:9459–9474, 2020.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib30">
+<span class="ltx_tag ltx_tag_bibitem">[30]</span>
+<span class="ltx_bibblock">
+Nils Reimers and Iryna Gurevych.
+
+</span>
+<span class="ltx_bibblock">Sentence-bert: Sentence embeddings using siamese bert-networks.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">Proceedings of the 2019 Conference on Empirical Methods in
+Natural Language Processing and the 9th International Joint Conference on
+Natural Language Processing (EMNLP-IJCNLP)</span>, page 3982. Association for
+Computational Linguistics, 2019.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib31">
+<span class="ltx_tag ltx_tag_bibitem">[31]</span>
+<span class="ltx_bibblock">
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg
+Heigold, Sylvain Gelly, et al.
+
+</span>
+<span class="ltx_bibblock">An image is worth 16x16 words.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">International Conference on Learning Representations (ICLR
+2021)</span>, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib32">
+<span class="ltx_tag ltx_tag_bibitem">[32]</span>
+<span class="ltx_bibblock">
+Edward J Hu, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang,
+Weizhu Chen, et al.
+
+</span>
+<span class="ltx_bibblock">Lora: Low-rank adaptation of large language models.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">International Conference on Learning Representations</span>, 2022.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib33">
+<span class="ltx_tag ltx_tag_bibitem">[33]</span>
+<span class="ltx_bibblock">
+Chengxuan Ying, Tianle Cai, Shengjie Luo, Shuxin Zheng, Guolin Ke, Di He,
+Yanming Shen, and Tie-Yan Liu.
+
+</span>
+<span class="ltx_bibblock">Do transformers really perform badly for graph representation?
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">Advances in neural information processing systems</span>,
+34:28877–28888, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib34">
+<span class="ltx_tag ltx_tag_bibitem">[34]</span>
+<span class="ltx_bibblock">
+Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and
+Baining Guo.
+
+</span>
+<span class="ltx_bibblock">Swin transformer: Hierarchical vision transformer using shifted
+windows.
+
+</span>
+<span class="ltx_bibblock">In <span class="ltx_text ltx_font_italic">Proceedings of the IEEE/CVF international conference on
+computer vision</span>, pages 10012–10022, 2021.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib35">
+<span class="ltx_tag ltx_tag_bibitem">[35]</span>
+<span class="ltx_bibblock">
+Xuezhe Ma, Chunting Zhou, Xiang Kong, Junxian He, Liangke Gui, Graham Neubig,
+Jonathan May, and Luke Zettlemoyer.
+
+</span>
+<span class="ltx_bibblock">Mega: Moving average equipped gated attention.
+
+</span>
+<span class="ltx_bibblock"><span class="ltx_text ltx_font_italic">arXiv preprint arXiv:2209.10655</span>, 2022.
+
+</span>
+</li>
+</ul>
+</section>
+<section class="ltx_appendix" id="A1">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix A </span>Model Settings</h2>
+<div class="ltx_para" id="A1.p1">
+<p class="ltx_p">Actual prompt to generate bibliographic information is shown in Fig. <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#A1.F3" title="Figure 3 ‣ Appendix A Model Settings ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_tag">3</span></a>. To strictly generate structured records, we include JSON schema and ”no additional explanation” descriptions.</p>
+</div>
+<figure class="ltx_figure" id="A1.F3">
+<div class="ltx_listing ltx_lstlisting ltx_align_center ltx_listing">
+<div class="ltx_listing_data"><a download="" href="data:text/plain;base64,IyMjIEluc3RydWN0aW9uOgpZb3UgYXJlIGFuIGFjYWRlbWljIGFzc2lzdGFudCB0aGF0IG91dHB1dHMgc3RydWN0dXJlZCBiaWJsaW9ncmFwaGljIGRhdGEgaW4gSlNPTiBmb3JtYXQuClBsZWFzZSBzdWdnZXN0IDUgcmVjZW50IGFjYWRlbWljIHBhcGVycyByZWxhdGVkIHRvICJ7ZG9tYWlufSIuCgpFYWNoIHBhcGVyIHNob3VsZCBiZSByZXByZXNlbnRlZCBhcyBhIEpTT04gb2JqZWN0IGZvbGxvd2luZyB0aGlzIHNjaGVtYToKewogICJhdXRob3IiOiAiQXV0aG9yIG5hbWUocykgaW4gQVBBIHN0eWxlLCBlLmcuLCAnU21pdGgsIEouICYgVGFuYWthLCBLLiciLAogICJ5ZWFyIjogMjAyMywKICAidGl0bGUiOiAiVGl0bGUgb2YgdGhlIHBhcGVyIiwKICAiam91cm5hbCI6ICJOYW1lIG9mIHRoZSBhY2FkZW1pYyBqb3VybmFsIiwKICAidm9sdW1lIjogIjEyIiwKICAibnVtYmVyIjogIjMiLAogICJwYWdlcyI6ICIxMjMtLTE0NSIKfQoKT3V0cHV0IG11c3QgYmUgYSBzaW5nbGUgdmFsaWQgSlNPTiBhcnJheSBvZiBvYmplY3RzIGFuZCBjb250YWluICoqbm8gYWRkaXRpb25hbCBleHBsYW5hdGlvbioqLgpJZiB5b3UgYXJlIHVuc3VyZSBhYm91dCBhbnkgZmllbGQsIHBsZWFzZSBsZWF2ZSBpdCBhcyBhbiBlbXB0eSBzdHJpbmcgKCIiKS4=">⬇</a></div>
+<div class="ltx_listingline" id="lstnumberx1">
+<span class="ltx_text ltx_font_typewriter">###</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">Instruction</span><span class="ltx_text ltx_font_typewriter">:</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx2">
+<span class="ltx_text ltx_lst_identifier ltx_font_typewriter">You</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">are</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">an</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">academic</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">assistant</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">that</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">outputs</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">structured</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">bibliographic</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">data</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">in</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">JSON</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">format</span><span class="ltx_text ltx_font_typewriter">.</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx3">
+<span class="ltx_text ltx_lst_identifier ltx_font_typewriter">Please</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">suggest</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">5</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">recent</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">academic</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">papers</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">related</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">to</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"{</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">domain</span><span class="ltx_text ltx_font_typewriter">}".</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx4">
+</div>
+<div class="ltx_listingline" id="lstnumberx5">
+<span class="ltx_text ltx_lst_identifier ltx_font_typewriter">Each</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">paper</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">should</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">be</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">represented</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">as</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">a</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">JSON</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">object</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">following</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">this</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">schema</span><span class="ltx_text ltx_font_typewriter">:</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx6">
+<span class="ltx_text ltx_font_typewriter">{</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx7">
+<span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">author</span><span class="ltx_text ltx_font_typewriter">":</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">Author</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">name</span><span class="ltx_text ltx_font_typewriter">(</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">s</span><span class="ltx_text ltx_font_typewriter">)</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">in</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">APA</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">style</span><span class="ltx_text ltx_font_typewriter">,</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">e</span><span class="ltx_text ltx_font_typewriter">.</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">g</span><span class="ltx_text ltx_font_typewriter">.,</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">’</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">Smith</span><span class="ltx_text ltx_font_typewriter">,</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">J</span><span class="ltx_text ltx_font_typewriter">.</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">&amp;</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">Tanaka</span><span class="ltx_text ltx_font_typewriter">,</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">K</span><span class="ltx_text ltx_font_typewriter">.’",</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx8">
+<span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">year</span><span class="ltx_text ltx_font_typewriter">":</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">2023,</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx9">
+<span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">title</span><span class="ltx_text ltx_font_typewriter">":</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">Title</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">of</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">the</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">paper</span><span class="ltx_text ltx_font_typewriter">",</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx10">
+<span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">journal</span><span class="ltx_text ltx_font_typewriter">":</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">Name</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">of</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">the</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">academic</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">journal</span><span class="ltx_text ltx_font_typewriter">",</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx11">
+<span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">volume</span><span class="ltx_text ltx_font_typewriter">":</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"12",</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx12">
+<span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">number</span><span class="ltx_text ltx_font_typewriter">":</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"3",</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx13">
+<span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">pages</span><span class="ltx_text ltx_font_typewriter">":</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">"123--145"</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx14">
+<span class="ltx_text ltx_font_typewriter">}</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx15">
+</div>
+<div class="ltx_listingline" id="lstnumberx16">
+<span class="ltx_text ltx_lst_identifier ltx_font_typewriter">Output</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">must</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">be</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">a</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">single</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">valid</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">JSON</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">array</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">of</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">objects</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">and</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">contain</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">**</span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">no</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">additional</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">explanation</span><span class="ltx_text ltx_font_typewriter">**.</span>
+</div>
+<div class="ltx_listingline" id="lstnumberx17">
+<span class="ltx_text ltx_lst_identifier ltx_font_typewriter">If</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">you</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">are</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">unsure</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">about</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">any</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">field</span><span class="ltx_text ltx_font_typewriter">,</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">please</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">leave</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">it</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">as</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">an</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">empty</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_lst_identifier ltx_font_typewriter">string</span><span class="ltx_text ltx_lst_space ltx_font_typewriter"> </span><span class="ltx_text ltx_font_typewriter">("").</span>
+</div>
+</div>
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 3: </span>Prompt to generate bibliographic information</figcaption>
+</figure>
+</section>
+<section class="ltx_appendix" id="A2">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix B </span>Generated Records</h2>
+<div class="ltx_para" id="A2.p1">
+<p class="ltx_p">Some records generated with GPT-4.1 are shown in Table <a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#A2.T1" title="Table 1 ‣ Appendix B Generated Records ‣ Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy"><span class="ltx_text ltx_ref_tag">1</span></a>. For the partially hallucinated records, the tendency for the first author, year and paper title to be strictly reproduced, while other information is reproduced in a plausible manner.</p>
+</div>
+<figure class="ltx_table" id="A2.T1">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">Table 1: </span>Examples of generated bibliographic records. Hallucinated parts are shown in bold.</figcaption>
+<div class="ltx_inline-block ltx_transformed_outer" style="width:453.8pt;height:48.9pt;vertical-align:-22.0pt;"><span class="ltx_transformed_inner" style="transform:translate(-4.6pt,0.5pt) scale(0.98,0.98) ;">
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_center ltx_align_top ltx_th ltx_th_column ltx_border_tt">Class</th>
+<th class="ltx_td ltx_align_center ltx_align_top ltx_th ltx_th_column ltx_border_tt">Domain</th>
+<th class="ltx_td ltx_align_center ltx_align_top ltx_th ltx_th_column ltx_border_tt">Cos</th>
+<th class="ltx_td ltx_align_center ltx_align_top ltx_th ltx_th_column ltx_border_tt">Results</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:42.7pt;">Completely correct</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:42.7pt;">Vision      transformer</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_align_top ltx_border_t">0.995</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:290.2pt;">Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., Lin, S., &amp; Guo, B. (2021). Swin Transformer: Hierarchical Vision Transformer using Shifted Windows. Proceedings of the IEEE/CVF International Conference on Computer Vision, 10012–10022.<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib34" title="">34</a>]</cite></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:42.7pt;">Partially      hallucinated</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:42.7pt;">Transformer</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_align_top ltx_border_t">0.798</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:290.2pt;">Ma, X., <span class="ltx_text ltx_font_bold">Xu, J., Sun, Y., He, Y., &amp; Lin, J. </span> (2022) Mega: Moving average equipped gated attention. <span class="ltx_text ltx_font_bold">International Conference on Machine Learning, 162, 15369–15384</span>. <cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2510.25378v1#bib.bib35" title="">35</a>]</cite></span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_bb ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:42.7pt;">Completely hallucinated</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_bb ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:42.7pt;">Tabular      transformer</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_center ltx_align_top ltx_border_bb ltx_border_t">n.a.</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_bb ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:290.2pt;">Kossen, J., Probst, P., Schirrmeister, R. T. &amp; Bischl, B. (2023) Self-Attention for Raw Numerical Tabular Data. IEEE Transactions on Neural Networks and Learning Systems.</span>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</span></div>
+</figure>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Wed Oct 29 10:47:16 2025 by <a class="ltx_LaTeXML_logo" href="http://dlmf.nist.gov/LaTeXML/"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img alt="Mascot Sammy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg=="/></a>
+</div></footer>
+</div>
+</body>
+</html>

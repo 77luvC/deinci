@@ -1,0 +1,37 @@
+query_ai_group,candidate_venue,n,share
+ai,unknown,6,0.2
+ai,Nucleic Acids Research,3,0.1
+ai,Bioinformatics,2,0.06666666666666667
+ai,Methods in molecular biology,2,0.06666666666666667
+ai,Alexandria Engineering Journal,1,0.03333333333333333
+ai,Annals of Internal Medicine,1,0.03333333333333333
+ai,Computer,1,0.03333333333333333
+ai,Energies,1,0.03333333333333333
+ai,European Journal of Cardio-Thoracic Surgery,1,0.03333333333333333
+ai,HSMHA Health Reports,1,0.03333333333333333
+ai,Journal of Computational Chemistry,1,0.03333333333333333
+ai,Journal of Digital Imaging,1,0.03333333333333333
+ai,Molecular & Cellular Proteomics,1,0.03333333333333333
+ai,Molecular and Biochemical Parasitology,1,0.03333333333333333
+ai,Nature Communications,1,0.03333333333333333
+ai,PROTEOMICS,1,0.03333333333333333
+ai,Procedia Computer Science,1,0.03333333333333333
+ai,PubMed,1,0.03333333333333333
+ai,Scholarworks (University of Massachusetts Amherst),1,0.03333333333333333
+ai,The Lancet,1,0.03333333333333333
+ai,The Lancet Global Health,1,0.03333333333333333
+non_ai,unknown,7,0.23333333333333334
+non_ai,Journal of Clinical Epidemiology,4,0.13333333333333333
+non_ai,Integrative Medicine International,3,0.1
+non_ai,PubMed,3,0.1
+non_ai,Proceedings of the National Academy of Sciences,2,0.06666666666666667
+non_ai,Society for Industrial and Applied Mathematics eBooks,2,0.06666666666666667
+non_ai,Annals of Internal Medicine,1,0.03333333333333333
+non_ai,Bioinformatics,1,0.03333333333333333
+non_ai,Computer applications in the biosciences,1,0.03333333333333333
+non_ai,Computing in Science & Engineering,1,0.03333333333333333
+non_ai,FEBS Journal,1,0.03333333333333333
+non_ai,Journal of Computational and Graphical Statistics,1,0.03333333333333333
+non_ai,Physics of Fluids,1,0.03333333333333333
+non_ai,Protein Engineering Design and Selection,1,0.03333333333333333
+non_ai,SoftwareX,1,0.03333333333333333

@@ -1,0 +1,16 @@
+torch
+transformers
+sentence-transformers
+pandas
+numpy
+scikit-learn
+scipy
+tqdm
+pyyaml
+matplotlib
+seaborn
+pyarrow
+jsonlines
+faiss-cpu
+statsmodels
+

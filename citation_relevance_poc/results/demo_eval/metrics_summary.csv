@@ -1,0 +1,2 @@
+n_pairs,n_positive,n_negative,mean_positive_score,mean_negative_score,positive_negative_diff,cohens_d,roc_auc,average_precision
+30,15,15,0.8645803252855937,0.8013136267662049,0.06326669851938882,1.6207973892820176,0.8933333333333334,0.9174907353854722

@@ -1,0 +1,5502 @@
+
+
+
+
+
+
+
+
+Who Gets Seen in the Age of AI? Adoption Patterns of Large Language Models in Scholarly Writing and Citation Outcomes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 
+Introduction
+
+
+
+
+2 
+Related Work
+
+
+
+
+2.1 
+AI Detection Tools
+
+
+2.2 
+AI In Academia
+
+
+
+
+
+
+
+
+3 
+Methodology
+
+
+
+
+3.1 
+Data Collection
+
+
+3.2 
+AI-likeness Detection
+
+
+3.3 
+Adoption and Influence of Model Releases
+
+
+3.4 
+Citation and Journal Tier Modeling, and inferring Causality
+
+
+3.5 
+Network Metrics
+
+
+
+
+
+
+
+
+4 
+Results
+
+
+
+
+4.1 
+RQ1: Investigating AI usage over time
+
+
+4.2 
+RQ2: AI Usage and Citation Outcomes
+
+
+4.3 
+Network Effects
+
+
+
+
+
+
+
+
+5 
+Discussion
+
+
+
+
+5.1 
+Implications
+
+
+5.2 
+Limitations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Who Gets Seen in the Age of AI? Adoption Patterns of Large Language Models in Scholarly Writing and Citation Outcomes
+
+
+
+
+
+
+Farhan Kamrul Khan
+
+
+
+New York University Abu Dhabi
+Abu Dhabi
+UAE
+
+
+
+
+, 
+
+
+Hazem Ibrahim
+
+
+
+New York University Abu Dhabi
+Abu Dhabi
+UAE
+
+
+
+
+, 
+
+
+Nouar Aldahoul
+
+
+
+New York University Abu Dhabi
+Abu Dhabi
+UAE
+
+
+
+
+, 
+
+
+Talal Rahwan
+
+
+
+New York University Abu Dhabi
+Abu Dhabi
+UAE
+
+
+
+
+ and 
+
+
+Yasir Zaki
+
+
+
+New York University Abu Dhabi
+Abu Dhabi
+UAE
+
+
+
+
+
+
+
+
+Abstract.
+
+
+The rapid adoption of generative AI tools is reshaping how scholars produce and communicate knowledge, raising questions about who benefits and who is left behind. We analyze over 230,000 Scopus-indexed computer science articles (2021–2025) to examine how AI-assisted writing alters scholarly visibility across regions. Using zero-shot detection of AI-likeness, we track stylistic changes in writing and link them to citation counts, journal placement, and global citation flows before and after ChatGPT. Our findings reveal uneven outcomes: authors in the Global East adopt AI tools more aggressively, yet Western authors gain more per unit of adoption due to pre-existing penalties for “humanlike” writing. Prestigious journals continue to privilege more human-sounding texts, creating tensions between visibility and gatekeeping. Network analyses show modest increases in Eastern visibility and tighter intra-regional clustering, but little structural integration overall. These results highlight how AI adoption reconfigures the labor of academic writing and reshapes opportunities for recognition.
+
+
+
+
+LLMs, Academic Writing, Visibility, Impact
+
+
+
+
+
+
+
+1. 
+Introduction
+
+
+
+
+The release of ChatGPT on November 23, 2022 marked a turning point in how people engage in knowledge production, including the high-stakes domain of academic writing. While blind reliance on the tool carries risks 
+(Shopovski, 
+2024
+; Athaluri et al., 
+2023
+)
+, in combination with human input, generative AI can enhance productivity 
+(Noy and Zhang, 
+2023
+)
+ and improve linguistic coherence 
+(Song and Song, 
+2023
+)
+, particularly for non-English speaking scholars. In this sense, large language models act as linguistic equalizers, helping authors from the Global East or non-Anglophone regions overcome long-standing disadvantages tied to language fluency and stylistic expectations. By leveling this surface of the playing field, generative AI promises to expand who can participate and be recognized in global academia.
+
+
+
+
+
+
+Yet this promise is complicated by evidence that AI may also reinforce inequality. Prestigious journals often privilege “human-like” writing, positioning AI-assisted texts as less authentic or rigorous. Moreover, while Global East authors adopt AI tools more aggressively, Western authors reap disproportionately higher returns from adoption, due to pre-existing citation penalties for human-like writing. These tensions suggest that generative AI reduces surface-level barriers without disrupting the deeper structural inequalities of scholarly prestige, visibility, and recognition 
+(Watermeyer et al., 
+2024
+; Hanauer et al., 
+2019
+; Yakhontova, 
+2020
+)
+.
+
+
+
+
+
+
+Our study investigates these dynamics through Computer Science, a field where Global East authorship has grown substantially and provides a meaningful site for comparative analysis 
+(AlShebli et al., 
+2022
+)
+. By examining writing styles, citation outcomes, and global citation networks before and after ChatGPT, we ask:
+
+
+
+
+
+
+RQ1: 
+How has the adoption of AI-assisted writing tools, such as ChatGPT, evolved across regions in academic research?
+
+
+
+
+
+
+To this end, we analyze over 150,000 articles to track the rise (or fall) of AI-assisted or AI-generated content in the Computer Science articles. That is, we measure the shift of academic writing towards a higher degree of AI-likeness across hemispheres (Global East vs Global West) and continents, and identify which ChatGPT releases have been the most influential driver in this shift.
+
+
+
+
+
+
+RQ2: 
+What is the relationship between AI usage in writing and academic visibility, particularly in terms of authorship citation metrics and publications in higher tier journals?
+
+
+
+
+
+
+We explore the causal relationship between AI-likeness and higher citation rates, and whether this trend has a regional variance. Specifically, we look at: a) whether AI-assisted authors generally receive more citations, b) whether AI-usage correlates to an increase in cross-regional citation flows (e.g. are Eastern authors getting cited more frequently by authors in the West, and vice versa?), and c) whether AI-usage increases the probability that one gets published in a higher-tier journal.
+
+
+
+
+
+
+RQ3: 
+How has the structure of the academic citation network changed since the introduction of ChatGPT, and what does it reveal about epistemic clustering or diffusion?
+
+
+
+
+
+
+In this exploratory analysis, we construct and look at citation networks within Computer Science research at a country level aggregate. We evaluate key network properties–including centrality, connectivity and conductance–both pre and post the release of ChatGPT in order to understand the broader influence dynamic, and observe trends towards marginalization or integration within the academic system.
+
+
+
+
+
+
+
+
+
+
+2. 
+Related Work
+
+
+
+
+
+
+2.1. 
+AI Detection Tools
+
+
+
+
+Concerns over originality and unmonitored use of Generative AI tools have led to the proliferation of detection tools aiming to distinguish AI-generated text from human-authored ones. A core challenge identified across studies is the difficulty of creating robust, generalizable methods owing to the diverse and adaptive nature of generated content 
+(Hans et al., 
+2024
+; Verma et al., 
+2024
+; Mao et al., 
+2024
+)
+.
+
+
+
+
+
+
+Verma et al. 
+(Verma et al., 
+2024
+)
+ employ structured feature selection based on weaker LLMs’ probabilities, which yields high accuracy within training domains while struggling with generalization across varying LLM architectures and content types. The model-specific training dependence limits its abilities to adapt to the evolving door of LLMs. To address this, Mao et al. 
+(Mao et al., 
+2024
+)
+ propose RAIDAR, a rewriting based detection tool relying on minimal feature dependence which exploits the intrinsic stability of AI generated texts, demonstrating a higher degree of invariance under LLM assisted rewriting compared to human generated text. The feature agnostic, rewriting-based design makes it robust against adversarial attempts at evasion, however the lower accuracy derived in some domains are likely stemming from some of their domain-specific datasets using singular-sentence rewrites instead of full-text, despite the paper claiming that shorter texts are harder to detect.
+
+
+
+
+
+
+In contrast, Hans et al. 
+(Hans et al., 
+2024
+)
+ demonstrate a different approach: contrasting the perplexity of a strong LLM model termed as the ’performer’ (Falcons 7b-instruct) with the cross-perplexity of a weaker performer model (Falcon 7b), effectively capturing the relative ’humanness’ of a text without explicit training on specific LLM outputs. The paper claims comparable accuracy to commercially available or research models (GPTZero, Ghostbuster), however, its the continuous metric of ’humanness’ that is of our interest. Furthermore, the LLM models used are open source, and can be used without exorbitant API costs compared to the other two models, making it more suitable for our analysis.
+
+
+
+
+
+
+
+
+
+
+2.2. 
+AI In Academia
+
+
+
+
+Corpus-level detection studies leave little doubt that Generative AI has moved from fringe curiosity to mainstream scholarly instrument. Working with one million arXiv abstracts (2018-2024), Geng & Trotta estimate that the fraction of LLM-style abstracts is approximately 35%” in computer science, using an adaptive word-frequency model calibrated on GPT-3.5 revisions 
+(Geng and Trotta, 
+2024
+)
+. A convergent, distributional-quantification framework applied to 951 k papers by Liang et al. show a steady post-2022 rise in LLM-modified sentences, peaking at 17.5% of CS abstracts and spreading, albeit more slowly, to physics and 
+Nature
+ family journals 
+(Liang et al., 
+2024
+)
+. Extending the lens to pre-prints across 
+arXiv
+, 
+bioRxiv
+ and 
+medRxiv
+, Cheng et al 
+(Cheng et al., 
+2024
+)
+ confirm “the widespread influence of AI-generated texts in scientific publications,” and link higher AI-text fractions to elevated citation counts.
+
+
+
+
+
+
+Beyond simple prevalence, scholars are beginning to test who benefits from LLM assistance. Using a 2.8 million article difference-in-differences design, Lin et al show that ChatGPT “significantly enhances lexical complexity in NNES-authored abstracts,” thereby narrowing a long-standing linguistic gap in scientific communication 
+(Lin et al., 
+2025
+)
+. The positive citation premium reported by Cheng et al suggests that stylistic upgrading may translate into greater scholarly visibility, though causal pathways remain contested 
+(Cheng et al., 
+2024
+)
+. Overall, large-scale evidence now links Generative AI use to both measurable stylistic convergence and tentative gains in research impact, particularly for authors working outside the Anglophone core.
+
+
+
+
+
+
+Detection metrics tell only half the story; surveys illuminate how academics experience the Generative AI turn. A UK study of 284 scholars by Watermeyer et al. 
+(Watermeyer et al., 
+2024
+)
+ find that while many view Generative AI as a possible “source of positive disruption,” the tools “no more alleviate than extend the dysfunctions of neoliberal logic” and work intensification. In a different institutional setting, Al-Zahrani et al. report that 505 Saudi students exhibit high awareness and optimism about Generative AI’s research value but simultaneously argue for “the importance of adequate training, support, and guidance … [and] ethical considerations” 
+(and, 
+2024
+)
+. These surveys demonstrate that users both wish to adopt Generative AI for higher productivity, while expecting clearer governance and adequate skill development.
+
+
+
+
+
+
+
+
+
+
+
+
+3. 
+Methodology
+
+
+
+
+
+
+3.1. 
+Data Collection
+
+
+
+
+The dataset used in this project was collected through the Scopus Search and Abstract Retrieval APIs available via the Elsevier Developer Portal. In total, the dataset consists of 238,218 articles published between January 2021 and January 2025, all of which fall under the “Computer Science” category as identified using the “comp” subject filter. Each record includes associated bibliographic metadata, and, where available, the article abstract.
+
+
+
+
+
+
+From this initial corpus, 155,177 articles were successfully matched to the Scimago Journal and Country Rank (SJR) dataset released in 2024. These matched records served as the basis for the controlled regression analyses, ensuring that journal-level characteristics could be incorporated into the modeling framework. For the exploratory network analysis, the entire dataset of 238,218 articles was utilized to maximize coverage of global citation flows. Regional classifications followed the continental mapping provided in the SJR dataset, with additional countries manually assigned when not present in the original mapping. To improve consistency across categories, the “Middle East/Africa” grouping—which in the original SJR dataset contained only Egypt—was expanded to encompass the broader set of Middle Eastern countries.
+
+
+
+
+
+
+
+
+
+
+3.2. 
+AI-likeness Detection
+
+
+
+
+As stated earlier, the model we use for Zero shot detection of AI generated text was Binoculars by Hans et. al (2024) 
+(Hans et al., 
+2024
+)
+. It provides a continuous ’Binoculars_Score’ metric that measures the intrinsic 
+humanness
+ of an article, with the presupposition that human-like articles are more likely to be similar to weaker LLM models in terms of perplexity. The models we used are what’s given in the default implementation, i.e., Falcon 7b as the observer and Falcon 7b-instruct as the performer. We’ve also used their binary “accuracy_prediction” value (0 = human, 1 = AI), at their optimized threshold for F1.
+
+
+
+
+
+
+
+
+
+
+3.3. 
+Adoption and Influence of Model Releases
+
+
+
+
+Given Binoculars score measures the “humanness” of a text in the original scale, we first trace out the average monthly binoculars score per regional unit across time on an inverted y-axis in Figure 
+2
+, which effectively gives us an overall image of how the stylistic markers have changed over time in favor of being more/less AI like. Second, we run a regression with the following specification:
+
+
+
+
+
+
+
+
+
+
+
+
+(1)
+
+
+
+
+B
+i
+=
+\displaystyle B_{i}=
+
+
+α
+0
++
+α
+1
+​
+G
+i
++
+α
+2
+​
+R
+i
++
+α
+3
+​
+(
+R
+i
+⋅
+G
+i
+)
++
+𝜸
+′
+​
+𝐗
+i
++
+ε
+i
+\displaystyle\alpha_{0}+\alpha_{1}G_{i}+\alpha_{2}R_{i}+\alpha_{3}(R_{i}\cdot G_{i})+\boldsymbol{\gamma}^{\prime}\mathbf{X}_{i}+\varepsilon_{i}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+where we track whether the stylistic patterns are significantly different overall in comparison to a Pre-GPT baseline. Using standard regional dummies and interacting them with the GPT adoption indicator (i.e., 
+R
+i
+⋅
+G
+i
+R_{i}\cdot G_{i}
+), we track this for all regional units. 
+B
+i
+B_{i}
+ denotes the binoculars score for article 
+i
+i
+, 
+G
+i
+G_{i}
+ is a binary indicator for whether the article was published post-GPT, 
+R
+i
+R_{i}
+ is a vector of regional dummy variables (e.g., hemisphere or continent), and 
+𝐗
+i
+\mathbf{X}_{i}
+ includes standard controls such as journal tier (SJR quartile) and author h-index.
+
+
+
+
+
+
+Third, we measure how influential each model has been in driving this stylistic change on the overall dataset. We do this by introducing a categorical 
+gpt_wave
+ variable for the 4 releases of focus, GPT 3.5, GPT 4, GPT 4o, and GPT 4o mini. The model specification is as follows:
+
+
+
+
+
+
+
+
+
+
+
+
+(2)
+
+
+
+
+B
+i
+=
+\displaystyle B_{i}=
+
+
+δ
+0
++
+∑
+k
+=
+1
+4
+δ
+k
+​
+D
+i
+​
+k
++
+𝜽
+′
+​
+𝐗
+i
++
+η
+i
+\displaystyle\delta_{0}+\sum_{k=1}^{4}\delta_{k}D_{ik}+\boldsymbol{\theta}^{\prime}\mathbf{X}_{i}+\eta_{i}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here, 
+D
+i
+​
+k
+D_{ik}
+ represents a set of dummy variables capturing the effect of each specific GPT model release 
+k
+k
+ (1 = GPT-3.5, 2 = GPT-4, etc.), with Pre-GPT articles serving as the reference category. The goal is to quantify the magnitude of stylistic change after each release, controlling for author- and journal-level characteristics through 
+𝐗
+i
+\mathbf{X}_{i}
+.
+
+
+
+
+
+
+
+
+
+
+3.4. 
+Citation and Journal Tier Modeling, and inferring Causality
+
+
+
+
+ZINB-Modeling for Citations
+
+
+
+
+
+
+Citation data, by design, is zero inflated and highly right skewed. That is, most articles will likely never get cited, and at the same time, if they do get cited, the number of citations are likely to be closer to zero. Second, the count data violates Poisson’s assumption of the equality of mean and variance. Therefore, the design choice has to be a zero inflated binomial regression model, specified as follows:
+
+
+
+
+
+
+
+
+
+
+
+
+(3)
+
+
+
+
+log
+⁡
+𝔼
+​
+[
+Y
+i
+​
+∣
+Y
+i
+>
+​
+0
+]
+=
+\displaystyle\log\mathbb{E}[Y_{i}\mid Y_{i}>0]=
+
+
+β
+0
++
+β
+1
+​
+B
+i
++
+β
+2
+​
+G
+i
++
+β
+3
+​
+H
+i
+\displaystyle\beta_{0}+\beta_{1}B_{i}+\beta_{2}G_{i}+\beta_{3}H_{i}
+
+
+
+
+
+
+
+
+
+
+
+
++
+β
+4
+​
+(
+B
+i
+⋅
+G
+i
+)
++
+β
+5
+​
+(
+B
+i
+⋅
+H
+i
+)
+\displaystyle+\ \beta_{4}(B_{i}\cdot G_{i})+\beta_{5}(B_{i}\cdot H_{i})
+
+
+
+
+
+
+
+
+
+
+
+
++
+β
+6
+​
+(
+G
+i
+⋅
+H
+i
+)
++
+β
+7
+​
+(
+B
+i
+⋅
+G
+i
+⋅
+H
+i
+)
+\displaystyle+\ \beta_{6}(G_{i}\cdot H_{i})+\beta_{7}(B_{i}\cdot G_{i}\cdot H_{i})
+
+
+
+
+
+
+
+
+
+
+
+
++
+𝜸
+′
+​
+𝐙
+i
+\displaystyle+\ \boldsymbol{\gamma}^{\prime}\mathbf{Z}_{i}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here, 
+Y
+i
+Y_{i}
+ is the number of citations received by article 
+i
+i
+. 
+B
+i
+B_{i}
+ refers to the article’s 
+binoculars_score
+, which measures how human-like the writing is (lower values indicate more AI assistance). This variable is also replaced with the binary predictor 
+accuracy_prediction
+ in some models, which as stated in Section 
+3.2
+ refers to a definitive prediction whether an article is AI written.
+
+G
+i
+G_{i}
+ is a binary variable indicating whether the article was published after the release of ChatGPT.
+
+H
+i
+H_{i}
+ identifies whether the author is from the Global West (1) or Global East (0).
+
+𝐙
+i
+\mathbf{Z}_{i}
+ includes other control variables such as the author’s h-index, journal ranking (SJR quartile), and article exposure time.
+
+
+
+
+
+
+In order to model the relationship of citation behavior with time, we construct a time-based exposure score that we derive from Wang et al. 
+(Wang et al., 
+2013
+)
+ model. The model specifies the probability of a paper 
+i
+i
+ being cited at time 
+t
+t
+:
+
+
+
+
+
+
+
+
+
+
+
+
+P
+i
+​
+(
+t
+)
+∝
+h
+i
+⋅
+c
+i
+​
+(
+t
+)
+⋅
+f
+​
+(
+t
+)
+P_{i}(t)\propto h_{i}\cdot c_{i}(t)\cdot f(t)
+
+
+
+
+
+
+
+
+
+
+
+
+where 
+h
+i
+h_{i}
+ is the fitness of the paper, 
+c
+i
+​
+(
+t
+)
+c_{i}(t)
+ is the cumulative citations (preferential attachment), 
+f
+​
+(
+t
+)
+f(t)
+ is the aging function, modeled as a log-normal distribution.
+
+
+
+
+
+
+And the log-normal aging function is defined as:
+
+
+
+
+
+
+
+
+
+
+
+
+f
+​
+(
+t
+)
+=
+1
+2
+​
+π
+​
+σ
+​
+t
+​
+exp
+⁡
+(
+−
+(
+ln
+⁡
+t
+−
+μ
+)
+2
+2
+​
+σ
+2
+)
+f(t)=\frac{1}{\sqrt{2\pi}\sigma t}\exp\left(-\frac{(\ln t-\mu)^{2}}{2\sigma^{2}}\right)
+
+
+
+
+
+
+
+
+
+
+
+
+To quantify total exposure to citations up to age 
+T
+T
+, we integrate 
+f
+​
+(
+t
+)
+f(t)
+ from 
+0
+ to 
+T
+T
+:
+
+
+
+
+
+
+
+
+
+
+
+
+Exposure
+​
+(
+T
+)
+=
+∫
+0
+T
+f
+​
+(
+t
+)
+​
+𝑑
+t
+\text{Exposure}(T)=\int_{0}^{T}f(t)\,dt
+
+
+
+
+
+
+
+
+
+
+
+
+Using a change of variables 
+z
+=
+ln
+⁡
+t
+−
+μ
+σ
+z=\frac{\ln t-\mu}{\sigma}
+, this becomes the cumulative distribution function (CDF) of a standard normal distribution:
+
+
+
+
+
+
+
+
+
+
+
+
+Exposure
+​
+(
+T
+)
+=
+Φ
+​
+(
+ln
+⁡
+T
+−
+μ
+σ
+)
+\text{Exposure}(T)=\Phi\left(\frac{\ln T-\mu}{\sigma}\right)
+
+
+
+
+
+
+
+
+
+
+
+
+This yields a scalar value between 
+0
+ and 
+1
+1
+ representing the fraction of a paper’s total citation opportunity it has had by age 
+T
+T
+.
+
+
+
+
+
+
+In parallel to our citation‐count framework, we also examine whether “human‐likeness” predicts an article’s placement in journal tiers via an ordered‐logit specification. Let 
+Q
+i
+∈
+{
+1
+,
+2
+,
+3
+,
+4
+}
+Q_{i}\in\{1,2,3,4\}
+ denote the SJR quartile of paper 
+i
+i
+. We model the cumulative logit as
+
+
+
+
+
+
+
+
+
+
+(4)
+
+
+
+
+logit
+​
+(
+Pr
+⁡
+(
+Q
+i
+≤
+k
+)
+)
+=
+τ
+k
+−
+β
+1
+​
+B
+i
+−
+β
+2
+​
+G
+i
+−
+β
+3
+​
+H
+i
+−
+β
+4
+​
+h
+i
+−
+∑
+m
+=
+1
+M
+δ
+m
+​
+ 1
+​
+{
+pub_month
+i
+=
+m
+}
+,
+\begin{split}\text{logit}\bigl{(}\Pr(Q_{i}\leq k)\bigr{)}=\tau_{k}-\beta_{1}B_{i}-\beta_{2}G_{i}-\beta_{3}H_{i}-\beta_{4}h_{i}\\
+-\sum_{m=1}^{M}\delta_{m}\,\mathbb{1}\{\texttt{pub\_month}_{i}=m\},\end{split}
+
+
+
+
+
+
+
+
+
+
+
+
+for cutpoints 
+τ
+1
+<
+τ
+2
+<
+τ
+3
+\tau_{1}<\tau_{2}<\tau_{3}
+. Here 
+B
+i
+B_{i}
+, 
+G
+i
+G_{i}
+, 
+H
+i
+H_{i}
+, and 
+h
+i
+h_{i}
+ are as defined in Equation 
+3
+, and the 
+𝟙
+​
+{
+pub_month
+i
+=
+m
+}
+\mathbb{1}\{\texttt{pub\_month}_{i}=m\}
+ terms absorb seasonal journal cycles. A negative 
+β
+1
+\beta_{1}
+ therefore implies that, holding GPT era, author region, author prominence, and submission season fixed, more human‐like writing (
+↑
+B
+i
+\uparrow B_{i}
+) raises the odds of placement in a higher‐rank (lower‐numbered) quartile.
+
+
+
+
+
+
+Secondly, using the release of ChatGPT as a policy shock has its own endogeneity concerns when it comes to mediating citations. A 
+post_gpt
+ dummy will not only be predict citation behavior through binoculars scores, but also through its mediating relationship with the exposure control we modeled above. The argument for causality will not be made through instrumentation, but through the following logical path (see Figure 
+1
+):
+
+
+
+
+
+
+Premise 1: 
+All post-ChatGPT articles are necessarily younger than pre-ChatGPT ones.
+
+
+
+
+
+
+Premise 2: 
+ChatGPT reduces human-likeness of Text.
+
+
+
+
+
+
+Premise 3: 
+If ChatGPT is released, it can potentially influence all articles written afterwards–i.e., there is an aggregate effect of reduced human-likeness.
+
+
+
+
+
+
+Premise 4: 
+Citing behavior with respect to human-likeness remains approximately stable before and after ChatGPT’s release.
+
+
+
+
+
+
+Conclusion:
+ Through its impact on human-likeness, the release of ChatGPT indirectly influences citation behavior.
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 1. 
+A Diagrammatic Depiction of the Path to Causality
+
+
+\Description
+
+
+
+
+
+
+A Diagrammatic Depiction of the Path to Causality
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.5. 
+Network Metrics
+
+
+
+
+In our exploratory network analysis we employ five complementary measures to capture different facets of the global citation graph. First, PageRank quantifies each country’s overall visibility by accounting for both the number and importance of incoming citation links. Second, betweenness centrality identifies “broker” countries that lie on many shortest paths, highlighting key intermediaries in cross‐regional knowledge flows. Third, conductance measures the proportion of citations that cross between predefined regions (e.g. East→West) versus remain within the same region, thus indexing the strength of regional silos. Fourth, K‐core decomposition partitions the network into nested shells of increasingly dense connectivity, allowing us to track which countries move from the periphery into the structural core. Finally, regional assortativity captures the tendency for countries to cite within their own region rather than cross‐regionally, providing a summary statistic for clustering by geography. Together, these metrics allow us to trace how the release of ChatGPT may have reshaped both global visibility and local cohesion in academic citations.
+
+
+
+
+
+
+
+
+
+
+
+
+4. 
+Results
+
+
+
+
+
+
+4.1. 
+RQ1: Investigating AI usage over time
+
+
+
+
+The first objective of this study was to examine the overall uptick in AI usage across the years, using AI-ness as a proxy. Given Binoculars score indicates a measure of humanness in texts in the original axis configuration, we’ve inverted the y-axis in Figure 
+2
+ so that the visual uptick represents an increase in 
+AI-ness
+ rather than 
+humanness
+. As can be seen, there is a clear difference in how the shift towards AI-ness manifests Post-GPT, with the Global East demonstrating a more pronounced shift. Most of the effects on the Global East seem to be mediated by Asia, while the Global West by North America, which is understandable given the volume of output from these regions.
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 2. 
+Evolution of Binoculars score over time on an inverted y-axis, separated by region. The trends suggest a global uptick in AI-ness in writing patterns, the change primarily driven by the Global East.
+
+
+\Description
+
+
+
+
+
+
+Evolution of Binoculars score over time on an inverted y-axis, separated by region. The trends suggest a global uptick in AI-ness in writing patterns, the change primarily driven by the Global East.
+
+
+
+
+
+
+
+
+
+
+To quantify this in the post-ChatGPT era, we employ equation 
+1
+ to regress Binoculars Score on a Post-GPT indicator, author hemisphere/region, and their interaction. This demonstrates a significant drop in human-likeness overall after ChatGPT’s release (–0.00384, p ¡ 0.001). The magnitude of this drop is significant, given that the Binoculars score hovers around a very small standard deviation (0.059), with a mean of 0.99. Authors in the Western hemisphere exhibit a small but significant higher baseline in human-likeness (+0.00174, p = 0.002). Critically, the PostGPT × West Hemisphere interaction (+0.00136, p = 0.068) is marginally significant, indicating that Western authors experienced a slightly smaller decline in humanness than Eastern authors. This pattern is visualized in the lower-left panel of Figure 
+3
+, where both hemispheres decline post-GPT, but the slope is steeper for the East; see Appendix Table 
+1
+ for the full regression model. Thus, while AI-augmented writing has become more pervasive globally, Eastern authors appear to have adopted AI assistance more readily, altering their writing style to a greater extent.
+
+
+
+
+
+
+We complement this analysis with a logistic model predicting the probability that a text is classified as AI-generated (1 = AI) by the same Post-GPT × Hemisphere structure. Post-ChatGPT texts, as a whole, are far more likely to be flagged as AI-like (+0.478 log-odds, p ¡ 0.001). Neither the Western hemisphere main effect (0.0218, p = 0.691) nor its interaction (–0.0992, p = 0.139) reaches significance, implying that both hemispheres experienced comparable jumps in AI detectability. This is reflected in the lower-right panel of Figure 
+3
+ and in Appendix Table 
+2
+: both East and West rise from  0.50 to  0.60 probability post-GPT.
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 3. 
+Interaction Plot: ChatGPT Effects by Region.
+ Predicted “binoculars” centrality (left) and probability of a correct binary prediction (right) before (“Pre-GPT”) and after (“Post-GPT”) ChatGPT, stratified by continent (top) and hemisphere (bottom). Lines show region-specific marginal effects from interaction models. Note the pronounced decline in structural visibility (binoculars score) for Eastern‐hemisphere and African authors, alongside their larger gains in predictive accuracy compared to Western counterparts.
+
+
+\Description
+
+
+
+
+
+
+Predicted “binoculars” centrality (left) and probability of a correct binary prediction (right) before (“Pre-GPT”) and after (“Post-GPT”) ChatGPT, stratified by continent (top) and hemisphere (bottom). Lines show region-specific marginal effects from interaction models. Note the pronounced decline in structural visibility (binoculars score) for Eastern‐hemisphere and African authors, alongside their larger gains in predictive accuracy compared to Western counterparts.
+
+
+
+
+
+
+
+
+
+
+Extending to the 8 ’continental’ regions, the interacted OLS demonstrates that Asiatic Region (
+Δ
+\Delta
+ = +0.0142, 
+p
+<
+0.001
+p<0.001
+) and Northern America (
+Δ
+\Delta
+ = +0.0164, 
+p
+<
+0.001
+p<0.001
+) have the largest post-GPT declines in Binoculars Score relative to Africa. Smaller but significant declines occur in Western Europe (
+Δ
+\Delta
+ = +0.0134, 
+p
+<
+0.001
+p<0.001
+) and Eastern Europe (
+Δ
+\Delta
+ = +0.0090, 
+p
+=
+0.005
+p=0.005
+); see Appendix Table 
+3
+. Figure 
+3
+ (upper-left) maps these continental slopes, highlighting regional heterogeneity in AI adoption speed.
+
+
+
+
+
+
+Similarly, the continent-interacted logit reveals that while Africa shows the greatest absolute jump in AI-detection likelihood (+0.851 log-odds, 
+p
+<
+0.001
+p<0.001
+), the North American Post×NA interaction (–0.767, 
+p
+<
+0.001
+p<0.001
+) substantially dampens its net effect, and Western Europe (–0.469, 
+p
+=
+0.014
+p=0.014
+) and Asiatic Region (–0.472, 
+p
+=
+0.008
+p=0.008
+) also exhibit smaller net increases. These patterns appear in the upper-right panel of Figure 
+3
+, indicating that regions differ not just in stylistic convergence but also in how machine detectors perceive that convergence; see Appendix Table 
+4
+ for the full regression table.
+
+
+
+
+
+
+Next, we investigate the cumulative influence of each GPT model release on academic writing style, measured through the Binoculars Score (where higher = more human-like) and a binary classification of AI-generated text (where 1 = predicted as AI). The objective is to evaluate not just directional trends, but also which GPT release induced the most pronounced stylistic shift, and whether those shifts are statistically distinguishable.
+
+
+
+
+
+
+The OLS model on Binoculars Score confirms that GPT-3.5’s impact is negligible and non-significant (
+β
+=
+0.00007
+\beta=0.00007
+, 
+p
+=
+0.94
+p=0.94
+). The GPT-4 period shows a modest and only marginally significant increase in humanness (
+β
+=
+0.0022
+\beta=0.0022
+, 
+p
+=
+0.067
+p=0.067
+), while more recent models—GPT-4o (
+β
+=
+−
+0.0019
+\beta=-0.0019
+, 
+p
+=
+0.046
+p=0.046
+) and GPT-4o-mini (
+β
+=
+−
+0.0050
+\beta=-0.0050
+, 
+p
+<
+0.001
+p<0.001
+)—produce statistically significant reductions in human-likeness; see Appendix Table 
+5
+. The point estimates suggest growing effects across releases; however, the confidence intervals for GPT-4 and GPT-4o do overlap, cautioning against strong claims of distinct magnitude without formal pairwise comparison tests. That said, the drop from GPT-4 to GPT-4o-mini is larger and statistically separable, indicating that GPT-4o-mini may mark a distinct threshold in stylistic AI-likeness.
+
+
+
+
+
+
+The logistic regression on AI classification likelihood mirrors these findings. Relative to Pre-GPT text, GPT-3.5 (
+β
+=
+0.085
+\beta=0.085
+, 
+p
+=
+0.13
+p=0.13
+, n.s.), GPT-4 (
+β
+=
+0.170
+\beta=0.170
+, 
+p
+=
+0.005
+p=0.005
+), GPT-4o (
+β
+=
+0.367
+\beta=0.367
+, 
+p
+<
+0.001
+p<0.001
+), and GPT-4o-mini (
+β
+=
+0.603
+\beta=0.603
+, 
+p
+<
+0.001
+p<0.001
+) are all increasingly likely to be flagged as AI-generated. Yet here too, confidence intervals between GPT-4 and 4o overlap, suggesting incremental increases rather than discrete jumps in influence. The effect of GPT-4o-mini, however, stands apart as both statistically and substantively the most influential. The effects are summarized in Figure 
+4
+ and in Appendix Table 
+6
+.
+
+
+
+
+
+
+In sum, each GPT model appears to have nudged writing further toward AI norms, but only GPT-4o-mini shows a clearly distinct leap in reducing human-likeness and increasing AI detectability. While the directional progression is clear, the differences between intermediate GPT versions are suggestive but not definitive without stronger statistical separation.
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 4. 
+GPT-Wave Effects Relative to Pre-GPT Baseline. Point estimates and 95% confidence intervals for the four GPT release dummies, plotted against a zero-coefficient Pre-GPT baseline (vertical dashed line). Left: OLS linear coefficients for Binoculars Score, illustrating progressive declines in human-likeness with each successive GPT model (sans GPT-4). Right: Logistic log-odds coefficients for the binary AI classification predictor, showing correspondingly increasing likelihood of being flagged as AI-generated post-GPT.
+
+
+\Description
+
+
+
+
+
+
+Point estimates and 95% confidence intervals for the four GPT release dummies, plotted against a zero-coefficient Pre-GPT baseline (vertical dashed line). Left: OLS linear coefficients for Binoculars Score, illustrating progressive declines in human-likeness with each successive GPT model. Right: Logistic log-odds coefficients for the binary AI classification predictor, showing correspondingly increasing likelihood of being flagged as AI-generated post-GPT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.2. 
+RQ2: AI Usage and Citation Outcomes
+
+
+
+
+Next, we look at whether there is a) a humanness penalty in citations, and b) if it has a differential effect on authors from the Global East in terms of citation visibility. To this end, we employ the zero inflated regression framework explained in Equation 
+3
+.
+
+
+
+
+
+
+Across all groups and time periods, we find that greater ’humanness’ is significantly associated with fewer citations (
+β
+=
+−
+0.614
+\beta=-0.614
+, p ¡ 0.01). Western authors generally receive more citations overall (
+β
+=
+1.13
+\beta=1.13
+, p ¡ 0.05), consistent with established intuition of a Western bias. But importantly, before GPT, Western authors faced harsher citation penalties for humanness (
+β
+=
+−
+1.181
+\beta=-1.181
+, p ¡ 0.05) compared to their Eastern counterparts. The penalty however intensifies in the Post-GPT era (
+β
+=
+−
+0.721
+\beta=-0.721
+, p ¡ 0.05), suggesting that the availability of ChatGPT may have raised the bar for ’natural’ human writing in order to earn attention in the academic space. But the extra penalty for Western authors seems to have softened, although not significantly (
+β
+\beta
+ = 1.150, p = 0.134). This indicates a shift towards convergence in stylistic penalties across both regions; see Appendix Table 
+7
+ for the full regression table.
+
+
+
+
+
+
+In the Post-GPT era, therefore, Eastern authors have more to gain from using AI assistance in comparison to their Pre-GPT baseline. However, when viewed comparatively, Western authors derive greater benefit from AI-enhanced writing due to the pre-existing stylistic standards. The broader narrative of stylistic convergence is supported by the attenuation of humanness penalties Post-GPT for Western articles, the lack of significance in the three way interaction term makes in suggestive rather than definitive.
+
+
+
+
+
+
+Shifting focus from total citation counts to cross-hemispheric citations, we ask whether more “human-like” (less AI-generated) writing affects visibility across regional boundaries. Using the same zero-inflated negative binomial framework, we test whether humanness imposes a cross-regional citation penalty, and whether such penalties vary across time and author location.
+
+
+
+
+
+
+We find that greater humanness is again associated with a significant drop in citation visibility (
+β
+=
+−
+1.79
+\beta=-1.79
+, p ¡ 0.001), indicating that the humanness penalty persists and is in fact more pronounced when visibility is measured across hemispheres. Unlike our earlier findings, however, the penalty does not significantly differ across time periods or author regions, as the three-way interaction between humanness, GPT exposure, and Western authorship is not significant (
+β
+=
+−
+0.60
+\beta=-0.60
+, p = 0.39); see Appendix Table 
+8
+.
+
+
+
+
+
+
+These results suggest a shift: while stylistic convergence was visible in overall citations, cross-regional flows remain highly sensitive to AI-adaptive writing norms. In other words, ”sounding human” may now be a greater liability when attempting to gain foreign attention, regardless of author region or GPT timing. The implications are stark, as AI conformity may be evolving into a global stylistic baseline for inter-regional visibility, rather than just a Western or post-GPT phenomenon.
+
+
+
+
+
+
+As to the question of whether AI adoption impacts cross-regional citations, causality holds. Specifically, our causal argument demonstrated in Figure 
+1
+ rests on the key assumption that the citation behavior is stable across time in relation to binoculars score, that is, the interaction effect between Post-GPT dummy and Binoculars Score. For raw citations, the significance is weak (
+β
+=
+−
+0.660
+\beta=-0.660
+, p = 0.031), but for cross-region citations, it is largely insignificant (p = 0.299), implying that the shift in citations induced by changes in Binoculars score is attributable to the presence of GPT itself.
+
+
+
+
+
+
+
+
+
+
+4.3. 
+Network Effects
+
+
+
+
+Lastly, we investigate structural shifts in the global computer science citation network around the release of ChatGPT, using a country-level aggregation of peer-reviewed publications. While we refrain from making strong causal claims, the analysis provides a descriptive portrait of evolving citation dynamics—highlighting changes in productivity, visibility, interregional flow, and positional hierarchy. Importantly, our dataset samples peer-reviewed literature indexed in Scopus, and while it is not exhaustive, country-level patterns are unlikely to diverge significantly from the full corpus.
+
+
+
+
+
+
+We analyze the network using five structural measures: PageRank (visibility), betweenness centrality (brokerage), conductance (regional integration), K-core decomposition (core-periphery embedding), and regional assortativity (clustering by geography). These measures allow us to assess whether the rise of LLMs such as ChatGPT coincided with a measurable transformation in global citation topologies.
+
+
+
+
+
+
+PageRank scores show a noticeable eastward tilt—China posts the sharpest gain (+0.0288), with Indonesia, Turkey, India, Uzbekistan, and Nigeria also rising, while the United States (-0.0069), United Kingdom (-0.0021), and Germany (-0.0021) slip slightly. Yet betweenness‐centrality shifts reveal a dual track: China (+0.0359) and India (+0.0284) are becoming major citation bridges, but the United States (+0.0265) and Germany (+0.0100) likewise strengthen their brokerage roles. The upshot is not a wholesale handover of influence but a widening of the core network: fast-growing Eastern actors join long-standing Western brokers, modestly rebalancing visibility while preserving a multipolar center of gravity.
+
+
+
+
+
+
+Post-GPT, regional assortativity more than doubled (0.028 → 0.074), indicating a stronger propensity for countries to cite within their own geographic blocs. Conductance patterns echo this: intra-Eastern flow climbed (0.848 → 0.857) and East-to-West leakage fell, while West-to-East citations ticked up but intra-Western ties weakened. The result is greater Eastern cohesion alongside slightly increased Western engagement, yet with higher mutual insulation between the two blocs. K-core analysis confirms the persistence of entrenched structures—only 3 of 25 peripheral countries moved to denser cores—signaling that the stylistic leveling afforded by LLMs has not, so far, disrupted the deep topology of global citation hierarchies.
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 5. 
+Chord diagrams depicting citation exchanges among the 20 most prolific countries in computer science research during (A) the Pre-ChatGPT period and (B) the Post-ChatGPT period. Each outer arc corresponds to a source country (arc length proportional to its total outgoing citations), and each ribbon represents the volume of citations flowing from the tail country to the head country (ribbon width 
+∝
+\propto
+ citation count; ribbon color encodes the destination country). Note the pronounced enlargement of India’s arc and its incoming ribbons in (B), reflecting the growth of an intra-Eastern citation silo. Meanwhile, China’s dominant role persists, Eastern bloc countries exhibit tighter intra-regional linkages, and Western nations increasingly direct a greater share of their citations toward Eastern recipients, indicating a modest rebalancing of global visibility without displacing core actors.
+
+
+\Description
+
+
+
+
+
+
+Chord diagrams depicting citation exchanges among the 20 most prolific countries in computer science research during (A) the Pre-ChatGPT period and (B) the Post-ChatGPT period. Each outer arc corresponds to a source country (arc length proportional to its total outgoing citations), and each ribbon represents the volume of citations flowing from the tail country to the head country (ribbon width 
+∝
+\propto
+ citation count; ribbon color encodes the destination country). Note the pronounced enlargement of India’s arc and its incoming ribbons in (B), reflecting the growth of an intra-Eastern citation silo. Meanwhile, China’s dominant role persists, Eastern bloc countries exhibit tighter intra-regional linkages, and Western nations increasingly direct a greater share of their citations toward Eastern recipients, indicating a modest rebalancing of global visibility without displacing core actors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. 
+Discussion
+
+
+
+
+
+
+5.1. 
+Implications
+
+
+
+
+This research builds upon a growing body of empirical work tracking the rising prevalence of Large Language Models (LLMs) in academic writing, particularly within the field of computer science. Previous studies have demonstrated corpus-level increases in LLM generated text, particularly with a notable concentration in Computer Science 
+(Geng and Trotta, 
+2024
+, 
+2025
+; Liang et al., 
+2024
+)
+. However, most of these studies focus on detection or prevalence, rather than measuring the epistemic and structural implications of such a shift. Our work complements and extends these efforts by using a zero-shot AI detection framework to not only track changes in writing style, but also link those stylistic patterns to citation visibility, journal placement, and contextualize this within broader citation network dynamics.
+
+
+
+
+
+
+Unlike prior studies that sample across heterogeneous corpora (arXiv, bioRxiv or Nature for example), this project focuses exclusively on Scopus-indexed journals within computer science. This provides a curated, peer-reviewed dataset that captures institutional and editorial filtering more directly. This narrower focus allows us to interrogate the relationship between stylistic preferences and publication outcomes within formal academic gate-keeping environments. It also aids in isolating the effects of AI assistance within a domain that is both highly productive and has a more diverse geo-spatial representation compared to other disciplines. In doing so, we demonstrate that post-ChatGPT stylistic convergence correlates with measurable advantages in visibility, particularly for authors in the Global East, strengthening the hypothesis that LLMs are structurally reconfiguring who gets heard.
+
+
+
+
+
+
+A key tension that emerges from both our data and the literature is in the divergent preferences of journal editors and researchers in regards to AI-assisted writing. Survey based studies demonstrate that researchers from underrepresented regions in particular hold an optimistic perspective of Generative AI tools as a means of boosting productivity and overcoming linguistic barriers. The same researchers however also express concerns over a lack of ethical guidance, training infrastructure, and editorial transparency in the use of such tools. What we do in our research is provide an empirical corollary to these concerns. The fact that the editorial structure appears more conservative, favoring traditionally ”human-like” writing or perceiving AI-likeness as a sign of diminished intellectual rigor or authenticity. This is concerning, because our research demonstrates that even Pre-GPT, the baseline ”human-ness” of Western authors are higher (
+β
+\beta
+ = 0.0017, 
+p
+≤
+0.001
+p\leq 0.001
+), corroborating the narrative of a specific stylistic preference. Fluency optimized for discoverability may not align with the stylistic expectations of elite gate-keeping institutions, or there may be internalized biases at play (see Appendix Table 
+1
+).
+
+
+
+
+
+
+In the absence of transparent editorial guidelines, researchers may find themselves in a precarious position of being pressured to adopt stylistic conventions that improve visibility, yet get penalized for doing so when seeking out formal prestige. Furthermore, as Watermeyer et al. (2024) demonstrates, the rising pressure of productivity in academia is further exacerbated by the GPT induced productivity boost, and that in turn again makes it difficult for authors to not use Generative AI tools to accelerate productivity 
+(Watermeyer et al., 
+2024
+)
+. Reconciling this split requires clearer signaling from journals regarding acceptable bounds of AI usage.
+
+
+
+
+
+
+
+
+
+
+5.2. 
+Limitations
+
+
+
+
+Section 
+4.3
+ is largely observational, and the shifts observed are not necessarily linked to the release of ChatGPT but broader patterns. A lot of the changes are driven by the fact that Beijing has consistently been at the core of AI research over the years, and the center of mass of the AI research network had been seeing an Eastward shift in the last three decades 
+(AlShebli et al., 
+2022
+)
+. This is simply a part of a larger trend, although India’s sudden growth in internal research productivity is something that is remarkable, and could be a signal of an emerging regional momentum that was not necessarily seen in prior research.
+
+
+
+
+
+
+Next, the identification of a causal chain ”ChatGPT 
+→
+\rightarrow
+ human-likeness 
+→
+\rightarrow
+ citations” hinges upon treating the ChatGPT release dummy as a quasi-instrument for writing style. First, the 
+instrument
+ is not clean, and requires the assumption that citation behavior on humanness remains stable before and after the release of ChatGPT. Although we demonstrated that explicitly on a singular point, a leads-and-lags estimation would be able to pick up changes in behavior at other points in time–and the weak significance seen in our analysis of RQ1 suggests that this is worth looking into. Second, the research neither provides a population level estimate, nor a clean random sample level estimate. This is because of the pagination limits intrinsically restrict the number of articles we can extract at the most granular level (5000 articles for every month of data, maximum). Furthermore, the 
+relevance
+ metric may introduce systemic biases into the kind of representation we have within our sample. Thirdly, the estimates don’t account for when a citing article cites another, i.e., change in productivity levels and citation behavior might have influenced citation behavior in the pre-treatment group, meaning that the estimates might be at the lower bound. And lastly, the majority of detection tools place a baseline penalty on Global East authorship, i.e., work from Eastern authors are more likely to be predicted to have higher Generative AI aided content 
+(Verma et al., 
+2024
+; Mao et al., 
+2024
+)
+, however, our quasi-instrumental approach considers the baseline shift.
+
+
+
+
+
+
+
+
+
+
+References
+
+
+
+
+
+
+(1)
+
+
+
+
+
+
+
+
+
+
+AlShebli et al. (2022)
+
+
+
+Bedoor AlShebli, Enshu Cheng, Marcin Waniek, Ramesh Jagannathan, Pablo Hernández-Lagos, and Talal Rahwan. 2022.
+
+
+
+
+Beijing’s central role in global artificial intelligence research.
+
+
+
+
+Scientific Reports
+ 12, 1 (Dec. 2022), 21461.
+
+
+
+
+
+
+doi:
+10.1038/s41598-022-25714-0
+
+
+
+
+
+
+
+
+and (2024)
+
+
+
+Abdulrahman M. Al-Zahrani and. 2024.
+
+
+
+
+The impact of generative AI tools on researchers and research: Implications for academia in higher education.
+
+
+
+
+Innovations in Education and Teaching International
+ 61, 5 (2024), 1029–1043.
+
+
+
+
+
+
+https://doi.org/10.1080/14703297.2023.2271445
+
+
+
+
+
+
+
+
+Athaluri et al. (2023)
+
+
+
+S. A. Athaluri, S. V. Manthena, V. S. R. K. M. Kesapragada, V. Yarlagadda, T. Dave, and R. T. S. Duddumpudi. 2023.
+
+
+
+
+Exploring the Boundaries of Reality: Investigating the Phenomenon of Artificial Intelligence Hallucination in Scientific Writing Through ChatGPT References.
+
+
+
+
+Cureus
+ 15, 4 (2023), e37432.
+
+
+
+
+doi:
+10.7759/cureus.37432
+
+
+
+
+
+
+
+
+Cheng et al. (2024)
+
+
+
+Huzi Cheng, Bin Sheng, Aaron Lee, Varun Chaudary, Atanas G. Atanasov, Nan Liu, Yue Qiu, Tien Yin Wong, Yih-Chung Tham, and Yingfeng Zheng. 2024.
+
+
+
+
+Have AI-Generated Texts from LLM Infiltrated the Realm of Scientific Writing? A Large-Scale Analysis of Preprint Platforms.
+
+
+
+
+bioRxiv
+ (2024).
+
+
+
+
+doi:
+10.1101/2024.03.25.586710
+
+
+
+
+
+
+
+
+Geng and Trotta (2024)
+
+
+
+Mingmeng Geng and Roberto Trotta. 2024.
+
+
+
+
+Is ChatGPT Transforming Academics’ Writing Style?
+
+
+
+
+arXiv:2404.08627 [cs.CL]
+
+
+https://arxiv.org/abs/2404.08627
+
+
+
+
+
+
+
+
+Geng and Trotta (2025)
+
+
+
+Mingmeng Geng and Roberto Trotta. 2025.
+
+
+
+
+Human-LLM Coevolution: Evidence from Academic Writing.
+
+
+
+
+arXiv:2502.09606 [cs.CL]
+
+
+https://arxiv.org/abs/2502.09606
+
+
+
+
+
+
+
+
+Hanauer et al. (2019)
+
+
+
+David I. Hanauer, Cheryl L. Sheridan, and Karen Englander. 2019.
+
+
+
+
+Linguistic Injustice in the Writing of Research Articles in English as a Second Language: Data From Taiwanese and Mexican Researchers.
+
+
+
+
+Written Communication
+ 36, 1 (2019), 136–154.
+
+
+
+
+doi:
+10.1177/0741088318804821
+
+
+
+
+
+
+
+
+Hans et al. (2024)
+
+
+
+Abhimanyu Hans, Avi Schwarzschild, Valeriia Cherepanova, Hamid Kazemi, Aniruddha Saha, Micah Goldblum, Jonas Geiping, and Tom Goldstein. 2024.
+
+
+
+
+Spotting LLMs With Binoculars: Zero-Shot Detection of Machine-Generated Text. In 
+International Conference on Machine Learning
+. PMLR, 17519–17537.
+
+
+
+
+
+
+
+
+
+
+
+
+Liang et al. (2024)
+
+
+
+Weixin Liang, Yaohui Zhang, Zhengxuan Wu, Haley Lepp, Wenlong Ji, Xuandong Zhao, Hancheng Cao, Sheng Liu, Siyu He, Zhi Huang, Diyi Yang, Christopher Potts, Christopher D Manning, and James Y. Zou. 2024.
+
+
+
+
+Mapping the Increasing Use of LLMs in Scientific Papers.
+
+
+
+
+arXiv:2404.01268 [cs.CL]
+
+
+https://arxiv.org/abs/2404.01268
+
+
+
+
+
+
+
+
+Lin et al. (2025)
+
+
+
+Dingkang Lin, Naixuan Zhao, Dan Tian, and Jiang Li. 2025.
+
+
+
+
+ChatGPT as Linguistic Equalizer? Quantifying LLM-Driven Lexical Shifts in Academic Writing.
+
+
+
+
+arXiv:2504.12317 [cs.CL]
+
+
+https://arxiv.org/abs/2504.12317
+
+
+
+
+
+
+
+
+Mao et al. (2024)
+
+
+
+Chengzhi Mao, Carl Vondrick, Hao Wang, and Junfeng Yang. 2024.
+
+
+
+
+Raidar: geneRative AI Detection viA Rewriting.
+
+
+
+
+arXiv:2401.12970 [cs.CL]
+
+
+https://arxiv.org/abs/2401.12970
+
+
+
+
+
+
+
+
+Noy and Zhang (2023)
+
+
+
+Shakked Noy and Whitney Zhang. 2023.
+
+
+
+
+Experimental evidence on the productivity effects of generative artificial intelligence.
+
+
+
+
+Science
+ 381, 6654 (2023), 187–192.
+
+
+
+
+doi:
+10.1126/science.adh2586
+
+
+
+
+
+
+
+
+Shopovski (2024)
+
+
+
+Jovan Shopovski. 2024.
+
+
+
+
+Generative Artificial Intelligence, AI for Scientific Writing: A Literature Review.
+
+
+
+
+Preprints
+ (June 2024).
+
+
+
+
+
+
+https://doi.org/10.20944/preprints202406.0011.v1
+
+
+
+
+
+
+
+
+Song and Song (2023)
+
+
+
+Cuiping Song and Yanping Song. 2023.
+
+
+
+
+Enhancing academic writing skills and motivation: assessing the efficacy of ChatGPT in AI-assisted language learning for EFL students.
+
+
+
+
+Frontiers in Psychology
+ Volume 14 - 2023 (2023).
+
+
+
+
+
+
+doi:
+10.3389/fpsyg.2023.1260843
+
+
+
+
+
+
+
+
+Verma et al. (2024)
+
+
+
+Vivek Verma, Eve Fleisig, Nicholas Tomlin, and Dan Klein. 2024.
+
+
+
+
+Ghostbuster: Detecting Text Ghostwritten by Large Language Models.
+
+
+
+
+arXiv:2305.15047 [cs.CL]
+
+
+https://arxiv.org/abs/2305.15047
+
+
+
+
+
+
+
+
+Wang et al. (2013)
+
+
+
+Dashun Wang, Chaoming Song, and Albert-László Barabási. 2013.
+
+
+
+
+Quantifying Long-Term Scientific Impact.
+
+
+
+
+Science
+ 342, 6154 (2013), 127–132.
+
+
+
+
+doi:
+10.1126/science.1237825
+
+
+
+
+
+
+
+
+Watermeyer et al. (2024)
+
+
+
+Richard Watermeyer, Lawrie Phipps, Donna Lanclos, and Cathryn Knight. 2024.
+
+
+
+
+Generative AI and the Automating of Academia.
+
+
+
+
+Postdigital Science and Education
+ 6, 2 (2024), 446–466.
+
+
+
+
+
+
+doi:
+10.1007/s42438-023-00440-6
+
+
+
+
+
+
+
+
+Yakhontova (2020)
+
+
+
+Tatyana Yakhontova. 2020.
+
+
+
+
+English Writing of Non-Anglophone Researchers.
+
+
+
+
+Journal of Korean Medical Science
+ 35, 26 (June 2020).
+
+
+
+
+doi:
+10.3346/jkms.2020.35.e216
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variable
+
+
+Estimate (SE)
+
+
+Signif.
+
+
+
+
+
+
+
+
+
+
+Post-GPT
+
+
+−
+0.0038
+​
+(
+0.0004
+)
+-0.0038\ (0.0004)
+
+
+∗∗∗
+
+
+
+
+
+
+Hemisphere: West
+
+
+0.0017
+​
+(
+0.0005
+)
+0.0017\ (0.0005)
+
+
+∗∗∗
+
+
+
+
+
+
+Post-GPT × West
+
+
+0.0014
+​
+(
+0.0007
+)
+0.0014\ (0.0007)
+
+
+∗
+
+
+
+
+
+
+SJR Q2
+
+
+−
+0.0013
+​
+(
+0.0005
+)
+-0.0013\ (0.0005)
+
+
+∗∗
+
+
+
+
+
+
+SJR Q3
+
+
+−
+0.0024
+​
+(
+0.0007
+)
+-0.0024\ (0.0007)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+−
+0.0047
+​
+(
+0.0007
+)
+-0.0047\ (0.0007)
+
+
+∗∗∗
+
+
+
+
+
+
+h-index
+
+
+4.3
+×
+10
+−
+6
+​
+(
+2.5
+×
+10
+−
+6
+)
+4.3\times 10^{-6}\ (2.5\times 10^{-6})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+=
+97
+,
+995
+N=97,995
+, 
+R
+2
+=
+0.0031
+R^{2}=0.0031
+, Root MSE = 0.055. 
+p
+∗
+⁣
+∗
+∗
+<
+0.001
+{}^{***}p<0.001
+, 
+p
+∗
+∗
+<
+0.01
+{}^{**}p<0.01
+, 
+p
+∗
+<
+0.1
+{}^{*}p<0.1
+
+
+
+
+
+
+Table 1. 
+Regression results predicting 
+binoculars_score
+ (Hemisphere Model). Robust standard errors in parentheses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variable
+
+
+Estimate (SE)
+
+
+Signif.
+
+
+
+
+
+
+
+
+
+
+Post-GPT
+
+
+0.478
+​
+(
+0.038
+)
+0.478\ (0.038)
+
+
+∗∗∗
+
+
+
+
+
+
+Hemisphere: West
+
+
+0.022
+​
+(
+0.055
+)
+0.022\ (0.055)
+
+
+
+
+
+
+
+
+Post-GPT × West
+
+
+−
+0.099
+​
+(
+0.067
+)
+-0.099\ (0.067)
+
+
+
+
+
+
+
+
+SJR Q2
+
+
+0.282
+​
+(
+0.047
+)
+0.282\ (0.047)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q3
+
+
+0.489
+​
+(
+0.055
+)
+0.489\ (0.055)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+0.693
+​
+(
+0.052
+)
+0.693\ (0.052)
+
+
+∗∗∗
+
+
+
+
+
+
+h-index
+
+
+0.00003
+​
+(
+0.00025
+)
+0.00003\ (0.00025)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+=
+97
+,
+995
+N=97{,}995
+, Pseudo-
+R
+2
+=
+0.0148
+R^{2}=0.0148
+, Log Likelihood = 
+−
+19198.17
+-19198.17
+. 
+p
+∗
+⁣
+∗
+∗
+<
+0.001
+{}^{***}p<0.001
+, 
+p
+∗
+∗
+<
+0.01
+{}^{**}p<0.01
+, 
+p
+∗
+<
+0.1
+{}^{*}p<0.1
+
+
+
+
+
+
+Table 2. 
+Logistic regression predicting 
+accuracy_prediction
+ (Hemisphere Model). Robust standard errors in parentheses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variable
+
+
+Estimate (SE)
+
+
+Signif.
+
+
+
+
+
+
+
+
+
+
+Post-GPT
+
+
+−
+0.0163
+​
+(
+0.0029
+)
+-0.0163\ (0.0029)
+
+
+∗∗∗
+
+
+
+
+
+
+Africa/MidEast
+
+
+0.0148
+​
+(
+0.0038
+)
+0.0148\ (0.0038)
+
+
+∗∗∗
+
+
+
+
+
+
+Asia
+
+
+0.0061
+​
+(
+0.0021
+)
+0.0061\ (0.0021)
+
+
+∗∗∗
+
+
+
+
+
+
+East Europe
+
+
+0.0025
+​
+(
+0.0025
+)
+0.0025\ (0.0025)
+
+
+
+
+
+
+
+
+Latin America
+
+
+0.0081
+​
+(
+0.0026
+)
+0.0081\ (0.0026)
+
+
+∗∗∗
+
+
+
+
+
+
+Middle East
+
+
+0.0051
+​
+(
+0.0023
+)
+0.0051\ (0.0023)
+
+
+∗∗
+
+
+
+
+
+
+North America
+
+
+0.0074
+​
+(
+0.0022
+)
+0.0074\ (0.0022)
+
+
+∗∗∗
+
+
+
+
+
+
+Pacific
+
+
+0.0045
+​
+(
+0.0028
+)
+0.0045\ (0.0028)
+
+
+
+
+
+
+
+
+West Europe
+
+
+0.0086
+​
+(
+0.0022
+)
+0.0086\ (0.0022)
+
+
+∗∗∗
+
+
+
+
+
+
+Post × Africa/MidEast
+
+
+0.0011
+​
+(
+0.0060
+)
+0.0011\ (0.0060)
+
+
+
+
+
+
+
+
+Post × Asia
+
+
+0.0142
+​
+(
+0.0030
+)
+0.0142\ (0.0030)
+
+
+∗∗∗
+
+
+
+
+
+
+Post × East Europe
+
+
+0.0090
+​
+(
+0.0035
+)
+0.0090\ (0.0035)
+
+
+∗∗
+
+
+
+
+
+
+Post × Latin Am.
+
+
+0.0064
+​
+(
+0.0037
+)
+0.0064\ (0.0037)
+
+
+∗
+
+
+
+
+
+
+Post × Middle East
+
+
+0.0052
+​
+(
+0.0033
+)
+0.0052\ (0.0033)
+
+
+
+
+
+
+
+
+Post × N. America
+
+
+0.0164
+​
+(
+0.0031
+)
+0.0164\ (0.0031)
+
+
+∗∗∗
+
+
+
+
+
+
+Post × Pacific
+
+
+0.0080
+​
+(
+0.0040
+)
+0.0080\ (0.0040)
+
+
+∗∗
+
+
+
+
+
+
+Post × W. Europe
+
+
+0.0134
+​
+(
+0.0030
+)
+0.0134\ (0.0030)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q2
+
+
+−
+0.0005
+​
+(
+0.0005
+)
+-0.0005\ (0.0005)
+
+
+
+
+
+
+
+
+SJR Q3
+
+
+−
+0.0018
+​
+(
+0.0007
+)
+-0.0018\ (0.0007)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+−
+0.0048
+​
+(
+0.0007
+)
+-0.0048\ (0.0007)
+
+
+∗∗∗
+
+
+
+
+
+
+h-index
+
+
+3.3
+×
+10
+−
+6
+​
+(
+2.5
+×
+10
+−
+6
+)
+3.3\times 10^{-6}\ (2.5\times 10^{-6})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+=
+97
+,
+995
+N=97,995
+, 
+R
+2
+=
+0.0031
+R^{2}=0.0031
+, Root MSE = 0.055. 
+p
+∗
+⁣
+∗
+∗
+<
+0.001
+{}^{***}p<0.001
+, 
+p
+∗
+∗
+<
+0.01
+{}^{**}p<0.01
+, 
+p
+∗
+<
+0.1
+{}^{*}p<0.1
+
+
+
+
+
+
+Table 3. 
+Regression results predicting 
+binoculars_score
+ (Continent Model). Robust standard errors in parentheses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variable
+
+
+Estimate (SE)
+
+
+Signif.
+
+
+
+
+
+
+
+
+
+
+Post-GPT
+
+
+0.851
+​
+(
+0.172
+)
+0.851\ (0.172)
+
+
+∗∗∗
+
+
+
+
+
+
+Asia
+
+
+−
+0.447
+​
+(
+0.153
+)
+-0.447\ (0.153)
+
+
+∗∗
+
+
+
+
+
+
+East Europe
+
+
+−
+0.133
+​
+(
+0.186
+)
+-0.133\ (0.186)
+
+
+
+
+
+
+
+
+Latin America
+
+
+−
+0.665
+​
+(
+0.228
+)
+-0.665\ (0.228)
+
+
+∗∗
+
+
+
+
+
+
+Middle East
+
+
+−
+0.412
+​
+(
+0.175
+)
+-0.412\ (0.175)
+
+
+∗∗
+
+
+
+
+
+
+North America
+
+
+−
+0.275
+​
+(
+0.165
+)
+-0.275\ (0.165)
+
+
+∗
+
+
+
+
+
+
+Pacific
+
+
+−
+0.470
+​
+(
+0.264
+)
+-0.470\ (0.264)
+
+
+∗
+
+
+
+
+
+
+West Europe
+
+
+−
+0.551
+​
+(
+0.164
+)
+-0.551\ (0.164)
+
+
+∗∗∗
+
+
+
+
+
+
+Post × Asia
+
+
+−
+0.472
+​
+(
+0.178
+)
+-0.472\ (0.178)
+
+
+∗∗∗
+
+
+
+
+
+
+Post × East Europe
+
+
+−
+0.419
+​
+(
+0.220
+)
+-0.419\ (0.220)
+
+
+∗
+
+
+
+
+
+
+Post × Latin Am.
+
+
+0.162
+​
+(
+0.264
+)
+0.162\ (0.264)
+
+
+
+
+
+
+
+
+Post × Middle East
+
+
+−
+0.062
+​
+(
+0.206
+)
+-0.062\ (0.206)
+
+
+
+
+
+
+
+
+Post × N. America
+
+
+−
+0.767
+​
+(
+0.195
+)
+-0.767\ (0.195)
+
+
+∗∗∗
+
+
+
+
+
+
+Post × Pacific
+
+
+−
+0.103
+​
+(
+0.311
+)
+-0.103\ (0.311)
+
+
+
+
+
+
+
+
+Post × W. Europe
+
+
+−
+0.469
+​
+(
+0.192
+)
+-0.469\ (0.192)
+
+
+∗∗
+
+
+
+
+
+
+SJR Q2
+
+
+0.167
+​
+(
+0.048
+)
+0.167\ (0.048)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q3
+
+
+0.437
+​
+(
+0.056
+)
+0.437\ (0.056)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+0.676
+​
+(
+0.053
+)
+0.676\ (0.053)
+
+
+∗∗∗
+
+
+
+
+
+
+h-index
+
+
+0.00005
+​
+(
+0.00025
+)
+0.00005\ (0.00025)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+=
+97
+,
+162
+N=97{,}162
+, Pseudo-
+R
+2
+=
+0.0194
+R^{2}=0.0194
+, Log Likelihood = 
+−
+18708.30
+-18708.30
+. 
+p
+∗
+⁣
+∗
+∗
+<
+0.001
+{}^{***}p<0.001
+, 
+p
+∗
+∗
+<
+0.01
+{}^{**}p<0.01
+, 
+p
+∗
+<
+0.1
+{}^{*}p<0.1
+
+
+
+
+
+
+Table 4. 
+Logistic regression predicting 
+accuracy_prediction
+ (Continent Model). Robust standard errors in parentheses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variable
+
+
+Estimate (SE)
+
+
+Signif.
+
+
+
+
+
+
+GPT Wave
+
+
+
+
+
+
+Post-GPT3.5
+
+
+0.00007
+​
+(
+0.00100
+)
+0.00007\ (0.00100)
+
+
+
+
+
+
+
+
+Post-GPT4
+
+
+0.00215
+​
+(
+0.00117
+)
+0.00215\ (0.00117)
+
+
+∗
+
+
+
+
+
+
+Post-GPT4o
+
+
+−
+0.00188
+​
+(
+0.00094
+)
+-0.00188\ (0.00094)
+
+
+∗∗
+
+
+
+
+
+
+Post-GPT4o+
+
+
+−
+0.00504
+​
+(
+0.00074
+)
+-0.00504\ (0.00074)
+
+
+∗∗∗
+
+
+
+
+
+
+Global East
+
+
+
+
+
+
+Global East
+
+
+−
+0.00196
+​
+(
+0.00057
+)
+-0.00196\ (0.00057)
+
+
+∗∗∗
+
+
+
+
+
+
+Interaction: GPT Wave × Global East
+
+
+
+
+
+
+GPT3.5 × East
+
+
+0.00051
+​
+(
+0.00123
+)
+0.00051\ (0.00123)
+
+
+
+
+
+
+
+
+GPT4 × East
+
+
+−
+0.00140
+​
+(
+0.00145
+)
+-0.00140\ (0.00145)
+
+
+
+
+
+
+
+
+GPT4o × East
+
+
+−
+0.00193
+​
+(
+0.00119
+)
+-0.00193\ (0.00119)
+
+
+
+
+
+
+
+
+GPT4o+ × East
+
+
+−
+0.00054
+​
+(
+0.00091
+)
+-0.00054\ (0.00091)
+
+
+
+
+
+
+
+
+Controls
+
+
+
+
+
+
+SJR Q2
+
+
+−
+0.00123
+​
+(
+0.00052
+)
+-0.00123\ (0.00052)
+
+
+∗∗
+
+
+
+
+
+
+SJR Q3
+
+
+−
+0.00224
+​
+(
+0.00066
+)
+-0.00224\ (0.00066)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+−
+0.00464
+​
+(
+0.00065
+)
+-0.00464\ (0.00065)
+
+
+∗∗∗
+
+
+
+
+
+
+h-index
+
+
+5.0
+×
+10
+−
+6
+​
+(
+2.5
+×
+10
+−
+6
+)
+5.0\times 10^{-6}\ (2.5\times 10^{-6})
+
+
+∗∗
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+=
+97
+,
+995
+N=97{,}995
+, 
+R
+2
+=
+0.0043
+R^{2}=0.0043
+, Root MSE = 0.055. 
+p
+∗
+⁣
+∗
+∗
+<
+0.001
+{}^{***}p<0.001
+, 
+p
+∗
+∗
+<
+0.01
+{}^{**}p<0.01
+, 
+p
+∗
+<
+0.1
+{}^{*}p<0.1
+
+
+
+
+
+
+Table 5. 
+OLS regression predicting 
+binoculars_score
+ across GPT wave and region (Global East). Robust standard errors in parentheses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variable
+
+
+Estimate (SE)
+
+
+Signif.
+
+
+
+
+
+
+GPT Wave
+
+
+
+
+
+
+Post-GPT3.5
+
+
+0.085
+​
+(
+0.056
+)
+0.085\ (0.056)
+
+
+
+
+
+
+
+
+Post-GPT4
+
+
+0.170
+​
+(
+0.061
+)
+0.170\ (0.061)
+
+
+∗∗
+
+
+
+
+
+
+Post-GPT4o
+
+
+0.367
+​
+(
+0.048
+)
+0.367\ (0.048)
+
+
+∗∗∗
+
+
+
+
+
+
+Post-GPT4o+
+
+
+0.603
+​
+(
+0.036
+)
+0.603\ (0.036)
+
+
+∗∗∗
+
+
+
+
+
+
+Global East
+
+
+
+
+
+
+Global East
+
+
+0.033
+​
+(
+0.033
+)
+0.033\ (0.033)
+
+
+
+
+
+
+
+
+Controls
+
+
+
+
+
+
+SJR Q2
+
+
+0.277
+​
+(
+0.047
+)
+0.277\ (0.047)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q3
+
+
+0.476
+​
+(
+0.055
+)
+0.476\ (0.055)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+0.687
+​
+(
+0.052
+)
+0.687\ (0.052)
+
+
+∗∗∗
+
+
+
+
+
+
+h-index
+
+
+−
+0.00003
+​
+(
+0.00025
+)
+-0.00003\ (0.00025)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N
+=
+97
+,
+995
+N=97{,}995
+, Pseudo-
+R
+2
+=
+0.0175
+R^{2}=0.0175
+, Log Likelihood = 
+−
+19145.95
+-19145.95
+. 
+p
+∗
+⁣
+∗
+∗
+<
+0.001
+{}^{***}p<0.001
+, 
+p
+∗
+∗
+<
+0.01
+{}^{**}p<0.01
+, 
+p
+∗
+<
+0.1
+{}^{*}p<0.1
+
+
+
+
+
+
+Table 6. 
+Logistic regression predicting 
+accuracy_prediction
+ across GPT wave and region (Global East). Robust standard errors in parentheses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variable
+
+
+Estimate (SE)
+
+
+Signif.
+
+
+
+
+
+
+Main Model
+
+
+
+
+
+
+Binoculars Score
+
+
+−
+0.614
+​
+(
+0.211
+)
+-0.614\ (0.211)
+
+
+∗∗∗
+
+
+
+
+
+
+Post-GPT
+
+
+0.857
+​
+(
+0.310
+)
+0.857\ (0.310)
+
+
+∗∗∗
+
+
+
+
+
+
+Post-GPT × Binoculars Score
+
+
+−
+0.721
+​
+(
+0.308
+)
+-0.721\ (0.308)
+
+
+∗∗
+
+
+
+
+
+
+West
+
+
+1.129
+​
+(
+0.535
+)
+1.129\ (0.535)
+
+
+∗∗
+
+
+
+
+
+
+West × Binoculars Score
+
+
+−
+1.181
+​
+(
+0.534
+)
+-1.181\ (0.534)
+
+
+∗∗
+
+
+
+
+
+
+Post-GPT × West
+
+
+−
+1.185
+​
+(
+0.763
+)
+-1.185\ (0.763)
+
+
+
+
+
+
+
+
+Post-GPT × West × Binoculars
+
+
+1.150
+​
+(
+0.767
+)
+1.150\ (0.767)
+
+
+
+
+
+
+
+
+h-index
+
+
+0.0020
+​
+(
+0.0001
+)
+0.0020\ (0.0001)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q2
+
+
+−
+0.718
+​
+(
+0.022
+)
+-0.718\ (0.022)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q3
+
+
+−
+1.352
+​
+(
+0.028
+)
+-1.352\ (0.028)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+−
+2.079
+​
+(
+0.028
+)
+-2.079\ (0.028)
+
+
+∗∗∗
+
+
+
+
+
+
+Exposure Score
+
+
+2.178
+​
+(
+0.057
+)
+2.178\ (0.057)
+
+
+∗∗∗
+
+
+
+
+
+
+Inflation Model
+
+
+
+
+
+
+Binoculars Score
+
+
+0.026
+​
+(
+0.451
+)
+0.026\ (0.451)
+
+
+
+
+
+
+
+
+h-index
+
+
+−
+0.0041
+​
+(
+0.0003
+)
+-0.0041\ (0.0003)
+
+
+∗∗∗
+
+
+
+
+
+
+Exposure Score
+
+
+−
+92.623
+​
+(
+4.939
+)
+-92.623\ (4.939)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q2
+
+
+0.210
+​
+(
+0.073
+)
+0.210\ (0.073)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q3
+
+
+0.772
+​
+(
+0.087
+)
+0.772\ (0.087)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+1.856
+​
+(
+0.124
+)
+1.856\ (0.124)
+
+
+∗∗∗
+
+
+
+
+
+
+
+
+
+
+
+
+Table 7. 
+Zero-inflated negative binomial model predicting overall citation count.
+
+
+
+
+N
+=
+97
+,
+995
+N=97{,}995
+, Log Likelihood = 
+−
+251
+,
+658
+-251{,}658
+, Wald 
+χ
+2
+=
+15
+,
+792
+\chi^{2}=15{,}792
+, 
+p
+<
+0.001
+p<0.001
+. 
+p
+∗
+⁣
+∗
+∗
+<
+0.001
+{}^{***}p<0.001
+, 
+p
+∗
+∗
+<
+0.01
+{}^{**}p<0.01
+, 
+p
+∗
+<
+0.1
+{}^{*}p<0.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variable
+
+
+Estimate (SE)
+
+
+Signif.
+
+
+
+
+
+
+Main Model
+
+
+
+
+
+
+Binoculars Score
+
+
+−
+1.790
+​
+(
+0.307
+)
+-1.790\ (0.307)
+
+
+∗∗∗
+
+
+
+
+
+
+Post-GPT
+
+
+0.527
+​
+(
+0.421
+)
+0.527\ (0.421)
+
+
+
+
+
+
+
+
+Post-GPT × Binoculars Score
+
+
+0.346
+​
+(
+0.419
+)
+0.346\ (0.419)
+
+
+
+
+
+
+
+
+West
+
+
+1.175
+​
+(
+0.476
+)
+1.175\ (0.476)
+
+
+∗∗
+
+
+
+
+
+
+West × Binoculars Score
+
+
+−
+0.002
+​
+(
+0.479
+)
+-0.002\ (0.479)
+
+
+
+
+
+
+
+
+Post-GPT × West
+
+
+−
+0.125
+​
+(
+0.704
+)
+-0.125\ (0.704)
+
+
+
+
+
+
+
+
+Post-GPT × West × Binoculars
+
+
+−
+0.607
+​
+(
+0.707
+)
+-0.607\ (0.707)
+
+
+
+
+
+
+
+
+h-index
+
+
+0.0022
+​
+(
+0.0001
+)
+0.0022\ (0.0001)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q2
+
+
+−
+0.672
+​
+(
+0.025
+)
+-0.672\ (0.025)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q3
+
+
+−
+1.585
+​
+(
+0.040
+)
+-1.585\ (0.040)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+−
+2.307
+​
+(
+0.045
+)
+-2.307\ (0.045)
+
+
+∗∗∗
+
+
+
+
+
+
+Exposure Score
+
+
+2.099
+​
+(
+0.070
+)
+2.099\ (0.070)
+
+
+∗∗∗
+
+
+
+
+
+
+Inflation Model
+
+
+
+
+
+
+Binoculars Score
+
+
+1.513
+​
+(
+0.511
+)
+1.513\ (0.511)
+
+
+∗∗∗
+
+
+
+
+
+
+h-index
+
+
+−
+0.0031
+​
+(
+0.0003
+)
+-0.0031\ (0.0003)
+
+
+∗∗∗
+
+
+
+
+
+
+Exposure Score
+
+
+−
+38.513
+​
+(
+2.194
+)
+-38.513\ (2.194)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q2
+
+
+0.425
+​
+(
+0.082
+)
+0.425\ (0.082)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q3
+
+
+0.930
+​
+(
+0.136
+)
+0.930\ (0.136)
+
+
+∗∗∗
+
+
+
+
+
+
+SJR Q4
+
+
+2.097
+​
+(
+0.178
+)
+2.097\ (0.178)
+
+
+∗∗∗
+
+
+
+
+
+
+
+
+
+
+
+
+Table 8. 
+Zero-inflated negative binomial model predicting cross-hemispheric citation count.
+
+
+
+
+N
+=
+97
+,
+995
+N=97{,}995
+, Log Likelihood = 
+−
+138
+,
+181
+-138{,}181
+, Wald 
+χ
+2
+=
+11
+,
+838
+\chi^{2}=11{,}838
+, 
+p
+<
+0.001
+p<0.001
+. 
+p
+∗
+⁣
+∗
+∗
+<
+0.001
+{}^{***}p<0.001
+, 
+p
+∗
+∗
+<
+0.01
+{}^{**}p<0.01
+, 
+p
+∗
+<
+0.1
+{}^{*}p<0.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generated  on Wed Sep 10 06:03:04 2025 by 
+L
+a
+T
+e
+XML
+
+
+
+
+
+
+
+
+
