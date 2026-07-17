@@ -1,7 +1,0 @@
-query_ai_group,candidate_work_type,n,share
-ai,article,29,0.9666666666666667
-ai,review,1,0.03333333333333333
-non_ai,article,18,0.6
-non_ai,book,7,0.23333333333333334
-non_ai,review,4,0.13333333333333333
-non_ai,report,1,0.03333333333333333

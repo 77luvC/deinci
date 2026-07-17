@@ -53,7 +53,9 @@ def main() -> None:
                 **pair,
                 "scincl_cosine": score,
                 "query_year": query.get("year"),
+                "query_publication_date": query.get("publication_date"),
                 "candidate_year": candidate.get("year"),
+                "candidate_publication_date": candidate.get("publication_date"),
                 "query_field": query.get("field"),
                 "candidate_field": candidate.get("field"),
                 "query_is_genai": bool(query.get("is_genai")),
@@ -70,4 +72,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

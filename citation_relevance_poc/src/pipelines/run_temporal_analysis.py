@@ -10,6 +10,8 @@ import seaborn as sns
 from src.evaluation.temporal_eval import add_temporal_groups, grouped_pair_metrics
 from src.utils.io import ensure_dir, read_table, write_table
 
+ANALYSIS_GROUPS = ["pre_ai", "post_ai"]
+
 
 def _maybe_regression(scores: pd.DataFrame, output_path: Path) -> None:
     try:
@@ -20,9 +22,12 @@ def _maybe_regression(scores: pd.DataFrame, output_path: Path) -> None:
 
     df = scores.copy()
     df["post_2020"] = (df["query_period"] == "post_2020").astype(int)
-    df["ai_era"] = (df["query_ai_group"] == "ai").astype(int)
+    df["post_ai"] = (df["query_ai_group"] == "post_ai").astype(int)
     df["same_field_int"] = df["same_field"].astype(int)
-    model = smf.ols("scincl_cosine ~ post_2020 + ai_era + post_2020:ai_era + label + same_field_int", data=df).fit()
+    model = smf.ols(
+        "scincl_cosine ~ post_2020 + post_ai + post_2020:post_ai + label + same_field_int",
+        data=df,
+    ).fit()
     table = pd.DataFrame(
         {
             "term": model.params.index,
@@ -59,6 +64,7 @@ def main() -> None:
 
     output_dir = ensure_dir(args.output_dir)
     scores = add_temporal_groups(read_table(args.scores))
+    scores = scores[scores["query_ai_group"].isin(ANALYSIS_GROUPS)].copy()
     write_table(grouped_pair_metrics(scores, "query_period"), output_dir / "temporal_metrics.csv")
     ai_era_metrics = grouped_pair_metrics(scores, "query_ai_group")
     write_table(ai_era_metrics, output_dir / "ai_era_metrics.csv")

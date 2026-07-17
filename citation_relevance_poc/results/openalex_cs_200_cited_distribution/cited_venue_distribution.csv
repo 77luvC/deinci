@@ -1,0 +1,2610 @@
+query_ai_group,candidate_venue,n,share
+post_ai,unknown,1072,0.22502099076406382
+post_ai,arXiv (Cornell University),199,0.041771620486985725
+post_ai,IEEE Access,111,0.023299748110831235
+post_ai,Astronomy and Astrophysics,68,0.014273719563392108
+post_ai,Sensors,41,0.008606213266162888
+post_ai,Proceedings of the AAAI Conference on Artificial Intelligence,39,0.00818639798488665
+post_ai,Monthly Notices of the Royal Astronomical Society,38,0.00797649034424853
+post_ai,IEEE Transactions on Pattern Analysis and Machine Intelligence,36,0.007556675062972292
+post_ai,IEEE Transactions on Neural Networks and Learning Systems,34,0.007136859781696054
+post_ai,IEEE Internet of Things Journal,33,0.0069269521410579345
+post_ai,IEEE Transactions on Image Processing,33,0.0069269521410579345
+post_ai,The Astrophysical Journal,33,0.0069269521410579345
+post_ai,Remote Sensing,31,0.006507136859781696
+post_ai,IEEE Transactions on Cybernetics,29,0.006087321578505458
+post_ai,2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),27,0.005667506297229219
+post_ai,IEEE Transactions on Instrumentation and Measurement,27,0.005667506297229219
+post_ai,IEEE Transactions on Information Theory,25,0.005247691015952981
+post_ai,Applied Sciences,22,0.004617968094038623
+post_ai,Scientific Reports,21,0.004408060453400504
+post_ai,ACM Computing Surveys,19,0.003988245172124265
+post_ai,Communications of the ACM,19,0.003988245172124265
+post_ai,Cambridge University Press eBooks,18,0.003778337531486146
+post_ai,IEEE Communications Surveys & Tutorials,18,0.003778337531486146
+post_ai,IEEE Transactions on Evolutionary Computation,18,0.003778337531486146
+post_ai,IEEE Transactions on Automatic Control,17,0.003568429890848027
+post_ai,Science,17,0.003568429890848027
+post_ai,IEEE Transactions on Geoscience and Remote Sensing,16,0.0033585222502099076
+post_ai,IEEE Transactions on Systems Man and Cybernetics Systems,15,0.0031486146095717885
+post_ai,PLoS ONE,15,0.0031486146095717885
+post_ai,Electronics,14,0.002938706968933669
+post_ai,IEEE Transactions on Aerospace and Electronic Systems,14,0.002938706968933669
+post_ai,IEEE Transactions on Industrial Informatics,14,0.002938706968933669
+post_ai,IEEE Transactions on Intelligent Transportation Systems,13,0.00272879932829555
+post_ai,Nature Communications,13,0.00272879932829555
+post_ai,2021 IEEE/CVF International Conference on Computer Vision (ICCV),12,0.0025188916876574307
+post_ai,IEEE Transactions on Knowledge and Data Engineering,12,0.0025188916876574307
+post_ai,IEEE Transactions on Mobile Computing,12,0.0025188916876574307
+post_ai,IEEE Geoscience and Remote Sensing Letters,11,0.0023089840470193117
+post_ai,IEEE Robotics and Automation Letters,11,0.0023089840470193117
+post_ai,IEEE Transactions on Fuzzy Systems,11,0.0023089840470193117
+post_ai,IEEE Transactions on Multimedia,11,0.0023089840470193117
+post_ai,Journal of High Energy Physics,11,0.0023089840470193117
+post_ai,Anatomical Sciences Education,10,0.0020990764063811922
+post_ai,IEEE Sensors Journal,10,0.0020990764063811922
+post_ai,IEEE Transactions on Circuits and Systems for Video Technology,10,0.0020990764063811922
+post_ai,Journal of the Royal Statistical Society Series B (Statistical Methodology),10,0.0020990764063811922
+post_ai,Mathematics of Computation,10,0.0020990764063811922
+post_ai,Procedia Computer Science,10,0.0020990764063811922
+post_ai,Proceedings of the National Academy of Sciences,10,0.0020990764063811922
+post_ai,Sustainability,10,0.0020990764063811922
+post_ai,IEEE Transactions on Information Forensics and Security,9,0.001889168765743073
+post_ai,IEEE Transactions on Signal Processing,9,0.001889168765743073
+post_ai,IEEE Transactions on Vehicular Technology,9,0.001889168765743073
+post_ai,IEEE Transactions on Wireless Communications,9,0.001889168765743073
+post_ai,Journal of Medical Internet Research,9,0.001889168765743073
+post_ai,Ore Geology Reviews,9,0.001889168765743073
+post_ai,Physical Review Letters,9,0.001889168765743073
+post_ai,Proceedings of the IEEE,9,0.001889168765743073
+post_ai,DROPS (Schloss Dagstuhl – Leibniz Center for Informatics),8,0.0016792611251049538
+post_ai,IEEE Communications Magazine,8,0.0016792611251049538
+post_ai,IEEE Transactions on Industrial Electronics,8,0.0016792611251049538
+post_ai,Information,8,0.0016792611251049538
+post_ai,International Journal of Systems Science,8,0.0016792611251049538
+post_ai,Neural Computation,8,0.0016792611251049538
+post_ai,The MIT Press eBooks,8,0.0016792611251049538
+post_ai,ACM Transactions on Mathematical Software,7,0.0014693534844668346
+post_ai,IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing,7,0.0014693534844668346
+post_ai,IEEE Signal Processing Magazine,7,0.0014693534844668346
+post_ai,IEEE Transactions on Circuits and Systems I Regular Papers,7,0.0014693534844668346
+post_ai,IEEE Transactions on Dependable and Secure Computing,7,0.0014693534844668346
+post_ai,Journal of Personality and Social Psychology,7,0.0014693534844668346
+post_ai,Neural Networks,7,0.0014693534844668346
+post_ai,The Astrophysical Journal Supplement Series,7,0.0014693534844668346
+post_ai,2009 IEEE Conference on Computer Vision and Pattern Recognition,6,0.0012594458438287153
+post_ai,Applied Physics Letters,6,0.0012594458438287153
+post_ai,Bioinformatics,6,0.0012594458438287153
+post_ai,Computers & Security,6,0.0012594458438287153
+post_ai,IEEE Signal Processing Letters,6,0.0012594458438287153
+post_ai,IEEE Systems Journal,6,0.0012594458438287153
+post_ai,IEEE Transactions on Communications,6,0.0012594458438287153
+post_ai,IEEE Transactions on Engineering Management,6,0.0012594458438287153
+post_ai,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,6,0.0012594458438287153
+post_ai,IEEE Wireless Communications,6,0.0012594458438287153
+post_ai,IEEE Wireless Communications Letters,6,0.0012594458438287153
+post_ai,IEEE/ACM Transactions on Audio Speech and Language Processing,6,0.0012594458438287153
+post_ai,International Journal of Educational Technology in Higher Education,6,0.0012594458438287153
+post_ai,International Journal of Production Research,6,0.0012594458438287153
+post_ai,Journal of Physical Oceanography,6,0.0012594458438287153
+post_ai,Journal of Statistical Software,6,0.0012594458438287153
+post_ai,Journal of the ACM,6,0.0012594458438287153
+post_ai,Learning Media and Technology,6,0.0012594458438287153
+post_ai,Optics Express,6,0.0012594458438287153
+post_ai,"Physical review. A/Physical review, A",6,0.0012594458438287153
+post_ai,The International Journal of Robotics Research,6,0.0012594458438287153
+post_ai,Transactions of the Association for Computational Linguistics,6,0.0012594458438287153
+post_ai,2022 2nd International Conference on Advance Computing and Innovative Technologies in Engineering (ICACITE),5,0.0010495382031905961
+post_ai,2022 International Conference on Robotics and Automation (ICRA),5,0.0010495382031905961
+post_ai,ACM SIGPLAN Notices,5,0.0010495382031905961
+post_ai,Applied Optics,5,0.0010495382031905961
+post_ai,Briefings in Bioinformatics,5,0.0010495382031905961
+post_ai,British Journal of Sports Medicine,5,0.0010495382031905961
+post_ai,DOAJ (DOAJ: Directory of Open Access Journals),5,0.0010495382031905961
+post_ai,Energies,5,0.0010495382031905961
+post_ai,Entropy,5,0.0010495382031905961
+post_ai,Frontiers in Psychology,5,0.0010495382031905961
+post_ai,Future Internet,5,0.0010495382031905961
+post_ai,HAL (Le Centre pour la Communication Scientifique Directe),5,0.0010495382031905961
+post_ai,Heliyon,5,0.0010495382031905961
+post_ai,IEEE Journal on Selected Areas in Communications,5,0.0010495382031905961
+post_ai,IEEE Transactions on Cognitive Communications and Networking,5,0.0010495382031905961
+post_ai,IEEE Transactions on Network Science and Engineering,5,0.0010495382031905961
+post_ai,International Journal of Computer Vision,5,0.0010495382031905961
+post_ai,International Journal of Digital Curation,5,0.0010495382031905961
+post_ai,Journal Of Big Data,5,0.0010495382031905961
+post_ai,Journal of the American Medical Informatics Association,5,0.0010495382031905961
+post_ai,Journal of the American Statistical Association,5,0.0010495382031905961
+post_ai,Lincoln (University of Nebraska),5,0.0010495382031905961
+post_ai,Molecules,5,0.0010495382031905961
+post_ai,Oxford University Press eBooks,5,0.0010495382031905961
+post_ai,PubMed,5,0.0010495382031905961
+post_ai,Supply Chain Management An International Journal,5,0.0010495382031905961
+post_ai,Systems Science & Control Engineering,5,0.0010495382031905961
+post_ai,UvA-DARE (University of Amsterdam),5,0.0010495382031905961
+post_ai,npj Digital Medicine,5,0.0010495382031905961
+post_ai,2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),4,0.0008396305625524769
+post_ai,"2022 ACM Conference on Fairness, Accountability, and Transparency",4,0.0008396305625524769
+post_ai,ACM Transactions on Graphics,4,0.0008396305625524769
+post_ai,ACM Transactions on Software Engineering and Methodology,4,0.0008396305625524769
+post_ai,Alzheimer s & Dementia,4,0.0008396305625524769
+post_ai,Australasian Journal of Educational Technology,4,0.0008396305625524769
+post_ai,BMC Bioinformatics,4,0.0008396305625524769
+post_ai,BMC Medical Education,4,0.0008396305625524769
+post_ai,British Journal of Educational Technology,4,0.0008396305625524769
+post_ai,Choice Reviews Online,4,0.0008396305625524769
+post_ai,Computational Intelligence and Neuroscience,4,0.0008396305625524769
+post_ai,Computers,4,0.0008396305625524769
+post_ai,Data in Brief,4,0.0008396305625524769
+post_ai,Drones,4,0.0008396305625524769
+post_ai,Energy Reports,4,0.0008396305625524769
+post_ai,Environmental Science & Technology,4,0.0008396305625524769
+post_ai,Evolutionary Computation,4,0.0008396305625524769
+post_ai,Frontiers in artificial intelligence and applications,4,0.0008396305625524769
+post_ai,Genome Research,4,0.0008396305625524769
+post_ai,IACR Transactions on Symmetric Cryptology,4,0.0008396305625524769
+post_ai,IEEE Intelligent Systems,4,0.0008396305625524769
+post_ai,IEEE Journal of Oceanic Engineering,4,0.0008396305625524769
+post_ai,IEEE Network,4,0.0008396305625524769
+post_ai,IEEE Security & Privacy,4,0.0008396305625524769
+post_ai,IEEE Transactions on Computers,4,0.0008396305625524769
+post_ai,IEEE Transactions on Control Systems Technology,4,0.0008396305625524769
+post_ai,IEEE Transactions on Medical Imaging,4,0.0008396305625524769
+post_ai,IEEE/CAA Journal of Automatica Sinica,4,0.0008396305625524769
+post_ai,Industrial Management & Data Systems,4,0.0008396305625524769
+post_ai,Interactive Learning Environments,4,0.0008396305625524769
+post_ai,International Journal of Applied Earth Observation and Geoinformation,4,0.0008396305625524769
+post_ai,International Journal of Human-Computer Interaction,4,0.0008396305625524769
+post_ai,International Journal of Molecular Sciences,4,0.0008396305625524769
+post_ai,International Journal of Remote Sensing,4,0.0008396305625524769
+post_ai,Journal of Business Research,4,0.0008396305625524769
+post_ai,Journal of Marine Science and Engineering,4,0.0008396305625524769
+post_ai,Leibniz-Zentrum für Informatik (Schloss Dagstuhl),4,0.0008396305625524769
+post_ai,Mathematics of Operations Research,4,0.0008396305625524769
+post_ai,Minerals,4,0.0008396305625524769
+post_ai,Optica,4,0.0008396305625524769
+post_ai,"Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",4,0.0008396305625524769
+post_ai,Proceedings of the ... Annual Hawaii International Conference on System Sciences/Proceedings of the Annual Hawaii International Conference on System Sciences,4,0.0008396305625524769
+post_ai,Proceedings of the ACM on Human-Computer Interaction,4,0.0008396305625524769
+post_ai,Proceedings of the ACM on Programming Languages,4,0.0008396305625524769
+post_ai,Society for Industrial and Applied Mathematics eBooks,4,0.0008396305625524769
+post_ai,Symmetry,4,0.0008396305625524769
+post_ai,The Astronomical Journal,4,0.0008396305625524769
+post_ai,The Astrophysical Journal Letters,4,0.0008396305625524769
+post_ai,The International Review of Research in Open and Distributed Learning,4,0.0008396305625524769
+post_ai,Wireless Communications and Mobile Computing,4,0.0008396305625524769
+post_ai,2021 IEEE Global Communications Conference (GLOBECOM),3,0.0006297229219143577
+post_ai,2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV),3,0.0006297229219143577
+post_ai,2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),3,0.0006297229219143577
+post_ai,2022 International Joint Conference on Neural Networks (IJCNN),3,0.0006297229219143577
+post_ai,ACM Transactions on Multimedia Computing Communications and Applications,3,0.0006297229219143577
+post_ai,ACM Transactions on Reconfigurable Technology and Systems,3,0.0006297229219143577
+post_ai,AIP conference proceedings,3,0.0006297229219143577
+post_ai,African Journal of Science Technology Innovation and Development,3,0.0006297229219143577
+post_ai,Algorithms,3,0.0006297229219143577
+post_ai,Annals of Mathematics,3,0.0006297229219143577
+post_ai,Annals of Surgery,3,0.0006297229219143577
+post_ai,Annual Review of Astronomy and Astrophysics,3,0.0006297229219143577
+post_ai,Benchmarking An International Journal,3,0.0006297229219143577
+post_ai,Biomolecules,3,0.0006297229219143577
+post_ai,Birkhäuser Boston eBooks,3,0.0006297229219143577
+post_ai,Clinical Psychology & Psychotherapy,3,0.0006297229219143577
+post_ai,Computers in Human Behavior,3,0.0006297229219143577
+post_ai,Computers in Human Behavior Artificial Humans,3,0.0006297229219143577
+post_ai,CyberPsychology & Behavior,3,0.0006297229219143577
+post_ai,DSpace@MIT (Massachusetts Institute of Technology),3,0.0006297229219143577
+post_ai,Design and Culture,3,0.0006297229219143577
+post_ai,EDPACS,3,0.0006297229219143577
+post_ai,EURASIP Journal on Advances in Signal Processing,3,0.0006297229219143577
+post_ai,Economic Geology,3,0.0006297229219143577
+post_ai,Electronics Letters,3,0.0006297229219143577
+post_ai,Engineering Applications of Artificial Intelligence,3,0.0006297229219143577
+post_ai,Fixed Point Theory,3,0.0006297229219143577
+post_ai,Geoderma,3,0.0006297229219143577
+post_ai,"ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",3,0.0006297229219143577
+post_ai,IEEE Communications Letters,3,0.0006297229219143577
+post_ai,IEEE Geoscience and Remote Sensing Magazine,3,0.0006297229219143577
+post_ai,IEEE Transactions on Automation Science and Engineering,3,0.0006297229219143577
+post_ai,IEEE Transactions on Circuits & Systems II Express Briefs,3,0.0006297229219143577
+post_ai,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,3,0.0006297229219143577
+post_ai,IEEE Transactions on Learning Technologies,3,0.0006297229219143577
+post_ai,IEEE Transactions on Robotics,3,0.0006297229219143577
+post_ai,IEEE Transactions on Services Computing,3,0.0006297229219143577
+post_ai,IEEE Transactions on Smart Grid,3,0.0006297229219143577
+post_ai,IEEE Transactions on Software Engineering,3,0.0006297229219143577
+post_ai,IEEE/ASME Transactions on Mechatronics,3,0.0006297229219143577
+post_ai,IET Image Processing,3,0.0006297229219143577
+post_ai,IOP Conference Series Materials Science and Engineering,3,0.0006297229219143577
+post_ai,Information Technology for Development,3,0.0006297229219143577
+post_ai,International Journal of Advanced Computer Science and Applications,3,0.0006297229219143577
+post_ai,International Journal of Advertising,3,0.0006297229219143577
+post_ai,International Journal of Cognitive Computing in Engineering,3,0.0006297229219143577
+post_ai,International Journal of Information Management,3,0.0006297229219143577
+post_ai,International Journal of Network Dynamics and Intelligence,3,0.0006297229219143577
+post_ai,International Journal of Operations & Production Management,3,0.0006297229219143577
+post_ai,Journal of Accounting and Finance Management,3,0.0006297229219143577
+post_ai,Journal of Advertising Research,3,0.0006297229219143577
+post_ai,Journal of Basic Engineering,3,0.0006297229219143577
+post_ai,Journal of Computer Information Systems,3,0.0006297229219143577
+post_ai,Journal of Educational Psychology,3,0.0006297229219143577
+post_ai,Journal of Functional Programming,3,0.0006297229219143577
+post_ai,Journal of Inequalities and Applications,3,0.0006297229219143577
+post_ai,Journal of Language Aggression and Conflict,3,0.0006297229219143577
+post_ai,Journal of Lightwave Technology,3,0.0006297229219143577
+post_ai,Journal of Marketing Research,3,0.0006297229219143577
+post_ai,Journal of the Association for Information Science and Technology,3,0.0006297229219143577
+post_ai,Mathematical Problems in Engineering,3,0.0006297229219143577
+post_ai,Mathematics,3,0.0006297229219143577
+post_ai,Medical Entomology and Zoology,3,0.0006297229219143577
+post_ai,Mobile Networks and Applications,3,0.0006297229219143577
+post_ai,Monthly Notices of the Royal Astronomical Society Letters,3,0.0006297229219143577
+post_ai,Network Security,3,0.0006297229219143577
+post_ai,New Media & Society,3,0.0006297229219143577
+post_ai,OCLC Systems & Services,3,0.0006297229219143577
+post_ai,Oxford University Research Archive (ORA) (University of Oxford),3,0.0006297229219143577
+post_ai,Palgrave Macmillan UK eBooks,3,0.0006297229219143577
+post_ai,Physical Review A,3,0.0006297229219143577
+post_ai,Physical Review Applied,3,0.0006297229219143577
+post_ai,Postdigital Science and Education,3,0.0006297229219143577
+post_ai,Powder Technology,3,0.0006297229219143577
+post_ai,Proceedings of symposia in pure mathematics,3,0.0006297229219143577
+post_ai,Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining,3,0.0006297229219143577
+post_ai,Proceedings of the ACM Web Conference 2022,3,0.0006297229219143577
+post_ai,Proceedings of the Genetic and Evolutionary Computation Conference,3,0.0006297229219143577
+post_ai,Proceedings of the International AAAI Conference on Web and Social Media,3,0.0006297229219143577
+post_ai,Production Planning & Control,3,0.0006297229219143577
+post_ai,Psychological Bulletin,3,0.0006297229219143577
+post_ai,Psychological Review,3,0.0006297229219143577
+post_ai,Qualitative Research in Psychology,3,0.0006297229219143577
+post_ai,Quantum,3,0.0006297229219143577
+post_ai,Records Management Journal,3,0.0006297229219143577
+post_ai,Remedial and Special Education,3,0.0006297229219143577
+post_ai,Review of Scientific Instruments,3,0.0006297229219143577
+post_ai,Revista Brasileira de Ciência do Solo,3,0.0006297229219143577
+post_ai,SIAM Journal on Computing,3,0.0006297229219143577
+post_ai,SIAM Journal on Discrete Mathematics,3,0.0006297229219143577
+post_ai,SIAM Review,3,0.0006297229219143577
+post_ai,SSRN Electronic Journal,3,0.0006297229219143577
+post_ai,Science Robotics,3,0.0006297229219143577
+post_ai,Scientific Data,3,0.0006297229219143577
+post_ai,Security and Communication Networks,3,0.0006297229219143577
+post_ai,Software Testing Verification and Reliability,3,0.0006297229219143577
+post_ai,Space Weather,3,0.0006297229219143577
+post_ai,The Annals of Statistics,3,0.0006297229219143577
+post_ai,The Electronic Journal of Combinatorics,3,0.0006297229219143577
+post_ai,Zenodo (CERN European Organization for Nuclear Research),3,0.0006297229219143577
+post_ai,2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC),2,0.00041981528127623844
+post_ai,2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW),2,0.00041981528127623844
+post_ai,ACM SIGKDD Explorations Newsletter,2,0.00041981528127623844
+post_ai,ACM SIGOPS Operating Systems Review,2,0.00041981528127623844
+post_ai,ACM Transactions on Computer Systems,2,0.00041981528127623844
+post_ai,ACM Transactions on Information Systems,2,0.00041981528127623844
+post_ai,ACM Transactions on Knowledge Discovery from Data,2,0.00041981528127623844
+post_ai,Abstract and Applied Analysis,2,0.00041981528127623844
+post_ai,Academic Medicine,2,0.00041981528127623844
+post_ai,Academy of Management Annals,2,0.00041981528127623844
+post_ai,Acta Cytologica,2,0.00041981528127623844
+post_ai,Advanced Quantum Technologies,2,0.00041981528127623844
+post_ai,Algebraic Combinatorics,2,0.00041981528127623844
+post_ai,American Journal of Clinical Pathology,2,0.00041981528127623844
+post_ai,American Psychologist,2,0.00041981528127623844
+post_ai,Annals of Operations Research,2,0.00041981528127623844
+post_ai,Annual Review of Law and Social Science,2,0.00041981528127623844
+post_ai,Archives and Manuscripts,2,0.00041981528127623844
+post_ai,Archives and Records,2,0.00041981528127623844
+post_ai,Astronomy and Astrophysics Supplement Series,2,0.00041981528127623844
+post_ai,Behaviour and Information Technology,2,0.00041981528127623844
+post_ai,BenchCouncil Transactions on Benchmarks Standards and Evaluations,2,0.00041981528127623844
+post_ai,Bernoulli,2,0.00041981528127623844
+post_ai,Biometrics,2,0.00041981528127623844
+post_ai,Biometrika,2,0.00041981528127623844
+post_ai,Biosensors,2,0.00041981528127623844
+post_ai,Blockchain Research and Applications,2,0.00041981528127623844
+post_ai,Blood,2,0.00041981528127623844
+post_ai,Bulletin of the American Mathematical Society,2,0.00041981528127623844
+post_ai,Bulletin of the Australian Mathematical Society,2,0.00041981528127623844
+post_ai,Business Horizons,2,0.00041981528127623844
+post_ai,Business Process Management Journal,2,0.00041981528127623844
+post_ai,CERN Document Server (European Organization for Nuclear Research),2,0.00041981528127623844
+post_ai,Chemical Science,2,0.00041981528127623844
+post_ai,China Communications,2,0.00041981528127623844
+post_ai,Chinese Journal of Aeronautics,2,0.00041981528127623844
+post_ai,Clay Minerals,2,0.00041981528127623844
+post_ai,Clinical Anatomy,2,0.00041981528127623844
+post_ai,Cognition & Emotion,2,0.00041981528127623844
+post_ai,Complex & Intelligent Systems,2,0.00041981528127623844
+post_ai,Computer,2,0.00041981528127623844
+post_ai,Computer Graphics Forum,2,0.00041981528127623844
+post_ai,Computers & Education,2,0.00041981528127623844
+post_ai,Computers and Education Artificial Intelligence,2,0.00041981528127623844
+post_ai,Concurrency and Computation Practice and Experience,2,0.00041981528127623844
+post_ai,Counselling and Psychotherapy Research,2,0.00041981528127623844
+post_ai,Current Directions in Psychological Science,2,0.00041981528127623844
+post_ai,Cyberpsychology Behavior and Social Networking,2,0.00041981528127623844
+post_ai,Cybersecurity,2,0.00041981528127623844
+post_ai,DESIDOC Journal of Library & Information Technology,2,0.00041981528127623844
+post_ai,Data Archiving and Networked Services (DANS),2,0.00041981528127623844
+post_ai,Depression and Anxiety,2,0.00041981528127623844
+post_ai,Diagnostics,2,0.00041981528127623844
+post_ai,Digital Health,2,0.00041981528127623844
+post_ai,Digital Library Perspectives,2,0.00041981528127623844
+post_ai,Digital Threats Research and Practice,2,0.00041981528127623844
+post_ai,Distance Education,2,0.00041981528127623844
+post_ai,Dokuchaev Soil Bulletin,2,0.00041981528127623844
+post_ai,EURASIP Journal on Image and Video Processing,2,0.00041981528127623844
+post_ai,Econstor (Econstor),2,0.00041981528127623844
+post_ai,Education Sciences,2,0.00041981528127623844
+post_ai,Education and Information Technologies,2,0.00041981528127623844
+post_ai,Electromagnetic waves,2,0.00041981528127623844
+post_ai,Electronic Journal of Statistics,2,0.00041981528127623844
+post_ai,Ethics and Information Technology,2,0.00041981528127623844
+post_ai,European Business Review,2,0.00041981528127623844
+post_ai,European Journal of Educational Research,2,0.00041981528127623844
+post_ai,European Journal of Operational Research,2,0.00041981528127623844
+post_ai,Frontiers in Education,2,0.00041981528127623844
+post_ai,Frontiers in Neurology,2,0.00041981528127623844
+post_ai,Frontiers in Robotics and AI,2,0.00041981528127623844
+post_ai,Geoscientific model development,2,0.00041981528127623844
+post_ai,Healthcare,2,0.00041981528127623844
+post_ai,History and Philosophy of Logic,2,0.00041981528127623844
+post_ai,Human Behavior and Emerging Technologies,2,0.00041981528127623844
+post_ai,Human Communication Research,2,0.00041981528127623844
+post_ai,Human-Computer Interaction,2,0.00041981528127623844
+post_ai,IASSIST Quarterly,2,0.00041981528127623844
+post_ai,IEEE Computational Intelligence Magazine,2,0.00041981528127623844
+post_ai,IEEE Journal of Biomedical and Health Informatics,2,0.00041981528127623844
+post_ai,IEEE Journal of Quantum Electronics,2,0.00041981528127623844
+post_ai,IEEE Journal of Selected Topics in Quantum Electronics,2,0.00041981528127623844
+post_ai,IEEE Journal of Solid-State Circuits,2,0.00041981528127623844
+post_ai,IEEE Software,2,0.00041981528127623844
+post_ai,IEEE Transactions on Antennas and Propagation,2,0.00041981528127623844
+post_ai,IEEE Transactions on Big Data,2,0.00041981528127623844
+post_ai,IEEE Transactions on Consumer Electronics,2,0.00041981528127623844
+post_ai,IEEE Transactions on Magnetics,2,0.00041981528127623844
+post_ai,IEEE Transactions on Neural Networks,2,0.00041981528127623844
+post_ai,IEEE Transactions on Systems Man and Cybernetics,2,0.00041981528127623844
+post_ai,IEEE Transactions on Systems Man and Cybernetics Part C (Applications and Reviews),2,0.00041981528127623844
+post_ai,IEEE Transactions on Transportation Electrification,2,0.00041981528127623844
+post_ai,IEEE Transactions on Visualization and Computer Graphics,2,0.00041981528127623844
+post_ai,IEEE/ACM Transactions on Computational Biology and Bioinformatics,2,0.00041981528127623844
+post_ai,IEEE/ACM Transactions on Networking,2,0.00041981528127623844
+post_ai,IET Generation Transmission & Distribution,2,0.00041981528127623844
+post_ai,IETE Journal of Research,2,0.00041981528127623844
+post_ai,IETE Technical Review,2,0.00041981528127623844
+post_ai,IGI Global eBooks,2,0.00041981528127623844
+post_ai,IJIET (International Journal of Indonesian Education and Teaching),2,0.00041981528127623844
+post_ai,ISPRS International Journal of Geo-Information,2,0.00041981528127623844
+post_ai,Indian Journal of Information Sources and Services,2,0.00041981528127623844
+post_ai,Indonesian Journal on Geoscience,2,0.00041981528127623844
+post_ai,Informatics,2,0.00041981528127623844
+post_ai,Inisiatif Jurnal Ekonomi Akuntansi dan Manajemen,2,0.00041981528127623844
+post_ai,International Journal for Research in Applied Science and Engineering Technology,2,0.00041981528127623844
+post_ai,International Journal of Applied Geospatial Research,2,0.00041981528127623844
+post_ai,International Journal of Approximate Reasoning,2,0.00041981528127623844
+post_ai,International Journal of Coal Preparation and Utilization,2,0.00041981528127623844
+post_ai,International Journal of Computer Applications,2,0.00041981528127623844
+post_ai,International Journal of Computer Applications in Technology,2,0.00041981528127623844
+post_ai,International Journal of Data and Network Science,2,0.00041981528127623844
+post_ai,International Journal of Economics and Management Research,2,0.00041981528127623844
+post_ai,International Journal of Emerging Technologies in Learning (iJET),2,0.00041981528127623844
+post_ai,International Journal of Environmental Research and Public Health,2,0.00041981528127623844
+post_ai,International Journal of Intelligent Systems,2,0.00041981528127623844
+post_ai,International Journal of Qualitative Methods,2,0.00041981528127623844
+post_ai,International Journal of Robust and Nonlinear Control,2,0.00041981528127623844
+post_ai,International Journal of Technology Assessment in Health Care,2,0.00041981528127623844
+post_ai,International Journal of Uncertainty Fuzziness and Knowledge-Based Systems,2,0.00041981528127623844
+post_ai,International Journal on Natural Language Computing,2,0.00041981528127623844
+post_ai,International Review of Pragmatics,2,0.00041981528127623844
+post_ai,JAMA,2,0.00041981528127623844
+post_ai,JAMA Internal Medicine,2,0.00041981528127623844
+post_ai,JMIR Human Factors,2,0.00041981528127623844
+post_ai,JMIR Mental Health,2,0.00041981528127623844
+post_ai,Journal of Advertising,2,0.00041981528127623844
+post_ai,Journal of Applied Mathematics,2,0.00041981528127623844
+post_ai,Journal of Biological Chemistry,2,0.00041981528127623844
+post_ai,Journal of Biomolecular Structure and Dynamics,2,0.00041981528127623844
+post_ai,Journal of Documentation,2,0.00041981528127623844
+post_ai,Journal of Electromagnetic Waves and Applications,2,0.00041981528127623844
+post_ai,Journal of Electronic Imaging,2,0.00041981528127623844
+post_ai,Journal of Enterprise Information Management,2,0.00041981528127623844
+post_ai,Journal of Fluid Mechanics,2,0.00041981528127623844
+post_ai,Journal of Geophysical Research Atmospheres,2,0.00041981528127623844
+post_ai,Journal of Industrial and Management Optimization,2,0.00041981528127623844
+post_ai,Journal of Information Security,2,0.00041981528127623844
+post_ai,Journal of Intelligent & Fuzzy Systems,2,0.00041981528127623844
+post_ai,Journal of Librarianship and Scholarly Communication,2,0.00041981528127623844
+post_ai,Journal of Management,2,0.00041981528127623844
+post_ai,Journal of Management and Creative Business,2,0.00041981528127623844
+post_ai,Journal of Marketing,2,0.00041981528127623844
+post_ai,Journal of Modern Optics,2,0.00041981528127623844
+post_ai,Journal of Network and Computer Applications,2,0.00041981528127623844
+post_ai,Journal of Open Innovation Technology Market and Complexity,2,0.00041981528127623844
+post_ai,Journal of Operations Management,2,0.00041981528127623844
+post_ai,Journal of Physics Conference Series,2,0.00041981528127623844
+post_ai,Journal of Research in Reading,2,0.00041981528127623844
+post_ai,Journal of Signal Processing Systems,2,0.00041981528127623844
+post_ai,Journal of Teacher Education,2,0.00041981528127623844
+post_ai,Journal of Travel & Tourism Marketing,2,0.00041981528127623844
+post_ai,Journal of Wireless Mobile Networks Ubiquitous Computing and Dependable Applications,2,0.00041981528127623844
+post_ai,Journal of the Academy of Marketing Science,2,0.00041981528127623844
+post_ai,Journal of the London Mathematical Society,2,0.00041981528127623844
+post_ai,Journal of theoretical and applied electronic commerce research,2,0.00041981528127623844
+post_ai,LITERACY International Scientific Journals of Social Education Humanities,2,0.00041981528127623844
+post_ai,Learned Publishing,2,0.00041981528127623844
+post_ai,Lecture notes in computer science,2,0.00041981528127623844
+post_ai,Library Hi Tech,2,0.00041981528127623844
+post_ai,Library Hi Tech News,2,0.00041981528127623844
+post_ai,Library Management,2,0.00041981528127623844
+post_ai,Libri,2,0.00041981528127623844
+post_ai,Logistics,2,0.00041981528127623844
+post_ai,MIS Quarterly,2,0.00041981528127623844
+post_ai,Machine Learning with Applications,2,0.00041981528127623844
+post_ai,Management Science,2,0.00041981528127623844
+post_ai,Mass Communication & Society,2,0.00041981528127623844
+post_ai,Medical Care,2,0.00041981528127623844
+post_ai,Mind,2,0.00041981528127623844
+post_ai,Natural and Engineering Sciences,2,0.00041981528127623844
+post_ai,Nature,2,0.00041981528127623844
+post_ai,Neural Computing and Applications,2,0.00041981528127623844
+post_ai,Notre Dame Journal of Formal Logic,2,0.00041981528127623844
+post_ai,Nucleic Acids Research,2,0.00041981528127623844
+post_ai,Oceanography,2,0.00041981528127623844
+post_ai,Operations Research,2,0.00041981528127623844
+post_ai,Optics Letters,2,0.00041981528127623844
+post_ai,Perspectives on Psychological Science,2,0.00041981528127623844
+post_ai,Pharmacognosy Journal,2,0.00041981528127623844
+post_ai,Philosophical Transactions of the Royal Society B Biological Sciences,2,0.00041981528127623844
+post_ai,Physical Review E,2,0.00041981528127623844
+post_ai,Physical review. D/Physical review. D.,2,0.00041981528127623844
+post_ai,Policy Design and Practice,2,0.00041981528127623844
+post_ai,Pragmatics & beyond. New series,2,0.00041981528127623844
+post_ai,Preprints.org,2,0.00041981528127623844
+post_ai,Preservation Digital Technology & Culture,2,0.00041981528127623844
+post_ai,Princeton University Press eBooks,2,0.00041981528127623844
+post_ai,Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security,2,0.00041981528127623844
+post_ai,Processes,2,0.00041981528127623844
+post_ai,Psychological Medicine,2,0.00041981528127623844
+post_ai,Public Management Review,2,0.00041981528127623844
+post_ai,Quantum Information and Computation,2,0.00041981528127623844
+post_ai,Quarterly Journal of the Royal Meteorological Society,2,0.00041981528127623844
+post_ai,RELC Journal,2,0.00041981528127623844
+post_ai,Radio Science,2,0.00041981528127623844
+post_ai,Renewable and Sustainable Energy Reviews,2,0.00041981528127623844
+post_ai,Repository for Publications and Research Data (ETH Zurich),2,0.00041981528127623844
+post_ai,Results in Engineering,2,0.00041981528127623844
+post_ai,Reviews of Geophysics,2,0.00041981528127623844
+post_ai,SIAM Journal on Numerical Analysis,2,0.00041981528127623844
+post_ai,SOIL,2,0.00041981528127623844
+post_ai,SciPost Physics,2,0.00041981528127623844
+post_ai,Scientia Agricola,2,0.00041981528127623844
+post_ai,Social Policy and Administration,2,0.00041981528127623844
+post_ai,Soil Science Society of America Journal,2,0.00041981528127623844
+post_ai,Soil Science Society of America book series,2,0.00041981528127623844
+post_ai,Strategic Management Journal,2,0.00041981528127623844
+post_ai,Strathprints: The University of Strathclyde institutional repository (University of Strathclyde),2,0.00041981528127623844
+post_ai,Technological Forecasting and Social Change,2,0.00041981528127623844
+post_ai,Technologies,2,0.00041981528127623844
+post_ai,The American Naturalist,2,0.00041981528127623844
+post_ai,The Canadian Journal of Chemical Engineering,2,0.00041981528127623844
+post_ai,The Computer Journal,2,0.00041981528127623844
+post_ai,The Design Journal,2,0.00041981528127623844
+post_ai,The Electronic Library,2,0.00041981528127623844
+post_ai,The International Information & Library Review,2,0.00041981528127623844
+post_ai,The Journal of the Acoustical Society of America,2,0.00041981528127623844
+post_ai,The Lancet Digital Health,2,0.00041981528127623844
+post_ai,The R Journal,2,0.00041981528127623844
+post_ai,Transactions of the American Mathematical Society,2,0.00041981528127623844
+post_ai,Transformasi Journal of Economics and Business Management,2,0.00041981528127623844
+post_ai,Transportation research procedia,2,0.00041981528127623844
+post_ai,Virtual Reality,2,0.00041981528127623844
+post_ai,World Journal of Advanced Research and Reviews,2,0.00041981528127623844
+post_ai,eLife,2,0.00041981528127623844
+post_ai,The Australian journal of teacher education,2,0.00041981528127623844
+post_ai,2015 IEEE Trustcom/BigDataSE/ISPA,1,0.00020990764063811922
+post_ai,2017 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU),1,0.00020990764063811922
+post_ai,"2017 International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)",1,0.00020990764063811922
+post_ai,2017 Sixth Asia-Pacific Conference on Antennas and Propagation (APCAP),1,0.00020990764063811922
+post_ai,2019 1st International Informatics and Software Engineering Conference (UBMYK),1,0.00020990764063811922
+post_ai,2019 International Conference on Smart Energy Systems and Technologies (SEST),1,0.00020990764063811922
+post_ai,2019 International Conference on Smart Systems and Inventive Technology (ICSSIT),1,0.00020990764063811922
+post_ai,2020 7th International Conference on Smart Structures and Systems (ICSSS),1,0.00020990764063811922
+post_ai,2020 IEEE Asia-Pacific Conference on Computer Science and Data Engineering (CSDE),1,0.00020990764063811922
+post_ai,2020 IEEE International Conference for Innovation in Technology (INOCON),1,0.00020990764063811922
+post_ai,"2020 IEEE International Conference on Computing, Power and Communication Technologies (GUCON)",1,0.00020990764063811922
+post_ai,2020 International Conference for Emerging Technology (INCET),1,0.00020990764063811922
+post_ai,2020 International Conference on Electronics and Sustainable Communication Systems (ICESC),1,0.00020990764063811922
+post_ai,"2021 17th International Conference on Mobility, Sensing and Networking (MSN)",1,0.00020990764063811922
+post_ai,2021 4th International Conference of Computer and Informatics Engineering (IC2IE),1,0.00020990764063811922
+post_ai,"2021 7th International Conference on Electrical, Electronics and Information Engineering (ICEEIE)",1,0.00020990764063811922
+post_ai,2021 8th International Conference on Dependable Systems and Their Applications (DSA),1,0.00020990764063811922
+post_ai,"2021 IEEE 4th International Conference on Automation, Electronics and Electrical Engineering (AUTEEE)",1,0.00020990764063811922
+post_ai,"2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",1,0.00020990764063811922
+post_ai,2021 IEEE Symposium Series on Computational Intelligence (SSCI),1,0.00020990764063811922
+post_ai,2021 International Conference on Computational Science and Computational Intelligence (CSCI),1,0.00020990764063811922
+post_ai,"2021 International Conference on Electronics, Communications and Information Technology (ICECIT)",1,0.00020990764063811922
+post_ai,"2021 International Conference on System, Computation, Automation and Networking (ICSCAN)",1,0.00020990764063811922
+post_ai,2021 Third International Conference on Inventive Research in Computing Applications (ICIRCA),1,0.00020990764063811922
+post_ai,"2022 19th International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON)",1,0.00020990764063811922
+post_ai,2022 1st International Conference on Computational Science and Technology (ICCST),1,0.00020990764063811922
+post_ai,2022 30th International Conference on Electrical Engineering (ICEE),1,0.00020990764063811922
+post_ai,2022 3rd International Conference on Smart Electronics and Communication (ICOSEC),1,0.00020990764063811922
+post_ai,"2022 45th Jubilee International Convention on Information, Communication and Electronic Technology (MIPRO)",1,0.00020990764063811922
+post_ai,2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT),1,0.00020990764063811922
+post_ai,2022 5th World Conference on Mechanical Engineering and Intelligent Manufacturing (WCMEIM),1,0.00020990764063811922
+post_ai,2022 6th International Conference on Computing Methodologies and Communication (ICCMC),1,0.00020990764063811922
+post_ai,2022 8th International Conference on Advanced Computing and Communication Systems (ICACCS),1,0.00020990764063811922
+post_ai,2022 9th International Conference on Computing for Sustainable Global Development (INDIACom),1,0.00020990764063811922
+post_ai,2022 Conference of Russian Young Researchers in Electrical and Electronic Engineering (ElConRus),1,0.00020990764063811922
+post_ai,2022 E-Health and Bioengineering Conference (EHB),1,0.00020990764063811922
+post_ai,2022 IEEE 11th Global Conference on Consumer Electronics (GCCE),1,0.00020990764063811922
+post_ai,2022 IEEE 21st Mediterranean Electrotechnical Conference (MELECON),1,0.00020990764063811922
+post_ai,2022 IEEE 38th International Conference on Data Engineering (ICDE),1,0.00020990764063811922
+post_ai,2022 IEEE 61st Conference on Decision and Control (CDC),1,0.00020990764063811922
+post_ai,2022 IEEE 96th Vehicular Technology Conference (VTC2022-Fall),1,0.00020990764063811922
+post_ai,2022 IEEE Congress on Evolutionary Computation (CEC),1,0.00020990764063811922
+post_ai,2022 IEEE International Conference on Consumer Electronics (ICCE),1,0.00020990764063811922
+post_ai,2022 IEEE International Conference on Data Science and Information System (ICDSIS),1,0.00020990764063811922
+post_ai,2022 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE),1,0.00020990764063811922
+post_ai,2022 IEEE International Conference on Image Processing (ICIP),1,0.00020990764063811922
+post_ai,2022 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops),1,0.00020990764063811922
+post_ai,2022 IEEE International Symposium on Circuits and Systems (ISCAS),1,0.00020990764063811922
+post_ai,2022 IEEE Spoken Language Technology Workshop (SLT),1,0.00020990764063811922
+post_ai,2022 IEEE Symposium on Security and Privacy (SP),1,0.00020990764063811922
+post_ai,2022 IEEE Wireless Communications and Networking Conference (WCNC),1,0.00020990764063811922
+post_ai,"2022 International Conference on Advances in Computing, Communication and Applied Informatics (ACCAI)",1,0.00020990764063811922
+post_ai,"2022 International Conference on Electrical, Computer and Energy Technologies (ICECET)",1,0.00020990764063811922
+post_ai,"2022 International Conference on Electronics, Information, and Communication (ICEIC)",1,0.00020990764063811922
+post_ai,2022 International Conference on Information Networking (ICOIN),1,0.00020990764063811922
+post_ai,"2022 International Conference on Machine Learning, Big Data, Cloud and Parallel Computing (COM-IT-CON)",1,0.00020990764063811922
+post_ai,ACCENTIA Journal of English Language and Education,1,0.00020990764063811922
+post_ai,ACM Journal on Responsible Computing,1,0.00020990764063811922
+post_ai,ACM SIGMOD Record,1,0.00020990764063811922
+post_ai,ACM Transactions on Asian and Low-Resource Language Information Processing,1,0.00020990764063811922
+post_ai,ACM Transactions on Computational Logic,1,0.00020990764063811922
+post_ai,ACM Transactions on Computer-Human Interaction,1,0.00020990764063811922
+post_ai,ACM Transactions on Computing for Healthcare,1,0.00020990764063811922
+post_ai,ACM Transactions on Human-Robot Interaction,1,0.00020990764063811922
+post_ai,ACM Transactions on Information and System Security,1,0.00020990764063811922
+post_ai,ACM Transactions on Intelligent Systems and Technology,1,0.00020990764063811922
+post_ai,ACM Transactions on Interactive Intelligent Systems,1,0.00020990764063811922
+post_ai,ACM Transactions on Management Information Systems,1,0.00020990764063811922
+post_ai,ACM Transactions on Programming Languages and Systems,1,0.00020990764063811922
+post_ai,ACS Omega,1,0.00020990764063811922
+post_ai,ACTA AUTOMATICA SINICA,1,0.00020990764063811922
+post_ai,AI & Society,1,0.00020990764063811922
+post_ai,AI Computer Science and Robotics Technology,1,0.00020990764063811922
+post_ai,AI Magazine,1,0.00020990764063811922
+post_ai,AI Open,1,0.00020990764063811922
+post_ai,AI and Ethics,1,0.00020990764063811922
+post_ai,AIAA Journal,1,0.00020990764063811922
+post_ai,AIChE Journal,1,0.00020990764063811922
+post_ai,AIDS Research and Therapy,1,0.00020990764063811922
+post_ai,AIMS Mathematics,1,0.00020990764063811922
+post_ai,APL Machine Learning,1,0.00020990764063811922
+post_ai,APL Photonics,1,0.00020990764063811922
+post_ai,ASEG Extended Abstracts,1,0.00020990764063811922
+post_ai,Academy of Management Review,1,0.00020990764063811922
+post_ai,Acta Académica (Acta Académica),1,0.00020990764063811922
+post_ai,Acta Analytica,1,0.00020990764063811922
+post_ai,Acta Geological Sinica,1,0.00020990764063811922
+post_ai,Actuators,1,0.00020990764063811922
+post_ai,Adi Widya Jurnal Pendidikan Dasar,1,0.00020990764063811922
+post_ai,Administration & Society,1,0.00020990764063811922
+post_ai,Advanced Humanities and Social Sciences,1,0.00020990764063811922
+post_ai,Advances in Adaptive Data Analysis,1,0.00020990764063811922
+post_ai,Advances in Applied Probability,1,0.00020990764063811922
+post_ai,Advances in Engineering Software,1,0.00020990764063811922
+post_ai,Advances in Remote Sensing,1,0.00020990764063811922
+post_ai,Aerosol Science and Technology,1,0.00020990764063811922
+post_ai,African Journal of Agricultural Research,1,0.00020990764063811922
+post_ai,Agriculture,1,0.00020990764063811922
+post_ai,Alexandria Engineering Journal,1,0.00020990764063811922
+post_ai,Alexandria The Journal of National and International Library and Information Issues,1,0.00020990764063811922
+post_ai,Algorithmica,1,0.00020990764063811922
+post_ai,Algorithms for Molecular Biology,1,0.00020990764063811922
+post_ai,Alter,1,0.00020990764063811922
+post_ai,Alzheimer s & Dementia Translational Research & Clinical Interventions,1,0.00020990764063811922
+post_ai,Alzheimer s Research & Therapy,1,0.00020990764063811922
+post_ai,American Economic Review,1,0.00020990764063811922
+post_ai,American Journal of Clinical Hypnosis,1,0.00020990764063811922
+post_ai,American Journal of Sociology,1,0.00020990764063811922
+post_ai,American Mathematical Monthly,1,0.00020990764063811922
+post_ai,"Analele Universităţii ""Ovidius"" Constanţa. Seria Matematică",1,0.00020990764063811922
+post_ai,Analytical Chemistry,1,0.00020990764063811922
+post_ai,Andalas University Repository (Andalas University),1,0.00020990764063811922
+post_ai,Angewandte Chemie,1,0.00020990764063811922
+post_ai,Angewandte Chemie International Edition,1,0.00020990764063811922
+post_ai,Annals of Internal Medicine,1,0.00020990764063811922
+post_ai,Annals of Medicine and Surgery,1,0.00020990764063811922
+post_ai,Annals of Translational Medicine,1,0.00020990764063811922
+post_ai,Annual Computer Security Applications Conference,1,0.00020990764063811922
+post_ai,Annual Review of Control Robotics and Autonomous Systems,1,0.00020990764063811922
+post_ai,Annual Review of Fluid Mechanics,1,0.00020990764063811922
+post_ai,Annual Review of Marine Science,1,0.00020990764063811922
+post_ai,Annual Review of Public Health,1,0.00020990764063811922
+post_ai,Annual Review of Sociology,1,0.00020990764063811922
+post_ai,Annual Review of Statistics and Its Application,1,0.00020990764063811922
+post_ai,Apollo (University of Cambridge),1,0.00020990764063811922
+post_ai,Applied Bionics and Biomechanics,1,0.00020990764063811922
+post_ai,Applied Clinical Informatics,1,0.00020990764063811922
+post_ai,Applied Energy,1,0.00020990764063811922
+post_ai,Applied Linguistics,1,0.00020990764063811922
+post_ai,Applied Mathematics & Information Sciences,1,0.00020990764063811922
+post_ai,Applied and Computational Engineering,1,0.00020990764063811922
+post_ai,Arabian Journal of Geosciences,1,0.00020990764063811922
+post_ai,Archivaria,1,0.00020990764063811922
+post_ai,Archive ouverte UNIGE (University of Geneva),1,0.00020990764063811922
+post_ai,Archives for Technical Sciences,1,0.00020990764063811922
+post_ai,Archivio istituzionale della ricerca (Alma Mater Studiorum Università di Bologna),1,0.00020990764063811922
+post_ai,Artificial Intelligence Review,1,0.00020990764063811922
+post_ai,Artificial Intelligence in Agriculture,1,0.00020990764063811922
+post_ai,Artificial Intelligence in Medicine,1,0.00020990764063811922
+post_ai,Artificial Intelligence in the Life Sciences,1,0.00020990764063811922
+post_ai,Artificial Life,1,0.00020990764063811922
+post_ai,Asia Pacific Journal of Education,1,0.00020990764063811922
+post_ai,Asian Survey,1,0.00020990764063811922
+post_ai,Aslib Proceedings,1,0.00020990764063811922
+post_ai,Association of College and Research Libraries eBooks,1,0.00020990764063811922
+post_ai,Athabasca University Press eBooks,1,0.00020990764063811922
+post_ai,Australasian Marketing Journal (AMJ),1,0.00020990764063811922
+post_ai,Australian & New Zealand Journal of Psychiatry,1,0.00020990764063811922
+post_ai,Australian Journal of Agricultural Research,1,0.00020990764063811922
+post_ai,Australian Social Work,1,0.00020990764063811922
+post_ai,BJPsych Open,1,0.00020990764063811922
+post_ai,BMC Cardiovascular Disorders,1,0.00020990764063811922
+post_ai,BMC Medicine,1,0.00020990764063811922
+post_ai,BMC Psychology,1,0.00020990764063811922
+post_ai,BMC Research Notes,1,0.00020990764063811922
+post_ai,BMJ Quality & Safety,1,0.00020990764063811922
+post_ai,Bangladesh Journal of Multidisciplinary Scientific Research,1,0.00020990764063811922
+post_ai,Bayesian Analysis,1,0.00020990764063811922
+post_ai,Behavior Modification,1,0.00020990764063811922
+post_ai,Behavior Research Methods,1,0.00020990764063811922
+post_ai,Behavioral Ecology,1,0.00020990764063811922
+post_ai,Big Data & Society,1,0.00020990764063811922
+post_ai,Big Data and Cognitive Computing,1,0.00020990764063811922
+post_ai,BioMed Research International,1,0.00020990764063811922
+post_ai,BioMedInformatics,1,0.00020990764063811922
+post_ai,BioMedical Engineering OnLine,1,0.00020990764063811922
+post_ai,Bioinformatics and Biology Insights,1,0.00020990764063811922
+post_ai,Biology Letters,1,0.00020990764063811922
+post_ai,Biomedizinische Technik/Biomedical Engineering,1,0.00020990764063811922
+post_ai,Biuletyn Instytutu Techniki Cieplnej,1,0.00020990764063811922
+post_ai,Bloomsbury Publishing Plc eBooks,1,0.00020990764063811922
+post_ai,Brain Injury,1,0.00020990764063811922
+post_ai,Brain Sciences,1,0.00020990764063811922
+post_ai,Brazilian Symposium on Software Engineering,1,0.00020990764063811922
+post_ai,British Journal of Applied Science & Technology,1,0.00020990764063811922
+post_ai,Bulletin of Electrical Engineering and Informatics,1,0.00020990764063811922
+post_ai,Bulletin of Miscellaneous Information (Royal Gardens Kew),1,0.00020990764063811922
+post_ai,Bulletin of Symbolic Logic,1,0.00020990764063811922
+post_ai,Bulletin of the Tomsk Polytechnic University Geo Assets Engineering,1,0.00020990764063811922
+post_ai,Business Inform,1,0.00020990764063811922
+post_ai,Business Information Review,1,0.00020990764063811922
+post_ai,CHI Conference on Human Factors in Computing Systems,1,0.00020990764063811922
+post_ai,COMPEL The International Journal for Computation and Mathematics in Electrical and Electronic Engineering,1,0.00020990764063811922
+post_ai,Cambridge Explorations in Arts and Sciences,1,0.00020990764063811922
+post_ai,Cambridge Journal of Economics,1,0.00020990764063811922
+post_ai,Canadian Journal of Mathematics,1,0.00020990764063811922
+post_ai,Canadian Journal of Remote Sensing,1,0.00020990764063811922
+post_ai,Canadian Medical Association Journal,1,0.00020990764063811922
+post_ai,Cancer,1,0.00020990764063811922
+post_ai,Cancer Prevention Research,1,0.00020990764063811922
+post_ai,Cataloging & Classification Quarterly,1,0.00020990764063811922
+post_ai,Cell Reports Medicine,1,0.00020990764063811922
+post_ai,Cells,1,0.00020990764063811922
+post_ai,Chalmers Research (Chalmers University of Technology),1,0.00020990764063811922
+post_ai,Change The Magazine of Higher Learning,1,0.00020990764063811922
+post_ai,Chaos An Interdisciplinary Journal of Nonlinear Science,1,0.00020990764063811922
+post_ai,ChemBioChem,1,0.00020990764063811922
+post_ai,Chemical and Pharmaceutical Bulletin,1,0.00020990764063811922
+post_ai,Child & Family Social Work,1,0.00020990764063811922
+post_ai,Children and Youth Services Review,1,0.00020990764063811922
+post_ai,China Economic Journal,1,0.00020990764063811922
+post_ai,Chinese Journal of Electronics,1,0.00020990764063811922
+post_ai,Church History,1,0.00020990764063811922
+post_ai,City Research Online (City University London),1,0.00020990764063811922
+post_ai,Cleaner Energy Systems,1,0.00020990764063811922
+post_ai,Clinical Cardiology,1,0.00020990764063811922
+post_ai,Clinical Chemistry,1,0.00020990764063811922
+post_ai,Clinical Psychology Science and Practice,1,0.00020990764063811922
+post_ai,Cogent Business & Management,1,0.00020990764063811922
+post_ai,Cognitive Robotics,1,0.00020990764063811922
+post_ai,Collection Building,1,0.00020990764063811922
+post_ai,Collection and Curation,1,0.00020990764063811922
+post_ai,College & Research Libraries,1,0.00020990764063811922
+post_ai,College student journal,1,0.00020990764063811922
+post_ai,ComTech Computer Mathematics and Engineering Applications,1,0.00020990764063811922
+post_ai,Common Knowledge,1,0.00020990764063811922
+post_ai,Communication Research,1,0.00020990764063811922
+post_ai,Communication Teacher,1,0.00020990764063811922
+post_ai,Communication Theory,1,0.00020990764063811922
+post_ai,Communications Medicine,1,0.00020990764063811922
+post_ai,Communications Physics,1,0.00020990764063811922
+post_ai,Communications in Contemporary Mathematics,1,0.00020990764063811922
+post_ai,Complexity,1,0.00020990764063811922
+post_ai,Comprehensive Reviews in Food Science and Food Safety,1,0.00020990764063811922
+post_ai,Computability,1,0.00020990764063811922
+post_ai,Computational Linguistics,1,0.00020990764063811922
+post_ai,Computer Applications in Engineering Education,1,0.00020990764063811922
+post_ai,Computer Methods in Applied Mechanics and Engineering,1,0.00020990764063811922
+post_ai,Computer Networks,1,0.00020990764063811922
+post_ai,Computer Science Education,1,0.00020990764063811922
+post_ai,Computer Science and Information Technologies,1,0.00020990764063811922
+post_ai,Computer Speech & Language,1,0.00020990764063811922
+post_ai,Computer Systems Science and Engineering,1,0.00020990764063811922
+post_ai,Computers & Geosciences,1,0.00020990764063811922
+post_ai,Computers & Industrial Engineering,1,0.00020990764063811922
+post_ai,Computers and Electronics in Agriculture,1,0.00020990764063811922
+post_ai,Computers in Biology and Medicine,1,0.00020990764063811922
+post_ai,Computers in the Schools,1,0.00020990764063811922
+post_ai,"Computers, materials & continua/Computers, materials & continua (Print)",1,0.00020990764063811922
+post_ai,Computing in Civil Engineering 2021,1,0.00020990764063811922
+post_ai,Critical Studies in Mass Communication,1,0.00020990764063811922
+post_ai,Cureus,1,0.00020990764063811922
+post_ai,Cyber Security and Applications,1,0.00020990764063811922
+post_ai,CytoJournal,1,0.00020990764063811922
+post_ai,Dadi gouzao yu chengkuangxue,1,0.00020990764063811922
+post_ai,Dagstuhl Research Online Publication Server,1,0.00020990764063811922
+post_ai,Data Mining and Knowledge Discovery,1,0.00020990764063811922
+post_ai,Data Science Journal,1,0.00020990764063811922
+post_ai,Data and Information Management,1,0.00020990764063811922
+post_ai,Database,1,0.00020990764063811922
+post_ai,Datokarama English Education Journal,1,0.00020990764063811922
+post_ai,Deakin Research Online (Deakin University),1,0.00020990764063811922
+post_ai,Defence Science Journal,1,0.00020990764063811922
+post_ai,Demographic Research,1,0.00020990764063811922
+post_ai,Designs Codes and Cryptography,1,0.00020990764063811922
+post_ai,Development and Psychopathology,1,0.00020990764063811922
+post_ai,Diagnostic Cytopathology,1,0.00020990764063811922
+post_ai,Didaktik Jurnal Ilmiah PGSD STKIP Subang,1,0.00020990764063811922
+post_ai,Digital Commons at University of Maryland Carey Law (University of Maryland Francis King Carey School of Law),1,0.00020990764063811922
+post_ai,Digital Communications and Networks,1,0.00020990764063811922
+post_ai,Diophantine Journal of Mathematics and Its Applications,1,0.00020990764063811922
+post_ai,Discourse Processes,1,0.00020990764063811922
+post_ai,Discrete Dynamics in Nature and Society,1,0.00020990764063811922
+post_ai,Discrete and Continuous Dynamical Systems - S,1,0.00020990764063811922
+post_ai,Diva portal (Dalarna University Library),1,0.00020990764063811922
+post_ai,Dizhi lunping,1,0.00020990764063811922
+post_ai,Dusunen Adam The Journal of Psychiatry and Neurological Sciences,1,0.00020990764063811922
+post_ai,E-Jurnal Ekonomi dan Bisnis Universitas Udayana,1,0.00020990764063811922
+post_ai,E-LIS Repository (University of Naples Federico II),1,0.00020990764063811922
+post_ai,E3S Web of Conferences,1,0.00020990764063811922
+post_ai,EAI Endorsed Transactions on Energy Web,1,0.00020990764063811922
+post_ai,EBioMedicine,1,0.00020990764063811922
+post_ai,EDIS,1,0.00020990764063811922
+post_ai,EKONOMIS Journal of Economics and Business,1,0.00020990764063811922
+post_ai,ENGLISH FRANCA Academic Journal of English Language and Education,1,0.00020990764063811922
+post_ai,ENGLISH JOURNAL OF INDRAGIRI,1,0.00020990764063811922
+post_ai,ENLIGHTEN (Jurnal Bimbingan dan Konseling Islam),1,0.00020990764063811922
+post_ai,EPJ Web of Conferences,1,0.00020990764063811922
+post_ai,ESARBICA Journal Journal of the Eastern and Southern Africa Regional Branch of the International Council on Archives,1,0.00020990764063811922
+post_ai,ESSACHESS/Essachess,1,0.00020990764063811922
+post_ai,EURASIP Journal on Audio Speech and Music Processing,1,0.00020990764063811922
+post_ai,Earth-Science Reviews,1,0.00020990764063811922
+post_ai,Economy and Society,1,0.00020990764063811922
+post_ai,Educational Psychology Review,1,0.00020990764063811922
+post_ai,Egyptian Informatics Journal,1,0.00020990764063811922
+post_ai,Electric Power Components and Systems,1,0.00020990764063811922
+post_ai,Electronic Proceedings in Theoretical Computer Science,1,0.00020990764063811922
+post_ai,Electronics & Communications Engineering Journal,1,0.00020990764063811922
+post_ai,Empirical Software Engineering,1,0.00020990764063811922
+post_ai,Energy Sources Part A Recovery Utilization and Environmental Effects,1,0.00020990764063811922
+post_ai,Engaging Science Technology and Society,1,0.00020990764063811922
+post_ai,Engineering Science and Technology an International Journal,1,0.00020990764063811922
+post_ai,Entertainment Computing,1,0.00020990764063811922
+post_ai,Environment and Planning A Economy and Space,1,0.00020990764063811922
+post_ai,Environmental Research Letters,1,0.00020990764063811922
+post_ai,Environmental Science Nano,1,0.00020990764063811922
+post_ai,Eos,1,0.00020990764063811922
+post_ai,Episodes,1,0.00020990764063811922
+post_ai,European Conference on Cyber Warfare and Security,1,0.00020990764063811922
+post_ai,European Journal of Computer Science and Information Technology,1,0.00020990764063811922
+post_ai,European Journal of Language Policy,1,0.00020990764063811922
+post_ai,European Journal of Obstetrics & Gynecology and Reproductive Biology,1,0.00020990764063811922
+post_ai,European Journal of Pediatrics,1,0.00020990764063811922
+post_ai,European Journal of Physics,1,0.00020990764063811922
+post_ai,European Journal of Social Psychology,1,0.00020990764063811922
+post_ai,European Journal of Soil Science,1,0.00020990764063811922
+post_ai,European Journal of the History of Economic Thought,1,0.00020990764063811922
+post_ai,European Psychiatry,1,0.00020990764063811922
+post_ai,Evidence & Policy,1,0.00020990764063811922
+post_ai,Expert Systems,1,0.00020990764063811922
+post_ai,Expert Systems with Applications,1,0.00020990764063811922
+post_ai,Exploration Geophysics,1,0.00020990764063811922
+post_ai,F1000Research,1,0.00020990764063811922
+post_ai,FIIB Business Review,1,0.00020990764063811922
+post_ai,FUDMA JOURNAL OF SCIENCES - ISSN: 2616-1370,1,0.00020990764063811922
+post_ai,Family Practice,1,0.00020990764063811922
+post_ai,Federal Reserve Bulletin,1,0.00020990764063811922
+post_ai,Feminist Philosophy Quarterly,1,0.00020990764063811922
+post_ai,Fixed Point Theory and Applications,1,0.00020990764063811922
+post_ai,Forum of Mathematics Pi,1,0.00020990764063811922
+post_ai,Foundations and Trends® in Machine Learning,1,0.00020990764063811922
+post_ai,Fractal and Fractional,1,0.00020990764063811922
+post_ai,Frontiers in Bioengineering and Biotechnology,1,0.00020990764063811922
+post_ai,Frontiers in Computational Neuroscience,1,0.00020990764063811922
+post_ai,Frontiers in Computer Science,1,0.00020990764063811922
+post_ai,Frontiers in Digital Health,1,0.00020990764063811922
+post_ai,Frontiers in Energy Research,1,0.00020990764063811922
+post_ai,Frontiers in Environmental Science,1,0.00020990764063811922
+post_ai,Frontiers in Genetics,1,0.00020990764063811922
+post_ai,Frontiers in Immunology,1,0.00020990764063811922
+post_ai,Frontiers in Medicine,1,0.00020990764063811922
+post_ai,Frontiers in Neuroscience,1,0.00020990764063811922
+post_ai,Frontiers in Physiology,1,0.00020990764063811922
+post_ai,Frontiers in Virtual Reality,1,0.00020990764063811922
+post_ai,Frontiers of Optoelectronics,1,0.00020990764063811922
+post_ai,Fundamenta Informaticae,1,0.00020990764063811922
+post_ai,Fundamental Journal of Mathematics and Applications,1,0.00020990764063811922
+post_ai,Future Generation Computer Systems,1,0.00020990764063811922
+post_ai,Future in Educational Research,1,0.00020990764063811922
+post_ai,GLOBECOM 2022 - 2022 IEEE Global Communications Conference,1,0.00020990764063811922
+post_ai,Geological Journal,1,0.00020990764063811922
+post_ai,Geological Society London Special Publications,1,0.00020990764063811922
+post_ai,Geology,1,0.00020990764063811922
+post_ai,Geology and Exploration,1,0.00020990764063811922
+post_ai,Geology and Resources,1,0.00020990764063811922
+post_ai,Geophysical Research Letters,1,0.00020990764063811922
+post_ai,Geophysics,1,0.00020990764063811922
+post_ai,Georgian Mathematical Journal,1,0.00020990764063811922
+post_ai,Geosciences,1,0.00020990764063811922
+post_ai,GetMobile Mobile Computing and Communications,1,0.00020990764063811922
+post_ai,Global Knowledge Memory and Communication,1,0.00020990764063811922
+post_ai,Global Transitions Proceedings,1,0.00020990764063811922
+post_ai,Governance,1,0.00020990764063811922
+post_ai,Government Information Quarterly,1,0.00020990764063811922
+post_ai,Graphics Interface,1,0.00020990764063811922
+post_ai,HIV & AIDS Review,1,0.00020990764063811922
+post_ai,Harmonia Journal of Arts Research and Education,1,0.00020990764063811922
+post_ai,Harvard Review of Psychiatry,1,0.00020990764063811922
+post_ai,Health Expectations,1,0.00020990764063811922
+post_ai,Health Psychology Report,1,0.00020990764063811922
+post_ai,Health Research Policy and Systems,1,0.00020990764063811922
+post_ai,Healthcare Analytics,1,0.00020990764063811922
+post_ai,Healthcare in Low-resource Settings,1,0.00020990764063811922
+post_ai,Healthcare policy,1,0.00020990764063811922
+post_ai,Heart,1,0.00020990764063811922
+post_ai,Heart Failure Reviews,1,0.00020990764063811922
+post_ai,Human-centric Computing and Information Sciences,1,0.00020990764063811922
+post_ai,Humanities and Social Sciences Communications,1,0.00020990764063811922
+post_ai,Hybrid Advances,1,0.00020990764063811922
+post_ai,Híradástechnika/Infocommunications journal,1,0.00020990764063811922
+post_ai,IACR Cryptology ePrint Archive,1,0.00020990764063811922
+post_ai,IDEAS Journal on English Language Teaching and Learning Linguistics and Literature,1,0.00020990764063811922
+post_ai,IEEE Aerospace and Electronic Systems Magazine,1,0.00020990764063811922
+post_ai,IEEE Antennas and Wireless Propagation Letters,1,0.00020990764063811922
+post_ai,IEEE Cloud Computing,1,0.00020990764063811922
+post_ai,IEEE Consumer Electronics Magazine,1,0.00020990764063811922
+post_ai,IEEE Control Systems Magazine,1,0.00020990764063811922
+post_ai,IEEE INFOCOM 2022 - IEEE Conference on Computer Communications,1,0.00020990764063811922
+post_ai,IEEE Intelligent Transportation Systems Magazine,1,0.00020990764063811922
+post_ai,IEEE Internet Computing,1,0.00020990764063811922
+post_ai,IEEE Internet of Things Magazine,1,0.00020990764063811922
+post_ai,IEEE Journal of Microwaves,1,0.00020990764063811922
+post_ai,IEEE Journal of Translational Engineering in Health and Medicine,1,0.00020990764063811922
+post_ai,IEEE Journal on Robotics and Automation,1,0.00020990764063811922
+post_ai,IEEE Journal on Selected Areas in Information Theory,1,0.00020990764063811922
+post_ai,IEEE Pervasive Computing,1,0.00020990764063811922
+post_ai,IEEE Reviews in Biomedical Engineering,1,0.00020990764063811922
+post_ai,IEEE Robotics & Automation Magazine,1,0.00020990764063811922
+post_ai,IEEE Transactions on Acoustics Speech and Signal Processing,1,0.00020990764063811922
+post_ai,IEEE Transactions on Audio Speech and Language Processing,1,0.00020990764063811922
+post_ai,IEEE Transactions on Cloud Computing,1,0.00020990764063811922
+post_ai,IEEE Transactions on Cognitive and Developmental Systems,1,0.00020990764063811922
+post_ai,IEEE Transactions on Computational Social Systems,1,0.00020990764063811922
+post_ai,IEEE Transactions on Control of Network Systems,1,0.00020990764063811922
+post_ai,IEEE Transactions on Emerging Topics in Computational Intelligence,1,0.00020990764063811922
+post_ai,IEEE Transactions on Games,1,0.00020990764063811922
+post_ai,IEEE Transactions on Green Communications and Networking,1,0.00020990764063811922
+post_ai,IEEE Transactions on Information Technology in Biomedicine,1,0.00020990764063811922
+post_ai,IEEE Transactions on Intelligent Vehicles,1,0.00020990764063811922
+post_ai,IEEE Transactions on Microwave Theory and Techniques,1,0.00020990764063811922
+post_ai,IEEE Transactions on Network and Service Management,1,0.00020990764063811922
+post_ai,IEEE Transactions on Neural Systems and Rehabilitation Engineering,1,0.00020990764063811922
+post_ai,IEEE Transactions on Parallel and Distributed Systems,1,0.00020990764063811922
+post_ai,IEEE Transactions on Power Electronics,1,0.00020990764063811922
+post_ai,IEEE Transactions on Signal and Information Processing over Networks,1,0.00020990764063811922
+post_ai,IEEE Transactions on Sustainable Energy,1,0.00020990764063811922
+post_ai,IEEE Vehicular Technology Magazine,1,0.00020990764063811922
+post_ai,IET Communications,1,0.00020990764063811922
+post_ai,IET Electric Power Applications,1,0.00020990764063811922
+post_ai,IET Information Security,1,0.00020990764063811922
+post_ai,IET Radar Sonar & Navigation,1,0.00020990764063811922
+post_ai,IET Science Measurement & Technology,1,0.00020990764063811922
+post_ai,IET Signal Processing,1,0.00020990764063811922
+post_ai,IET conference proceedings.,1,0.00020990764063811922
+post_ai,IFAC-PapersOnLine,1,0.00020990764063811922
+post_ai,IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium,1,0.00020990764063811922
+post_ai,IJELTAL (Indonesian Journal of English Language Teaching and Applied Linguistics),1,0.00020990764063811922
+post_ai,IJET (Indonesian Journal of English Teaching),1,0.00020990764063811922
+post_ai,IMA Journal of Numerical Analysis,1,0.00020990764063811922
+post_ai,INDIGO (University of Illinois at Chicago),1,0.00020990764063811922
+post_ai,INDONESIAN JOURNAL OF MEDICAL LABORATORY SCIENCE AND TECHNOLOGY,1,0.00020990764063811922
+post_ai,INFORMS journal on computing,1,0.00020990764063811922
+post_ai,INOVISH JOURNAL,1,0.00020990764063811922
+post_ai,INTERNATIONAL JOURNAL OF ELECTRICAL ENGINEERING & TECHNOLOGY,1,0.00020990764063811922
+post_ai,IOP Conference Series Earth and Environmental Science,1,0.00020990764063811922
+post_ai,ISPRS Journal of Photogrammetry and Remote Sensing,1,0.00020990764063811922
+post_ai,ISRN Probability and Statistics,1,0.00020990764063811922
+post_ai,IT Professional,1,0.00020990764063811922
+post_ai,InTech eBooks,1,0.00020990764063811922
+post_ai,Indian Journal of Science and Technology,1,0.00020990764063811922
+post_ai,Information & Management,1,0.00020990764063811922
+post_ai,Information Communication & Society,1,0.00020990764063811922
+post_ai,Information Development,1,0.00020990764063811922
+post_ai,Information Discovery and Delivery,1,0.00020990764063811922
+post_ai,Information Processing in Agriculture,1,0.00020990764063811922
+post_ai,Information Security Journal A Global Perspective,1,0.00020990764063811922
+post_ai,Information Services & Use,1,0.00020990764063811922
+post_ai,Information Systems Research,1,0.00020990764063811922
+post_ai,Information Technology and People,1,0.00020990764063811922
+post_ai,Information and Computer Security,1,0.00020990764063811922
+post_ai,Information and Software Technology,1,0.00020990764063811922
+post_ai,Innovations in Education and Teaching International,1,0.00020990764063811922
+post_ai,Institutional Research Information System (Università degli Studi di Trento),1,0.00020990764063811922
+post_ai,Intelligent Computing,1,0.00020990764063811922
+post_ai,Intelligent Data Analysis,1,0.00020990764063811922
+post_ai,Intelligent and Converged Networks,1,0.00020990764063811922
+post_ai,Interacting with Computers,1,0.00020990764063811922
+post_ai,Interdisciplinary Journal Papier Human Review,1,0.00020990764063811922
+post_ai,International Conference of Moslem Society,1,0.00020990764063811922
+post_ai,International Conference on Computer Vision,1,0.00020990764063811922
+post_ai,International Conference on Cyber Warfare and Security,1,0.00020990764063811922
+post_ai,International Conference on Machine Learning,1,0.00020990764063811922
+post_ai,International Journal Corner of Educational Research,1,0.00020990764063811922
+post_ai,International Journal for Educational Integrity,1,0.00020990764063811922
+post_ai,International Journal for Numerical Methods in Engineering,1,0.00020990764063811922
+post_ai,International Journal of Advanced Robotic Systems,1,0.00020990764063811922
+post_ai,International Journal of Aerospace Engineering,1,0.00020990764063811922
+post_ai,International Journal of Arts Recreation and Sports,1,0.00020990764063811922
+post_ai,International Journal of Behavioral Nutrition and Physical Activity,1,0.00020990764063811922
+post_ai,International Journal of Bifurcation and Chaos,1,0.00020990764063811922
+post_ai,International Journal of Biological Sciences,1,0.00020990764063811922
+post_ai,International Journal of Business and Economics Research,1,0.00020990764063811922
+post_ai,International Journal of Coal Science & Technology,1,0.00020990764063811922
+post_ai,International Journal of Communication Systems,1,0.00020990764063811922
+post_ai,International Journal of Computational Science and Engineering,1,0.00020990764063811922
+post_ai,International Journal of Computational Systems Engineering,1,0.00020990764063811922
+post_ai,International Journal of Computer Network and Information Security,1,0.00020990764063811922
+post_ai,International Journal of Computer Science Issues,1,0.00020990764063811922
+post_ai,International Journal of Computing and Digital Systems,1,0.00020990764063811922
+post_ai,International Journal of Development and Economic Sustainability,1,0.00020990764063811922
+post_ai,International Journal of Digital Earth,1,0.00020990764063811922
+post_ai,International Journal of Distributed Sensor Networks,1,0.00020990764063811922
+post_ai,International Journal of E-Services and Mobile Applications,1,0.00020990764063811922
+post_ai,International Journal of Education in Mathematics Science and Technology,1,0.00020990764063811922
+post_ai,International Journal of Electrical and Computer Engineering (IJECE),1,0.00020990764063811922
+post_ai,International Journal of Electrical and Electronic Engineering & Telecommunications,1,0.00020990764063811922
+post_ai,International Journal of Engineering Research and Applications,1,0.00020990764063811922
+post_ai,International Journal of Foundations of Computer Science,1,0.00020990764063811922
+post_ai,International Journal of Geo-Engineering,1,0.00020990764063811922
+post_ai,International Journal of Grid and Utility Computing,1,0.00020990764063811922
+post_ai,International Journal of Health Sciences,1,0.00020990764063811922
+post_ai,International Journal of Image and Data Fusion,1,0.00020990764063811922
+post_ai,International Journal of Information Management Data Insights,1,0.00020990764063811922
+post_ai,International Journal of Information Security,1,0.00020990764063811922
+post_ai,International Journal of Information Technology and Computer Science,1,0.00020990764063811922
+post_ai,International Journal of Information and Communication Technology,1,0.00020990764063811922
+post_ai,International Journal of Information and Education Technology,1,0.00020990764063811922
+post_ai,International Journal of Innovative Research and Scientific Studies,1,0.00020990764063811922
+post_ai,International Journal of Interactive Mobile Technologies (iJIM),1,0.00020990764063811922
+post_ai,International Journal of Internet Protocol Technology,1,0.00020990764063811922
+post_ai,International Journal of Machine Learning and Computing,1,0.00020990764063811922
+post_ai,International Journal of Mathematics and Mathematical Sciences,1,0.00020990764063811922
+post_ai,International Journal of Methods in Psychiatric Research,1,0.00020990764063811922
+post_ai,International Journal of Mobile Communications,1,0.00020990764063811922
+post_ai,International Journal of Mobile Learning and Organisation,1,0.00020990764063811922
+post_ai,International Journal of Network Management,1,0.00020990764063811922
+post_ai,International Journal of Network Security & Its Applications,1,0.00020990764063811922
+post_ai,International Journal of Neural Systems,1,0.00020990764063811922
+post_ai,International Journal of Pattern Recognition and Artificial Intelligence,1,0.00020990764063811922
+post_ai,International Journal of Physical Distribution & Logistics Management,1,0.00020990764063811922
+post_ai,International Journal of Probability and Statistics,1,0.00020990764063811922
+post_ai,International Journal of Productivity and Performance Management,1,0.00020990764063811922
+post_ai,International Journal of Psychology,1,0.00020990764063811922
+post_ai,International Journal of Renewable Energy Research,1,0.00020990764063811922
+post_ai,International Journal of Research in Advent Technology,1,0.00020990764063811922
+post_ai,International Journal of Research in Marketing,1,0.00020990764063811922
+post_ai,International Journal of STEM Education,1,0.00020990764063811922
+post_ai,International Journal of Smart Home,1,0.00020990764063811922
+post_ai,International Journal of Social Robotics,1,0.00020990764063811922
+post_ai,International Journal of Surgery,1,0.00020990764063811922
+post_ai,International Journal of Web and Grid Services,1,0.00020990764063811922
+post_ai,International Journal of Wildland Fire,1,0.00020990764063811922
+post_ai,International Transactions in Operational Research,1,0.00020990764063811922
+post_ai,International e-Journal of Educational Studies,1,0.00020990764063811922
+post_ai,Internet of Things,1,0.00020990764063811922
+post_ai,Interspeech 2022,1,0.00020990764063811922
+post_ai,Iqtishaduna Jurnal Ilmiah Ekonomi Kita,1,0.00020990764063811922
+post_ai,Iraqi Journal of Computer Communication Control and System Engineering,1,0.00020990764063811922
+post_ai,Iraqi Journal of Information & Communications Technology,1,0.00020990764063811922
+post_ai,Issues in Science and Technology Librarianship,1,0.00020990764063811922
+post_ai,JAMA Dermatology,1,0.00020990764063811922
+post_ai,JAMA Health Forum,1,0.00020990764063811922
+post_ai,JAMA Network Open,1,0.00020990764063811922
+post_ai,JAMA Neurology,1,0.00020990764063811922
+post_ai,JAMA Psychiatry,1,0.00020990764063811922
+post_ai,JBJS Reviews,1,0.00020990764063811922
+post_ai,JMIR AI,1,0.00020990764063811922
+post_ai,JMIR Formative Research,1,0.00020990764063811922
+post_ai,JMIR Medical Informatics,1,0.00020990764063811922
+post_ai,JMIR Research Protocols,1,0.00020990764063811922
+post_ai,JMIR Serious Games,1,0.00020990764063811922
+post_ai,JNCI Journal of the National Cancer Institute,1,0.00020990764063811922
+post_ai,JOIV International Journal on Informatics Visualization,1,0.00020990764063811922
+post_ai,JRSM Open,1,0.00020990764063811922
+post_ai,JURNAL AKUNTANSI DAN BISNIS Jurnal Program Studi Akuntansi,1,0.00020990764063811922
+post_ai,JURNAL AKUNTANSI UNIVERSITAS JEMBER,1,0.00020990764063811922
+post_ai,JURNAL MEDIA INFORMATIKA BUDIDARMA,1,0.00020990764063811922
+post_ai,JURNAL PASIFIK PENDIDIKAN,1,0.00020990764063811922
+post_ai,JUTSI (Jurnal Teknologi dan Sistem Informasi),1,0.00020990764063811922
+post_ai,Japanese Journal of Clinical Oncology,1,0.00020990764063811922
+post_ai,Journal Of Advanced Zoology,1,0.00020990764063811922
+post_ai,Journal of Abnormal Psychology,1,0.00020990764063811922
+post_ai,Journal of Advances in Modeling Earth Systems,1,0.00020990764063811922
+post_ai,Journal of Algebra and Its Applications,1,0.00020990764063811922
+post_ai,Journal of Alzheimer s Disease,1,0.00020990764063811922
+post_ai,Journal of Anxiety Disorders,1,0.00020990764063811922
+post_ai,Journal of Applied Mechanics,1,0.00020990764063811922
+post_ai,Journal of Applied Probability,1,0.00020990764063811922
+post_ai,Journal of Applied Psychology,1,0.00020990764063811922
+post_ai,Journal of Applied Statistics,1,0.00020990764063811922
+post_ai,Journal of Artificial General Intelligence,1,0.00020990764063811922
+post_ai,Journal of Artificial Intelligence Research,1,0.00020990764063811922
+post_ai,Journal of Artificial Intelligence in Architecture,1,0.00020990764063811922
+post_ai,Journal of Asian Earth Sciences,1,0.00020990764063811922
+post_ai,Journal of Business Ethics,1,0.00020990764063811922
+post_ai,Journal of Business Strategy,1,0.00020990764063811922
+post_ai,Journal of Business and Industrial Marketing,1,0.00020990764063811922
+post_ai,Journal of Cancer,1,0.00020990764063811922
+post_ai,Journal of Cancer Research and Clinical Oncology,1,0.00020990764063811922
+post_ai,Journal of Career Assessment,1,0.00020990764063811922
+post_ai,Journal of Child Psychology and Psychiatry,1,0.00020990764063811922
+post_ai,Journal of Climate,1,0.00020990764063811922
+post_ai,Journal of Clinical Medicine,1,0.00020990764063811922
+post_ai,Journal of Cloud Computing Advances Systems and Applications,1,0.00020990764063811922
+post_ai,Journal of Communication,1,0.00020990764063811922
+post_ai,Journal of Communications,1,0.00020990764063811922
+post_ai,Journal of Computational Biology,1,0.00020990764063811922
+post_ai,Journal of Computational Neuroscience,1,0.00020990764063811922
+post_ai,Journal of Computational Physics,1,0.00020990764063811922
+post_ai,Journal of Computational and Theoretical Nanoscience,1,0.00020990764063811922
+post_ai,Journal of Computer Assisted Learning,1,0.00020990764063811922
+post_ai,Journal of Computer Networks and Communications,1,0.00020990764063811922
+post_ai,Journal of Computer and Communications,1,0.00020990764063811922
+post_ai,Journal of Computers in Education,1,0.00020990764063811922
+post_ai,Journal of Consulting and Clinical Psychology,1,0.00020990764063811922
+post_ai,Journal of Consumer Affairs,1,0.00020990764063811922
+post_ai,Journal of Consumer Psychology,1,0.00020990764063811922
+post_ai,Journal of Consumer Research,1,0.00020990764063811922
+post_ai,Journal of Creativity,1,0.00020990764063811922
+post_ai,Journal of Cryptology,1,0.00020990764063811922
+post_ai,Journal of Current Issues & Research in Advertising,1,0.00020990764063811922
+post_ai,Journal of Cyber Security Technology,1,0.00020990764063811922
+post_ai,Journal of Cybersecurity and Privacy,1,0.00020990764063811922
+post_ai,Journal of Data and Information Quality,1,0.00020990764063811922
+post_ai,Journal of Digital Imaging,1,0.00020990764063811922
+post_ai,Journal of Economic Bussines and Accounting (COSTING),1,0.00020990764063811922
+post_ai,Journal of Economic Impact,1,0.00020990764063811922
+post_ai,Journal of Education Health and Sport,1,0.00020990764063811922
+post_ai,Journal of Education and Learning,1,0.00020990764063811922
+post_ai,Journal of Education for Library and Information Science,1,0.00020990764063811922
+post_ai,Journal of Electronic Theses and Dissertations,1,0.00020990764063811922
+post_ai,Journal of English Education Studies,1,0.00020990764063811922
+post_ai,Journal of Experimental Biology,1,0.00020990764063811922
+post_ai,Journal of Experimental Psychology General,1,0.00020990764063811922
+post_ai,Journal of Experimental Psychology Learning Memory and Cognition,1,0.00020990764063811922
+post_ai,Journal of Field Robotics,1,0.00020990764063811922
+post_ai,Journal of Food Science,1,0.00020990764063811922
+post_ai,Journal of Foreign Languange Teaching and Learning,1,0.00020990764063811922
+post_ai,Journal of Geophysics and Engineering,1,0.00020990764063811922
+post_ai,Journal of Geoscience and Environment Protection,1,0.00020990764063811922
+post_ai,Journal of Global Information Management,1,0.00020990764063811922
+post_ai,Journal of Global Operations and Strategic Sourcing,1,0.00020990764063811922
+post_ai,Journal of Global Positioning Systems,1,0.00020990764063811922
+post_ai,Journal of Global Research in Computer Sciences,1,0.00020990764063811922
+post_ai,Journal of Graph Algorithms and Applications,1,0.00020990764063811922
+post_ai,Journal of Health Psychology,1,0.00020990764063811922
+post_ai,Journal of Health Services Research & Policy,1,0.00020990764063811922
+post_ai,Journal of Healthcare Engineering,1,0.00020990764063811922
+post_ai,Journal of Higher Education Policy and Management,1,0.00020990764063811922
+post_ai,Journal of Humanitarian Logistics and Supply Chain Management,1,0.00020990764063811922
+post_ai,Journal of Imaging,1,0.00020990764063811922
+post_ai,Journal of Information Technology Case and Application Research,1,0.00020990764063811922
+post_ai,Journal of Information Technology Education Research,1,0.00020990764063811922
+post_ai,Journal of Information and Communication Technology,1,0.00020990764063811922
+post_ai,Journal of Innovation & Knowledge,1,0.00020990764063811922
+post_ai,Journal of Instrumentation,1,0.00020990764063811922
+post_ai,Journal of King Saud University - Computer and Information Sciences,1,0.00020990764063811922
+post_ai,Journal of King Saud University - Engineering Sciences,1,0.00020990764063811922
+post_ai,Journal of Law and Social Policy,1,0.00020990764063811922
+post_ai,Journal of Librarianship and Information Science,1,0.00020990764063811922
+post_ai,Journal of Library Metadata,1,0.00020990764063811922
+post_ai,Journal of Machine Learning Research,1,0.00020990764063811922
+post_ai,Journal of Machine and Computing,1,0.00020990764063811922
+post_ai,Journal of Management Development,1,0.00020990764063811922
+post_ai,Journal of Management Information Systems,1,0.00020990764063811922
+post_ai,Journal of Manufacturing Technology Management,1,0.00020990764063811922
+post_ai,Journal of Mathematical Cryptology,1,0.00020990764063811922
+post_ai,Journal of Mathematical Physics,1,0.00020990764063811922
+post_ai,Journal of Mathematical and Computational Science,1,0.00020990764063811922
+post_ai,Journal of Mathematics and Computer Science,1,0.00020990764063811922
+post_ai,Journal of Mechanical Design,1,0.00020990764063811922
+post_ai,Journal of Mechanisms Transmissions and Automation in Design,1,0.00020990764063811922
+post_ai,Journal of Medical Education and Curricular Development,1,0.00020990764063811922
+post_ai,Journal of Metamorphic Geology,1,0.00020990764063811922
+post_ai,Journal of Multilingual and Multicultural Development,1,0.00020990764063811922
+post_ai,Journal of Navigation,1,0.00020990764063811922
+post_ai,Journal of Networks,1,0.00020990764063811922
+post_ai,Journal of NeuroEngineering and Rehabilitation,1,0.00020990764063811922
+post_ai,Journal of Neurochemistry,1,0.00020990764063811922
+post_ai,Journal of Occupational and Organizational Psychology,1,0.00020990764063811922
+post_ai,Journal of Optical Communications and Networking,1,0.00020990764063811922
+post_ai,Journal of Orthopaedic and Sports Physical Therapy,1,0.00020990764063811922
+post_ai,Journal of Physics A Mathematical and Theoretical,1,0.00020990764063811922
+post_ai,Journal of Physics Photonics,1,0.00020990764063811922
+post_ai,Journal of Politeness Research,1,0.00020990764063811922
+post_ai,Journal of Privacy and Confidentiality,1,0.00020990764063811922
+post_ai,Journal of Professional Issues in Engineering Education and Practice,1,0.00020990764063811922
+post_ai,Journal of Psychopharmacology,1,0.00020990764063811922
+post_ai,Journal of Public Administration Research and Theory,1,0.00020990764063811922
+post_ai,Journal of Public Relations Research,1,0.00020990764063811922
+post_ai,Journal of Pure and Applied Microbiology,1,0.00020990764063811922
+post_ai,Journal of Research and Development on Public Policy,1,0.00020990764063811922
+post_ai,Journal of Research in Interactive Marketing,1,0.00020990764063811922
+post_ai,Journal of Responsible Innovation,1,0.00020990764063811922
+post_ai,Journal of Responsible Technology,1,0.00020990764063811922
+post_ai,Journal of Retailing and Consumer Services,1,0.00020990764063811922
+post_ai,Journal of Scientific Computing,1,0.00020990764063811922
+post_ai,Journal of Sensors,1,0.00020990764063811922
+post_ai,Journal of Service Research,1,0.00020990764063811922
+post_ai,Journal of Small Business and Enterprise Development,1,0.00020990764063811922
+post_ai,Journal of Social Computing,1,0.00020990764063811922
+post_ai,Journal of Social Sciences,1,0.00020990764063811922
+post_ai,Journal of Social and Personal Relationships,1,0.00020990764063811922
+post_ai,Journal of Soil Science,1,0.00020990764063811922
+post_ai,Journal of Sports Sciences,1,0.00020990764063811922
+post_ai,Journal of Supply Chain Management,1,0.00020990764063811922
+post_ai,Journal of Sustainable Finance & Investment,1,0.00020990764063811922
+post_ai,Journal of Systems and Information Technology,1,0.00020990764063811922
+post_ai,Journal of Systems and Software,1,0.00020990764063811922
+post_ai,Journal of The Royal Society Interface,1,0.00020990764063811922
+post_ai,Journal of Travel Research,1,0.00020990764063811922
+post_ai,Journal of Ubiquitous Computing and Communication Technologies,1,0.00020990764063811922
+post_ai,Journal of Virology,1,0.00020990764063811922
+post_ai,Journal of Virtual Worlds Research,1,0.00020990764063811922
+post_ai,Journal of Visual Communication in Medicine,1,0.00020990764063811922
+post_ai,Journal of Waterway Port Coastal and Ocean Engineering,1,0.00020990764063811922
+post_ai,Journal of World Business,1,0.00020990764063811922
+post_ai,Journal of industrial engineering international,1,0.00020990764063811922
+post_ai,Journal of the American College of Surgeons,1,0.00020990764063811922
+post_ai,Journal of the American Society for Information Science and Technology,1,0.00020990764063811922
+post_ai,Journal of the Association for Consumer Research,1,0.00020990764063811922
+post_ai,Journal of the Audio Engineering Society,1,0.00020990764063811922
+post_ai,Journal of the Geological Society,1,0.00020990764063811922
+post_ai,Journal of the Korean Physical Society,1,0.00020990764063811922
+post_ai,Journal of the Royal Statistical Society Series C (Applied Statistics),1,0.00020990764063811922
+post_ai,Journal of the Saudi Society of Agricultural Sciences,1,0.00020990764063811922
+post_ai,Journal of the Society for Industrial and Applied Mathematics,1,0.00020990764063811922
+post_ai,Journalism,1,0.00020990764063811922
+post_ai,Jurnal EL-RIYASAH,1,0.00020990764063811922
+post_ai,Jurnal Informatika Teknologi dan Sains (Jinteks),1,0.00020990764063811922
+post_ai,Jurnal Komunikasi dan Ilmu Sosial,1,0.00020990764063811922
+post_ai,Jurnal Multidisiplin Madani,1,0.00020990764063811922
+post_ai,Jurnal NERS,1,0.00020990764063811922
+post_ai,Jurnal Pendidikan Bahasa Inggris Proficiency,1,0.00020990764063811922
+post_ai,Jurnal Pendidikan Sejarah,1,0.00020990764063811922
+post_ai,Jurnal Pengabdian Masyarakat dan Penelitian Terapan,1,0.00020990764063811922
+post_ai,KIU journal of science engineering and technology,1,0.00020990764063811922
+post_ai,KOMPLEKSITAS JURNAL ILMIAH MANAJEMEN ORGANISASI DAN BISNIS,1,0.00020990764063811922
+post_ai,Kongzhi yu juece,1,0.00020990764063811922
+post_ai,Korean journal of medical education,1,0.00020990764063811922
+post_ai,Kybernetes,1,0.00020990764063811922
+post_ai,LIBER Quarterly The Journal of the Association of European Research Libraries,1,0.00020990764063811922
+post_ai,Language,1,0.00020990764063811922
+post_ai,Language Learning,1,0.00020990764063811922
+post_ai,Language Resources and Evaluation,1,0.00020990764063811922
+post_ai,Law Innovation and Technology,1,0.00020990764063811922
+post_ai,Library & Archival Security,1,0.00020990764063811922
+post_ai,Library Resources and Technical Services,1,0.00020990764063811922
+post_ai,Library Review,1,0.00020990764063811922
+post_ai,Library trends,1,0.00020990764063811922
+post_ai,Light Advanced Manufacturing,1,0.00020990764063811922
+post_ai,Light Science & Applications,1,0.00020990764063811922
+post_ai,Linear and Multilinear Algebra,1,0.00020990764063811922
+post_ai,Lingua,1,0.00020990764063811922
+post_ai,Lingua Franca,1,0.00020990764063811922
+post_ai,Linguistics and Culture Review,1,0.00020990764063811922
+post_ai,Lodz Papers in Pragmatics,1,0.00020990764063811922
+post_ai,Logical Methods in Computer Science,1,0.00020990764063811922
+post_ai,MDPI (MDPI AG),1,0.00020990764063811922
+post_ai,MENDIDIK: Jurnal Kajian Pendidikan dan Pengajaran,1,0.00020990764063811922
+post_ai,MINISTERIO DE EDUCACIÓN,1,0.00020990764063811922
+post_ai,Machine Intelligence Research,1,0.00020990764063811922
+post_ai,Machines,1,0.00020990764063811922
+post_ai,Makara Journal of Science,1,0.00020990764063811922
+post_ai,Malaysian Journal of Computer Science,1,0.00020990764063811922
+post_ai,Management Decision,1,0.00020990764063811922
+post_ai,Management Research Review,1,0.00020990764063811922
+post_ai,Manufacturing & Service Operations Management,1,0.00020990764063811922
+post_ai,Materials & Design,1,0.00020990764063811922
+post_ai,Mathematical Research Letters,1,0.00020990764063811922
+post_ai,Mathematical Structures in Computer Science,1,0.00020990764063811922
+post_ai,Measuring Business Excellence,1,0.00020990764063811922
+post_ai,Mechanism and Machine Theory,1,0.00020990764063811922
+post_ai,Medicine & Science in Sports & Exercise,1,0.00020990764063811922
+post_ai,Memoirs of the American Mathematical Society,1,0.00020990764063811922
+post_ai,Merrill-Palmer Quarterly,1,0.00020990764063811922
+post_ai,Metabolites,1,0.00020990764063811922
+post_ai,Metals,1,0.00020990764063811922
+post_ai,Meteorologische Zeitschrift,1,0.00020990764063811922
+post_ai,Methods in Ecology and Evolution,1,0.00020990764063811922
+post_ai,Methods of Information in Medicine,1,0.00020990764063811922
+post_ai,Microprocessors and Microsystems,1,0.00020990764063811922
+post_ai,Midwest Studies in Philosophy,1,0.00020990764063811922
+post_ai,Milenial Journal for Teachers and Learning,1,0.00020990764063811922
+post_ai,Mind & Language,1,0.00020990764063811922
+post_ai,Minds and Machines,1,0.00020990764063811922
+post_ai,Mobile Information Systems,1,0.00020990764063811922
+post_ai,Modern Economy,1,0.00020990764063811922
+post_ai,Monthly Weather Review,1,0.00020990764063811922
+post_ai,Moscow University Soil Science Bulletin,1,0.00020990764063811922
+post_ai,Movement Disorders,1,0.00020990764063811922
+post_ai,Multilingual Matters eBooks,1,0.00020990764063811922
+post_ai,Multimodal Technologies and Interaction,1,0.00020990764063811922
+post_ai,Multivariate Behavioral Research,1,0.00020990764063811922
+post_ai,Murdoch Research Repository (Murdoch University),1,0.00020990764063811922
+post_ai,"NATO science for peace and security series. D, Information and communication security",1,0.00020990764063811922
+post_ai,NOMS 2022-2022 IEEE/IFIP Network Operations and Management Symposium,1,0.00020990764063811922
+post_ai,NVEO - NATURAL VOLATILES & ESSENTIAL OILS Journal | NVEO,1,0.00020990764063811922
+post_ai,Nanomaterials,1,0.00020990764063811922
+post_ai,Nanophotonics,1,0.00020990764063811922
+post_ai,National Bureau of Economic Research,1,0.00020990764063811922
+post_ai,National Remote Sensing Bulletin,1,0.00020990764063811922
+post_ai,National Science Open,1,0.00020990764063811922
+post_ai,Nature Astronomy,1,0.00020990764063811922
+post_ai,Nature Computational Science,1,0.00020990764063811922
+post_ai,Nature Machine Intelligence,1,0.00020990764063811922
+post_ai,Nature Medicine,1,0.00020990764063811922
+post_ai,Nature Photonics,1,0.00020990764063811922
+post_ai,Naval Research Logistics Quarterly,1,0.00020990764063811922
+post_ai,Nepal Journal of Multidisciplinary Research,1,0.00020990764063811922
+post_ai,Neural Information Processing Systems,1,0.00020990764063811922
+post_ai,NeuroImage,1,0.00020990764063811922
+post_ai,NeuroImage Clinical,1,0.00020990764063811922
+post_ai,Neurocomputing,1,0.00020990764063811922
+post_ai,Neurotherapeutics,1,0.00020990764063811922
+post_ai,New Journal of Physics,1,0.00020990764063811922
+post_ai,New Review of Academic Librarianship,1,0.00020990764063811922
+post_ai,Numerical Functional Analysis and Optimization,1,0.00020990764063811922
+post_ai,Nursing Research,1,0.00020990764063811922
+post_ai,Nursing and Health Sciences,1,0.00020990764063811922
+post_ai,Nutrients,1,0.00020990764063811922
+post_ai,Nutrition Research Reviews,1,0.00020990764063811922
+post_ai,OALib,1,0.00020990764063811922
+post_ai,"OCEANS 2022, Hampton Roads",1,0.00020990764063811922
+post_ai,OECD digital economy papers,1,0.00020990764063811922
+post_ai,OPUS Publication Server of the University of Stuttgart (University of Stuttgart),1,0.00020990764063811922
+post_ai,Obesity,1,0.00020990764063811922
+post_ai,Online Learning,1,0.00020990764063811922
+post_ai,Open Computer Science,1,0.00020990764063811922
+post_ai,Open Geosciences,1,0.00020990764063811922
+post_ai,Open Repository and Bibliography (University of Luxembourg),1,0.00020990764063811922
+post_ai,Open Research Exeter (University of Exeter),1,0.00020990764063811922
+post_ai,Open Research Online (The Open University),1,0.00020990764063811922
+post_ai,Open Veterinary Journal,1,0.00020990764063811922
+post_ai,Optical Communication Technology,1,0.00020990764063811922
+post_ai,Optical Engineering,1,0.00020990764063811922
+post_ai,Optical Materials Express,1,0.00020990764063811922
+post_ai,Optics and Photonics News,1,0.00020990764063811922
+post_ai,Organization Science,1,0.00020990764063811922
+post_ai,Organizational Research Methods,1,0.00020990764063811922
+post_ai,PLoS Computational Biology,1,0.00020990764063811922
+post_ai,PLoS Medicine,1,0.00020990764063811922
+post_ai,PRX Quantum,1,0.00020990764063811922
+post_ai,Pakistan Journal of Medical Sciences,1,0.00020990764063811922
+post_ai,Pakistan Journal of Public Health,1,0.00020990764063811922
+post_ai,Palgrave Macmillan eBooks,1,0.00020990764063811922
+post_ai,Particle & Particle Systems Characterization,1,0.00020990764063811922
+post_ai,Pathogens,1,0.00020990764063811922
+post_ai,Patient Experience Journal,1,0.00020990764063811922
+post_ai,Pattern Recognition,1,0.00020990764063811922
+post_ai,Personality and Social Psychology Bulletin,1,0.00020990764063811922
+post_ai,Personality and Social Psychology Review,1,0.00020990764063811922
+post_ai,Personalized Medicine,1,0.00020990764063811922
+post_ai,Phi Delta Kappan,1,0.00020990764063811922
+post_ai,Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences,1,0.00020990764063811922
+post_ai,Philosophies,1,0.00020990764063811922
+post_ai,Philosophy and Canon Law,1,0.00020990764063811922
+post_ai,Photoniques,1,0.00020990764063811922
+post_ai,Physica Scripta,1,0.00020990764063811922
+post_ai,Physical Review,1,0.00020990764063811922
+post_ai,Physical Review Research,1,0.00020990764063811922
+post_ai,Physical Review X,1,0.00020990764063811922
+post_ai,Physical review. B./Physical review. B,1,0.00020990764063811922
+post_ai,Physiological Entomology,1,0.00020990764063811922
+post_ai,Phytotherapy Research,1,0.00020990764063811922
+post_ai,Plants,1,0.00020990764063811922
+post_ai,Plastic & Reconstructive Surgery,1,0.00020990764063811922
+post_ai,Poetics,1,0.00020990764063811922
+post_ai,Political Theory,1,0.00020990764063811922
+post_ai,Politics & Society,1,0.00020990764063811922
+post_ai,Politics Philosophy & Economics,1,0.00020990764063811922
+post_ai,Pragmatics and Society,1,0.00020990764063811922
+post_ai,Procedia - Social and Behavioral Sciences,1,0.00020990764063811922
+post_ai,Procedia Engineering,1,0.00020990764063811922
+post_ai,Procedia Technology,1,0.00020990764063811922
+post_ai,Proceeding of The International Conference on Economics and Business,1,0.00020990764063811922
+post_ai,Proceedings of 2019 the 9th International Workshop on Computer Science and Engineering,1,0.00020990764063811922
+post_ai,Proceedings of The Nutrition Society,1,0.00020990764063811922
+post_ai,Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing,1,0.00020990764063811922
+post_ai,Proceedings of the 28th Annual International Conference on Mobile Computing And Networking,1,0.00020990764063811922
+post_ai,Proceedings of the 30th ACM International Conference on Multimedia,1,0.00020990764063811922
+post_ai,Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing,1,0.00020990764063811922
+post_ai,Proceedings of the 44th International Conference on Software Engineering,1,0.00020990764063811922
+post_ai,Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval,1,0.00020990764063811922
+post_ai,Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),1,0.00020990764063811922
+post_ai,Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies,1,0.00020990764063811922
+post_ai,Proceedings of the ACM on Measurement and Analysis of Computing Systems,1,0.00020990764063811922
+post_ai,Proceedings of the American Mathematical Society,1,0.00020990764063811922
+post_ai,Proceedings of the American Society for Information Science and Technology,1,0.00020990764063811922
+post_ai,Proceedings of the Genetic and Evolutionary Computation Conference Companion,1,0.00020990764063811922
+post_ai,Proceedings of the IRE,1,0.00020990764063811922
+post_ai,Proceedings of the Institution of Mechanical Engineers Part I Journal of Systems and Control Engineering,1,0.00020990764063811922
+post_ai,Proceedings of the Royal Society of London Series A Mathematical and Physical Sciences,1,0.00020990764063811922
+post_ai,Proceedings of the Satellite Division's International Technical Meeting (Online)/Proceedings of the Satellite Division's International Technical Meeting (CD-ROM),1,0.00020990764063811922
+post_ai,Proceedings of the VLDB Endowment,1,0.00020990764063811922
+post_ai,Proceedings/Proceedings - International Symposium on Software Reliability Engineering,1,0.00020990764063811922
+post_ai,Production and Operations Management,1,0.00020990764063811922
+post_ai,Profit Jurnal Manajemen Bisnis dan Akuntansi,1,0.00020990764063811922
+post_ai,Progress in Artificial Intelligence,1,0.00020990764063811922
+post_ai,Progress in Neurobiology,1,0.00020990764063811922
+post_ai,Protein & Cell,1,0.00020990764063811922
+post_ai,Psychiatry,1,0.00020990764063811922
+post_ai,Psychogeriatrics,1,0.00020990764063811922
+post_ai,Psychology,1,0.00020990764063811922
+post_ai,Psychotherapy and Psychosomatics,1,0.00020990764063811922
+post_ai,Psychotherapy in Australia,1,0.00020990764063811922
+post_ai,Public Administration Review,1,0.00020990764063811922
+post_ai,Pure and Applied Mathematics Quarterly,1,0.00020990764063811922
+post_ai,Qualitative Health Communication,1,0.00020990764063811922
+post_ai,Qualitative Health Research,1,0.00020990764063811922
+post_ai,Quantitative Economics and Management Studies,1,0.00020990764063811922
+post_ai,RUDN Journal of Agronomy and Animal Industries,1,0.00020990764063811922
+post_ai,RWTH Publications (RWTH Aachen),1,0.00020990764063811922
+post_ai,Radiology,1,0.00020990764063811922
+post_ai,Radiotekhnika,1,0.00020990764063811922
+post_ai,Research Archive of Indian Institute of Technology Hyderabad (Indian Institute of Technology Hyderabad),1,0.00020990764063811922
+post_ai,Research Journal of Pharmacy and Technology,1,0.00020990764063811922
+post_ai,Research Square,1,0.00020990764063811922
+post_ai,Research in Science Education,1,0.00020990764063811922
+post_ai,Resource Geology,1,0.00020990764063811922
+post_ai,Review of Educational Research,1,0.00020990764063811922
+post_ai,Review of Managerial Science,1,0.00020990764063811922
+post_ai,Reviews in Mineralogy and Geochemistry,1,0.00020990764063811922
+post_ai,Reviews in Physics,1,0.00020990764063811922
+post_ai,Reviews of Modern Physics,1,0.00020990764063811922
+post_ai,Risk Analysis,1,0.00020990764063811922
+post_ai,Risks,1,0.00020990764063811922
+post_ai,Riwayat Educational Journal of History and Humanities,1,0.00020990764063811922
+post_ai,Robotics,1,0.00020990764063811922
+post_ai,Romanian Cyber Security Journal,1,0.00020990764063811922
+post_ai,Rowan Digitals Works (Rowan University),1,0.00020990764063811922
+post_ai,SAGE Open,1,0.00020990764063811922
+post_ai,SEG Discovery,1,0.00020990764063811922
+post_ai,SIAM Journal on Applied Mathematics,1,0.00020990764063811922
+post_ai,SIAM Journal on Optimization,1,0.00020990764063811922
+post_ai,SIMULATION,1,0.00020990764063811922
+post_ai,SLEEP Advances,1,0.00020990764063811922
+post_ai,SZTAKI Publication Repository (Hungarian Academy of Sciences),1,0.00020990764063811922
+post_ai,Sains Malaysiana,1,0.00020990764063811922
+post_ai,Saudi Journal of Biological Sciences,1,0.00020990764063811922
+post_ai,Sbornik Mathematics,1,0.00020990764063811922
+post_ai,Sci,1,0.00020990764063811922
+post_ai,Science Advances,1,0.00020990764063811922
+post_ai,Science Technology & Human Values,1,0.00020990764063811922
+post_ai,Science and Engineering Ethics,1,0.00020990764063811922
+post_ai,Science and Public Policy,1,0.00020990764063811922
+post_ai,Science of Computer Programming,1,0.00020990764063811922
+post_ai,Scientia Sinica Informationis,1,0.00020990764063811922
+post_ai,Serdica Journal of Computing,1,0.00020990764063811922
+post_ai,ShodhKosh Journal of Visual and Performing Arts,1,0.00020990764063811922
+post_ai,Signal Processing Image Communication,1,0.00020990764063811922
+post_ai,Signals,1,0.00020990764063811922
+post_ai,Sleep Medicine,1,0.00020990764063811922
+post_ai,Smart Learning Environments,1,0.00020990764063811922
+post_ai,Social Cognition,1,0.00020990764063811922
+post_ai,Social Sciences & Humanities Open,1,0.00020990764063811922
+post_ai,Social Studies of Science,1,0.00020990764063811922
+post_ai,Soft Matter,1,0.00020990764063811922
+post_ai,Software & Systems Modeling,1,0.00020990764063811922
+post_ai,SoftwareX,1,0.00020990764063811922
+post_ai,Solar Energy,1,0.00020990764063811922
+post_ai,South African journal of information management,1,0.00020990764063811922
+post_ai,Sports Medicine - Open,1,0.00020990764063811922
+post_ai,Springer Link (Chiba Institute of Technology),1,0.00020990764063811922
+post_ai,Statistical Methods in Medical Research,1,0.00020990764063811922
+post_ai,Statistical Modelling,1,0.00020990764063811922
+post_ai,Statistical Science,1,0.00020990764063811922
+post_ai,Statistics & Risk Modeling,1,0.00020990764063811922
+post_ai,Structural Equation Modeling A Multidisciplinary Journal,1,0.00020990764063811922
+post_ai,Studies in health technology and informatics,1,0.00020990764063811922
+post_ai,Sustainable Energy Grids and Networks,1,0.00020990764063811922
+post_ai,Sustainable Futures,1,0.00020990764063811922
+post_ai,TAWAZUN Journal of Sharia Economic Law,1,0.00020990764063811922
+post_ai,TEFLIN Journal - A publication on the teaching and learning of English,1,0.00020990764063811922
+post_ai,TESOL and Technology Studies,1,0.00020990764063811922
+post_ai,TURKISH JOURNAL OF BIOLOGY,1,0.00020990764063811922
+post_ai,Teaching Education,1,0.00020990764063811922
+post_ai,Technology Analysis and Strategic Management,1,0.00020990764063811922
+post_ai,Technology Innovation Management Review,1,0.00020990764063811922
+post_ai,Technometrics,1,0.00020990764063811922
+post_ai,Technovation,1,0.00020990764063811922
+post_ai,Tehnički glasnik,1,0.00020990764063811922
+post_ai,Telecommunication and information technologies,1,0.00020990764063811922
+post_ai,Tellus A Dynamic Meteorology and Oceanography,1,0.00020990764063811922
+post_ai,The Aeronautical Journal,1,0.00020990764063811922
+post_ai,The American Journal of Bioethics,1,0.00020990764063811922
+post_ai,The American Journal of Sports Medicine,1,0.00020990764063811922
+post_ai,The American Surgeon,1,0.00020990764063811922
+post_ai,The Asian Bulletin of Big Data Management,1,0.00020990764063811922
+post_ai,The British Journal of Social Work,1,0.00020990764063811922
+post_ai,The Imaging Science Journal,1,0.00020990764063811922
+post_ai,The International Encyclopedia of Interpersonal Communication,1,0.00020990764063811922
+post_ai,The International Encyclopedia of Media Effects,1,0.00020990764063811922
+post_ai,The International Journal of Biostatistics,1,0.00020990764063811922
+post_ai,The International Journal of Education and Development using Information and Communication Technology (The University of the West Indies),1,0.00020990764063811922
+post_ai,The International Journal of Logistics Management,1,0.00020990764063811922
+post_ai,The International Journal of Management Education,1,0.00020990764063811922
+post_ai,The Journal of Arts Management Law and Society,1,0.00020990764063811922
+post_ai,The Journal of Engineering,1,0.00020990764063811922
+post_ai,The Journal of Finance,1,0.00020990764063811922
+post_ai,The Journal of Finance and Data Science,1,0.00020990764063811922
+post_ai,The Journal of Health Design,1,0.00020990764063811922
+post_ai,The Journal of High Technology Management Research,1,0.00020990764063811922
+post_ai,The Journal of Nonlinear Sciences and Applications,1,0.00020990764063811922
+post_ai,The Journal of Open Source Software,1,0.00020990764063811922
+post_ai,The Journal of the Japanese Society of Clinical Cytology,1,0.00020990764063811922
+post_ai,The Lancet,1,0.00020990764063811922
+post_ai,The Lancet Psychiatry,1,0.00020990764063811922
+post_ai,The Medical Journal of Australia,1,0.00020990764063811922
+post_ai,The Nepali Mathematical Sciences Report,1,0.00020990764063811922
+post_ai,The Open Neurology Journal,1,0.00020990764063811922
+post_ai,The Open Remote Sensing Journal,1,0.00020990764063811922
+post_ai,The Philosophical Review,1,0.00020990764063811922
+post_ai,The Qualitative Report,1,0.00020990764063811922
+post_ai,The Reference Librarian,1,0.00020990764063811922
+post_ai,The Serials Librarian,1,0.00020990764063811922
+post_ai,The Southern Journal of Philosophy,1,0.00020990764063811922
+post_ai,The Stata Journal Promoting communications on statistics and Stata,1,0.00020990764063811922
+post_ai,The TQM Journal,1,0.00020990764063811922
+post_ai,The scientific electronic library of periodicals of the National Academy of Sciences of Ukraine (National Academy of Sciences of Ukraine),1,0.00020990764063811922
+post_ai,Theory Culture & Society,1,0.00020990764063811922
+post_ai,Thyroid,1,0.00020990764063811922
+post_ai,Transactions on Emerging Telecommunications Technologies,1,0.00020990764063811922
+post_ai,Transactions on Social Science Education and Humanities Research,1,0.00020990764063811922
+post_ai,Trends in Cognitive Sciences,1,0.00020990764063811922
+post_ai,Tsinghua Science & Technology,1,0.00020990764063811922
+post_ai,UC Berkeley,1,0.00020990764063811922
+post_ai,UNICA IRIS Institutional Research Information System (University of Cagliari),1,0.00020990764063811922
+post_ai,Ultramicroscopy,1,0.00020990764063811922
+post_ai,Universiti Utara Malaysia Institutional Repository (Universiti Utara Malaysia),1,0.00020990764063811922
+post_ai,University of Birmingham Research Portal (University of Birmingham),1,0.00020990764063811922
+post_ai,University of Dar es Salaam Library Journal,1,0.00020990764063811922
+post_ai,University of Edinburgh,1,0.00020990764063811922
+post_ai,University of Minnesota Digital Conservancy (University of Minnesota),1,0.00020990764063811922
+post_ai,University of North Texas Digital Library (University of North Texas),1,0.00020990764063811922
+post_ai,Vascular Health and Risk Management,1,0.00020990764063811922
+post_ai,Venture Capital,1,0.00020990764063811922
+post_ai,Virology Research and Reviews,1,0.00020990764063811922
+post_ai,Warmadewa Management and Business Journal (WMBJ),1,0.00020990764063811922
+post_ai,Warwick Research Archive Portal (University of Warwick),1,0.00020990764063811922
+post_ai,Water Resources Research,1,0.00020990764063811922
+post_ai,Webology,1,0.00020990764063811922
+post_ai,Wiley Interdisciplinary Reviews Computational Statistics,1,0.00020990764063811922
+post_ai,Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery,1,0.00020990764063811922
+post_ai,"World Bank, Washington, DC eBooks",1,0.00020990764063811922
+post_ai,World of Media Journal of Russian Media and Journalism Studies,1,0.00020990764063811922
+post_ai,Worldviews Global Religions Culture and Ecology,1,0.00020990764063811922
+post_ai,Yonsei Medical Journal,1,0.00020990764063811922
+post_ai,bioRxiv (Cold Spring Harbor Laboratory),1,0.00020990764063811922
+post_ai,cIRcle (University of British Columbia),1,0.00020990764063811922
+post_ai,eSpace (Curtin University),1,0.00020990764063811922
+post_ai,iScience,1,0.00020990764063811922
+post_ai,journal for the education of the gifted,1,0.00020990764063811922
+post_ai,medRxiv,1,0.00020990764063811922
+post_ai,npj Parkinson s Disease,1,0.00020990764063811922
+post_ai,npj Quantum Information,1,0.00020990764063811922
+post_ai,"The international archives of the photogrammetry, remote sensing and spatial information sciences/International archives of the photogrammetry, remote sensing and spatial information sciences",1,0.00020990764063811922
+post_ai,The turkish online journal of educational technology,1,0.00020990764063811922
+post_ai,İlköğretim Online,1,0.00020990764063811922
+pre_ai,unknown,1489,0.3527600094764274
+pre_ai,arXiv (Cornell University),253,0.05993840322198531
+pre_ai,IEEE Access,69,0.016346837242359632
+pre_ai,IEEE Transactions on Image Processing,61,0.0144515517649846
+pre_ai,IEEE Transactions on Cybernetics,39,0.00923951670220327
+pre_ai,IEEE Transactions on Evolutionary Computation,39,0.00923951670220327
+pre_ai,IEEE Transactions on Pattern Analysis and Machine Intelligence,39,0.00923951670220327
+pre_ai,IEEE Transactions on Automatic Control,38,0.009002606017531391
+pre_ai,ACM Transactions on Graphics,28,0.006633499170812604
+pre_ai,IEEE Transactions on Information Theory,27,0.006396588486140725
+pre_ai,Proceedings of the AAAI Conference on Artificial Intelligence,27,0.006396588486140725
+pre_ai,IEEE Transactions on Neural Networks and Learning Systems,24,0.005685856432125089
+pre_ai,Sustainability,19,0.0045013030087656955
+pre_ai,Procedia Computer Science,18,0.0042643923240938165
+pre_ai,Sensors,17,0.0040274816394219376
+pre_ai,IEEE Transactions on Parallel and Distributed Systems,16,0.0037905709547500594
+pre_ai,IEEE Transactions on Systems Man and Cybernetics Systems,16,0.0037905709547500594
+pre_ai,Communications of the ACM,15,0.0035536602700781805
+pre_ai,Computer Graphics Forum,15,0.0035536602700781805
+pre_ai,Proceedings of the VLDB Endowment,15,0.0035536602700781805
+pre_ai,IEEE Transactions on Knowledge and Data Engineering,14,0.003316749585406302
+pre_ai,Proceedings of the IEEE,14,0.003316749585406302
+pre_ai,IEEE Internet of Things Journal,13,0.003079838900734423
+pre_ai,IEEE Signal Processing Letters,13,0.003079838900734423
+pre_ai,IEEE Transactions on Signal Processing,13,0.003079838900734423
+pre_ai,ACM SIGARCH Computer Architecture News,11,0.002606017531390666
+pre_ai,Cognitive Science,11,0.002606017531390666
+pre_ai,IEEE Transactions on Industrial Informatics,11,0.002606017531390666
+pre_ai,IEEE Transactions on Information Forensics and Security,11,0.002606017531390666
+pre_ai,Journal of Chemical Education,11,0.002606017531390666
+pre_ai,Applied Sciences,10,0.002369106846718787
+pre_ai,Choice Reviews Online,10,0.002369106846718787
+pre_ai,IEEE Transactions on Circuits & Systems II Express Briefs,10,0.002369106846718787
+pre_ai,Optics Express,10,0.002369106846718787
+pre_ai,Physical Review Letters,10,0.002369106846718787
+pre_ai,Science,10,0.002369106846718787
+pre_ai,The MIT Press eBooks,10,0.002369106846718787
+pre_ai,UvA-DARE (University of Amsterdam),10,0.002369106846718787
+pre_ai,IEEE Transactions on Circuits and Systems for Video Technology,9,0.0021321961620469083
+pre_ai,IEEE Transactions on Neural Networks,9,0.0021321961620469083
+pre_ai,International Journal of Computer Applications,9,0.0021321961620469083
+pre_ai,Neural Computation,9,0.0021321961620469083
+pre_ai,"Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",9,0.0021321961620469083
+pre_ai,Cambridge University Press eBooks,8,0.0018952854773750297
+pre_ai,DROPS (Schloss Dagstuhl – Leibniz Center for Informatics),8,0.0018952854773750297
+pre_ai,HAL (Le Centre pour la Communication Scientifique Directe),8,0.0018952854773750297
+pre_ai,IEEE Communications Magazine,8,0.0018952854773750297
+pre_ai,IEEE Transactions on Antennas and Propagation,8,0.0018952854773750297
+pre_ai,IEEE Transactions on Circuits and Systems I Regular Papers,8,0.0018952854773750297
+pre_ai,IEEE Transactions on Computers,8,0.0018952854773750297
+pre_ai,IEEE Transactions on Multimedia,8,0.0018952854773750297
+pre_ai,IEEE Transactions on Visualization and Computer Graphics,8,0.0018952854773750297
+pre_ai,Journal of Machine Learning Research,8,0.0018952854773750297
+pre_ai,Neural Information Processing Systems,8,0.0018952854773750297
+pre_ai,ACM Computing Surveys,7,0.001658374792703151
+pre_ai,ACM SIGPLAN Notices,7,0.001658374792703151
+pre_ai,Applied Physics Letters,7,0.001658374792703151
+pre_ai,Computer,7,0.001658374792703151
+pre_ai,IEEE Communications Surveys & Tutorials,7,0.001658374792703151
+pre_ai,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,7,0.001658374792703151
+pre_ai,Interactive Learning Environments,7,0.001658374792703151
+pre_ai,International Journal of Communication Systems,7,0.001658374792703151
+pre_ai,Optics Letters,7,0.001658374792703151
+pre_ai,Procedia - Social and Behavioral Sciences,7,0.001658374792703151
+pre_ai,The International Journal of Robotics Research,7,0.001658374792703151
+pre_ai,ACM SIGKDD Explorations Newsletter,6,0.0014214641080312722
+pre_ai,ACM SIGMOD Record,6,0.0014214641080312722
+pre_ai,British Journal of Educational Technology,6,0.0014214641080312722
+pre_ai,IEEE Micro,6,0.0014214641080312722
+pre_ai,IEEE Transactions on Dependable and Secure Computing,6,0.0014214641080312722
+pre_ai,IOP Conference Series Materials Science and Engineering,6,0.0014214641080312722
+pre_ai,Intelligent Data Analysis,6,0.0014214641080312722
+pre_ai,International Journal of Robust and Nonlinear Control,6,0.0014214641080312722
+pre_ai,International Journal of Science Education,6,0.0014214641080312722
+pre_ai,Journal of Physics Conference Series,6,0.0014214641080312722
+pre_ai,MIS Quarterly,6,0.0014214641080312722
+pre_ai,PLoS ONE,6,0.0014214641080312722
+pre_ai,Records Management Journal,6,0.0014214641080312722
+pre_ai,The International Review of Research in Open and Distributed Learning,6,0.0014214641080312722
+pre_ai,2009 IEEE Conference on Computer Vision and Pattern Recognition,5,0.0011845534233593934
+pre_ai,Cybernetics & Systems,5,0.0011845534233593934
+pre_ai,EURASIP Journal on Image and Video Processing,5,0.0011845534233593934
+pre_ai,EUROPEAN RESEARCH STUDIES JOURNAL,5,0.0011845534233593934
+pre_ai,Evolutionary Computation,5,0.0011845534233593934
+pre_ai,IACR Cryptology ePrint Archive,5,0.0011845534233593934
+pre_ai,IEEE Communications Letters,5,0.0011845534233593934
+pre_ai,IEEE Transactions on Audio Speech and Language Processing,5,0.0011845534233593934
+pre_ai,IEEE Transactions on Circuits and Systems I Fundamental Theory and Applications,5,0.0011845534233593934
+pre_ai,IGI Global eBooks,5,0.0011845534233593934
+pre_ai,International Conference on Learning Representations,5,0.0011845534233593934
+pre_ai,Journal of King Saud University - Computer and Information Sciences,5,0.0011845534233593934
+pre_ai,Medical Entomology and Zoology,5,0.0011845534233593934
+pre_ai,New Journal of Physics,5,0.0011845534233593934
+pre_ai,Proceedings of the National Academy of Sciences,5,0.0011845534233593934
+pre_ai,Production Planning & Control,5,0.0011845534233593934
+pre_ai,PubMed,5,0.0011845534233593934
+pre_ai,Symmetry,5,0.0011845534233593934
+pre_ai,The Computer Journal,5,0.0011845534233593934
+pre_ai,ACM SIGSOFT Software Engineering Notes,4,0.0009476427386875149
+pre_ai,Applied Mechanics and Materials,4,0.0009476427386875149
+pre_ai,Chaos An Interdisciplinary Journal of Nonlinear Science,4,0.0009476427386875149
+pre_ai,Educational Review,4,0.0009476427386875149
+pre_ai,IEEE Computational Intelligence Magazine,4,0.0009476427386875149
+pre_ai,IEEE Computer Graphics and Applications,4,0.0009476427386875149
+pre_ai,IEEE Journal of Solid-State Circuits,4,0.0009476427386875149
+pre_ai,IEEE Security & Privacy,4,0.0009476427386875149
+pre_ai,IEEE Sensors Journal,4,0.0009476427386875149
+pre_ai,IEEE Transactions on Automation Science and Engineering,4,0.0009476427386875149
+pre_ai,IEEE Transactions on Biomedical Engineering,4,0.0009476427386875149
+pre_ai,IEEE Transactions on Control of Network Systems,4,0.0009476427386875149
+pre_ai,IEEE Transactions on Fuzzy Systems,4,0.0009476427386875149
+pre_ai,IEEE Transactions on Industrial Electronics,4,0.0009476427386875149
+pre_ai,IEEE Transactions on Intelligent Transportation Systems,4,0.0009476427386875149
+pre_ai,IEEE Transactions on Mobile Computing,4,0.0009476427386875149
+pre_ai,IEEE Transactions on Services Computing,4,0.0009476427386875149
+pre_ai,IEEE Transactions on Systems Man and Cybernetics Part C (Applications and Reviews),4,0.0009476427386875149
+pre_ai,IEEE Transactions on Very Large Scale Integration (VLSI) Systems,4,0.0009476427386875149
+pre_ai,IEEJ Transactions on Electrical and Electronic Engineering,4,0.0009476427386875149
+pre_ai,IET Image Processing,4,0.0009476427386875149
+pre_ai,International Journal of Advanced Computer Science and Applications,4,0.0009476427386875149
+pre_ai,International Journal of Production Research,4,0.0009476427386875149
+pre_ai,International Journal of Remote Sensing,4,0.0009476427386875149
+pre_ai,International Journal of Systems Science,4,0.0009476427386875149
+pre_ai,Journal of Japan Society for Fuzzy Theory and Intelligent Informatics,4,0.0009476427386875149
+pre_ai,Journal of Medical Internet Research,4,0.0009476427386875149
+pre_ai,"Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics",4,0.0009476427386875149
+pre_ai,Psychological Review,4,0.0009476427386875149
+pre_ai,SIAM Journal on Control and Optimization,4,0.0009476427386875149
+pre_ai,Strathprints: The University of Strathclyde institutional repository (University of Strathclyde),4,0.0009476427386875149
+pre_ai,The Scientific World JOURNAL,4,0.0009476427386875149
+pre_ai,Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery,4,0.0009476427386875149
+pre_ai,ACM Inroads,3,0.0007107320540156361
+pre_ai,ACM Transactions on Asian and Low-Resource Language Information Processing,3,0.0007107320540156361
+pre_ai,ACM Transactions on Intelligent Systems and Technology,3,0.0007107320540156361
+pre_ai,Bulletin of the Australian Mathematical Society,3,0.0007107320540156361
+pre_ai,Computer Applications in Engineering Education,3,0.0007107320540156361
+pre_ai,DOAJ (DOAJ: Directory of Open Access Journals),3,0.0007107320540156361
+pre_ai,DergiPark (Istanbul University),3,0.0007107320540156361
+pre_ai,Education Sciences,3,0.0007107320540156361
+pre_ai,Educational Researcher,3,0.0007107320540156361
+pre_ai,Frontiers in Psychology,3,0.0007107320540156361
+pre_ai,IEEE Control Systems,3,0.0007107320540156361
+pre_ai,IEEE Electron Device Letters,3,0.0007107320540156361
+pre_ai,IEEE Network,3,0.0007107320540156361
+pre_ai,IEEE Transactions on Aerospace and Electronic Systems,3,0.0007107320540156361
+pre_ai,IEEE Transactions on Cloud Computing,3,0.0007107320540156361
+pre_ai,IEEE Transactions on Communications,3,0.0007107320540156361
+pre_ai,IEEE Transactions on Control Systems Technology,3,0.0007107320540156361
+pre_ai,IEEE Transactions on Education,3,0.0007107320540156361
+pre_ai,IEEE Transactions on Medical Imaging,3,0.0007107320540156361
+pre_ai,IEEE Transactions on Microwave Theory and Techniques,3,0.0007107320540156361
+pre_ai,IEEE Transactions on Software Engineering,3,0.0007107320540156361
+pre_ai,IEEE Transactions on Systems Man and Cybernetics Part B (Cybernetics),3,0.0007107320540156361
+pre_ai,IEEE Wireless Communications,3,0.0007107320540156361
+pre_ai,IEEE/ACM Transactions on Networking,3,0.0007107320540156361
+pre_ai,IET Control Theory and Applications,3,0.0007107320540156361
+pre_ai,Indian Journal of Science and Technology,3,0.0007107320540156361
+pre_ai,Indonesian Journal of Electrical Engineering and Computer Science,3,0.0007107320540156361
+pre_ai,Innovations in Education and Teaching International,3,0.0007107320540156361
+pre_ai,International Journal of Advanced Trends in Computer Science and Engineering,3,0.0007107320540156361
+pre_ai,International Journal of Educational Technology in Higher Education,3,0.0007107320540156361
+pre_ai,International Journal of Information and Education Technology,3,0.0007107320540156361
+pre_ai,Journal of Artificial Intelligence Research,3,0.0007107320540156361
+pre_ai,Journal of Computer Assisted Learning,3,0.0007107320540156361
+pre_ai,Journal of Computer Networks and Communications,3,0.0007107320540156361
+pre_ai,Journal of Experimental Psychology General,3,0.0007107320540156361
+pre_ai,Journal of ISMAC,3,0.0007107320540156361
+pre_ai,Journal of Intelligent & Fuzzy Systems,3,0.0007107320540156361
+pre_ai,Journal of Knowledge Management,3,0.0007107320540156361
+pre_ai,Journal of Marketing Research,3,0.0007107320540156361
+pre_ai,Journal of the American Society for Information Science and Technology,3,0.0007107320540156361
+pre_ai,Journal of the Association for Information Systems,3,0.0007107320540156361
+pre_ai,Journal of the Optical Society of America A,3,0.0007107320540156361
+pre_ai,Journals & Books Hosting (International Knowledge Sharing Platform),3,0.0007107320540156361
+pre_ai,Lecture notes in computer science,3,0.0007107320540156361
+pre_ai,Nano Letters,3,0.0007107320540156361
+pre_ai,New Media & Society,3,0.0007107320540156361
+pre_ai,Open Repository and Bibliography (University of Luxembourg),3,0.0007107320540156361
+pre_ai,Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies,3,0.0007107320540156361
+pre_ai,Rare & Special e-Zone (The Hong Kong University of Science and Technology),3,0.0007107320540156361
+pre_ai,SIAM Journal on Imaging Sciences,3,0.0007107320540156361
+pre_ai,SIAM Journal on Matrix Analysis and Applications,3,0.0007107320540156361
+pre_ai,SSRN Electronic Journal,3,0.0007107320540156361
+pre_ai,Science Advances,3,0.0007107320540156361
+pre_ai,Strategic Management Journal,3,0.0007107320540156361
+pre_ai,The Knowledge Engineering Review,3,0.0007107320540156361
+pre_ai,Transactions of the Association for Computational Linguistics,3,0.0007107320540156361
+pre_ai,2018 20th International Conference on Advanced Communication Technology (ICACT),2,0.00047382136934375743
+pre_ai,"2019 IEEE 3rd Information Technology, Networking, Electronic and Automation Control Conference (ITNEC)",2,0.00047382136934375743
+pre_ai,ACM SIGMETRICS Performance Evaluation Review,2,0.00047382136934375743
+pre_ai,ACM Transactions on Applied Perception,2,0.00047382136934375743
+pre_ai,ACM Transactions on Computer Systems,2,0.00047382136934375743
+pre_ai,ACM Transactions on Computing Education,2,0.00047382136934375743
+pre_ai,AIP conference proceedings,2,0.00047382136934375743
+pre_ai,Academy of Management Journal,2,0.00047382136934375743
+pre_ai,Advances in Engineering Software,2,0.00047382136934375743
+pre_ai,Advances in Mathematics of Communications,2,0.00047382136934375743
+pre_ai,American Journal of Epidemiology,2,0.00047382136934375743
+pre_ai,American Journal of Physics,2,0.00047382136934375743
+pre_ai,Annual Review of Psychology,2,0.00047382136934375743
+pre_ai,Applied Artificial Intelligence,2,0.00047382136934375743
+pre_ai,Applied Computing and Informatics,2,0.00047382136934375743
+pre_ai,Applied Linguistics,2,0.00047382136934375743
+pre_ai,Applied Optics,2,0.00047382136934375743
+pre_ai,Apress eBooks,2,0.00047382136934375743
+pre_ai,Archives of Business Research,2,0.00047382136934375743
+pre_ai,Asia-Pacific Journal of Information Technology and Multimedia,2,0.00047382136934375743
+pre_ai,Asymptotic Analysis,2,0.00047382136934375743
+pre_ai,Australasian Journal of Educational Technology,2,0.00047382136934375743
+pre_ai,BMC Health Services Research,2,0.00047382136934375743
+pre_ai,Bioinformatics,2,0.00047382136934375743
+pre_ai,Briefings in Bioinformatics,2,0.00047382136934375743
+pre_ai,Building Research & Information,2,0.00047382136934375743
+pre_ai,CA A Cancer Journal for Clinicians,2,0.00047382136934375743
+pre_ai,CAAI Transactions on Intelligence Technology,2,0.00047382136934375743
+pre_ai,Child Development Perspectives,2,0.00047382136934375743
+pre_ai,Chinese Journal of Electronics,2,0.00047382136934375743
+pre_ai,Color Research & Application,2,0.00047382136934375743
+pre_ai,Communications on Pure and Applied Mathematics,2,0.00047382136934375743
+pre_ai,Complexity,2,0.00047382136934375743
+pre_ai,Computer Assisted Language Learning,2,0.00047382136934375743
+pre_ai,Cureus,2,0.00047382136934375743
+pre_ai,Dagstuhl Research Online Publication Server,2,0.00047382136934375743
+pre_ai,Drones,2,0.00047382136934375743
+pre_ai,Edward Elgar Publishing eBooks,2,0.00047382136934375743
+pre_ai,Electronic Imaging,2,0.00047382136934375743
+pre_ai,Electronics Letters,2,0.00047382136934375743
+pre_ai,Empirical Software Engineering,2,0.00047382136934375743
+pre_ai,Energies,2,0.00047382136934375743
+pre_ai,Entropy,2,0.00047382136934375743
+pre_ai,Environmental Science & Technology,2,0.00047382136934375743
+pre_ai,Eurasia Journal of Mathematics Science and Technology Education,2,0.00047382136934375743
+pre_ai,First Monday,2,0.00047382136934375743
+pre_ai,Foundations and Trends® in Information Retrieval,2,0.00047382136934375743
+pre_ai,Frontiers in artificial intelligence and applications,2,0.00047382136934375743
+pre_ai,Ghent University Academic Bibliography (Ghent University),2,0.00047382136934375743
+pre_ai,Healthcare Informatics Research,2,0.00047382136934375743
+pre_ai,Heliyon,2,0.00047382136934375743
+pre_ai,Human Technology,2,0.00047382136934375743
+pre_ai,IAIC Transactions on Sustainable Digital Innovation (ITSDI),2,0.00047382136934375743
+pre_ai,IARJSET,2,0.00047382136934375743
+pre_ai,IEEE Antennas and Wireless Propagation Letters,2,0.00047382136934375743
+pre_ai,IEEE Intelligent Systems,2,0.00047382136934375743
+pre_ai,IEEE Internet Computing,2,0.00047382136934375743
+pre_ai,IEEE Journal of Selected Topics in Quantum Electronics,2,0.00047382136934375743
+pre_ai,IEEE Journal on Emerging and Selected Topics in Circuits and Systems,2,0.00047382136934375743
+pre_ai,IEEE Journal on Selected Areas in Communications,2,0.00047382136934375743
+pre_ai,IEEE Multimedia,2,0.00047382136934375743
+pre_ai,IEEE Robotics & Automation Magazine,2,0.00047382136934375743
+pre_ai,IEEE Signal Processing Magazine,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Acoustics Speech and Signal Processing,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Affective Computing,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Big Data,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Circuits and Systems II Analog and Digital Signal Processing,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Computational Social Systems,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Emerging Topics in Computational Intelligence,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Nanotechnology,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Neural Systems and Rehabilitation Engineering,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Smart Grid,2,0.00047382136934375743
+pre_ai,IEEE Transactions on Wireless Communications,2,0.00047382136934375743
+pre_ai,IEICE Transactions on Information and Systems,2,0.00047382136934375743
+pre_ai,IET Radar Sonar & Navigation,2,0.00047382136934375743
+pre_ai,IFAC-PapersOnLine,2,0.00047382136934375743
+pre_ai,IOP Conference Series Earth and Environmental Science,2,0.00047382136934375743
+pre_ai,IRE Transactions on Antennas and Propagation,2,0.00047382136934375743
+pre_ai,"ISPRS annals of the photogrammetry, remote sensing and spatial information sciences",2,0.00047382136934375743
+pre_ai,Information Development,2,0.00047382136934375743
+pre_ai,Information Systems Frontiers,2,0.00047382136934375743
+pre_ai,Institutional Repositories DataBase (IRDB),2,0.00047382136934375743
+pre_ai,International Conference on Biometrics,2,0.00047382136934375743
+pre_ai,International Conference on Computational Linguistics,2,0.00047382136934375743
+pre_ai,International Journal for Lesson and Learning Studies,2,0.00047382136934375743
+pre_ai,International Journal of Computational Methods,2,0.00047382136934375743
+pre_ai,International Journal of Control,2,0.00047382136934375743
+pre_ai,International Journal of Electrical and Computer Engineering (IJECE),2,0.00047382136934375743
+pre_ai,International Journal of Engineering and Advanced Technology,2,0.00047382136934375743
+pre_ai,International Journal of Human-Computer Studies,2,0.00047382136934375743
+pre_ai,International Journal of Intelligent Systems,2,0.00047382136934375743
+pre_ai,International Journal of Intelligent Systems and Applications,2,0.00047382136934375743
+pre_ai,International Journal of Learning Management Systems,2,0.00047382136934375743
+pre_ai,International Journal of Network Management,2,0.00047382136934375743
+pre_ai,International Journal of Power Electronics and Drive Systems/International Journal of Electrical and Computer Engineering,2,0.00047382136934375743
+pre_ai,JAMA,2,0.00047382136934375743
+pre_ai,Journal Of Big Data,2,0.00047382136934375743
+pre_ai,Journal of Experimental Psychology Learning Memory and Cognition,2,0.00047382136934375743
+pre_ai,Journal of Field Robotics,2,0.00047382136934375743
+pre_ai,Journal of Graphics Tools,2,0.00047382136934375743
+pre_ai,Journal of Imaging,2,0.00047382136934375743
+pre_ai,Journal of Information Science,2,0.00047382136934375743
+pre_ai,Journal of Information and Optimization Sciences,2,0.00047382136934375743
+pre_ai,Journal of Management Information Systems,2,0.00047382136934375743
+pre_ai,Journal of Research on Technology in Education,2,0.00047382136934375743
+pre_ai,Journal of Statistical Software,2,0.00047382136934375743
+pre_ai,Journal of Systems Engineering and Electronics,2,0.00047382136934375743
+pre_ai,Journal of Systems and Software,2,0.00047382136934375743
+pre_ai,Journal of the American Medical Informatics Association,2,0.00047382136934375743
+pre_ai,Journal of the American Statistical Association,2,0.00047382136934375743
+pre_ai,Journal of the Optical Society of America,2,0.00047382136934375743
+pre_ai,Jurnal Mantik,2,0.00047382136934375743
+pre_ai,KTH Publication Database DiVA (KTH Royal Institute of Technology),2,0.00047382136934375743
+pre_ai,Knowledge-Based Systems,2,0.00047382136934375743
+pre_ai,LEUKOS The Journal of the Illuminating Engineering Society of North America,2,0.00047382136934375743
+pre_ai,Language,2,0.00047382136934375743
+pre_ai,Language learning & technology,2,0.00047382136934375743
+pre_ai,Management Decision,2,0.00047382136934375743
+pre_ai,Management Science,2,0.00047382136934375743
+pre_ai,Mathematical Problems in Engineering,2,0.00047382136934375743
+pre_ai,Mathematics of Computation,2,0.00047382136934375743
+pre_ai,Methods and Applications of Analysis,2,0.00047382136934375743
+pre_ai,Multiscale Modeling and Simulation,2,0.00047382136934375743
+pre_ai,Nature Communications,2,0.00047382136934375743
+pre_ai,Network and Distributed System Security Symposium,2,0.00047382136934375743
+pre_ai,New England Journal of Medicine,2,0.00047382136934375743
+pre_ai,Nucleic Acids Research,2,0.00047382136934375743
+pre_ai,Operating Systems Design and Implementation,2,0.00047382136934375743
+pre_ai,Optica,2,0.00047382136934375743
+pre_ai,Optical Engineering,2,0.00047382136934375743
+pre_ai,Oxford University Press eBooks,2,0.00047382136934375743
+pre_ai,PRESENCE Virtual and Augmented Reality,2,0.00047382136934375743
+pre_ai,Physical Review Applied,2,0.00047382136934375743
+pre_ai,Physical Review E,2,0.00047382136934375743
+pre_ai,"Physical review. A/Physical review, A",2,0.00047382136934375743
+pre_ai,Proceedings - IEEE International Conference on Robotics and Automation/Proceedings,2,0.00047382136934375743
+pre_ai,Proceedings of the Genetic and Evolutionary Computation Conference Companion,2,0.00047382136934375743
+pre_ai,Proceedings of the International AAAI Conference on Web and Social Media,2,0.00047382136934375743
+pre_ai,Program electronic library and information systems,2,0.00047382136934375743
+pre_ai,Psychological Inquiry,2,0.00047382136934375743
+pre_ai,Psychometrika,2,0.00047382136934375743
+pre_ai,QUT ePrints (Queensland University of Technology),2,0.00047382136934375743
+pre_ai,Queue,2,0.00047382136934375743
+pre_ai,RePEc: Research Papers in Economics,2,0.00047382136934375743
+pre_ai,Remote Sensing,2,0.00047382136934375743
+pre_ai,Repository for Publications and Research Data (ETH Zurich),2,0.00047382136934375743
+pre_ai,Review of Educational Research,2,0.00047382136934375743
+pre_ai,SIAM Journal on Numerical Analysis,2,0.00047382136934375743
+pre_ai,SIAM Review,2,0.00047382136934375743
+pre_ai,Security and Communication Networks,2,0.00047382136934375743
+pre_ai,Software Practice and Experience,2,0.00047382136934375743
+pre_ai,Superconductor Science and Technology,2,0.00047382136934375743
+pre_ai,Supply Chain Management An International Journal,2,0.00047382136934375743
+pre_ai,TIB Data Manager,2,0.00047382136934375743
+pre_ai,The Annals of Mathematical Statistics,2,0.00047382136934375743
+pre_ai,The Electronic Library,2,0.00047382136934375743
+pre_ai,The Oncologist,2,0.00047382136934375743
+pre_ai,The Philosophical Review,2,0.00047382136934375743
+pre_ai,The Quarterly Journal of Economics,2,0.00047382136934375743
+pre_ai,The Social Studies,2,0.00047382136934375743
+pre_ai,Transportation Science,2,0.00047382136934375743
+pre_ai,ZAMM ‐ Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und Mechanik,2,0.00047382136934375743
+pre_ai,eScholarship (California Digital Library),2,0.00047382136934375743
+pre_ai,npj Quantum Information,2,0.00047382136934375743
+pre_ai,2013 8th ACM/IEEE International Conference on Human-Robot Interaction (HRI),1,0.00023691068467187872
+pre_ai,2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM),1,0.00023691068467187872
+pre_ai,2017 IEEE 3rd International Forum on Research and Technologies for Society and Industry (RTSI),1,0.00023691068467187872
+pre_ai,2018 1st IEEE International Conference on Knowledge Innovation and Invention (ICKII),1,0.00023691068467187872
+pre_ai,2018 55th ACM/ESDA/IEEE Design Automation Conference (DAC),1,0.00023691068467187872
+pre_ai,2018 IEEE International Conference on Advanced Manufacturing (ICAM),1,0.00023691068467187872
+pre_ai,2018 IEEE International Conference on Applied System Invention (ICASI),1,0.00023691068467187872
+pre_ai,2018 International Conference on Smart Energy Systems and Technologies (SEST),1,0.00023691068467187872
+pre_ai,2018 XIV International Scientific-Technical Conference on Actual Problems of Electronics Instrument Engineering (APEIE),1,0.00023691068467187872
+pre_ai,2019 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU),1,0.00023691068467187872
+pre_ai,2019 IEEE Conference on Control Technology and Applications (CCTA),1,0.00023691068467187872
+pre_ai,2019 IEEE Conference on Games (CoG),1,0.00023691068467187872
+pre_ai,2019 Innovations in Power and Advanced Computing Technologies (i-PACT),1,0.00023691068467187872
+pre_ai,"2019 International Conference on Automation, Computational and Technology Management (ICACTM)",1,0.00023691068467187872
+pre_ai,"2020 3rd International Conference on Computing, Mathematics and Engineering Technologies (iCoMET)",1,0.00023691068467187872
+pre_ai,"2020 IEEE 4th Information Technology, Networking, Electronic and Automation Control Conference (ITNEC)",1,0.00023691068467187872
+pre_ai,2020 International Conference on Information Science and Communications Technologies (ICISCT),1,0.00023691068467187872
+pre_ai,ACEReSearch Repository (Australian Council for Educational Research),1,0.00023691068467187872
+pre_ai,ACM Journal on Emerging Technologies in Computing Systems,1,0.00023691068467187872
+pre_ai,ACM Letters on Programming Languages and Systems,1,0.00023691068467187872
+pre_ai,ACM SIGACT News,1,0.00023691068467187872
+pre_ai,ACM SIGCOMM Computer Communication Review,1,0.00023691068467187872
+pre_ai,ACM SIGCSE Bulletin,1,0.00023691068467187872
+pre_ai,ACM SIGGRAPH Computer Graphics,1,0.00023691068467187872
+pre_ai,ACM SIGMIS Database the DATABASE for Advances in Information Systems,1,0.00023691068467187872
+pre_ai,ACM SIGOPS Operating Systems Review,1,0.00023691068467187872
+pre_ai,ACM Transactions on Accessible Computing,1,0.00023691068467187872
+pre_ai,ACM Transactions on Architecture and Code Optimization,1,0.00023691068467187872
+pre_ai,ACM Transactions on Database Systems,1,0.00023691068467187872
+pre_ai,ACM Transactions on Embedded Computing Systems,1,0.00023691068467187872
+pre_ai,ACM Transactions on Evolutionary Learning and Optimization,1,0.00023691068467187872
+pre_ai,ACM Transactions on Information and System Security,1,0.00023691068467187872
+pre_ai,ACM Transactions on Knowledge Discovery from Data,1,0.00023691068467187872
+pre_ai,ACM Transactions on Management Information Systems,1,0.00023691068467187872
+pre_ai,ACM Transactions on Programming Languages and Systems,1,0.00023691068467187872
+pre_ai,ACM Transactions on Speech and Language Processing,1,0.00023691068467187872
+pre_ai,ACM eBooks,1,0.00023691068467187872
+pre_ai,ACM/IMS Transactions on Data Science,1,0.00023691068467187872
+pre_ai,ACS Nano,1,0.00023691068467187872
+pre_ai,AI Magazine,1,0.00023691068467187872
+pre_ai,AIMS energy,1,0.00023691068467187872
+pre_ai,ANZIAM Journal,1,0.00023691068467187872
+pre_ai,APL Photonics,1,0.00023691068467187872
+pre_ai,APSIPA Transactions on Signal and Information Processing,1,0.00023691068467187872
+pre_ai,APTIKOM Journal on Computer Science and Information Technologies,1,0.00023691068467187872
+pre_ai,Academic Medicine,1,0.00023691068467187872
+pre_ai,Academy of Management Proceedings,1,0.00023691068467187872
+pre_ai,Accounting,1,0.00023691068467187872
+pre_ai,Accounting and Business Research,1,0.00023691068467187872
+pre_ai,Acta Crystallographica Section D Biological Crystallography,1,0.00023691068467187872
+pre_ai,Acta Informatica Medica,1,0.00023691068467187872
+pre_ai,Acta Numerica,1,0.00023691068467187872
+pre_ai,Acta Physica Polonica A,1,0.00023691068467187872
+pre_ai,Administration and Policy in Mental Health and Mental Health Services Research,1,0.00023691068467187872
+pre_ai,Advanced Functional Materials,1,0.00023691068467187872
+pre_ai,Advanced Information Management and Service,1,0.00023691068467187872
+pre_ai,Advanced Intelligent Systems,1,0.00023691068467187872
+pre_ai,Advanced Materials,1,0.00023691068467187872
+pre_ai,Advances in Applied Probability,1,0.00023691068467187872
+pre_ai,Advances in Developing Human Resources,1,0.00023691068467187872
+pre_ai,Advances in Mathematical Physics,1,0.00023691068467187872
+pre_ai,Advances in Mathematics Scientific Journal,1,0.00023691068467187872
+pre_ai,Advances in Multimedia,1,0.00023691068467187872
+pre_ai,Advances in Science Technology and Engineering Systems Journal,1,0.00023691068467187872
+pre_ai,Advances in Social Networks Analysis and Mining,1,0.00023691068467187872
+pre_ai,Advances in Structural Engineering,1,0.00023691068467187872
+pre_ai,Advances in computational intelligence and robotics book series,1,0.00023691068467187872
+pre_ai,Agris on-line Papers in Economics and Informatics,1,0.00023691068467187872
+pre_ai,Ain Shams Engineering Journal,1,0.00023691068467187872
+pre_ai,Algorithms,1,0.00023691068467187872
+pre_ai,American Economic Journal Macroeconomics,1,0.00023691068467187872
+pre_ai,American Economic Review,1,0.00023691068467187872
+pre_ai,American Educational Research Journal,1,0.00023691068467187872
+pre_ai,American Foreign Policy Interests,1,0.00023691068467187872
+pre_ai,American Journal of Evaluation,1,0.00023691068467187872
+pre_ai,American Journal of Industrial and Business Management,1,0.00023691068467187872
+pre_ai,American Journal of Public Health,1,0.00023691068467187872
+pre_ai,American Journal of Tropical Medicine and Hygiene,1,0.00023691068467187872
+pre_ai,American Mathematical Society eBooks,1,0.00023691068467187872
+pre_ai,American Psychologist,1,0.00023691068467187872
+pre_ai,"Amsterdam studies in the theory and history of linguistic science. Series 4, Current issues in linguistic theory",1,0.00023691068467187872
+pre_ai,Andalas University Repository (Andalas University),1,0.00023691068467187872
+pre_ai,Annals of Computer Science and Information Systems,1,0.00023691068467187872
+pre_ai,Annals of Eugenics,1,0.00023691068467187872
+pre_ai,Annals of Modern Education,1,0.00023691068467187872
+pre_ai,Annual Review of Linguistics,1,0.00023691068467187872
+pre_ai,Annual Review of Neuroscience,1,0.00023691068467187872
+pre_ai,Apollo (University of Cambridge),1,0.00023691068467187872
+pre_ai,Applicable Analysis,1,0.00023691068467187872
+pre_ai,Applied Mathematics and Computation,1,0.00023691068467187872
+pre_ai,Applied Physics Reviews,1,0.00023691068467187872
+pre_ai,Archives of Ophthalmology,1,0.00023691068467187872
+pre_ai,Ars Mathematica Contemporanea,1,0.00023691068467187872
+pre_ai,Artificial Intelligence Review,1,0.00023691068467187872
+pre_ai,Asian Journal Of Social Psychology,1,0.00023691068467187872
+pre_ai,Asian Journal of Finance & Accounting,1,0.00023691068467187872
+pre_ai,Aston Publications Explorer (Aston University),1,0.00023691068467187872
+pre_ai,Atmosphere,1,0.00023691068467187872
+pre_ai,Atmospheric chemistry and physics,1,0.00023691068467187872
+pre_ai,Atmospheric measurement techniques,1,0.00023691068467187872
+pre_ai,Auditing A Journal of Practice & Theory,1,0.00023691068467187872
+pre_ai,BIO Web of Conferences,1,0.00023691068467187872
+pre_ai,BMJ,1,0.00023691068467187872
+pre_ai,Baltic Journal of Management,1,0.00023691068467187872
+pre_ai,Behaviour and Information Technology,1,0.00023691068467187872
+pre_ai,Bell System Technical Journal,1,0.00023691068467187872
+pre_ai,Birkhäuser Basel eBooks,1,0.00023691068467187872
+pre_ai,Bloomsbury Academic eBooks,1,0.00023691068467187872
+pre_ai,Brazilian Business Review,1,0.00023691068467187872
+pre_ai,Brunel University Research Archive (BURA) (Brunel University London),1,0.00023691068467187872
+pre_ai,CERN Document Server (European Organization for Nuclear Research),1,0.00023691068467187872
+pre_ai,CSIRO,1,0.00023691068467187872
+pre_ai,Cambridge University Engineering Department Publications Database,1,0.00023691068467187872
+pre_ai,Canada Human-Computer Communications Society,1,0.00023691068467187872
+pre_ai,Canadian Journal of Electrical and Computer Engineering,1,0.00023691068467187872
+pre_ai,Canadian Medical Association Journal,1,0.00023691068467187872
+pre_ai,Canadian Modern Language Review/ La Revue canadienne des langues vivantes,1,0.00023691068467187872
+pre_ai,Capital & Class,1,0.00023691068467187872
+pre_ai,Central European Journal of Operations Research,1,0.00023691068467187872
+pre_ai,Childhood Education,1,0.00023691068467187872
+pre_ai,Cogent Business & Management,1,0.00023691068467187872
+pre_ai,Cogent Education,1,0.00023691068467187872
+pre_ai,Cognition,1,0.00023691068467187872
+pre_ai,Cognition & Emotion,1,0.00023691068467187872
+pre_ai,Columbia Academic Commons (Columbia University),1,0.00023691068467187872
+pre_ai,Communications of the Association for Information Systems,1,0.00023691068467187872
+pre_ai,Complex & Intelligent Systems,1,0.00023691068467187872
+pre_ai,Computational Astrophysics and Cosmology,1,0.00023691068467187872
+pre_ai,Computational Intelligence and Neuroscience,1,0.00023691068467187872
+pre_ai,Computational Visual Media,1,0.00023691068467187872
+pre_ai,Computer Animation and Virtual Worlds,1,0.00023691068467187872
+pre_ai,Computer Communications,1,0.00023691068467187872
+pre_ai,Computer Engineering and Intelligent Systems,1,0.00023691068467187872
+pre_ai,Computer Methods in Applied Mechanics and Engineering,1,0.00023691068467187872
+pre_ai,Computer Science and Information Technologies,1,0.00023691068467187872
+pre_ai,Computer Science and Software Engineering,1,0.00023691068467187872
+pre_ai,Computer Vision and Pattern Recognition,1,0.00023691068467187872
+pre_ai,Computers,1,0.00023691068467187872
+pre_ai,Computers & Education,1,0.00023691068467187872
+pre_ai,Computers in Human Behavior,1,0.00023691068467187872
+pre_ai,Computers in Physics,1,0.00023691068467187872
+pre_ai,"Computers, materials & continua/Computers, materials & continua (Print)",1,0.00023691068467187872
+pre_ai,Concurrency and Computation Practice and Experience,1,0.00023691068467187872
+pre_ai,Conference on High Performance Computing (Supercomputing),1,0.00023691068467187872
+pre_ai,Configurations,1,0.00023691068467187872
+pre_ai,Contemporary Sociology A Journal of Reviews,1,0.00023691068467187872
+pre_ai,Corpus Linguistics and Linguistic Theory,1,0.00023691068467187872
+pre_ai,Creative Education,1,0.00023691068467187872
+pre_ai,CyberPsychology & Behavior,1,0.00023691068467187872
+pre_ai,Cybernetics and Information Technologies,1,0.00023691068467187872
+pre_ai,Czechoslovak Mathematical Journal,1,0.00023691068467187872
+pre_ai,DSpace@MIT (Massachusetts Institute of Technology),1,0.00023691068467187872
+pre_ai,Data,1,0.00023691068467187872
+pre_ai,Deakin Research Online (Deakin University),1,0.00023691068467187872
+pre_ai,Decision Sciences,1,0.00023691068467187872
+pre_ai,Defense Technical Information Center (DTIC),1,0.00023691068467187872
+pre_ai,Designs,1,0.00023691068467187872
+pre_ai,Digital Library (University of West Bohemia),1,0.00023691068467187872
+pre_ai,Disability & Society,1,0.00023691068467187872
+pre_ai,Discrete Dynamics in Nature and Society,1,0.00023691068467187872
+pre_ai,Discussiones Mathematicae Graph Theory,1,0.00023691068467187872
+pre_ai,Duo Research Archive (University of Oslo),1,0.00023691068467187872
+pre_ai,EAI Endorsed Transactions on Creative Technologies,1,0.00023691068467187872
+pre_ai,EClinicalMedicine,1,0.00023691068467187872
+pre_ai,EDULEARN proceedings,1,0.00023691068467187872
+pre_ai,ENLIGHTEN (Jurnal Bimbingan dan Konseling Islam),1,0.00023691068467187872
+pre_ai,ERA,1,0.00023691068467187872
+pre_ai,EURASIP Journal on Advances in Signal Processing,1,0.00023691068467187872
+pre_ai,Earth Science India,1,0.00023691068467187872
+pre_ai,Ecology Letters,1,0.00023691068467187872
+pre_ai,Econometrica,1,0.00023691068467187872
+pre_ai,Economic Research-Ekonomska Istraživanja,1,0.00023691068467187872
+pre_ai,Edinburgh Research Explorer,1,0.00023691068467187872
+pre_ai,Edinburgh Research Explorer (University of Edinburgh),1,0.00023691068467187872
+pre_ai,Education and Information Technologies,1,0.00023691068467187872
+pre_ai,Educational Sciences Theory & Practice,1,0.00023691068467187872
+pre_ai,Educational and Psychological Measurement,1,0.00023691068467187872
+pre_ai,Electromagnetic waves,1,0.00023691068467187872
+pre_ai,Electronic Notes in Theoretical Computer Science,1,0.00023691068467187872
+pre_ai,Electronics,1,0.00023691068467187872
+pre_ai,Energy Reports,1,0.00023691068467187872
+pre_ai,Engenharia Agrícola,1,0.00023691068467187872
+pre_ai,Engineering Applications of Computational Fluid Mechanics,1,0.00023691068467187872
+pre_ai,Engineering Economics,1,0.00023691068467187872
+pre_ai,Engineering Optimization,1,0.00023691068467187872
+pre_ai,Engineering Science and Technology an International Journal,1,0.00023691068467187872
+pre_ai,Engineering Technology Open Access Journal,1,0.00023691068467187872
+pre_ai,Environmental engineering,1,0.00023691068467187872
+pre_ai,Environments,1,0.00023691068467187872
+pre_ai,Environmetrics,1,0.00023691068467187872
+pre_ai,Ergonomics,1,0.00023691068467187872
+pre_ai,Estudios de economía,1,0.00023691068467187872
+pre_ai,Ethical Lingua Journal of Language Teaching and Literature,1,0.00023691068467187872
+pre_ai,Eurographics,1,0.00023691068467187872
+pre_ai,European Journal of Pure and Applied Mathematics,1,0.00023691068467187872
+pre_ai,European Radar Conference,1,0.00023691068467187872
+pre_ai,FOSTER Journal of English Language Teaching,1,0.00023691068467187872
+pre_ai,Fall joint computer conference,1,0.00023691068467187872
+pre_ai,Filomat,1,0.00023691068467187872
+pre_ai,Financial Innovation,1,0.00023691068467187872
+pre_ai,Foreign Language Annals,1,0.00023691068467187872
+pre_ai,Foundations and Trends® in Computer Graphics and Vision,1,0.00023691068467187872
+pre_ai,Foundations and Trends® in Machine Learning,1,0.00023691068467187872
+pre_ai,Foundations and Trends® in Systems and Control,1,0.00023691068467187872
+pre_ai,Frontiers in Blockchain,1,0.00023691068467187872
+pre_ai,Frontiers in Genetics,1,0.00023691068467187872
+pre_ai,Frontiers in Robotics and AI,1,0.00023691068467187872
+pre_ai,Future Internet,1,0.00023691068467187872
+pre_ai,Games for Health Journal,1,0.00023691068467187872
+pre_ai,Global Business Review,1,0.00023691068467187872
+pre_ai,Global Journal of Economics,1,0.00023691068467187872
+pre_ai,Global Journal of Health Science,1,0.00023691068467187872
+pre_ai,Government Information Quarterly,1,0.00023691068467187872
+pre_ai,Gut,1,0.00023691068467187872
+pre_ai,Harbin Ligong Daxue xuebao,1,0.00023691068467187872
+pre_ai,Health Informatics Journal,1,0.00023691068467187872
+pre_ai,Himalayan Linguistics,1,0.00023691068467187872
+pre_ai,Human Behavior and Emerging Technologies,1,0.00023691068467187872
+pre_ai,IACR Transactions on Cryptographic Hardware and Embedded Systems,1,0.00023691068467187872
+pre_ai,IACR Transactions on Symmetric Cryptology,1,0.00023691068467187872
+pre_ai,IALLT Journal of Language Learning Technologies,1,0.00023691068467187872
+pre_ai,IBM Journal of Research and Development,1,0.00023691068467187872
+pre_ai,IDEALS (University of Illinois Urbana-Champaign),1,0.00023691068467187872
+pre_ai,IDEAS Journal on English Language Teaching and Learning Linguistics and Literature,1,0.00023691068467187872
+pre_ai,IEE Proceedings - Radar Sonar and Navigation,1,0.00023691068467187872
+pre_ai,IEE Proceedings - Vision Image and Signal Processing,1,0.00023691068467187872
+pre_ai,IEEE Antennas and Propagation Magazine,1,0.00023691068467187872
+pre_ai,IEEE Circuits and Systems Magazine,1,0.00023691068467187872
+pre_ai,IEEE Cloud Computing,1,0.00023691068467187872
+pre_ai,IEEE Computer Society Press eBooks,1,0.00023691068467187872
+pre_ai,IEEE Consumer Electronics Magazine,1,0.00023691068467187872
+pre_ai,IEEE Control Systems Letters,1,0.00023691068467187872
+pre_ai,IEEE Engineering Management Review,1,0.00023691068467187872
+pre_ai,IEEE Geoscience and Remote Sensing Letters,1,0.00023691068467187872
+pre_ai,IEEE Intelligent Vehicles Symposium,1,0.00023691068467187872
+pre_ai,IEEE International Conference on Acoustics Speech and Signal Processing,1,0.00023691068467187872
+pre_ai,IEEE Journal of Selected Topics in Signal Processing,1,0.00023691068467187872
+pre_ai,IEEE Journal of Translational Engineering in Health and Medicine,1,0.00023691068467187872
+pre_ai,IEEE Journal on Selected Areas in Information Theory,1,0.00023691068467187872
+pre_ai,IEEE Open Journal of the Communications Society,1,0.00023691068467187872
+pre_ai,IEEE Software,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Applied Superconductivity,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Artificial Intelligence,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Biomedical Circuits and Systems,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Broadcasting,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Circuits and Systems,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Cognitive Communications and Networking,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Consumer Electronics,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Electrical Insulation,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Electromagnetic Compatibility,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Electron Devices,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Emerging Topics in Computing,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Geoscience and Remote Sensing,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Human-Machine Systems,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Industry Applications,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Instrumentation and Measurement,1,0.00023691068467187872
+pre_ai,IEEE Transactions on NanoBioscience,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Network and Service Management,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Power Electronics,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Professional Communication,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Reliability,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Robotics and Automation,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Sustainable Computing,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Sustainable Energy,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Systems Man and Cybernetics,1,0.00023691068467187872
+pre_ai,IEEE Transactions on Vehicular Technology,1,0.00023691068467187872
+pre_ai,IEEE photonics journal,1,0.00023691068467187872
+pre_ai,IEEE/ACM Transactions on Audio Speech and Language Processing,1,0.00023691068467187872
+pre_ai,IEEE/ASME Transactions on Mechatronics,1,0.00023691068467187872
+pre_ai,IEEJ Transactions on Electronics Information and Systems,1,0.00023691068467187872
+pre_ai,IEICE Transactions on Communications,1,0.00023691068467187872
+pre_ai,IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences,1,0.00023691068467187872
+pre_ai,IET Computer Vision,1,0.00023691068467187872
+pre_ai,IETE Journal of Research,1,0.00023691068467187872
+pre_ai,IETE Technical Review,1,0.00023691068467187872
+pre_ai,IJARCCE,1,0.00023691068467187872
+pre_ai,INDIGO (University of Illinois at Chicago),1,0.00023691068467187872
+pre_ai,INFOR Information Systems and Operational Research,1,0.00023691068467187872
+pre_ai,INFORMS journal on computing,1,0.00023691068467187872
+pre_ai,INTERNATIONAL JOURNAL OF MANAGEMENT,1,0.00023691068467187872
+pre_ai,INTERNATIONAL JOURNAL OF RESEARCH AND ENGINEERING,1,0.00023691068467187872
+pre_ai,IOS Press eBooks,1,0.00023691068467187872
+pre_ai,IOSR Journal of Computer Engineering,1,0.00023691068467187872
+pre_ai,IOSR Journal of Electronics and Communication Engineering,1,0.00023691068467187872
+pre_ai,IRE Transactions on Information Theory,1,0.00023691068467187872
+pre_ai,IRIS UNIMORE (University of Modena and Reggio Emilia),1,0.00023691068467187872
+pre_ai,ISTI Open Portal,1,0.00023691068467187872
+pre_ai,InTech eBooks,1,0.00023691068467187872
+pre_ai,Indiana Magazine of History (Indiana University),1,0.00023691068467187872
+pre_ai,Industrial Robot the international journal of robotics research and application,1,0.00023691068467187872
+pre_ai,Information,1,0.00023691068467187872
+pre_ai,Information Assurance and Security,1,0.00023691068467187872
+pre_ai,Information Communication & Society,1,0.00023691068467187872
+pre_ai,Information Processing & Management,1,0.00023691068467187872
+pre_ai,Information Systems Research,1,0.00023691068467187872
+pre_ai,Information Technology And Control,1,0.00023691068467187872
+pre_ai,Information engineering,1,0.00023691068467187872
+pre_ai,Innovation in Language Learning and Teaching,1,0.00023691068467187872
+pre_ai,Institution of Engineering and Technology eBooks,1,0.00023691068467187872
+pre_ai,Integrated Network Management,1,0.00023691068467187872
+pre_ai,Integration of Education,1,0.00023691068467187872
+pre_ai,Intelligent information systems,1,0.00023691068467187872
+pre_ai,Interactive Journal of Medical Research,1,0.00023691068467187872
+pre_ai,Interdisciplinary Journal of Information Knowledge and Management,1,0.00023691068467187872
+pre_ai,International Business & Economics Research Journal (IBER),1,0.00023691068467187872
+pre_ai,International Conference for Internet Technology and Secured Transactions,1,0.00023691068467187872
+pre_ai,International Conference of Zakat,1,0.00023691068467187872
+pre_ai,International Conference on Artificial Intelligence and Statistics,1,0.00023691068467187872
+pre_ai,International Conference on Automation and Computing,1,0.00023691068467187872
+pre_ai,International Conference on Computer Aided Design,1,0.00023691068467187872
+pre_ai,International Conference on Machine Learning,1,0.00023691068467187872
+pre_ai,International Conference on Power aware computing and systems,1,0.00023691068467187872
+pre_ai,International Conference on Robotics and Automation,1,0.00023691068467187872
+pre_ai,International Conference on Software Engineering,1,0.00023691068467187872
+pre_ai,International Joint Conference on Artificial Intelligence,1,0.00023691068467187872
+pre_ai,International Joint Conference on Natural Language Processing,1,0.00023691068467187872
+pre_ai,International Journal for Innovative Research in Science and Technology,1,0.00023691068467187872
+pre_ai,International Journal of Academic Research in Business and Social Sciences,1,0.00023691068467187872
+pre_ai,International Journal of Accounting and Information Management,1,0.00023691068467187872
+pre_ai,International Journal of Advanced Research in Computer Science,1,0.00023691068467187872
+pre_ai,International Journal of Aerospace Engineering,1,0.00023691068467187872
+pre_ai,International Journal of Algebra and Computation,1,0.00023691068467187872
+pre_ai,International Journal of Applied Information Systems,1,0.00023691068467187872
+pre_ai,International Journal of Artificial Intelligence & Applications,1,0.00023691068467187872
+pre_ai,International Journal of Business and Management,1,0.00023691068467187872
+pre_ai,International Journal of Business and Social Science,1,0.00023691068467187872
+pre_ai,International Journal of Circuit Theory and Applications,1,0.00023691068467187872
+pre_ai,International Journal of Cloud Applications and Computing,1,0.00023691068467187872
+pre_ai,International Journal of Cognitive Informatics and Natural Intelligence,1,0.00023691068467187872
+pre_ai,International Journal of Computational Intelligence Systems,1,0.00023691068467187872
+pre_ai,International Journal of Computational Science and Engineering,1,0.00023691068467187872
+pre_ai,International Journal of Computer Science and Information Technology,1,0.00023691068467187872
+pre_ai,International Journal of Computer Sciences and Engineering,1,0.00023691068467187872
+pre_ai,International Journal of Computer Theory and Engineering,1,0.00023691068467187872
+pre_ai,International Journal of Computer-Assisted Language Learning and Teaching,1,0.00023691068467187872
+pre_ai,International Journal of Continuing Engineering Education and Life-Long Learning,1,0.00023691068467187872
+pre_ai,International Journal of Crowd Science,1,0.00023691068467187872
+pre_ai,International Journal of Cyber Society and Education,1,0.00023691068467187872
+pre_ai,International Journal of Database Theory and Application,1,0.00023691068467187872
+pre_ai,International Journal of Digital Earth,1,0.00023691068467187872
+pre_ai,International Journal of Distributed Sensor Networks,1,0.00023691068467187872
+pre_ai,International Journal of Early Years Education,1,0.00023691068467187872
+pre_ai,International Journal of Economics and Finance,1,0.00023691068467187872
+pre_ai,International Journal of Education and Literacy Studies,1,0.00023691068467187872
+pre_ai,International Journal of Energy Research,1,0.00023691068467187872
+pre_ai,International Journal of Engineering & Technology,1,0.00023691068467187872
+pre_ai,International Journal of Engineering and Manufacturing,1,0.00023691068467187872
+pre_ai,International Journal of Entrepreneurial Behaviour & Research,1,0.00023691068467187872
+pre_ai,International Journal of Environmental Research and Public Health,1,0.00023691068467187872
+pre_ai,International Journal of Financial Studies,1,0.00023691068467187872
+pre_ai,International Journal of Future Generation Communication and Networking,1,0.00023691068467187872
+pre_ai,International Journal of General Systems,1,0.00023691068467187872
+pre_ai,International Journal of Higher Education,1,0.00023691068467187872
+pre_ai,International Journal of Information Technology & Decision Making,1,0.00023691068467187872
+pre_ai,International Journal of Information Technology and Web Engineering,1,0.00023691068467187872
+pre_ai,International Journal of Information and Learning Technology,1,0.00023691068467187872
+pre_ai,International Journal of Information and Network Security (IJINS),1,0.00023691068467187872
+pre_ai,International Journal of Innovation and Learning,1,0.00023691068467187872
+pre_ai,International Journal of Innovative Technology and Exploring Engineering,1,0.00023691068467187872
+pre_ai,International Journal of Interactive Mobile Technologies (iJIM),1,0.00023691068467187872
+pre_ai,International Journal of Learning Technology,1,0.00023691068467187872
+pre_ai,International Journal of Learning and Change,1,0.00023691068467187872
+pre_ai,International Journal of Manpower,1,0.00023691068467187872
+pre_ai,International Journal of Mathematical Modelling and Numerical Optimisation,1,0.00023691068467187872
+pre_ai,International Journal of Mobile and Blended Learning,1,0.00023691068467187872
+pre_ai,International Journal of Multicultural and Multireligious Understanding,1,0.00023691068467187872
+pre_ai,International Journal of Multidisciplinary and Current Research,1,0.00023691068467187872
+pre_ai,International Journal of Multilingualism,1,0.00023691068467187872
+pre_ai,International Journal of Multimedia Information Retrieval,1,0.00023691068467187872
+pre_ai,International Journal of Online and Biomedical Engineering (iJOE),1,0.00023691068467187872
+pre_ai,International Journal of Productivity and Performance Management,1,0.00023691068467187872
+pre_ai,International Journal of Public Administration,1,0.00023691068467187872
+pre_ai,International Journal of Qualitative Methods,1,0.00023691068467187872
+pre_ai,International Journal of Quantum Information,1,0.00023691068467187872
+pre_ai,International Journal of Research in Engineering and Technology,1,0.00023691068467187872
+pre_ai,International Journal of Services Sciences,1,0.00023691068467187872
+pre_ai,International Journal of Signal and Imaging Systems Engineering,1,0.00023691068467187872
+pre_ai,International Journal of Sustainability in Higher Education,1,0.00023691068467187872
+pre_ai,International Journal of Sustainable and Green Energy,1,0.00023691068467187872
+pre_ai,International Journal on Advanced Science Engineering and Information Technology,1,0.00023691068467187872
+pre_ai,International Letters of Social and Humanistic Sciences,1,0.00023691068467187872
+pre_ai,International Research Journal of Electronics and Computer Engineering,1,0.00023691068467187872
+pre_ai,International Robotics & Automation Journal,1,0.00023691068467187872
+pre_ai,International journal of Web & Semantic Technology,1,0.00023691068467187872
+pre_ai,International journal of digital evidence,1,0.00023691068467187872
+pre_ai,International journal of scientific research,1,0.00023691068467187872
+pre_ai,Iris (Roma Tre University),1,0.00023691068467187872
+pre_ai,Isecure.,1,0.00023691068467187872
+pre_ai,Japan Journal of Industrial and Applied Mathematics,1,0.00023691068467187872
+pre_ai,Journal of Accounting Research,1,0.00023691068467187872
+pre_ai,Journal of Advanced Computational Intelligence and Intelligent Informatics,1,0.00023691068467187872
+pre_ai,Journal of Advanced Nursing,1,0.00023691068467187872
+pre_ai,Journal of Advanced Transportation,1,0.00023691068467187872
+pre_ai,Journal of African Trade,1,0.00023691068467187872
+pre_ai,Journal of Applied Econometrics,1,0.00023691068467187872
+pre_ai,Journal of Applied Mechanics,1,0.00023691068467187872
+pre_ai,Journal of Applied Physics,1,0.00023691068467187872
+pre_ai,Journal of Applied Psychology,1,0.00023691068467187872
+pre_ai,Journal of Applied Security Research,1,0.00023691068467187872
+pre_ai,Journal of Basic Engineering,1,0.00023691068467187872
+pre_ai,Journal of Biomedical Engineering Research,1,0.00023691068467187872
+pre_ai,Journal of Business Economics and Management,1,0.00023691068467187872
+pre_ai,Journal of Business and Economic Statistics,1,0.00023691068467187872
+pre_ai,Journal of Business and Industrial Marketing,1,0.00023691068467187872
+pre_ai,Journal of Cleaner Production,1,0.00023691068467187872
+pre_ai,Journal of Clinical Oncology,1,0.00023691068467187872
+pre_ai,Journal of Cognitive Psychology,1,0.00023691068467187872
+pre_ai,Journal of Combinatorial Optimization,1,0.00023691068467187872
+pre_ai,Journal of Communication,1,0.00023691068467187872
+pre_ai,Journal of Competitiveness,1,0.00023691068467187872
+pre_ai,Journal of Computational Interdisciplinary Sciences,1,0.00023691068467187872
+pre_ai,Journal of Computational and Graphical Statistics,1,0.00023691068467187872
+pre_ai,Journal of Computers,1,0.00023691068467187872
+pre_ai,Journal of Computing and Information Science in Engineering,1,0.00023691068467187872
+pre_ai,Journal of Continuing Education in the Health Professions,1,0.00023691068467187872
+pre_ai,Journal of Critical Reviews,1,0.00023691068467187872
+pre_ai,Journal of Digital Imaging,1,0.00023691068467187872
+pre_ai,Journal of Disability Policy Studies,1,0.00023691068467187872
+pre_ai,Journal of Discrete Mathematical Sciences and Cryptography,1,0.00023691068467187872
+pre_ai,Journal of Dynamic Systems Measurement and Control,1,0.00023691068467187872
+pre_ai,Journal of Economic Integration,1,0.00023691068467187872
+pre_ai,Journal of Economic Literature,1,0.00023691068467187872
+pre_ai,Journal of Economics and Behavioral Studies,1,0.00023691068467187872
+pre_ai,Journal of Education and Human Development,1,0.00023691068467187872
+pre_ai,Journal of Education and Training Studies,1,0.00023691068467187872
+pre_ai,Journal of Educational Measurement,1,0.00023691068467187872
+pre_ai,Journal of Educational Media,1,0.00023691068467187872
+pre_ai,Journal of Educational Technology and Online Learning,1,0.00023691068467187872
+pre_ai,Journal of Electrical & Electronic Systems,1,0.00023691068467187872
+pre_ai,Journal of Electronic Imaging,1,0.00023691068467187872
+pre_ai,Journal of Engineering Education,1,0.00023691068467187872
+pre_ai,Journal of Enterprise Information Management,1,0.00023691068467187872
+pre_ai,Journal of Experimental & Theoretical Artificial Intelligence,1,0.00023691068467187872
+pre_ai,Journal of Gaming & Virtual Worlds,1,0.00023691068467187872
+pre_ai,Journal of Geophysical Research Atmospheres,1,0.00023691068467187872
+pre_ai,Journal of Geophysical Research Space Physics,1,0.00023691068467187872
+pre_ai,Journal of Global Information Technology Management,1,0.00023691068467187872
+pre_ai,Journal of Guidance Control and Dynamics,1,0.00023691068467187872
+pre_ai,Journal of Industrial Integration and Management,1,0.00023691068467187872
+pre_ai,Journal of Information Technology & Software Engineering,1,0.00023691068467187872
+pre_ai,Journal of Intellectual Capital,1,0.00023691068467187872
+pre_ai,Journal of Lightwave Technology,1,0.00023691068467187872
+pre_ai,Journal of Logic and Computation,1,0.00023691068467187872
+pre_ai,Journal of Low Power Electronics and Applications,1,0.00023691068467187872
+pre_ai,Journal of Management,1,0.00023691068467187872
+pre_ai,Journal of Media Management and Entrepreneurship,1,0.00023691068467187872
+pre_ai,Journal of Medical Ethics,1,0.00023691068467187872
+pre_ai,Journal of Modern Accounting and Auditing,1,0.00023691068467187872
+pre_ai,Journal of Modern Applied Statistical Methods,1,0.00023691068467187872
+pre_ai,Journal of Multimedia,1,0.00023691068467187872
+pre_ai,Journal of Nepal Mathematical Society,1,0.00023691068467187872
+pre_ai,Journal of Networks,1,0.00023691068467187872
+pre_ai,Journal of Oncology Practice,1,0.00023691068467187872
+pre_ai,Journal of Personality and Social Psychology,1,0.00023691068467187872
+pre_ai,Journal of Power Sources,1,0.00023691068467187872
+pre_ai,Journal of Pre-College Engineering Education Research (J-PEER),1,0.00023691068467187872
+pre_ai,Journal of Research in Science Teaching,1,0.00023691068467187872
+pre_ai,Journal of Sensors,1,0.00023691068467187872
+pre_ai,Journal of Small Business & Entrepreneurship,1,0.00023691068467187872
+pre_ai,Journal of Soft Computing Paradigm,1,0.00023691068467187872
+pre_ai,Journal of Software,1,0.00023691068467187872
+pre_ai,Journal of Software Engineering and Applications,1,0.00023691068467187872
+pre_ai,Journal of Software Maintenance and Evolution Research and Practice,1,0.00023691068467187872
+pre_ai,Journal of Survey Statistics and Methodology,1,0.00023691068467187872
+pre_ai,Journal of Sustainable Tourism,1,0.00023691068467187872
+pre_ai,Journal of Systems and Information Technology,1,0.00023691068467187872
+pre_ai,Journal of Trends in Computer Science and Smart Technology,1,0.00023691068467187872
+pre_ai,Journal of US-China Public Administration,1,0.00023691068467187872
+pre_ai,Journal of Ubiquitous Computing and Communication Technologies,1,0.00023691068467187872
+pre_ai,Journal of Vibration and Control,1,0.00023691068467187872
+pre_ai,Journal of Virtual Worlds Research,1,0.00023691068467187872
+pre_ai,Journal of Visual Languages and Sentient Systems,1,0.00023691068467187872
+pre_ai,Journal of Web Engineering,1,0.00023691068467187872
+pre_ai,Journal of biomedical engineering and technology,1,0.00023691068467187872
+pre_ai,Journal of the ACM,1,0.00023691068467187872
+pre_ai,Journal of the American Planning Association,1,0.00023691068467187872
+pre_ai,Journal of the Atmospheric Sciences,1,0.00023691068467187872
+pre_ai,Journal of the Operational Research Society,1,0.00023691068467187872
+pre_ai,Journal of the Optical Society of America B,1,0.00023691068467187872
+pre_ai,Journal of the Royal Statistical Society Series B (Statistical Methodology),1,0.00023691068467187872
+pre_ai,Journal of the Society of Materials Science Japan,1,0.00023691068467187872
+pre_ai,Jurnal Ekonomi dan Pembangunan Indonesia,1,0.00023691068467187872
+pre_ai,Jurnal INKOM,1,0.00023691068467187872
+pre_ai,Jurnal Teknologi,1,0.00023691068467187872
+pre_ai,KOPS (University of Konstanz),1,0.00023691068467187872
+pre_ai,Kluwer Academic Publishers eBooks,1,0.00023691068467187872
+pre_ai,Knowledge and Process Management,1,0.00023691068467187872
+pre_ai,Kontrol Diagnostika,1,0.00023691068467187872
+pre_ai,Kybernetika,1,0.00023691068467187872
+pre_ai,Land Use Policy,1,0.00023691068467187872
+pre_ai,Language Culture and Society,1,0.00023691068467187872
+pre_ai,Language Learning,1,0.00023691068467187872
+pre_ai,Language acquisition & language disorders,1,0.00023691068467187872
+pre_ai,Language and Speech,1,0.00023691068467187872
+pre_ai,Law in context,1,0.00023691068467187872
+pre_ai,Learning and Instruction,1,0.00023691068467187872
+pre_ai,Leibniz-Zentrum für Informatik (Schloss Dagstuhl),1,0.00023691068467187872
+pre_ai,Library Open Repository (Universidad Complutense Madrid),1,0.00023691068467187872
+pre_ai,Lincoln (University of Nebraska),1,0.00023691068467187872
+pre_ai,Linear Algebra and its Applications,1,0.00023691068467187872
+pre_ai,Lingua Cultura,1,0.00023691068467187872
+pre_ai,Logic Group preprint series,1,0.00023691068467187872
+pre_ai,Logistics,1,0.00023691068467187872
+pre_ai,London Review of Education,1,0.00023691068467187872
+pre_ai,"Longmans, Green and Co eBooks",1,0.00023691068467187872
+pre_ai,Loquens,1,0.00023691068467187872
+pre_ai,MATEC Web of Conferences,1,0.00023691068467187872
+pre_ai,MIT Press eBooks,1,0.00023691068467187872
+pre_ai,MPG.PuRe (Max Planck Society),1,0.00023691068467187872
+pre_ai,MUQTASID Jurnal Ekonomi dan Perbankan Syariah,1,0.00023691068467187872
+pre_ai,Machine Intelligence Research,1,0.00023691068467187872
+pre_ai,Magnetic Resonance in Medicine,1,0.00023691068467187872
+pre_ai,Management Research Review,1,0.00023691068467187872
+pre_ai,Management Science Letters,1,0.00023691068467187872
+pre_ai,Materials Technology,1,0.00023691068467187872
+pre_ai,Mathematical Modelling of Natural Phenomena,1,0.00023691068467187872
+pre_ai,Mathematics,1,0.00023691068467187872
+pre_ai,Mathematics Teaching in the Middle School,1,0.00023691068467187872
+pre_ai,Matrix Jurnal Manajemen Teknologi dan Informatika,1,0.00023691068467187872
+pre_ai,Maǧallaẗ al-handasaẗ al-rāfidayn,1,0.00023691068467187872
+pre_ai,Medical Care,1,0.00023691068467187872
+pre_ai,Medical Education,1,0.00023691068467187872
+pre_ai,Medicine & Science in Sports & Exercise,1,0.00023691068467187872
+pre_ai,Mediterranean Journal of Social Sciences,1,0.00023691068467187872
+pre_ai,Meeting of the Association for Computational Linguistics,1,0.00023691068467187872
+pre_ai,Methods in Ecology and Evolution,1,0.00023691068467187872
+pre_ai,Microelectronic Engineering,1,0.00023691068467187872
+pre_ai,Microsystems & Nanoengineering,1,0.00023691068467187872
+pre_ai,Minds at UW (University of Wisconsin),1,0.00023691068467187872
+pre_ai,Mobile Information Systems,1,0.00023691068467187872
+pre_ai,Mobile Media & Communication,1,0.00023691068467187872
+pre_ai,Modern Language Journal,1,0.00023691068467187872
+pre_ai,Modern Physics Letters A,1,0.00023691068467187872
+pre_ai,Multimedia Tools and Applications,1,0.00023691068467187872
+pre_ai,Nanophotonics,1,0.00023691068467187872
+pre_ai,Nanoscale,1,0.00023691068467187872
+pre_ai,National Conference on Artificial Intelligence,1,0.00023691068467187872
+pre_ai,Natural Language Engineering,1,0.00023691068467187872
+pre_ai,Naval Engineers Journal,1,0.00023691068467187872
+pre_ai,Network Computation in Neural Systems,1,0.00023691068467187872
+pre_ai,Network Protocols and Algorithms,1,0.00023691068467187872
+pre_ai,Network Security,1,0.00023691068467187872
+pre_ai,Neuropsychological Rehabilitation,1,0.00023691068467187872
+pre_ai,Nonlinear Dynamics,1,0.00023691068467187872
+pre_ai,Nonlinear Theory and Its Applications IEICE,1,0.00023691068467187872
+pre_ai,OAPEN (OAPEN),1,0.00023691068467187872
+pre_ai,OECD policy responses to coronavirus (Covid-19),1,0.00023691068467187872
+pre_ai,OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information),1,0.00023691068467187872
+pre_ai,Open Collections,1,0.00023691068467187872
+pre_ai,Open Research Online - ORO (The Open University),1,0.00023691068467187872
+pre_ai,Open access LMU (Ludwid Maxmilian's Universitat Munchen),1,0.00023691068467187872
+pre_ai,Optica Acta International Journal of Optics,1,0.00023691068467187872
+pre_ai,Optimization methods & software,1,0.00023691068467187872
+pre_ai,Organization & Environment,1,0.00023691068467187872
+pre_ai,Oxford University Research Archive (ORA) (University of Oxford),1,0.00023691068467187872
+pre_ai,PDXScholar  (Portland State University),1,0.00023691068467187872
+pre_ai,PLoS Computational Biology,1,0.00023691068467187872
+pre_ai,Pakistan Journal of Biological Sciences,1,0.00023691068467187872
+pre_ai,Palgrave Macmillan UK eBooks,1,0.00023691068467187872
+pre_ai,Parallel Processing Letters,1,0.00023691068467187872
+pre_ai,Personal and Ubiquitous Computing,1,0.00023691068467187872
+pre_ai,Personality and Social Psychology Review,1,0.00023691068467187872
+pre_ai,Personnel Psychology,1,0.00023691068467187872
+pre_ai,PhilPapers (PhilPapers Foundation),1,0.00023691068467187872
+pre_ai,Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences,1,0.00023691068467187872
+pre_ai,Philosophical Transactions of the Royal Society of London,1,0.00023691068467187872
+pre_ai,Philosophical Transactions of the Royal Society of London Series A Physical and Engineering Sciences,1,0.00023691068467187872
+pre_ai,Photonics Research,1,0.00023691068467187872
+pre_ai,Physical Review Special Topics - Physics Education Research,1,0.00023691068467187872
+pre_ai,Physical Review X,1,0.00023691068467187872
+pre_ai,Physical Science International Journal,1,0.00023691068467187872
+pre_ai,Physics Bulletin,1,0.00023691068467187872
+pre_ai,Physics in Medicine and Biology,1,0.00023691068467187872
+pre_ai,Political Research Quarterly,1,0.00023691068467187872
+pre_ai,Praeger eBooks,1,0.00023691068467187872
+pre_ai,Preprints.org,1,0.00023691068467187872
+pre_ai,Princeton University Press eBooks,1,0.00023691068467187872
+pre_ai,Procedia CIRP,1,0.00023691068467187872
+pre_ai,Procedia Technology,1,0.00023691068467187872
+pre_ai,Proceeding of the 5th ACM/IEEE international conference on Human-robot interaction - HRI '10,1,0.00023691068467187872
+pre_ai,Proceedings,1,0.00023691068467187872
+pre_ai,Proceedings of symposia in applied mathematics,1,0.00023691068467187872
+pre_ai,Proceedings of the 2000 International Conference on Software Engineering. ICSE 2000 the New Millennium,1,0.00023691068467187872
+pre_ai,Proceedings of the 23rd International Conference on Software Engineering. ICSE 2001,1,0.00023691068467187872
+pre_ai,Proceedings of the 30th European Safety and Reliability Conference and 15th Probabilistic Safety Assessment and Management Conference,1,0.00023691068467187872
+pre_ai,Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment,1,0.00023691068467187872
+pre_ai,Proceedings of the AAAI Conference on Human Computation and Crowdsourcing,1,0.00023691068467187872
+pre_ai,Proceedings of the American Society for Information Science and Technology,1,0.00023691068467187872
+pre_ai,Proceedings of the Australasian Computer Science Week Multiconference,1,0.00023691068467187872
+pre_ai,"Proceedings of the First International Volga Region Conference on Economics, Humanities and Sports (FICEHS 2019)",1,0.00023691068467187872
+pre_ai,Proceedings of the Genetic and Evolutionary Computation Conference,1,0.00023691068467187872
+pre_ai,Proceedings of the Human Factors and Ergonomics Society Annual Meeting,1,0.00023691068467187872
+pre_ai,Proceedings of the International Congress of Mathematicians 2010 (ICM 2010),1,0.00023691068467187872
+pre_ai,Proceedings of the Practice and Experience on Advanced Research Computing,1,0.00023691068467187872
+pre_ai,Proceedings of the international Asia conference on industrial engineering and management innovation,1,0.00023691068467187872
+pre_ai,Proceedings on Privacy Enhancing Technologies,1,0.00023691068467187872
+pre_ai,Project Muse (Johns Hopkins University),1,0.00023691068467187872
+pre_ai,Psychological Bulletin,1,0.00023691068467187872
+pre_ai,Psychology Press eBooks,1,0.00023691068467187872
+pre_ai,Public Opinion Quarterly,1,0.00023691068467187872
+pre_ai,Qualitative Research in Psychology,1,0.00023691068467187872
+pre_ai,Quarterly Journal of Experimental Psychology,1,0.00023691068467187872
+pre_ai,Quarterly Journal of Finance,1,0.00023691068467187872
+pre_ai,Queensland's institutional digital repository (The University of Queensland),1,0.00023691068467187872
+pre_ai,RECERCAT (Consorci de Serveis Universitaris de Catalunya),1,0.00023691068467187872
+pre_ai,RMIT Research Repository (RMIT University Library),1,0.00023691068467187872
+pre_ai,Radio Science,1,0.00023691068467187872
+pre_ai,Radioengineering,1,0.00023691068467187872
+pre_ai,Research Commons (University of Waikato),1,0.00023691068467187872
+pre_ai,Research Explorer (The University of Manchester),1,0.00023691068467187872
+pre_ai,Research Portal (Queen's University Belfast),1,0.00023691068467187872
+pre_ai,Research Quarterly for Exercise and Sport,1,0.00023691068467187872
+pre_ai,Research Showcase @ Carnegie Mellon University (Carnegie Mellon University),1,0.00023691068467187872
+pre_ai,Research in Nursing & Health,1,0.00023691068467187872
+pre_ai,Research in Science & Technological Education,1,0.00023691068467187872
+pre_ai,Research portal (Tilburg University),1,0.00023691068467187872
+pre_ai,ResearchOnline@ND (The University of Notre Dame),1,0.00023691068467187872
+pre_ai,Resources Conservation and Recycling,1,0.00023691068467187872
+pre_ai,Results in Mathematics,1,0.00023691068467187872
+pre_ai,Reutlingen University Academic Bibliography (Reutlingen University),1,0.00023691068467187872
+pre_ai,Review of Communication Research,1,0.00023691068467187872
+pre_ai,Reviews of Modern Physics,1,0.00023691068467187872
+pre_ai,Royal Society Open Science,1,0.00023691068467187872
+pre_ai,Russian Education & Society,1,0.00023691068467187872
+pre_ai,SIAM Journal on Applied Dynamical Systems,1,0.00023691068467187872
+pre_ai,SIAM Journal on Applied Mathematics,1,0.00023691068467187872
+pre_ai,SIAM Journal on Computing,1,0.00023691068467187872
+pre_ai,SIAM Journal on Discrete Mathematics,1,0.00023691068467187872
+pre_ai,SIAM Journal on Mathematical Analysis,1,0.00023691068467187872
+pre_ai,SIAM Journal on Optimization,1,0.00023691068467187872
+pre_ai,SIAM Journal on Scientific Computing,1,0.00023691068467187872
+pre_ai,SOAS Research Online (SOAS University of London),1,0.00023691068467187872
+pre_ai,SZTAKI Publication Repository (Hungarian Academy of Sciences),1,0.00023691068467187872
+pre_ai,ScholarlyCommons (University of Pennsylvania),1,0.00023691068467187872
+pre_ai,Science education international,1,0.00023691068467187872
+pre_ai,"Science, Engineering & Education.",1,0.00023691068467187872
+pre_ai,Scientific Data,1,0.00023691068467187872
+pre_ai,Scientific Programming,1,0.00023691068467187872
+pre_ai,Scientific Reports,1,0.00023691068467187872
+pre_ai,Scientific and technical journal of information technologies mechanics and optics,1,0.00023691068467187872
+pre_ai,Second language Research,1,0.00023691068467187872
+pre_ai,Security Journal,1,0.00023691068467187872
+pre_ai,Semiconductor Science and Technology,1,0.00023691068467187872
+pre_ai,SensePublishers eBooks,1,0.00023691068467187872
+pre_ai,Sixth Symposium on Novel Optoelectronic Detection Technology and Applications,1,0.00023691068467187872
+pre_ai,Small Group Research,1,0.00023691068467187872
+pre_ai,Social Science Computer Review,1,0.00023691068467187872
+pre_ai,Social Science Open Access Repository (GESIS – Leibniz Institute for the Social Sciences),1,0.00023691068467187872
+pre_ai,Soft Matter,1,0.00023691068467187872
+pre_ai,South African Journal of Education,1,0.00023691068467187872
+pre_ai,Statistics Optimization & Information Computing,1,0.00023691068467187872
+pre_ai,Stochastic Analysis and Applications,1,0.00023691068467187872
+pre_ai,Strategic Journal of Business & Change Management,1,0.00023691068467187872
+pre_ai,Studies in Business and Economics,1,0.00023691068467187872
+pre_ai,Studies in health technology and informatics,1,0.00023691068467187872
+pre_ai,Systems Engineering Procedia,1,0.00023691068467187872
+pre_ai,TELKOMNIKA (Telecommunication Computing Electronics and Control),1,0.00023691068467187872
+pre_ai,TESOL Quarterly,1,0.00023691068467187872
+pre_ai,TRANSACTIONS OF THE JAPAN SOCIETY OF MECHANICAL ENGINEERS Series C,1,0.00023691068467187872
+pre_ai,TURKISH JOURNAL OF ELECTRICAL ENGINEERING & COMPUTER SCIENCES,1,0.00023691068467187872
+pre_ai,TUScholarShare (Temple University),1,0.00023691068467187872
+pre_ai,Technical Journal,1,0.00023691068467187872
+pre_ai,Technology and Health Care,1,0.00023691068467187872
+pre_ai,Technometrics,1,0.00023691068467187872
+pre_ai,Telfor Journal,1,0.00023691068467187872
+pre_ai,Tellus A Dynamic Meteorology and Oceanography,1,0.00023691068467187872
+pre_ai,Text - Interdisciplinary Journal for the Study of Discourse,1,0.00023691068467187872
+pre_ai,The Accounting Review,1,0.00023691068467187872
+pre_ai,The American Journal of Bioethics,1,0.00023691068467187872
+pre_ai,The American Statistician,1,0.00023691068467187872
+pre_ai,The Annals of Applied Statistics,1,0.00023691068467187872
+pre_ai,The British Journal for the Philosophy of Science,1,0.00023691068467187872
+pre_ai,The Economic Journal,1,0.00023691068467187872
+pre_ai,The Far East Journal of Psychology and Business,1,0.00023691068467187872
+pre_ai,The Fibreculture Journal,1,0.00023691068467187872
+pre_ai,The Florida AI Research Society,1,0.00023691068467187872
+pre_ai,The International Journal of Accounting and Business Society,1,0.00023691068467187872
+pre_ai,The International Journal of Environmental and Science Education,1,0.00023691068467187872
+pre_ai,The International Journal of Learning Annual Review,1,0.00023691068467187872
+pre_ai,The Journal of British Blockchain Association,1,0.00023691068467187872
+pre_ai,The Journal of Educational Research,1,0.00023691068467187872
+pre_ai,The Journal of Educators Online,1,0.00023691068467187872
+pre_ai,The Journal of Marketing Theory and Practice,1,0.00023691068467187872
+pre_ai,The Journal of Photographic Science,1,0.00023691068467187872
+pre_ai,The Journal of the Korean Institute of Information and Communication Engineering,1,0.00023691068467187872
+pre_ai,The Lancet Digital Health,1,0.00023691068467187872
+pre_ai,The Lancet Public Health,1,0.00023691068467187872
+pre_ai,The Learning Organization,1,0.00023691068467187872
+pre_ai,The Mathematics Enthusiast,1,0.00023691068467187872
+pre_ai,The Mental Lexicon,1,0.00023691068467187872
+pre_ai,The Review of Economics and Statistics,1,0.00023691068467187872
+pre_ai,The Smart Computing Review,1,0.00023691068467187872
+pre_ai,The Stata Journal Promoting communications on statistics and Stata,1,0.00023691068467187872
+pre_ai,The Visual Computer,1,0.00023691068467187872
+pre_ai,The World Bank Economic Review,1,0.00023691068467187872
+pre_ai,The journal of college science teaching,1,0.00023691068467187872
+pre_ai,Thesis Eleven,1,0.00023691068467187872
+pre_ai,Toulouse Capitole Publications (University Toulouse 1 Capitole),1,0.00023691068467187872
+pre_ai,Transactions of the Digital Games Research Association,1,0.00023691068467187872
+pre_ai,Transactions of the Institute of Measurement and Control,1,0.00023691068467187872
+pre_ai,Transactions of the Society of Motion Picture Engineers,1,0.00023691068467187872
+pre_ai,Transactions on Emerging Telecommunications Technologies,1,0.00023691068467187872
+pre_ai,Transforming Government People Process and Policy,1,0.00023691068467187872
+pre_ai,Transportation research procedia,1,0.00023691068467187872
+pre_ai,Turkish Online Journal of Distance Education,1,0.00023691068467187872
+pre_ai,Typological studies in language,1,0.00023691068467187872
+pre_ai,USENIX Annual Technical Conference,1,0.00023691068467187872
+pre_ai,USENIX Security Symposium,1,0.00023691068467187872
+pre_ai,UTS ePRESS (University of Technology Sydney),1,0.00023691068467187872
+pre_ai,Unisa Institutional Repository (University of South Africa),1,0.00023691068467187872
+pre_ai,Universiti Putra Malaysia Institutional Repository (Universiti Putra Malaysia),1,0.00023691068467187872
+pre_ai,University of Edinburgh,1,0.00023691068467187872
+pre_ai,UpSpace Institutional Repository (University of Pretoria),1,0.00023691068467187872
+pre_ai,VINE,1,0.00023691068467187872
+pre_ai,VINE Journal of Information and Knowledge Management Systems,1,0.00023691068467187872
+pre_ai,Victoria University Research Repository (Victoria University),1,0.00023691068467187872
+pre_ai,Virtual Reality,1,0.00023691068467187872
+pre_ai,Visual Cognition,1,0.00023691068467187872
+pre_ai,Warwick Research Archive Portal (University of Warwick),1,0.00023691068467187872
+pre_ai,Wiley Interdisciplinary Reviews Computational Statistics,1,0.00023691068467187872
+pre_ai,Wiley series in probability and statistics,1,0.00023691068467187872
+pre_ai,World Economy,1,0.00023691068467187872
+pre_ai,World Journal of Engineering,1,0.00023691068467187872
+pre_ai,Wuhan University Journal of Natural Sciences,1,0.00023691068467187872
+pre_ai,Zaguan (University of Zaragoza Repository),1,0.00023691068467187872
+pre_ai,Zurich Open Repository and Archive (University of Zurich),1,0.00023691068467187872
+pre_ai,eCite Digital Repository (University of Tasmania),1,0.00023691068467187872
+pre_ai,ePrints Soton (University of Southampton),1,0.00023691068467187872
+pre_ai,ePubWU Institutional Repository (Wirtschaftsuniversität Wien),1,0.00023691068467187872
+pre_ai,eSpace (Curtin University),1,0.00023691068467187872
+pre_ai,medRxiv,1,0.00023691068467187872
+pre_ai,neural information processing systems,1,0.00023691068467187872
+pre_ai,The Carus mathematical monographs,1,0.00023691068467187872
+pre_ai,The Springer series on challenges in machine learning,1,0.00023691068467187872
+pre_ai,The cryosphere,1,0.00023691068467187872
+pre_ai,"The international archives of the photogrammetry, remote sensing and spatial information sciences/International archives of the photogrammetry, remote sensing and spatial information sciences",1,0.00023691068467187872
+pre_ai,Çanakkale Onsekiz Mart University AVESIS,1,0.00023691068467187872
+pre_ai,电子科技大学学报,1,0.00023691068467187872

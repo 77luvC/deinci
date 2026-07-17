@@ -158,8 +158,8 @@ def build_openalex_toy(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     periods = {
-        "non_ai": ("2020-01-01", "2021-12-31"),
-        "ai": ("2024-01-01", "2025-12-31"),
+        "pre_ai": ("2019-01-01", "2021-12-31"),
+        "post_ai": ("2023-01-01", "2026-06-30"),
     }
     query_works: list[dict[str, Any]] = []
     for period, (from_date, to_date) in periods.items():

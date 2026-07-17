@@ -1,0 +1,7 @@
+ai_period,seed_citation_stratum,seed_papers,mean_seed_cited_by_count,median_seed_cited_by_count,mean_reference_count,mean_usable_reference_count
+post_ai,high,16,16.0,7.5,36.6875,25.5
+post_ai,low,17,0.0,0.0,34.94117647058823,25.294117647058822
+post_ai,medium,17,1.1176470588235294,1.0,41.11764705882353,28.941176470588236
+pre_ai,high,16,45.0,25.0,41.8125,27.6875
+pre_ai,low,17,1.411764705882353,1.0,33.529411764705884,20.529411764705884
+pre_ai,medium,17,8.529411764705882,9.0,31.0,21.41176470588235

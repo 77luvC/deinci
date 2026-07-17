@@ -1,0 +1,401 @@
+paper_id,ai_period,seed_citation_stratum,year,title,field,language,openalex_current_cited_by_count,reference_count,usable_reference_count
+W3179832531,post_ai,high,2023,Neural Architecture Search Using Covariance Matrix Adaptation Evolution Strategy,Computer Science,en,14,104,47
+W3191129978,post_ai,high,2023,Generation of 1 GB full entropy random numbers with the enhanced-NRBG method,Computer Science,en,5,35,25
+W3199119351,post_ai,high,2023,Arbitrary-precision computation of the gamma function,Computer Science,en,4,135,61
+W4317795078,post_ai,high,2023,Poisoning Attacks in Federated Learning: A Survey,Computer Science,en,165,98,57
+W4322730856,post_ai,high,2023,Parallel Learning: Overview and Perspective for Computational Learning Across Syn2Real and Sim2Real,Computer Science,en,79,178,111
+W4362608722,post_ai,high,2023,An Instruction-Driven Batch-Based High-Performance Resource-Efficient LSTM Accelerator on FPGA,Computer Science,en,5,27,23
+W4362672542,post_ai,high,2023,Template-guided frequency attention and adaptive cross-entropy loss for UAV visual tracking,Computer Science,en,52,76,53
+W4368275067,post_ai,high,2023,A Novel Deep CNN-RNN Approach for Real-time Impulsive Sound Detection to Detect Dangerous Events,Computer Science,en,14,37,20
+W4376481262,post_ai,high,2023,Event-Based Secure Consensus Control for Multirobot Systems With Cooperative Localization Against DoS Attacks,Computer Science,en,16,33,30
+W4376862407,post_ai,high,2023,Parallel photonic acceleration processor for matrix–matrix multiplication,Computer Science,en,9,25,15
+W4377821330,post_ai,high,2023,A Comprehensive Survey of Deep Learning Techniques Natural Language Processing,Computer Science,en,94,8,2
+W4378194180,post_ai,high,2023,A CNN-SPEED-BASED GNSS/PDR INTEGRATED SYSTEM FOR SMARTWATCH,Computer Science,en,4,12,11
+W4378472616,post_ai,high,2023,Weak dual generalized inverse of a dual matrix and its applications,Computer Science,en,10,23,9
+W4380302256,post_ai,high,2023,Gesture Controlled Automated Vehicle,Computer Science,en,3,11,8
+W4381835614,post_ai,high,2023,Computing Longest Lyndon Subsequences and Longest Common Lyndon Subsequences,Computer Science,en,4,34,13
+W4382204742,post_ai,high,2023,Aircraft-LBDet: Multi-Task Aircraft Detection with Landmark and Bounding Box Detection,Computer Science,en,8,67,45
+W4382240077,post_ai,high,2023,cegpy: Modelling with chain event graphs in Python,Computer Science,en,5,27,15
+W4382787045,post_ai,high,2023,Dual-branch attention module-based network with parameter sharing for joint sound event detection and localization,Computer Science,en,6,14,10
+W4384834891,post_ai,high,2023,An integrated explicit and implicit offensive language taxonomy,Computer Science,en,18,81,50
+W4385569650,post_ai,high,2023,A Federated Deep Reinforcement Learning-Based Trust Model in Underwater Acoustic Sensor Networks,Computer Science,en,40,41,38
+W4385688139,post_ai,high,2023,Canary in Twitter Mine: Collecting Phishing Reports from Experts and Non-experts,Computer Science,en,17,35,29
+W4385767776,post_ai,high,2023,FGNet: Towards Filling the Intra-class and Inter-class Gaps for Few-shot Segmentation,Computer Science,en,5,71,41
+W4385938106,post_ai,high,2023,An Anonymous and Efficient Multimessage and Multireceiver Certificateless Signcryption Scheme for VANET,Computer Science,en,23,29,18
+W4386322171,post_ai,high,2023,A New Type of Linear Resolver Proposal and Its Accuracy Analysis Under Normal State and Air-Gap Asymmetry Fault,Computer Science,en,4,21,19
+W4386462717,post_ai,high,2023,Critiquing Sustainable Openness in Technology-Based Education from the Perspective of Cost-Effectiveness and Accessibility,Computer Science,en,5,45,37
+W4387880868,post_ai,high,2023,A Longitudinal Study of Vulnerable Client-side Resources and Web Developers' Updating Behaviors,Computer Science,en,4,18,17
+W4387951800,post_ai,high,2023,Joint Intra &amp; Inter-Grained Reasoning: A New Look Into Semantic Consistency of Image-Text Retrieval,Computer Science,en,4,58,47
+W4388038761,post_ai,high,2023,Prediction of Software Security Vulnerabilities from Source Code Using Machine Learning Methods,Computer Science,en,6,19,13
+W4389104903,post_ai,high,2023,Robust Approximate Dynamic Programming for Nonlinear Systems With Both Model Error and External Disturbance,Computer Science,en,11,36,29
+W4389331406,post_ai,high,2023,Fixed-Time Synchronization of Impulsive Octonion-Valued Fuzzy Inertial Neural Networks via Improving Fixed-Time Stability,Computer Science,en,25,41,16
+W4389519547,post_ai,high,2023,Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality,Computer Science,en,10,45,34
+W4389666747,post_ai,high,2023,"Exploring Visual Pre-training for Robot Manipulation: Datasets, Models and Methods",Computer Science,en,7,41,21
+W4392910435,post_ai,high,2024,PJSCC: A Puncturing-Based Joint Source Channel Coding Scheme with Hierarchical Down-Sampling Layer,Computer Science,en,4,19,11
+W4392911111,post_ai,high,2024,Modeling Pseudo-Speaker Uncertainty in Voice Anonymization,Computer Science,en,4,26,15
+W4393231163,post_ai,high,2024,Co-design with affect stories and applied ethics for health technologies,Computer Science,en,7,110,66
+W4394593977,post_ai,high,2024,Assessing the utility of natural language processing for detecting postoperative complications from free medical text,Computer Science,en,11,21,12
+W4394823125,post_ai,high,2024,"Metallogenic prediction based on fractal theory and machine learning in Duobaoshan Area, Heilongjiang Province",Computer Science,en,45,96,36
+W4394842583,post_ai,high,2024,Sea You Later: Metadata-Guided Long-Term Re-Identification for UAV-Based Multi-Object Tracking,Computer Science,en,14,31,21
+W4394911111,post_ai,high,2023,Internet of Things for Sustainability: A Case Study of University Campus,Computer Science,en,4,17,14
+W4394998736,post_ai,high,2024,Krylov complexity is not a measure of distance between states or operators,Computer Science,en,25,26,21
+W4398251593,post_ai,high,2024,Three-Dimensional Path Planning for Post-Disaster Rescue UAV by Integrating Improved Grey Wolf Optimizer and Artificial Potential Field Method,Computer Science,en,15,33,19
+W4399118916,post_ai,high,2024,Anomaly Detection for Medical Images Using Teacher–Student Model With Skip Connections and Multiscale Anomaly Consistency,Computer Science,en,9,85,52
+W4399363522,post_ai,high,2024,Algorithmic Transparency and Participation through the Handoff Lens: Lessons Learned from the U.S. Census Bureau’s Adoption of Differential Privacy,Computer Science,en,6,84,63
+W4399604636,post_ai,high,2024,Antiretroviral activity from elderberry (&lt;i&gt;Sambucus nigra&lt;/i&gt; L.) flowers against HIV-2 infection via reverse transcriptase inhibition: a viroinformatics study,Computer Science,en,5,34,26
+W4399887591,post_ai,high,2024,Parameter shift rule with optimal phase selection,Computer Science,en,6,30,18
+W4400280425,post_ai,high,2024,XGBoost-Enhanced Graph Neural Networks: A New Architecture for Heterogeneous Tabular Data,Computer Science,en,23,32,17
+W4400427700,post_ai,high,2024,A Comparative Study Using Deep Learning Models And Transfer Learning for Detection And Classification of Alzheimer’s Disease,Computer Science,en,6,37,26
+W4400600147,post_ai,high,2024,Developing the Design of Single-Axis Sun Sensor Solar Tracking System,Computer Science,en,12,22,18
+W4401631698,post_ai,high,2024,Blockchain technology-driven supply chain financing for Ghana’s SMEs: An evaluation of the dilemmas to adoption using a picture fuzzy preference selection index technique,Computer Science,en,4,76,41
+W4401633177,post_ai,high,2024,Fast and robust object region segmentation with self-organized lattice Boltzmann based active contour method,Computer Science,en,4,30,13
+W4401815753,post_ai,high,2024,Enhancing cervical cancer cytology screening via artificial intelligence innovation,Computer Science,en,15,25,19
+W4402215920,post_ai,high,2024,Detecting Domain Names Generated by DGAs With Low False Positives in Chinese Domain Names,Computer Science,en,3,52,32
+W4402265087,post_ai,high,2024,Managing Financial Operations in the Blockchain Revolution to Enhance Precision and Safety,Computer Science,en,6,21,10
+W4402660091,post_ai,high,2024,A Vision Check-up for Language Models,Computer Science,en,11,59,27
+W4402858752,post_ai,high,2024,"Security Operations Centers: Use Case Best Practices, Coverage, and Gap Analysis Based on MITRE Adversarial Tactics, Techniques, and Common Knowledge",Computer Science,en,10,20,15
+W4404465340,post_ai,high,2024,Learning for an uncertain future: artificial intelligence a challenge for Pakistani education system in the era of digital transformation,Computer Science,en,4,32,24
+W4404639573,post_ai,high,2024,External archive guided radial-grid multi objective differential evolution,Computer Science,en,8,57,35
+W4407535415,post_ai,high,2025,Annealing-inspired training of an optical neural network with ternary weights,Computer Science,en,7,70,43
+W4407781942,post_ai,high,2025,VI-BEV: Vehicle-Infrastructure Collaborative Perception for 3-D Object Detection on Bird’s-Eye View,Computer Science,en,4,39,28
+W4407985921,post_ai,high,2025,Systematic literature review of digital curation services in academic libraries (2001–2023): A global perspective,Computer Science,en,7,90,76
+W4409000560,post_ai,high,2025,Feature-Driven Semantic Communication for Efficient Image Transmission,Computer Science,en,4,38,31
+W4409367401,post_ai,high,2025,Spectral Motion Alignment for Video Motion Transfer Using Diffusion Models,Computer Science,en,7,9,5
+W4412069114,post_ai,high,2025,Application of a Transfer Learning Model Combining CNN and Self-Attention Mechanism in Wireless Signal Recognition,Computer Science,en,6,45,35
+W4413322571,post_ai,high,2025,The AI-Artist Collaboration: Impact of Generative AI on Digital Creators and Multimedia Arts Education,Computer Science,en,5,26,25
+W4413327560,post_ai,high,2025,Combining meteorological and power information of station-measurement and model-prediction with the hybrid CNN-Transformer and CNN-BiLSTM for ultra-short-term photovoltaic power forecasting,Computer Science,en,18,45,20
+W4414020826,post_ai,high,2025,LCW-YOLO: An Explainable Computer Vision Model for Small Object Detection in Drone Images,Computer Science,en,4,32,21
+W4221141965,post_ai,low,2023,BabyNet: Reconstructing 3D faces of babies from uncalibrated photographs,Computer Science,en,0,65,10
+W4372234532,post_ai,low,2023,Remote Teaching of Scrum in Practice: an analysis of participants' perception,Computer Science,en,0,8,5
+W4376611843,post_ai,low,2023,E-SOLUTION FOR MINDANAO RESOURCES: AN ONLINE ANNOTATED BIBLIOGRAPHY,Computer Science,en,0,43,21
+W4384699192,post_ai,low,2023,A Novel Kernel Extension for the Nearest Feature Line Classifier,Computer Science,en,0,28,14
+W4386867956,post_ai,low,2023,High Speed and Low Leakage Power Voltage Level Shifter using Regulated Cross-Coupled Network,Computer Science,en,0,9,8
+W4387654860,post_ai,low,2023,Invertible Neural Network for Inference Pipeline Anomaly Detection,Computer Science,en,0,18,9
+W4387983429,post_ai,low,2023,The Curriculum of ELT Education in Indonesian and Vietnamese Universities: A Comparison Study,Computer Science,en,0,22,20
+W4388153852,post_ai,low,2023,Cognitive Load Theory for ESL Students: Mixed Method to Employ Difficulty in Using Tenses While Writing,Computer Science,en,0,33,21
+W4389389291,post_ai,low,2023,Answering Durable Skyline Queries on Multidimensional Time Series Data Using Grid-Based Approach,Computer Science,en,0,19,14
+W4389519905,post_ai,low,2023,Isotropy-Enhanced Conditional Masked Language Models,Computer Science,en,0,46,39
+W4390418677,post_ai,low,2023,Research on Recommended Technology of Power Transformer Disposal Case based on Knowledge Graph,Computer Science,en,0,15,11
+W4390622334,post_ai,low,2023,The Effect of Think-Talk-Write (TTW) Strategy Toward Students’ Descriptive Text Writing Skill at The Tenth Grade of MAN 2 Pandeglang in Academic Year 2021-2022,Computer Science,en,0,10,7
+W4391813132,post_ai,low,2024,Research on Gangue Detection Algorithm Based on Cross-Scale Feature Fusion and Dynamic Pruning,Computer Science,en,1,20,16
+W4393858957,post_ai,low,2023,Improving sip trunking services with cloud-based SBC: Performance analysis and optimisation strategies,Computer Science,en,0,16,11
+W4399262514,post_ai,low,2024,PnA: Robust Aggregation Against Poisoning Attacks to Federated Learning for Edge Intelligence,Computer Science,en,1,29,18
+W4399976008,post_ai,low,2024,The Role Of The Digital Economic Literacy Movement In Supporting MSMEs Sustainability,Computer Science,en,1,39,22
+W4402126542,post_ai,low,2024,Building the Practical Foundations of a European Quantum Communication Infrastructure,Computer Science,en,0,11,10
+W4402857802,post_ai,low,2024,Reinforcement learning-enabled swarm intelligence method for computation task offloading in Internet-of-Things blockchain,Computer Science,en,0,54,37
+W4403085885,post_ai,low,2024,Research on adaptive artificial intelligence algorithm in signal denoising and enhancement,Computer Science,en,0,31,18
+W4403251710,post_ai,low,2024,Non-Conservative Maximum Flow by Centiles-Method in Uncertain Network,Computer Science,en,0,26,9
+W4403600989,post_ai,low,2024,Learning and diSentangling patient static information from time-series Electronic hEalth Records (STEER),Computer Science,en,0,56,42
+W4403938132,post_ai,low,2024,"MMQP: A Lightweight, Secure and Scalable IoT Communication Protocol",Computer Science,en,0,10,9
+W4404317764,post_ai,low,2024,Multi-Branch Information Network for Advanced Image Captioning,Computer Science,en,0,13,9
+W4405480553,post_ai,low,2024,An efficient no‐reference image quality analysis based on statistical perceptual features,Computer Science,en,1,56,38
+W4405830684,post_ai,low,2024,"Harnessing the Power of Artificial Intelligence in Entrepreneurship: Augmentation, Innovation, and Ethical Considerations",Computer Science,en,0,24,11
+W4406355354,post_ai,low,2024,Merged-r Luby Transform Coded Computation for Non-Linear Tasks in Wireless Networks,Computer Science,en,0,13,10
+W4406459368,post_ai,low,2024,Machine Learning: Driven Strategies for Enhancing Student Academic Performance,Computer Science,en,0,14,12
+W4406736884,post_ai,low,2025,An Energy-efficient Parallel ASIC Implementation of Advanced Encryption Standard (AES) Algorithm Robust against Side-channel Attacks,Computer Science,en,0,21,18
+W4407130203,post_ai,low,2024,CheckIn: Efficiently Checkpointing Intermittent Sensor-Based Internet of Things (IoT) Networks,Computer Science,en,0,24,16
+W4407432611,post_ai,low,2024,Advancements and Research Directions in Cloud Computing Paradigms Toward 6G Fog Networks,Computer Science,en,0,61,42
+W4408017803,post_ai,low,2024,Revolutionizing Navigation: AI-Driven Augmented Reality for Real-Time Environmental Tracking on Mobile Devices,Computer Science,en,0,17,14
+W4408048537,post_ai,low,2024,Modern Effect Systems Overview,Computer Science,en,0,35,25
+W4408713467,post_ai,low,2024,Vegetable Supply Chain Using Smart Contract,Computer Science,en,0,41,30
+W4408826699,post_ai,low,2025,Using emoji to ascertain student emotional responses to technology-based human anatomy instruction,Computer Science,en,0,79,52
+W4408989905,post_ai,low,2025,Prioritizing Defense in Depth Measures Using Artificial Intelligence (AI) and the Expected Utility Hypothesis,Computer Science,en,0,14,11
+W4409442225,post_ai,low,2025,Heavy metals in the Ulyuk-Bar gold deposit soils (Southern Urals),Computer Science,en,0,26,16
+W4410040291,post_ai,low,2025,Non-Fragile Estimation for Nonlinear Delayed Complex Networks with Random Couplings Using Binary Encoding Schemes,Computer Science,en,0,83,57
+W4410258249,post_ai,low,2025,"Elevating Maternal Healthcare: Synergy of Cardiotocography, Machine Learning Models and Interpretive Analysis",Computer Science,en,1,25,18
+W4410853533,post_ai,low,2025,YouTube Spam Comment Detection using Transfer Learning and Machine Learning algorithms,Computer Science,en,0,9,9
+W4411143611,post_ai,low,2025,SISS: Semantic Interoperability Support System for the Internet of Things,Computer Science,en,0,28,15
+W4411202070,post_ai,low,2025,Boosted Reading Comprehension Using PQRST (Preview Question Read Summarize Test) with Images and Short Videos,Computer Science,en,0,11,10
+W4411336522,post_ai,low,2025,Accuracy-Enabling Differential Privacy-Preserving Truth Discovery,Computer Science,en,0,30,26
+W4411798985,post_ai,low,2025,Old MacDonald and His Hackable Smartphone Application: A Security and Privacy Analysis of Android Agriculture Applications,Computer Science,en,0,33,24
+W4412376962,post_ai,low,2025,Bias in Language Models: Interplay of Architecture and Data?,Computer Science,en,0,16,14
+W4412928977,post_ai,low,2025,Achieving equity in esthetic education: a metaverse-supported synchronous classroom approach for art appreciation,Computer Science,en,0,56,40
+W4413205918,post_ai,low,2025,Image Enhancement Using Reinforcement Learning for Underwater Images,Computer Science,en,0,9,7
+W4413553985,post_ai,low,2025,A Real-World Animation Super-Resolution Benchmark With Color Degradation and Multi-Scale Multi-Frequency Alignment,Computer Science,en,0,67,52
+W4413679870,post_ai,low,2025,A Reinforcement Learning Hybrid BRKGA Strategy Applied to Sensor Network Optimization,Computer Science,en,0,24,18
+W4414116991,post_ai,low,2025,Counterfactual linguistic rule-based explanations based on locally relevant causal mechanisms,Computer Science,en,0,27,19
+W4414196918,post_ai,low,2025,Double DQN-GAMO: A Cyber Threat Detection Framework for Zero-Day Attacks,Computer Science,en,0,23,14
+W4414197605,post_ai,low,2025,StreamCSD: SSD-Autonomous Stream Management via In-Storage Content Learning,Computer Science,en,0,16,15
+W4414231817,post_ai,low,2025,Cryptanalysis of a McEliece Cryptosystem Based on Cascaded Goppa-Ldpc Code Encryption,Computer Science,en,0,13,7
+W4415003136,post_ai,low,2025,Joint Frequency- and PRF-Agile Waveform Design for Moving Target Detection With Efficient Coherent Accumulation,Computer Science,en,0,37,36
+W4415027142,post_ai,low,2025,Measuring AI-Driven Developer Productivity in Agile Software Development Random Forest Regression Analysis of Performance Metrics and Tool Integration,Computer Science,en,0,9,5
+W4415624307,post_ai,low,2025,Attention-Guided Dynamic Re-Parameterization for Enhancing Multi-Scale Feature Fusion in Convolutional Neural Networks,Computer Science,en,0,47,28
+W4416229704,post_ai,low,2025,On Bregman Asymptotically Quasi-Nonexpansive Mappings and Generalized Variational-like Systems,Computer Science,en,0,30,15
+W4417457004,post_ai,low,2025,Polynomial time classical versus quantum algorithms for representation theoretic multiplicities,Computer Science,en,0,42,17
+W7128300256,post_ai,low,2026,Block Crossings in One-Sided Tanglegrams,Computer Science,en,0,27,15
+W7128618954,post_ai,low,2026,Predictive modelling for patient care using federated learning systems combined with a private blockchain data environment and using ranked set sampling,Computer Science,en,0,65,40
+W7128765976,post_ai,low,2026,Security analysis on a public-key inverted-index keyword search scheme with designated tester,Computer Science,en,0,8,5
+W7130110154,post_ai,low,2026,Identifying Predictive Combinations of Biomarkers for Early Cancer Detection with Stability Selection in Combination with Ensemble Learning,Computer Science,en,0,36,28
+W7131671716,post_ai,low,2026,Why human touch matters in AI-generated advertising: dual pathways to consumer satisfaction,Computer Science,en,0,37,33
+W7133224764,post_ai,low,2026,Latent attention operator network with augmented representation for complex PDE systems in intricate geometries,Computer Science,en,0,32,17
+W7138055272,post_ai,low,2026,Malware Analysis through Behavior Formalization,Computer Science,en,0,30,18
+W7162753337,post_ai,low,2026,Application‐Oriented Frontend Curriculum Reconstruction: Design and Practice Research,Computer Science,en,0,14,12
+W7163919894,post_ai,low,2026,Unlocking Blockchain Potential Through Oracles: Empirical Evidence on Supply Chain Challenges and Performance,Computer Science,en,0,62,40
+W7168028896,post_ai,low,2026,Enhancing Entertainment Through Reinforcement Learning: Applications in Gaming,Computer Science,en,0,42,24
+W4362474784,post_ai,medium,2023,"Integration of remote sensing and geophysical data to enhance lithological mapping utilizing the Random Forest classifier: a case study from Komopa, Papua Province, Indonesia",Computer Science,en,3,61,44
+W4362719849,post_ai,medium,2023,A Simple Stuck-at-faults Detection Method in Digital Combinational Circuits,Computer Science,en,3,13,10
+W4378651886,post_ai,medium,2023,Creating Bengali Freebase Using Wikidata,Computer Science,en,2,8,7
+W4381792751,post_ai,medium,2023,NEW SEQUENCE ALIGNMENT ALGORITHM USING AI RULES AND DYNAMIC SEEDS,Computer Science,en,3,28,17
+W4382053483,post_ai,medium,2023,Analysis of SAR ImagesDe-speckling using a Bilateral filter and Feed Forward Neural Networks,Computer Science,en,1,15,12
+W4383109010,post_ai,medium,2023,Moment-Based Kalman Filter: Nonlinear Kalman Filtering with Exact Moment Propagation,Computer Science,en,1,39,30
+W4385763653,post_ai,medium,2023,Motion segmentation in Moving Camera Videos using Velocity Guided Optical Flow Normalization,Computer Science,en,1,31,19
+W4386763626,post_ai,medium,2023,Smart Energy Meter Implementation: Security Challenges and Opportunities,Computer Science,en,3,47,35
+W4386997987,post_ai,medium,2023,Research on the application of improved V-detector algorithm in network intrusion detection,Computer Science,en,1,20,14
+W4387220182,post_ai,medium,2023,Rancang Bangun Aplikasi Pengadaan Barang dan Jasa Universitas Negeri XYZ dengan Metode Extreme Programming,Computer Science,en,1,11,3
+W4387730124,post_ai,medium,2023,DIaC: Re-Imagining Decentralized Infrastructure as Code Using Blockchain,Computer Science,en,3,42,26
+W4387914226,post_ai,medium,2023,Mode Recognition in Attack Graphs Based on Conditional State Probability,Computer Science,en,2,31,17
+W4388286247,post_ai,medium,2023,Fast DFT Computation for Signals With Structured Support,Computer Science,en,3,49,31
+W4388830017,post_ai,medium,2023,Training in Data Processing using Smart PLS Software,Computer Science,en,3,28,23
+W4388937920,post_ai,medium,2023,Kathak Dance Movement Recognition and Correction Using Google’s Mediapipe,Computer Science,en,2,19,13
+W4391183914,post_ai,medium,2023,Augmented Reality in Books: An Evaluation of Alan Turing Book,Computer Science,en,3,10,8
+W4391594474,post_ai,medium,2023,Performance Enhancement of Individual Learning Methods for Sentiment Analysis Using Ensemble Learning and Soft Voting Techniques,Computer Science,en,1,20,20
+W4392172736,post_ai,medium,2024,Constructing the Impossible Differential of Type-II GFN with Boolean Function and Its Application to WARP,Computer Science,en,3,24,3
+W4393381643,post_ai,medium,2024,Intelligent code search aids edge software development,Computer Science,en,2,46,31
+W4394629177,post_ai,medium,2023,Understanding the Quantum Teleportation Protocol,Computer Science,en,1,8,5
+W4396558532,post_ai,medium,2024,Learning-Based Models for Building User Profiles for Personalized Information Access,Computer Science,en,1,41,30
+W4399070883,post_ai,medium,2024,Clustering time series by extremal dependence,Computer Science,en,2,28,10
+W4399976793,post_ai,medium,2024,AFE-YOLOv8: A Novel Object Detection Model for Unmanned Aerial Vehicle Scenes with Adaptive Feature Enhancement,Computer Science,en,3,34,26
+W4400089507,post_ai,medium,2024,Dynamic Spatial-Temporal Embedding via Neural Conditional Random Field for Multivariate Time Series Forecasting,Computer Science,en,1,46,38
+W4400976123,post_ai,medium,2024,Localization of UGV Guided by UAV Using Visual Inertia Sensors and UWB,Computer Science,en,3,23,17
+W4401105716,post_ai,medium,2024,Digital Literacy Assisted by Mobile Learning Based on Articulate Storyline in Learning to Understand Poetry,Computer Science,en,1,17,4
+W4401326672,post_ai,medium,2024,TinyJAMBU Hardware Implementation for Low Power,Computer Science,en,1,16,14
+W4401331142,post_ai,medium,2024,The design of a new interactive multimedia system based on computer vision and multi-sensing techniques for the traditional ritual process,Computer Science,en,1,30,18
+W4401342280,post_ai,medium,2024,Design and Development of an Automatic Penetration Test Generation Methodology for Security of Web Applications,Computer Science,en,2,21,17
+W4401510258,post_ai,medium,2024,Refining Mark Burgin’s Case against the Church–Turing Thesis,Computer Science,en,1,29,15
+W4401612358,post_ai,medium,2024,Multimodal Fusion of EEG and EMG Signals Using Self-Attention Multi-Temporal Convolutional Neural Networks for Enhanced Hand Gesture Recognition in Rehabilitation,Computer Science,en,2,14,12
+W4401692626,post_ai,medium,2024,Improving the Singleton-Type Upper Bounds for Non-Linear Deletion Correcting Codes,Computer Science,en,1,24,18
+W4402572184,post_ai,medium,2024,Coupling Semantic Association Graphs with Contrastive Learning in Recommendation,Computer Science,en,1,17,17
+W4402674215,post_ai,medium,2024,Sleep Monitoring Systems based on Edge Computing and Microservices Caching,Computer Science,en,1,19,8
+W4402915985,post_ai,medium,2024,An Efficient Data-Driven Framework for Detecting Infeasible Solutions in Multiobjective Evolutionary Bilevel Optimization,Computer Science,en,2,40,21
+W4403060627,post_ai,medium,2024,Smart Traffic Control: Leveraging DQN for Improved Urban Mobility,Computer Science,en,2,10,4
+W4403536893,post_ai,medium,2024,Unveiling the Characteristics and Impact of Security Patch Evolution,Computer Science,en,2,44,39
+W4404520924,post_ai,medium,2024,Enhancing Malware Detection Through Convolutional Neural Networks and Explainable AI,Computer Science,en,2,24,23
+W4404688982,post_ai,medium,2024,Early Exists Federated Learning (EEFL): Brining Training to the Edge,Computer Science,en,2,18,17
+W4404815779,post_ai,medium,2024,Modeling long-term nutritional behaviors using deep homeostatic reinforcement learning,Computer Science,en,3,66,35
+W4404953593,post_ai,medium,2024,Algorithm to Collect Data with a UAV in an IEEE 802.15.4 Sensor Network with Linear Topology,Computer Science,en,1,13,10
+W4405362566,post_ai,medium,2024,A Forecast Model of Ionospheric foF2 for HF Radio Wave Propagation Based on Echo State Network,Computer Science,en,2,24,19
+W4405935767,post_ai,medium,2024,ExpIDS: A Drift-Adaptable Network Intrusion Detection System with Improved Explainability,Computer Science,en,2,22,13
+W4405979671,post_ai,medium,2024,KLASIFIKASI BUAH NANAS MENGGUNAKAN METODE NAÏVE BAYES,Computer Science,en,1,13,9
+W4406813813,post_ai,medium,2025,ChatGPT's Impact on Students Creativity and Academic Performance,Computer Science,en,1,16,14
+W4408018584,post_ai,medium,2025,UAV -Based Object Tracking Using Siamese Networks and Kalman Filtering,Computer Science,en,1,15,11
+W4408324235,post_ai,medium,2024,SDN-based Network Traffic Classification using Deep Reinforcement Learning,Computer Science,en,1,13,12
+W4408324765,post_ai,medium,2024,Towards Secure Edge Computing: Advanced Machine Learning Techniques for Detecting Malicious Computing Tasks,Computer Science,en,1,12,10
+W4408353573,post_ai,medium,2025,SepMamba: State-Space Models for Speaker Separation Using Mamba,Computer Science,en,3,31,17
+W4409426027,post_ai,medium,2025,The most metal-poor tail of the Galactic halo: Hypothesis for its origin from precise spectral analysis,Computer Science,en,1,175,164
+W4409845043,post_ai,medium,2025,User‐Centred Design in Child Welfare: Importance of an Anti‐Racism Lens,Computer Science,en,2,34,25
+W4409853442,post_ai,medium,2025,"Alzheimer’s Disease in the Age of Precision Medicine: Advances in Pathophysiology, Clinical Management and Therapeutic Strategies",Computer Science,en,2,30,27
+W4410001637,post_ai,medium,2025,On the Instantaneous Salt Mixing due to Freshwater Boundary Fluxes,Computer Science,en,3,17,13
+W4410229566,post_ai,medium,2024,Performance Evaluation of CNN Architectures on NIH Chest X-Ray Dataset with Boosting Ensemble,Computer Science,en,2,17,8
+W4410444325,post_ai,medium,2025,Higher Algebraic K-Theory of Causality,Computer Science,en,1,51,23
+W4410640247,post_ai,medium,2025,Multi-Modal Molecular Representation Learning via Structure Awareness,Computer Science,en,2,48,26
+W4410987050,post_ai,medium,2025,Deploying Language Model-Based Assessment Support Technology in a Computer Science Degree: How Do the Academics Feel About It?,Computer Science,en,1,24,18
+W4412072006,post_ai,medium,2025,Mapping clay fraction oxides in Brazil using Earth observation strategy,Computer Science,en,3,103,36
+W4412676623,post_ai,medium,2025,Exploring Dimensions of Human Likeness in Conversational AI: Implications for Human Identity Threat and Dehumanization,Computer Science,en,3,27,19
+W4412821479,post_ai,medium,2025,Befriend GenAI Chatbots: Exploring the Determinants of Parasocial Relationship in human-AI Interaction Through a Hybrid PLS-ANN-NCA Approach,Computer Science,en,3,114,73
+W4412837100,post_ai,medium,2025,Satellite-Based Object Detection With PSNR-Driven Image Enhancement and Structural Interpretability,Computer Science,en,1,29,24
+W4413475155,post_ai,medium,2025,Can a virtual reality exposure therapy app improve symptoms of Emetophobia? A single-subject Experimental design study,Computer Science,en,1,88,46
+W4414206248,post_ai,medium,2025,Particle Filter-Guided Online Neural Networks for Multi-Target Bearing-Only Tracking in Passive Sonar Systems,Computer Science,en,1,34,30
+W4415447912,post_ai,medium,2025,Estimation of morphological properties in aggregates from 2D data based on machine learning method,Computer Science,en,2,46,18
+W4417333804,post_ai,medium,2025,A Digital Health Platform for Remote and Multimodal Monitoring in Neurodegenerative Diseases,Computer Science,en,1,49,44
+W7117973277,post_ai,medium,2026,A machine learning-driven framework for enhancing underwater visual signal processing in marine ecosystem economic monitoring and anthropogenic impact assessment,Computer Science,en,1,40,34
+W7135178826,post_ai,medium,2026,"Distribution shift, generalization and OOD challenge in offline reinforcement learning: a comprehensive survey",Computer Science,en,2,40,18
+W2794311342,pre_ai,high,2019,Improved Metric Sorting for Successive Cancellation List Decoding of Polar Codes,Computer Science,en,20,11,11
+W2909077198,pre_ai,high,2019,Distributed Time-Varying Output Formation Tracking for Heterogeneous Linear Multiagent Systems With a Nonautonomous Leader of Unknown Input,Computer Science,en,238,39,23
+W2909500108,pre_ai,high,2019,HappyFeet,Computer Science,en,15,24,15
+W2934720435,pre_ai,high,2019,BOGO,Computer Science,en,45,68,63
+W2940934954,pre_ai,high,2019,No-Reference Stereoscopic Image Quality Assessment Based on Visual Attention and Perception,Computer Science,en,16,52,36
+W2947318733,pre_ai,high,2019,Spotted Hyena Optimization Algorithm With Simulated Annealing for Feature Selection,Computer Science,en,88,66,26
+W2953256427,pre_ai,high,2019,"VIVoNet: Visually-Represented, Intent-Based, Voice-Assisted Networking",Computer Science,en,17,23,19
+W2964025765,pre_ai,high,2019,On Solving the Quadratic Shortest Path Problem,Computer Science,en,27,23,9
+W2964127652,pre_ai,high,2019,“Caption” as a Coherence Relation: Evidence and Implications,Computer Science,en,25,33,26
+W2965346190,pre_ai,high,2019,FlowSense: A Natural Language Interface for Visual Data Exploration within a Dataflow System,Computer Science,en,146,65,48
+W2965519969,pre_ai,high,2019,Is M-Learning a Challenge?,Computer Science,en,34,59,41
+W2967148013,pre_ai,high,2019,Exploiting Ground and Ceiling Effects on Autonomous UAV Motion Planning,Computer Science,en,28,17,10
+W2968290912,pre_ai,high,2019,Multicriteria decision‐making techniques for avoiding similar task scheduling conflict in cloud computing,Computer Science,en,34,93,43
+W2980330514,pre_ai,high,2019,The general position problem and strong resolving graphs,Computer Science,en,32,12,5
+W2988335058,pre_ai,high,2019,Android Malware Detection Based on System Calls Analysis and CNN Classification,Computer Science,en,22,43,28
+W2988384045,pre_ai,high,2019,Deep Prototypical Networks for Imbalanced Time Series Classification under Data Scarcity,Computer Science,en,18,18,17
+W2995558939,pre_ai,high,2019,Toward Requirements Specification for Machine-Learned Components,Computer Science,en,45,24,14
+W2995723163,pre_ai,high,2020,Chameleon: Adaptive Code Optimization for Expedited Deep Neural Network Compilation,Computer Science,en,17,44,35
+W2995963897,pre_ai,high,2019,Blockchain and the circular economy: potential tensions and critical reflections from practice,Computer Science,en,503,61,33
+W2998028256,pre_ai,high,2020,Factorized Inference in Deep Markov Models for Incomplete Multimodal Time Series,Computer Science,en,22,41,24
+W3000666583,pre_ai,high,2019,MEASURING COMPUTATIONAL THINKING - ADAPTING A PERFORMANCE TEST AND A SELF-ASSESSMENT INSTRUMENT FOR GERMAN-SPEAKING COUNTRIES,Computer Science,en,18,49,26
+W3005240959,pre_ai,high,2020,Analisa Keamanan Jaringan Menggunakan Network Intrusion Detection and Prevention System,Computer Science,en,16,12,2
+W3011706535,pre_ai,high,2020,Learning Representations for High-Dynamic-Range Image Color Transfer in a Self-Supervised Way,Computer Science,en,43,75,58
+W3014634591,pre_ai,high,2020,BlockFlow: A decentralized SDN controller using blockchain,Computer Science,en,13,15,13
+W3016483802,pre_ai,high,2020,Misconceptions in Privacy Protection and Regulation,Computer Science,en,22,29,17
+W3018341669,pre_ai,high,2020,"Stable, low-error, and calibration-free polarization encoder for free-space quantum communication",Computer Science,en,43,21,17
+W3028342024,pre_ai,high,2020,Intelligence chatbot for Indonesian law on electronic information and transaction,Computer Science,en,15,16,7
+W3035094063,pre_ai,high,2020,Multi-source Meta Transfer for Low Resource Multiple-Choice Question Answering,Computer Science,en,21,48,39
+W3035920760,pre_ai,high,2020,Adaptive practical fast finite-time consensus protocols for multiple uncertain nonlinear mechanical systems,Computer Science,en,16,46,33
+W3036558574,pre_ai,high,2020,Conceptual Learning through Accessible Play,Computer Science,en,18,23,19
+W3080552462,pre_ai,high,2020,Hierarchical One-Class Classifier With Within-Class Scatter-Based Autoencoders,Computer Science,en,32,31,20
+W3087945586,pre_ai,high,2020,Contending memory in heterogeneous SoCs: Evolution in NVIDIA Tegra embedded platforms,Computer Science,en,18,32,22
+W3110090471,pre_ai,high,2020,E2PP: An Energy-Efficient Path Planning Method for UAV-Assisted Data Collection,Computer Science,en,24,22,11
+W3110516712,pre_ai,high,2020,SAP-SSE: Protecting Search Patterns and Access Patterns in Searchable Symmetric Encryption,Computer Science,en,55,43,25
+W3112248899,pre_ai,high,2020,Technology acceptance model and multi-user virtual reality learning environments for Chinese language education,Computer Science,en,100,58,39
+W3112782334,pre_ai,high,2020,Deep Dehazing Network With Latent Ensembling Architecture and Adversarial Learning,Computer Science,en,43,70,47
+W3112906266,pre_ai,high,2021,Entropy Maximization and Meta Classification for Out-of-Distribution Detection in Semantic Segmentation,Computer Science,en,140,84,36
+W3124639310,pre_ai,high,2020,Human Attribute Recognition— A Comprehensive Survey,Computer Science,en,14,192,132
+W3127182253,pre_ai,high,2021,"An Innovative Hyperheuristic, Gaussian Clustering Scheme for Energy‐Efficient Optimization in Wireless Sensor Networks",Computer Science,en,22,51,36
+W3127371221,pre_ai,high,2021,Artificial Intelligence in Decision-Making for Colorectal Cancer Treatment Strategy: An Observational Study of Implementing Watson for Oncology in a 250-Case Cohort,Computer Science,en,37,21,18
+W3129496445,pre_ai,high,2021,Selective Knowledge Transfer for Cross-Domain Collaborative Recommendation,Computer Science,en,15,52,28
+W3131539761,pre_ai,high,2021,Advanced Data Mining of SSD Quality Based on FP-Growth Data Analysis,Computer Science,en,15,40,24
+W3133357144,pre_ai,high,2021,Optimal Tracking Control of Nonlinear Multiagent Systems Using Internal Reinforce Q-Learning,Computer Science,en,109,57,35
+W3135300972,pre_ai,high,2021,Attention-based Machine Learning Model for Smart Contract Vulnerability Detection,Computer Science,en,45,17,8
+W3155741812,pre_ai,high,2021,"Context-Aware Recommender Systems for Social Networks: Review, Challenges and Opportunities",Computer Science,en,56,130,66
+W3157519730,pre_ai,high,2021,Improving the Decision-Making Process in the Higher Learning Institutions via Electronic Records Management System Adoption,Computer Science,en,39,98,63
+W3160314615,pre_ai,high,2021,Tor Traffic Classification Based on Encrypted Payload Characteristics,Computer Science,en,13,40,25
+W3162923043,pre_ai,high,2021,South African universities in a time of increasing disruption,Computer Science,en,28,32,19
+W3163242165,pre_ai,high,2021,Algorithmic method of security of the Internet of Things based on steganographic coding,Computer Science,en,42,12,5
+W3166901817,pre_ai,high,2021,A New Arithmetic Optimization Algorithm for Solving Real-World Multiobjective CEC-2021 Constrained Optimization Problems: Diversity Analysis and Validations,Computer Science,en,169,67,29
+W3172417134,pre_ai,high,2021,OCFormer: A Transformer-Based Model For Arabic Handwritten Text Recognition,Computer Science,en,28,39,20
+W3173210686,pre_ai,high,2021,MULTI-AUV DYNAMIC MANEUVER DECISION-MAKING BASED ON INTUITIONISTIC FUZZY COUNTER-GAME AND FRACTIONAL-ORDER PARTICLE SWARM OPTIMIZATION,Computer Science,en,15,19,8
+W3175602168,pre_ai,high,2021,Learned Bi-Resolution Image Coding using Generalized Octave Convolutions,Computer Science,en,14,32,23
+W3176302227,pre_ai,high,2021,Group-Buying Recommendation for Social E-Commerce,Computer Science,en,43,72,56
+W3176484337,pre_ai,high,2021,Language Conditioned Imitation Learning Over Unstructured Data,Computer Science,en,101,61,36
+W3176687530,pre_ai,high,2021,Privacy and Utility-Assisted Data Protection Strategy for Secure Data Sharing and Retrieval in Cloud System,Computer Science,en,17,33,16
+W3184020822,pre_ai,high,2021,EQFace: A Simple Explicit Quality Network for Face Recognition,Computer Science,en,26,44,25
+W3191642774,pre_ai,high,2021,Finite/Fixed-Time Synchronization of Multi-Layer Networks Based on Energy Consumption Estimation,Computer Science,en,53,38,27
+W3197053634,pre_ai,high,2021,The impact knowledge management processes on business performance via the role of accounting information quality as a mediating factor,Computer Science,en,30,80,64
+W3198701169,pre_ai,high,2021,AI Education in Massive Open Online Courses: A Content Analysis,Computer Science,en,23,14,11
+W3202931411,pre_ai,high,2021,Palm Vein Recognition Based on Convolutional Neural Network,Computer Science,en,20,12,9
+W3206079648,pre_ai,high,2021,Systematic Literature Review of Challenges in Blockchain Scalability,Computer Science,en,319,118,90
+W3216243542,pre_ai,high,2021,Application design to help predict market demand using the waterfall method,Computer Science,en,21,17,7
+W3216331645,pre_ai,high,2021,A Meta-Knowledge Transfer-Based Differential Evolution for Multitask Optimization,Computer Science,en,177,80,61
+W4200107606,pre_ai,high,2021,No-Reference Image Quality Assessment with Convolutional Neural Networks and Decision Fusion,Computer Science,en,44,83,56
+W4230967253,pre_ai,high,2020,Engaging Participants during Selection Studies in Virtual Reality,Computer Science,en,19,83,59
+W2949479937,pre_ai,low,2019,The Impact of Data Reduction on Wearable-Based Human Activity Recognition,Computer Science,en,1,34,24
+W2971841042,pre_ai,low,2019,Convolutional Equalizer - A Convolutional Approach to Equalize Input Features in Dimension,Computer Science,en,1,25,16
+W2975230284,pre_ai,low,2019,Heat and Noise (Renao),Computer Science,en,0,8,6
+W2975573143,pre_ai,low,2019,Latency Limits for Content Delivery in a Fog-RAN with D2D Communication,Computer Science,en,0,26,16
+W2979001052,pre_ai,low,2019,Computable Proximity of $\ell_1$-Discs on the Digital Plane,Computer Science,en,1,10,4
+W2980704780,pre_ai,low,2019,A Fault Detection AES Scheme for Resource-Constrained Embedded Systems,Computer Science,en,0,13,3
+W2981542845,pre_ai,low,2019,HTIME: A Hash-Based Terminal Identification Method in Cloud Environment,Computer Science,en,0,29,18
+W2989863068,pre_ai,low,2019,Development of the 3-Dimensional Map in the Bandung Regency Government Complex,Computer Science,en,2,20,11
+W2992408303,pre_ai,low,2019,A Dual-Modal Assistive Technology Employing Eyelid and Head Movements,Computer Science,en,1,10,10
+W2995765375,pre_ai,low,2019,Speech Emotion Recognition using Spectral Normalized CycleGAN,Computer Science,en,1,26,16
+W2997406158,pre_ai,low,2019,Satellite Network Oriented TCP Slow Start Algorithm,Computer Science,en,1,12,7
+W2997522794,pre_ai,low,2019,On Stability and Scalability Enhancement in WSN,Computer Science,en,0,14,8
+W3002256414,pre_ai,low,2019,Multimodal Medical Images Registration Using Biogeography-Based Optimization Algorithm,Computer Science,en,3,19,13
+W3004363643,pre_ai,low,2019,Reducing Language Barriers to Domestic Violence,Computer Science,en,0,8,1
+W3008970970,pre_ai,low,2019,THE EFFECT OF ANTI-LANGUAGE METHOD TO IMPROVE THE ABILITY OF ELEMENTARY STUDENTS OF GRADE 5 IN UNDERSTANDING THE ENGLISH GRAMMAR,Computer Science,en,0,8,2
+W3010127998,pre_ai,low,2019,"Quality of Health Service, Optimizing an IoT Solution with Diffserv and EWS Protocols",Computer Science,en,1,8,8
+W3012237668,pre_ai,low,2019,An Information Theoretic Approach for Assessing the Performance of Vehicle Kinematic Tracking,Computer Science,en,0,17,13
+W3012408657,pre_ai,low,2020,A Standardised Format for Exchanging User Study Instruments,Computer Science,en,1,11,6
+W3027471241,pre_ai,low,2019,Motivation in the use of digital platforms for teaching and learning mathematics,Computer Science,en,2,37,18
+W3037440665,pre_ai,low,2019,Deep Reinforcement Learning based Dynamic Object Detection and Tracking from a Moving Platform,Computer Science,en,3,29,19
+W3038829008,pre_ai,low,2020,ECharacterize: A Novel Feature Selection-Based Framework for Characterizing Entrepreneurial Influencers in Arabic Twitter,Computer Science,en,2,36,22
+W3048074874,pre_ai,low,2020,Subspace Perturbation Bounds with an Application to Angle of Arrival Estimation using the MUSIC Algorithm,Computer Science,en,1,20,18
+W3081071555,pre_ai,low,2019,A New Method of Specific Emitter Identification,Computer Science,en,2,15,14
+W3086061467,pre_ai,low,2020,Face Quality Assessment Based on Local Gradient,Computer Science,en,1,19,13
+W3089862094,pre_ai,low,2020,"Towards standardization in frameworks, tools and approaches dedicated to ontology building and management",Computer Science,en,1,58,30
+W3090384183,pre_ai,low,2020,A situation-modulated minimal change account for causal inferences about causal networks,Computer Science,en,2,36,19
+W3092566008,pre_ai,low,2020,Energy Optimization of an Elastic Computer Cluster with a SDN Controller,Computer Science,en,3,20,15
+W3092585369,pre_ai,low,2020,NativeX: Native Executioner Freezes Android,Computer Science,en,0,22,18
+W3098670919,pre_ai,low,2019,Asymptotic analysis of an advection-diffusion equation involving interacting boundary and internal layers,Computer Science,en,2,28,9
+W3099187539,pre_ai,low,2020,Advances in Wearable Sensors: Signalling the Provenance of Garments Using Radio Frequency Watermarks,Computer Science,en,2,27,25
+W3108106289,pre_ai,low,2020,A Questionnaire is Designed To Determine the Requirements and Expectations of Job Seekers in their Industry,Computer Science,en,0,8,4
+W3110219956,pre_ai,low,2020,Designing Information Systems for Transaction and Production Data Management A&amp;N convection,Computer Science,en,0,15,4
+W3114110555,pre_ai,low,2021,Nearly optimal codebooks from generalized Boolean bent functions over $ \mathbb{Z}_{4} $,Computer Science,en,0,39,22
+W3114645596,pre_ai,low,2020,The Processing of Speech Formulas on Turkish: A Masked Priming Study,Computer Science,en,1,33,18
+W3128274826,pre_ai,low,2020,PoAS: Enhanced Consensus Algorithm for Collaborative Blockchain Intrusion Detection System,Computer Science,en,2,26,15
+W3128347067,pre_ai,low,2020,Consensus of multi-agent systems with adaptive coupling weight and communication delays,Computer Science,en,1,9,2
+W3128622939,pre_ai,low,2021,Insights on critical energy efficiency approaches in internet-of-things application,Computer Science,en,2,56,47
+W3130784123,pre_ai,low,2021,Particle Swarm Optimization-Based Data Aggregation in Wireless Sensor Network,Computer Science,en,0,9,7
+W3137918754,pre_ai,low,2021,M-Learning in Promoting Green Building Awareness in Palestine,Computer Science,en,2,46,27
+W3150221581,pre_ai,low,2021,Numerical Characterizations of Topological Reductions of Covering Information Systems in Evidence Theory,Computer Science,en,3,50,9
+W3150788410,pre_ai,low,2021,Multi-person pose tracking with occlusion solving using motion models,Computer Science,en,2,28,14
+W3159551194,pre_ai,low,2021,Lesson Study Based on Flipped Classroom on Primary School,Computer Science,en,0,25,16
+W3160621230,pre_ai,low,2021,Students' Analyses toward Grammatical Errors on Social Media's Posts: Case Study in Politeknik Negeri Medan,Computer Science,en,0,20,13
+W3163602680,pre_ai,low,2021,Audit Outsourced Data in Internet of Things,Computer Science,en,2,38,25
+W3163685933,pre_ai,low,2019,Improving STEM Education Programs through the Development of STEM Education Standards,Computer Science,en,1,11,9
+W3169472279,pre_ai,low,2021,A monitoring framework for transparency and fairness in big data platform,Computer Science,en,2,16,11
+W3170907748,pre_ai,low,2020,An efficient ADMM-type algorithm for deep semi-nonnegative matrix factorization,Computer Science,en,0,35,18
+W3173000472,pre_ai,low,2021,Nekray,Computer Science,en,0,8,5
+W3176731257,pre_ai,low,2021,Stability analysis based on monodromy matrix for switched dynamical systems,Computer Science,en,2,31,25
+W3180107296,pre_ai,low,2021,An Overview of Improved Gradient Descent Algorithms for DNN Training within Significant Revolutions of Training Frameworks,Computer Science,en,3,20,13
+W3182416960,pre_ai,low,2021,A Glimpse into the Methodology of Developing Shell-Based Control Systems for UGVs,Computer Science,en,1,25,15
+W3186696009,pre_ai,low,2021,Weaklier-Supervised Semantic Segmentation with Pyramid Scene Parsing Network,Computer Science,en,1,34,26
+W3191679877,pre_ai,low,2021,Local Neighborhood-Based Adaptation of Weights in Multi-Objective Evolutionary Algorithms Based on Decomposition,Computer Science,en,1,27,23
+W3195198387,pre_ai,low,2021,Using Ontologies for the Development of the University Educational Ecosystem,Computer Science,en,1,12,8
+W3196180395,pre_ai,low,2021,A Proposed Method for Background Subtraction and Adding Scribbles in Video Matting,Computer Science,en,0,18,11
+W3207868653,pre_ai,low,2021,Adaptive Pronunciation Proofreading of Spoken English in a Wireless Sensor Network Environment,Computer Science,en,1,18,16
+W3216023089,pre_ai,low,2021,"Polynomial and Pseudopolynomial Procedures for Solving Interval Two-Sided (Max, Plus)-Linear Systems",Computer Science,en,1,24,7
+W3216244992,pre_ai,low,2021,Self-Optimizing Database Architecture,Computer Science,en,0,8,6
+W3216797791,pre_ai,low,2021,PUF Implementation Using Competing OTPM Devices in Novel 5T-2OTPM Differential Configuration,Computer Science,en,1,33,29
+W4200403662,pre_ai,low,2021,Comparative study of models solar radiation in Sub-Saharan environment,Computer Science,en,2,16,6
+W4205934924,pre_ai,low,2021,A Survey on Multi Objective Optimization Challenges in Swarm Intelligence,Computer Science,en,2,24,14
+W4206380651,pre_ai,low,2021,An E-commerce Medicine Website Deployed no AWS ith Prescription Verificationw,Computer Science,en,2,13,12
+W4211216292,pre_ai,low,2021,Aspect-words Sentiment analysis of commodity comments based on deep memory network,Computer Science,en,0,13,10
+W4214893325,pre_ai,low,2021,The Use Of Information Technologies In Fitness Activities Under The Covid-19 Restrictions,Computer Science,en,0,12,8
+W4226439497,pre_ai,low,2021,k-Safe Labelings of Connected Graphs,Computer Science,en,0,8,2
+W4247133552,pre_ai,low,2020,"Artificial Neural Network for Data Assimilation by WRF Model in Rio de Janeiro, Brazil",Computer Science,en,0,33,19
+W4401047903,pre_ai,low,2019,Spectrum sensing algorithm using ANN in cognitive radio,Computer Science,en,2,10,9
+W2140906039,pre_ai,medium,2020,A Consortium Based Model For The Development Of A Concentration Track In Embedded Systems,Computer Science,en,9,18,16
+W2912737147,pre_ai,medium,2019,Decisional-DNA Based Smart Production Performance Analysis Model,Computer Science,en,6,24,13
+W2950666223,pre_ai,medium,2019,Cross-Modal Commentator: Automatic Machine Commenting Based on Cross-Modal Information,Computer Science,en,10,39,32
+W2958518407,pre_ai,medium,2019,System Architecting Approach for Designing Deep Learning Models,Computer Science,en,4,19,9
+W2966481145,pre_ai,medium,2019,Control Approach Combining Reinforcement Learning and Model-Based Control,Computer Science,en,5,15,10
+W2966736435,pre_ai,medium,2019,Extracting correspondences from metamodels using metamodel matching,Computer Science,en,4,8,1
+W2968343722,pre_ai,medium,2019,2D LiDAR Map Prediction via Estimating Motion Flow with GRU,Computer Science,en,11,32,21
+W2973022943,pre_ai,medium,2019,A Novel Steering Control for Real Autonomous Vehicles via PI Adaptive Dynamic Programming,Computer Science,en,3,9,8
+W2978450368,pre_ai,medium,2019,Participating in an Industry Based Social Service Program: a Report of Student Perception of What They Learn and What They Need,Computer Science,en,4,32,26
+W2979017968,pre_ai,medium,2019,SCF2 - an Argumentation Semantics for Rational Human Judgments on Argument Acceptability,Computer Science,en,11,20,9
+W2979792193,pre_ai,medium,2019,Adaptive LSB substitution Steganography technique based on PVD,Computer Science,en,12,22,13
+W2984499846,pre_ai,medium,2019,Unsupervised Transfer Learning Using for Multi-Model Remote Sensing Data Classification,Computer Science,en,3,16,11
+W2984921342,pre_ai,medium,2019,Active Learning for Image Classification: A Deep Reinforcement Learning Approach,Computer Science,en,13,34,16
+W2985613649,pre_ai,medium,2019,Pure information: on infinity and human nature in the technical object,Computer Science,en,7,10,5
+W2987895039,pre_ai,medium,2019,Dynamic Behavior Extraction from Social Interactions Using Machine Learning and Study of Over Fitting Problem,Computer Science,en,8,26,20
+W2991256359,pre_ai,medium,2019,RTSRGAN: Real-Time Super-Resolution Generative Adversarial Networks,Computer Science,en,10,35,15
+W2992097261,pre_ai,medium,2019,Geochemical And Hyperspectral Data Fusion For Drill-Core Mineral Mapping,Computer Science,en,8,9,5
+W2998479337,pre_ai,medium,2019,Denoising performance analysis of adaptive decision based inverse distance weighted interpolation (DBIDWI) algorithm for salt and pepper noise,Computer Science,en,9,30,26
+W2999149203,pre_ai,medium,2019,VPID: Towards Vein Pattern Identification Using Thermal Imaging,Computer Science,en,9,37,32
+W3003925629,pre_ai,medium,2020,Application and Need-Based Architecture Design of Deep Neural Networks,Computer Science,en,5,26,14
+W3004119867,pre_ai,medium,2020,Fast Approximation of Coherence for Second-Order Noisy Consensus Networks,Computer Science,en,10,60,43
+W3006072380,pre_ai,medium,2019,Detection of Near Field Communication (NFC) Relay Attack Anomalies in Electronic Payment Cases using Markov Chain,Computer Science,en,3,13,7
+W3010660360,pre_ai,medium,2019,Compactly Supported Tensor Product Complex Tight Framelets with Directionality,Computer Science,en,5,44,24
+W3015351188,pre_ai,medium,2020,Effective Wavenet Adaptation for Voice Conversion with Limited Data,Computer Science,en,6,28,17
+W3031432445,pre_ai,medium,2020,Spark Performance Optimization Analysis In Memory Management with Deploy Mode In Standalone Cluster Computing,Computer Science,en,10,16,15
+W3031735745,pre_ai,medium,2020,HowSim: A General and Effective Similarity Measure on Heterogeneous Information Networks,Computer Science,en,7,18,11
+W3032554733,pre_ai,medium,2020,SPEAr: Expediting Stream Processing with Accuracy Guarantees,Computer Science,en,9,71,52
+W3036533548,pre_ai,medium,2020,MiDas: Containerizing Data-Intensive Applications with I/O Specialization,Computer Science,en,5,12,7
+W3039861198,pre_ai,medium,2020,BurstZ,Computer Science,en,8,49,42
+W3041347230,pre_ai,medium,2020,Design Adaptive AI for RTS Game by Learning Player's Build Order,Computer Science,en,3,9,5
+W3045672748,pre_ai,medium,2020,Fast Convergent Flocking Control of Multi-Agent Systems with Switching Communication Topology,Computer Science,en,4,17,10
+W3046016773,pre_ai,medium,2020,Regional Integration and Growth Spillovers: Is Africa an Economic Space?,Computer Science,en,8,33,15
+W3083637667,pre_ai,medium,2020,Verification of Embedded Binaries using Coverage-guided Fuzzing with SystemC-based Virtual Prototypes,Computer Science,en,9,24,20
+W3093489464,pre_ai,medium,2020,Blockchain and Smart contract’s contributions to Zakat management system,Computer Science,en,6,12,7
+W3113415248,pre_ai,medium,2020,"RESTful API Implementation in Making a Master Data Planogram Using the Flask Framework (Case Study: PT Sumber Alfaria Trijaya, Tbk)",Computer Science,en,3,15,3
+W3115555537,pre_ai,medium,2020,Registration of the quantum state of a single photon to create a satellite quantum network,Computer Science,en,5,17,9
+W3116938188,pre_ai,medium,2020,Human Motion Recognition by Three-view Kinect Sensors in Virtual Basketball Training,Computer Science,en,7,18,13
+W3117122667,pre_ai,medium,2020,Vietnamese Text Classification Algorithm using Long Short Term Memory and Word2Vec,Computer Science,en,7,36,25
+W3119240387,pre_ai,medium,2021,FPGA prototyping of synchronized chaotic map for UAV secure communication,Computer Science,en,7,22,11
+W3129007965,pre_ai,medium,2021,Understanding Overparameterization in Generative Adversarial Networks,Computer Science,en,12,39,27
+W3133103434,pre_ai,medium,2021,Quantum detector tomography of a high dynamic-range superconducting nanowire single-photon detector,Computer Science,en,8,35,30
+W3140793567,pre_ai,medium,2021,Using Paralinguistic Information to Disambiguate User Intentions for Distinguishing Phrase Structure and Sarcasm in Spoken Dialog Systems,Computer Science,en,5,89,48
+W3156437603,pre_ai,medium,2021,DiAG: a dataflow-inspired architecture for general-purpose processors,Computer Science,en,8,39,37
+W3160807235,pre_ai,medium,2021,Recent Developments in Tibetan NLP,Computer Science,en,3,16,13
+W3163575922,pre_ai,medium,2021,Accurate Cell Segmentation in Digital Pathology Images via Attention Enforced Networks,Computer Science,en,5,13,11
+W3163605308,pre_ai,medium,2021,Adaptive particle swarm optimization algorithm based long short-term memory networks for sentiment analysis,Computer Science,en,8,43,20
+W3167194073,pre_ai,medium,2021,Towards Sheaf Theoretic Analyses for Delay Tolerant Networking,Computer Science,en,12,25,18
+W3183436390,pre_ai,medium,2021,Spectral imaging in production,Computer Science,en,8,47,43
+W3192134083,pre_ai,medium,2021,A Novel Defensive Strategy for Facial Manipulation Detection Combining Bilateral Filtering and Joint Adversarial Training,Computer Science,en,8,62,40
+W3194853076,pre_ai,medium,2021,Theoretical Analysis and Evaluation of NoCs with Weighted Round-Robin Arbitration,Computer Science,en,7,39,30
+W3196805565,pre_ai,medium,2021,[Retracted] Feature Extraction of Ancient Chinese Characters Based on Deep Convolution Neural Network and Big Data Analysis,Computer Science,en,9,30,10
+W3197577391,pre_ai,medium,2021,Extracting per Query Valid Explanations for Blackbox Learning-to-Rank Models,Computer Science,en,12,17,13
+W3199265610,pre_ai,medium,2021,Estimating causal effects with the neural autoregressive density estimator,Computer Science,en,3,39,30
+W3200997590,pre_ai,medium,2021,Robust Reinforcement Learning for Stochastic Linear Quadratic Control with Multiplicative Noise,Computer Science,en,6,54,33
+W3201320135,pre_ai,medium,2021,Interactive Quantum Classifier Inspired by Quantum Open System Theory,Computer Science,en,6,63,32
+W3202533460,pre_ai,medium,2021,Exploring learning outcomes of science experiments using physical instrument and substances assisted by digital entities,Computer Science,en,5,83,53
+W3203086135,pre_ai,medium,2021,Dynamic time distribution system monitoring on traffic light using image processing and convolutional neural network method,Computer Science,en,4,14,8
+W3205946232,pre_ai,medium,2021,Machine Learning Target Count Prediction in Electromagnetics Using Neural Networks,Computer Science,en,5,44,34
+W3208402638,pre_ai,medium,2021,Acute Lymphoblastic Leukemia Classification in Nucleus Microscopic Images using Convolutional Neural Networks and Transfer Learning,Computer Science,en,10,28,18
+W3214770367,pre_ai,medium,2021,Using Innovation to Develop Digital Tools for Public Health During the COVID-19 Pandemic,Computer Science,en,6,19,15
+W3216713162,pre_ai,medium,2021,Developing a COVID-19 module for the European Social Survey,Computer Science,en,7,10,8
+W3217174641,pre_ai,medium,2021,Comparative analysis of software optimization methods in context of branch predication on GPUs,Computer Science,en,6,22,14
+W4200157532,pre_ai,medium,2021,TECHNOLOGY FOR THE DEVELOPMENT OF SOFTWARE ALGORITHMS FOR OPTOELECTRONIC MONITORING SYSTEMS FOR REMOTE OBJECTS,Computer Science,en,6,8,6
+W4205211987,pre_ai,medium,2021,Enhanced Flipping Technique to Reduce Variability in Image Steganography,Computer Science,en,9,38,25
+W4206012920,pre_ai,medium,2021,Big Data Analytics to Authenticate Bank Notes Using K-Means Clustering,Computer Science,en,4,15,7
+W4241356014,pre_ai,medium,2019,Approach to design of distributed multi-agent system for processing sound information of the environment,Computer Science,en,3,11,9
+W4249114323,pre_ai,medium,2020,Data Mining Based Marketing Decision Support System Using Hybrid Machine Learning Algorithm,Computer Science,en,10,13,11

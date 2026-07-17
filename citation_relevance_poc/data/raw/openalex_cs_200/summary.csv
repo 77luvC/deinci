@@ -1,0 +1,14 @@
+metric,value
+papers,9080
+seed_papers,400
+query_papers_with_usable_references,400
+pairs,8985
+positive_pairs,8985
+unique_reference_works,8684
+field_id,17
+subfield_ids,
+language,en
+seeds_per_period,200
+candidate_sample_size,750
+min_references,8
+random_seed,42

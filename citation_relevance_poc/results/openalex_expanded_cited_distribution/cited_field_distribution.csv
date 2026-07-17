@@ -1,0 +1,46 @@
+query_ai_group,candidate_field,n,share
+post_ai,Computer Science,662,0.6163873370577281
+post_ai,Engineering,122,0.11359404096834265
+post_ai,Medicine,52,0.048417132216014895
+post_ai,Social Sciences,39,0.036312849162011177
+post_ai,Physics and Astronomy,37,0.03445065176908752
+post_ai,Mathematics,32,0.0297951582867784
+post_ai,Psychology,23,0.021415270018621976
+post_ai,"Business, Management and Accounting",22,0.020484171322160148
+post_ai,Neuroscience,19,0.017690875232774673
+post_ai,Agricultural and Biological Sciences,15,0.013966480446927373
+post_ai,Decision Sciences,10,0.00931098696461825
+post_ai,Earth and Planetary Sciences,8,0.0074487895716946
+post_ai,"Biochemistry, Genetics and Molecular Biology",7,0.006517690875232775
+post_ai,Health Professions,6,0.00558659217877095
+post_ai,Environmental Science,5,0.004655493482309125
+post_ai,Chemistry,3,0.002793296089385475
+post_ai,Immunology and Microbiology,3,0.002793296089385475
+post_ai,Materials Science,2,0.00186219739292365
+post_ai,Arts and Humanities,1,0.000931098696461825
+post_ai,Chemical Engineering,1,0.000931098696461825
+post_ai,"Economics, Econometrics and Finance",1,0.000931098696461825
+post_ai,Energy,1,0.000931098696461825
+post_ai,Nursing,1,0.000931098696461825
+post_ai,"Pharmacology, Toxicology and Pharmaceutics",1,0.000931098696461825
+post_ai,Veterinary,1,0.000931098696461825
+pre_ai,Computer Science,827,0.7794533459000943
+pre_ai,Engineering,68,0.0640904806786051
+pre_ai,Social Sciences,34,0.03204524033930255
+pre_ai,Physics and Astronomy,27,0.02544769085768143
+pre_ai,Mathematics,23,0.021677662582469368
+pre_ai,"Business, Management and Accounting",13,0.012252591894439209
+pre_ai,Decision Sciences,13,0.012252591894439209
+pre_ai,Arts and Humanities,10,0.00942507068803016
+pre_ai,Psychology,10,0.00942507068803016
+pre_ai,Medicine,8,0.007540056550424128
+pre_ai,"Biochemistry, Genetics and Molecular Biology",7,0.006597549481621112
+pre_ai,Neuroscience,5,0.00471253534401508
+pre_ai,Materials Science,4,0.003770028275212064
+pre_ai,"Economics, Econometrics and Finance",3,0.002827521206409048
+pre_ai,Chemistry,2,0.001885014137606032
+pre_ai,Earth and Planetary Sciences,2,0.001885014137606032
+pre_ai,Energy,2,0.001885014137606032
+pre_ai,Agricultural and Biological Sciences,1,0.000942507068803016
+pre_ai,Environmental Science,1,0.000942507068803016
+pre_ai,Health Professions,1,0.000942507068803016

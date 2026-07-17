@@ -1,0 +1,1314 @@
+query_ai_group,candidate_venue,n,share
+post_ai,PLoS ONE,19,0.014285714285714285
+post_ai,New England Journal of Medicine,18,0.013533834586466165
+post_ai,Veterinary Ophthalmology,18,0.013533834586466165
+post_ai,Cardiovascular Diabetology,15,0.011278195488721804
+post_ai,Frontiers in Immunology,15,0.011278195488721804
+post_ai,Nature Communications,15,0.011278195488721804
+post_ai,JAMA,11,0.008270676691729323
+post_ai,Proceedings of the National Academy of Sciences,11,0.008270676691729323
+post_ai,Scientific Reports,11,0.008270676691729323
+post_ai,Clinical Journal of the American Society of Nephrology,10,0.007518796992481203
+post_ai,PubMed,10,0.007518796992481203
+post_ai,Stroke,10,0.007518796992481203
+post_ai,Circulation,9,0.006766917293233083
+post_ai,Nucleic Acids Research,9,0.006766917293233083
+post_ai,Obstetrics and Gynecology,9,0.006766917293233083
+post_ai,The Journal of Immunology,9,0.006766917293233083
+post_ai,BMJ,8,0.006015037593984963
+post_ai,Blood,8,0.006015037593984963
+post_ai,Cancer Research,8,0.006015037593984963
+post_ai,Clinical Chemistry and Laboratory Medicine (CCLM),8,0.006015037593984963
+post_ai,AIDS Care,7,0.005263157894736842
+post_ai,Clinical Infectious Diseases,7,0.005263157894736842
+post_ai,International Journal of Molecular Sciences,7,0.005263157894736842
+post_ai,Transplantation,7,0.005263157894736842
+post_ai,BMJ Open,6,0.004511278195488722
+post_ai,European Heart Journal,6,0.004511278195488722
+post_ai,Frontiers in Veterinary Science,6,0.004511278195488722
+post_ai,Journal of Clinical Medicine,6,0.004511278195488722
+post_ai,Science,6,0.004511278195488722
+post_ai,World Journal of Gastroenterology,6,0.004511278195488722
+post_ai,unknown,6,0.004511278195488722
+post_ai,BMC Health Services Research,5,0.0037593984962406013
+post_ai,BioMed Research International,5,0.0037593984962406013
+post_ai,Canadian Journal of Kidney Health and Disease,5,0.0037593984962406013
+post_ai,Cancer Discovery,5,0.0037593984962406013
+post_ai,Clinical Chemistry,5,0.0037593984962406013
+post_ai,Diabetes Care,5,0.0037593984962406013
+post_ai,Journal of Clinical Oncology,5,0.0037593984962406013
+post_ai,Medical Teacher,5,0.0037593984962406013
+post_ai,Nephrology Dialysis Transplantation,5,0.0037593984962406013
+post_ai,AIDS Patient Care and STDs,4,0.0030075187969924814
+post_ai,Age and Ageing,4,0.0030075187969924814
+post_ai,Allergy,4,0.0030075187969924814
+post_ai,American Journal of Epidemiology,4,0.0030075187969924814
+post_ai,American Journal of Transplantation,4,0.0030075187969924814
+post_ai,BJOG An International Journal of Obstetrics & Gynaecology,4,0.0030075187969924814
+post_ai,BMC Medical Research Methodology,4,0.0030075187969924814
+post_ai,BMC Public Health,4,0.0030075187969924814
+post_ai,Cambridge University Press eBooks,4,0.0030075187969924814
+post_ai,Clinical Transplantation,4,0.0030075187969924814
+post_ai,Critical Care,4,0.0030075187969924814
+post_ai,Dental Materials Journal,4,0.0030075187969924814
+post_ai,Health Policy and Planning,4,0.0030075187969924814
+post_ai,Hypertension,4,0.0030075187969924814
+post_ai,JAMA Internal Medicine,4,0.0030075187969924814
+post_ai,JAMA Network Open,4,0.0030075187969924814
+post_ai,Journal of Cachexia Sarcopenia and Muscle,4,0.0030075187969924814
+post_ai,Journal of Clinical Investigation,4,0.0030075187969924814
+post_ai,Journal of Medical Internet Research,4,0.0030075187969924814
+post_ai,Journal of Neurosurgery Spine,4,0.0030075187969924814
+post_ai,Journal of Visualized Experiments,4,0.0030075187969924814
+post_ai,Medical Care,4,0.0030075187969924814
+post_ai,Nature Genetics,4,0.0030075187969924814
+post_ai,Neurosurgery,4,0.0030075187969924814
+post_ai,Patient Preference and Adherence,4,0.0030075187969924814
+post_ai,The Lancet,4,0.0030075187969924814
+post_ai,Transplant Infectious Disease,4,0.0030075187969924814
+post_ai,World Allergy Organization Journal,4,0.0030075187969924814
+post_ai,AIDS,3,0.002255639097744361
+post_ai,Acta Anaesthesiologica Scandinavica,3,0.002255639097744361
+post_ai,Acta Obstetricia Et Gynecologica Scandinavica,3,0.002255639097744361
+post_ai,American Journal of Hypertension,3,0.002255639097744361
+post_ai,Annals of Internal Medicine,3,0.002255639097744361
+post_ai,Annals of Surgery,3,0.002255639097744361
+post_ai,Autism,3,0.002255639097744361
+post_ai,Bioactive Materials,3,0.002255639097744361
+post_ai,British journal of surgery,3,0.002255639097744361
+post_ai,Cancers,3,0.002255639097744361
+post_ai,Cell Death and Disease,3,0.002255639097744361
+post_ai,Cell Reports,3,0.002255639097744361
+post_ai,Cells,3,0.002255639097744361
+post_ai,Circulation Research,3,0.002255639097744361
+post_ai,Clinical Epigenetics,3,0.002255639097744361
+post_ai,Clinical Therapeutics,3,0.002255639097744361
+post_ai,Cochrane Database of Systematic Reviews,3,0.002255639097744361
+post_ai,EMBO Molecular Medicine,3,0.002255639097744361
+post_ai,Endocrine Related Cancer,3,0.002255639097744361
+post_ai,European Journal Of Oral Sciences,3,0.002255639097744361
+post_ai,Evolution,3,0.002255639097744361
+post_ai,Expert Opinion on Drug Delivery,3,0.002255639097744361
+post_ai,Expert Review of Medical Devices,3,0.002255639097744361
+post_ai,Frontiers in Bioengineering and Biotechnology,3,0.002255639097744361
+post_ai,Frontiers in Oncology,3,0.002255639097744361
+post_ai,Health Research Policy and Systems,3,0.002255639097744361
+post_ai,Hematology,3,0.002255639097744361
+post_ai,Human Reproduction,3,0.002255639097744361
+post_ai,Inflammatory Bowel Diseases,3,0.002255639097744361
+post_ai,International Journal of Environmental Research and Public Health,3,0.002255639097744361
+post_ai,JMIR mhealth and uhealth,3,0.002255639097744361
+post_ai,Journal of Asthma and Allergy,3,0.002255639097744361
+post_ai,Journal of Cardiovascular Magnetic Resonance,3,0.002255639097744361
+post_ai,Journal of Experimental & Clinical Cancer Research,3,0.002255639097744361
+post_ai,Journal of General Virology,3,0.002255639097744361
+post_ai,Journal of Hematology & Oncology,3,0.002255639097744361
+post_ai,Journal of Hepatology,3,0.002255639097744361
+post_ai,Journal of Interprofessional Care,3,0.002255639097744361
+post_ai,Journal of Neurosurgery Pediatrics,3,0.002255639097744361
+post_ai,Journal of Small Animal Practice,3,0.002255639097744361
+post_ai,Journal of Statistical Software,3,0.002255639097744361
+post_ai,Journal of Veterinary Internal Medicine,3,0.002255639097744361
+post_ai,Journal of the American Veterinary Medical Association,3,0.002255639097744361
+post_ai,Journal of the Association of Nurses in AIDS Care,3,0.002255639097744361
+post_ai,Kidney International,3,0.002255639097744361
+post_ai,Kidney International Reports,3,0.002255639097744361
+post_ai,Lab on a Chip,3,0.002255639097744361
+post_ai,Liver International,3,0.002255639097744361
+post_ai,MMWR Morbidity and Mortality Weekly Report,3,0.002255639097744361
+post_ai,Neurosurgical FOCUS,3,0.002255639097744361
+post_ai,Pediatric Neurosurgery,3,0.002255639097744361
+post_ai,SSM - Qualitative Research in Health,3,0.002255639097744361
+post_ai,Statistics in Medicine,3,0.002255639097744361
+post_ai,The American Naturalist,3,0.002255639097744361
+post_ai,The European Journal of Contraception & Reproductive Health Care,3,0.002255639097744361
+post_ai,The Journal of Clinical Endocrinology & Metabolism,3,0.002255639097744361
+post_ai,The Journal of Experimental Medicine,3,0.002255639097744361
+post_ai,The Journals of Gerontology Series A,3,0.002255639097744361
+post_ai,The Lancet Healthy Longevity,3,0.002255639097744361
+post_ai,Vaccine,3,0.002255639097744361
+post_ai,bioRxiv (Cold Spring Harbor Laboratory),3,0.002255639097744361
+post_ai,ACS Biomaterials Science & Engineering,2,0.0015037593984962407
+post_ai,AJOG Global Reports,2,0.0015037593984962407
+post_ai,Advanced Healthcare Materials,2,0.0015037593984962407
+post_ai,Ageing Research Reviews,2,0.0015037593984962407
+post_ai,American Journal of Nephrology,2,0.0015037593984962407
+post_ai,Anesthesia & Analgesia,2,0.0015037593984962407
+post_ai,Animals,2,0.0015037593984962407
+post_ai,Appetite,2,0.0015037593984962407
+post_ai,Asian Nursing Research,2,0.0015037593984962407
+post_ai,Australian Dental Journal,2,0.0015037593984962407
+post_ai,BMC Anesthesiology,2,0.0015037593984962407
+post_ai,BMC Medical Education,2,0.0015037593984962407
+post_ai,BMC Medicine,2,0.0015037593984962407
+post_ai,BMJ Sexual & Reproductive Health,2,0.0015037593984962407
+post_ai,Bioinformatics,2,0.0015037593984962407
+post_ai,CNS Spectrums,2,0.0015037593984962407
+post_ai,Cancer Epidemiology Biomarkers & Prevention,2,0.0015037593984962407
+post_ai,Cancer Management and Research,2,0.0015037593984962407
+post_ai,Circulation Heart Failure,2,0.0015037593984962407
+post_ai,Clinical Orthopaedics and Related Research,2,0.0015037593984962407
+post_ai,Clinical Pharmacology & Therapeutics,2,0.0015037593984962407
+post_ai,Cold Spring Harbor Perspectives in Medicine,2,0.0015037593984962407
+post_ai,Communications Medicine,2,0.0015037593984962407
+post_ai,Cornea,2,0.0015037593984962407
+post_ai,Critical Care Medicine,2,0.0015037593984962407
+post_ai,Cureus,2,0.0015037593984962407
+post_ai,Current Opinion in Nephrology & Hypertension,2,0.0015037593984962407
+post_ai,Current Opinion in Obstetrics & Gynecology,2,0.0015037593984962407
+post_ai,Diabetology & Metabolic Syndrome,2,0.0015037593984962407
+post_ai,Ecology Letters,2,0.0015037593984962407
+post_ai,Endocrine Reviews,2,0.0015037593984962407
+post_ai,Epigenomics,2,0.0015037593984962407
+post_ai,European Heart Journal - Cardiovascular Imaging,2,0.0015037593984962407
+post_ai,European Respiratory Journal,2,0.0015037593984962407
+post_ai,European Stroke Journal,2,0.0015037593984962407
+post_ai,Experimental & Molecular Medicine,2,0.0015037593984962407
+post_ai,Expert Opinion on Drug Safety,2,0.0015037593984962407
+post_ai,Frontiers in Endocrinology,2,0.0015037593984962407
+post_ai,Frontiers in Medicine,2,0.0015037593984962407
+post_ai,Frontiers in Pharmacology,2,0.0015037593984962407
+post_ai,Frontiers in Psychology,2,0.0015037593984962407
+post_ai,Frontiers in Public Health,2,0.0015037593984962407
+post_ai,Future Healthcare Journal,2,0.0015037593984962407
+post_ai,Genes & Diseases,2,0.0015037593984962407
+post_ai,Genome Research,2,0.0015037593984962407
+post_ai,Genome biology,2,0.0015037593984962407
+post_ai,Health and Quality of Life Outcomes,2,0.0015037593984962407
+post_ai,Hellenic Journal of Cardiology,2,0.0015037593984962407
+post_ai,Hepatology,2,0.0015037593984962407
+post_ai,Implementation Science,2,0.0015037593984962407
+post_ai,International Journal for Quality in Health Care,2,0.0015037593984962407
+post_ai,International Journal of Cancer,2,0.0015037593984962407
+post_ai,International Journal of Endocrinology,2,0.0015037593984962407
+post_ai,International Journal of Epidemiology,2,0.0015037593984962407
+post_ai,International Journal of Gynecology & Obstetrics,2,0.0015037593984962407
+post_ai,International Journal of Stroke,2,0.0015037593984962407
+post_ai,JAMA Neurology,2,0.0015037593984962407
+post_ai,JAMA Surgery,2,0.0015037593984962407
+post_ai,JCO Clinical Cancer Informatics,2,0.0015037593984962407
+post_ai,Journal of Allergy and Clinical Immunology,2,0.0015037593984962407
+post_ai,Journal of Asthma,2,0.0015037593984962407
+post_ai,Journal of Bone and Mineral Research,2,0.0015037593984962407
+post_ai,Journal of Clinical Hypertension,2,0.0015037593984962407
+post_ai,Journal of Craniofacial Surgery,2,0.0015037593984962407
+post_ai,Journal of Diabetes Research,2,0.0015037593984962407
+post_ai,Journal of Family Planning and Reproductive Health Care,2,0.0015037593984962407
+post_ai,Journal of Health Care for the Poor and Underserved,2,0.0015037593984962407
+post_ai,Journal of Telemedicine and Telecare,2,0.0015037593984962407
+post_ai,Journal of Tissue Engineering,2,0.0015037593984962407
+post_ai,Journal of Virology,2,0.0015037593984962407
+post_ai,Journal of the American Animal Hospital Association,2,0.0015037593984962407
+post_ai,Journal of the American Geriatrics Society,2,0.0015037593984962407
+post_ai,Journal of the American Heart Association,2,0.0015037593984962407
+post_ai,Lupus,2,0.0015037593984962407
+post_ai,MIS Quarterly,2,0.0015037593984962407
+post_ai,Materials Today Bio,2,0.0015037593984962407
+post_ai,Maternal and Child Nutrition,2,0.0015037593984962407
+post_ai,Molecular Therapy — Methods & Clinical Development,2,0.0015037593984962407
+post_ai,Neuroepidemiology,2,0.0015037593984962407
+post_ai,Neurological Research,2,0.0015037593984962407
+post_ai,Neurotherapeutics,2,0.0015037593984962407
+post_ai,New Zealand Veterinary Journal,2,0.0015037593984962407
+post_ai,Oncogene,2,0.0015037593984962407
+post_ai,PEDIATRICS,2,0.0015037593984962407
+post_ai,PLoS Medicine,2,0.0015037593984962407
+post_ai,Pathogens,2,0.0015037593984962407
+post_ai,Preprints.org,2,0.0015037593984962407
+post_ai,Psychological Review,2,0.0015037593984962407
+post_ai,QJM,2,0.0015037593984962407
+post_ai,Science Translational Medicine,2,0.0015037593984962407
+post_ai,Sexual Health,2,0.0015037593984962407
+post_ai,Stem Cells International,2,0.0015037593984962407
+post_ai,Studies in health technology and informatics,2,0.0015037593984962407
+post_ai,The Journal of Allergy and Clinical Immunology In Practice,2,0.0015037593984962407
+post_ai,The Journal of Clinical Psychiatry,2,0.0015037593984962407
+post_ai,The Lancet Neurology,2,0.0015037593984962407
+post_ai,Thrombosis and Haemostasis,2,0.0015037593984962407
+post_ai,Tissue Engineering Part C Methods,2,0.0015037593984962407
+post_ai,Veterinary Record,2,0.0015037593984962407
+post_ai,Veterinary Sciences,2,0.0015037593984962407
+post_ai,Viruses,2,0.0015037593984962407
+post_ai,npj Digital Medicine,2,0.0015037593984962407
+post_ai,npj Vaccines,2,0.0015037593984962407
+post_ai,ACS Nano,1,0.0007518796992481203
+post_ai,ACS Omega,1,0.0007518796992481203
+post_ai,AIDS Research and Human Retroviruses,1,0.0007518796992481203
+post_ai,AIDS and Behavior,1,0.0007518796992481203
+post_ai,AJN American Journal of Nursing,1,0.0007518796992481203
+post_ai,Academic Medicine,1,0.0007518796992481203
+post_ai,Academy of Management Annals,1,0.0007518796992481203
+post_ai,Acta Veterinaria Hungarica,1,0.0007518796992481203
+post_ai,Advanced Materials,1,0.0007518796992481203
+post_ai,Advanced Science,1,0.0007518796992481203
+post_ai,African Journal of Health Professions Education,1,0.0007518796992481203
+post_ai,Aging,1,0.0007518796992481203
+post_ai,Aging & Mental Health,1,0.0007518796992481203
+post_ai,Aging Medicine,1,0.0007518796992481203
+post_ai,Alcoholism Clinical and Experimental Research,1,0.0007518796992481203
+post_ai,Allergy Asthma and Clinical Immunology,1,0.0007518796992481203
+post_ai,Allergy Asthma and Immunology Research,1,0.0007518796992481203
+post_ai,Alternatives to Laboratory Animals,1,0.0007518796992481203
+post_ai,American Journal of Clinical Nutrition,1,0.0007518796992481203
+post_ai,American Journal of Kidney Diseases,1,0.0007518796992481203
+post_ai,American Journal of Men s Health,1,0.0007518796992481203
+post_ai,American Journal of Occupational Therapy,1,0.0007518796992481203
+post_ai,American Journal of Perinatology,1,0.0007518796992481203
+post_ai,American Journal of Pharmaceutical Education,1,0.0007518796992481203
+post_ai,American Journal of Physiology-Gastrointestinal and Liver Physiology,1,0.0007518796992481203
+post_ai,American Journal of Respiratory and Critical Care Medicine,1,0.0007518796992481203
+post_ai,American Journal of Tropical Medicine and Hygiene,1,0.0007518796992481203
+post_ai,American Journal of Veterinary Research,1,0.0007518796992481203
+post_ai,American Psychiatric Association eBooks,1,0.0007518796992481203
+post_ai,American Psychologist,1,0.0007518796992481203
+post_ai,Analytical Chemistry,1,0.0007518796992481203
+post_ai,Anatolian Current Medical Journal,1,0.0007518796992481203
+post_ai,Andrologia,1,0.0007518796992481203
+post_ai,Anesthesiology,1,0.0007518796992481203
+post_ai,Annali di stomatologia,1,0.0007518796992481203
+post_ai,Annals of Behavioral Medicine,1,0.0007518796992481203
+post_ai,Annals of Maxillofacial Surgery,1,0.0007518796992481203
+post_ai,Annals of Medicine,1,0.0007518796992481203
+post_ai,Annals of Medicine and Surgery,1,0.0007518796992481203
+post_ai,Annals of Oncology,1,0.0007518796992481203
+post_ai,Annals of Translational Medicine,1,0.0007518796992481203
+post_ai,Annals of the International Society of Dynamic Games,1,0.0007518796992481203
+post_ai,Annals of the Rheumatic Diseases,1,0.0007518796992481203
+post_ai,Annual Review of Ecology and Systematics,1,0.0007518796992481203
+post_ai,Annual Review of Neuroscience,1,0.0007518796992481203
+post_ai,Annual Review of Public Health,1,0.0007518796992481203
+post_ai,Antioxidants,1,0.0007518796992481203
+post_ai,Archives of Disease in Childhood,1,0.0007518796992481203
+post_ai,Archives of Endocrinology and Metabolism,1,0.0007518796992481203
+post_ai,Archives of Gerontology and Geriatrics,1,0.0007518796992481203
+post_ai,Archives of Internal Medicine,1,0.0007518796992481203
+post_ai,Archives of Iranian Medicine,1,0.0007518796992481203
+post_ai,Archives of Neurology And Psychiatry,1,0.0007518796992481203
+post_ai,Archives of Pediatrics and Adolescent Medicine,1,0.0007518796992481203
+post_ai,Archives of Surgery,1,0.0007518796992481203
+post_ai,Arteriosclerosis Thrombosis and Vascular Biology,1,0.0007518796992481203
+post_ai,Arthritis & Rheumatology,1,0.0007518796992481203
+post_ai,Artificial Cells Nanomedicine and Biotechnology,1,0.0007518796992481203
+post_ai,Australian Journal of Primary Health,1,0.0007518796992481203
+post_ai,Australian and New Zealand Journal of Obstetrics and Gynaecology,1,0.0007518796992481203
+post_ai,Australian and New Zealand Journal of Public Health,1,0.0007518796992481203
+post_ai,Autophagy,1,0.0007518796992481203
+post_ai,BJS Open,1,0.0007518796992481203
+post_ai,BMC Bioinformatics,1,0.0007518796992481203
+post_ai,BMC Cancer,1,0.0007518796992481203
+post_ai,BMC Cardiovascular Disorders,1,0.0007518796992481203
+post_ai,BMC Emergency Medicine,1,0.0007518796992481203
+post_ai,BMC Endocrine Disorders,1,0.0007518796992481203
+post_ai,BMC Gastroenterology,1,0.0007518796992481203
+post_ai,BMC Immunology,1,0.0007518796992481203
+post_ai,BMC Medical Ethics,1,0.0007518796992481203
+post_ai,BMC Medical Informatics and Decision Making,1,0.0007518796992481203
+post_ai,BMC Nephrology,1,0.0007518796992481203
+post_ai,BMC Neurology,1,0.0007518796992481203
+post_ai,BMC Nursing,1,0.0007518796992481203
+post_ai,BMC Pregnancy and Childbirth,1,0.0007518796992481203
+post_ai,BMC Psychology,1,0.0007518796992481203
+post_ai,BMC Surgery,1,0.0007518796992481203
+post_ai,BMJ Global Health,1,0.0007518796992481203
+post_ai,Behavior Modification,1,0.0007518796992481203
+post_ai,Bio-Medical Materials and Engineering,1,0.0007518796992481203
+post_ai,Biochemical Journal,1,0.0007518796992481203
+post_ai,Bioengineering,1,0.0007518796992481203
+post_ai,Biofabrication,1,0.0007518796992481203
+post_ai,Biological reviews/Biological reviews of the Cambridge Philosophical Society,1,0.0007518796992481203
+post_ai,Biology of Blood and Marrow Transplantation,1,0.0007518796992481203
+post_ai,Biomaterials Advances,1,0.0007518796992481203
+post_ai,Biomaterials Science,1,0.0007518796992481203
+post_ai,Biomedical Microdevices,1,0.0007518796992481203
+post_ai,Biomedicine & Pharmacotherapy,1,0.0007518796992481203
+post_ai,Biometrical Journal,1,0.0007518796992481203
+post_ai,Biometrika,1,0.0007518796992481203
+post_ai,Biomolecules,1,0.0007518796992481203
+post_ai,Blood Advances,1,0.0007518796992481203
+post_ai,Blood Cancer Discovery,1,0.0007518796992481203
+post_ai,Blood Cancer Journal,1,0.0007518796992481203
+post_ai,Blood Pressure,1,0.0007518796992481203
+post_ai,Bosnian Journal of Basic Medical Sciences,1,0.0007518796992481203
+post_ai,Brain and Behavior,1,0.0007518796992481203
+post_ai,Brazilian Oral Research,1,0.0007518796992481203
+post_ai,Breast Cancer Research,1,0.0007518796992481203
+post_ai,Breastfeeding Medicine,1,0.0007518796992481203
+post_ai,British Journal Of Nutrition,1,0.0007518796992481203
+post_ai,British Journal of Anaesthesia,1,0.0007518796992481203
+post_ai,British Journal of Cancer,1,0.0007518796992481203
+post_ai,British Journal of Dermatology,1,0.0007518796992481203
+post_ai,British Journal of General Practice,1,0.0007518796992481203
+post_ai,British Journal of Neurosurgery,1,0.0007518796992481203
+post_ai,British Journal of Ophthalmology,1,0.0007518796992481203
+post_ai,British Journal of Pharmacology,1,0.0007518796992481203
+post_ai,British Journal of Sports Medicine,1,0.0007518796992481203
+post_ai,CA A Cancer Journal for Clinicians,1,0.0007518796992481203
+post_ai,CMAJ Open,1,0.0007518796992481203
+post_ai,Cancer,1,0.0007518796992481203
+post_ai,Cancer Cell,1,0.0007518796992481203
+post_ai,Cancer Cell International,1,0.0007518796992481203
+post_ai,Cancer Communications,1,0.0007518796992481203
+post_ai,Cancer Medicine,1,0.0007518796992481203
+post_ai,Cancer Research Communications,1,0.0007518796992481203
+post_ai,Cancer and Metastasis Reviews,1,0.0007518796992481203
+post_ai,Case Reports in Dentistry,1,0.0007518796992481203
+post_ai,Catheterization and Cardiovascular Interventions,1,0.0007518796992481203
+post_ai,Cell,1,0.0007518796992481203
+post_ai,Cell Biology and Toxicology,1,0.0007518796992481203
+post_ai,Cell Host & Microbe,1,0.0007518796992481203
+post_ai,Cell Reports Medicine,1,0.0007518796992481203
+post_ai,Cellular and Molecular Immunology,1,0.0007518796992481203
+post_ai,Cerebrovascular Diseases,1,0.0007518796992481203
+post_ai,Chem & Bio Engineering,1,0.0007518796992481203
+post_ai,ChemMedChem,1,0.0007518796992481203
+post_ai,Child Neuropsychology,1,0.0007518796992481203
+post_ai,Children,1,0.0007518796992481203
+post_ai,Choice Reviews Online,1,0.0007518796992481203
+post_ai,Circulation Cardiovascular Imaging,1,0.0007518796992481203
+post_ai,Cirugía y Cirujanos (English Edition),1,0.0007518796992481203
+post_ai,Clinical & Experimental Immunology,1,0.0007518796992481203
+post_ai,Clinical Cancer Research,1,0.0007518796992481203
+post_ai,Clinical Gastroenterology and Hepatology,1,0.0007518796992481203
+post_ai,Clinical Laboratory,1,0.0007518796992481203
+post_ai,Clinical Obstetrics & Gynecology,1,0.0007518796992481203
+post_ai,Clinical and Translational Allergy,1,0.0007518796992481203
+post_ai,Clinical and Vaccine Immunology,1,0.0007518796992481203
+post_ai,Contemporary Clinical Trials Communications,1,0.0007518796992481203
+post_ai,Critical Reviews in Clinical Laboratory Sciences,1,0.0007518796992481203
+post_ai,Current Aging Science,1,0.0007518796992481203
+post_ai,Current Gerontology and Geriatrics Research,1,0.0007518796992481203
+post_ai,Current Medicinal Chemistry,1,0.0007518796992481203
+post_ai,Current Obesity Reports,1,0.0007518796992481203
+post_ai,Current Opinion in Allergy and Clinical Immunology,1,0.0007518796992481203
+post_ai,Current Opinion in Anaesthesiology,1,0.0007518796992481203
+post_ai,Current Opinion in Urology,1,0.0007518796992481203
+post_ai,Current Protocols in Bioinformatics,1,0.0007518796992481203
+post_ai,Cytometry Part B Clinical Cytometry,1,0.0007518796992481203
+post_ai,Developmental Medicine & Child Neurology,1,0.0007518796992481203
+post_ai,Developments in ophthalmology,1,0.0007518796992481203
+post_ai,Diabetes & Metabolism Journal,1,0.0007518796992481203
+post_ai,Diabetologia,1,0.0007518796992481203
+post_ai,Diagnostics,1,0.0007518796992481203
+post_ai,Disaster Medicine and Public Health Preparedness,1,0.0007518796992481203
+post_ai,Discovery Medicine,1,0.0007518796992481203
+post_ai,Disease Markers,1,0.0007518796992481203
+post_ai,Drug Design Development and Therapy,1,0.0007518796992481203
+post_ai,Drug Research,1,0.0007518796992481203
+post_ai,EBioMedicine,1,0.0007518796992481203
+post_ai,EClinicalMedicine,1,0.0007518796992481203
+post_ai,Epidemiology,1,0.0007518796992481203
+post_ai,Epigenetics & Chromatin,1,0.0007518796992481203
+post_ai,Europe PMC (PubMed Central),1,0.0007518796992481203
+post_ai,European Eating Disorders Review,1,0.0007518796992481203
+post_ai,European Journal of Anaesthesiology,1,0.0007518796992481203
+post_ai,European Journal of Dentistry,1,0.0007518796992481203
+post_ai,European Journal of Heart Failure,1,0.0007518796992481203
+post_ai,European Journal of Hospital Pharmacy,1,0.0007518796992481203
+post_ai,European Journal of Immunology,1,0.0007518796992481203
+post_ai,European Journal of Orthopaedic Surgery & Traumatology,1,0.0007518796992481203
+post_ai,European Journal of Pediatric Surgery,1,0.0007518796992481203
+post_ai,European Journal of Preventive Cardiology,1,0.0007518796992481203
+post_ai,European Journal of Radiology,1,0.0007518796992481203
+post_ai,European Journal of Surgical Oncology,1,0.0007518796992481203
+post_ai,European surgery. Supplement/European surgery,1,0.0007518796992481203
+post_ai,Expert Opinion on Biological Therapy,1,0.0007518796992481203
+post_ai,Expert Opinion on Therapeutic Patents,1,0.0007518796992481203
+post_ai,Expert Review of Anti-infective Therapy,1,0.0007518796992481203
+post_ai,Expert Review of Clinical Pharmacology,1,0.0007518796992481203
+post_ai,Expert Review of Neurotherapeutics,1,0.0007518796992481203
+post_ai,FEBS Letters,1,0.0007518796992481203
+post_ai,Field Methods,1,0.0007518796992481203
+post_ai,Frontiers in Aging Neuroscience,1,0.0007518796992481203
+post_ai,Frontiers in Cellular and Infection Microbiology,1,0.0007518796992481203
+post_ai,Frontiers in Neuroanatomy,1,0.0007518796992481203
+post_ai,Frontiers in Nutrition,1,0.0007518796992481203
+post_ai,Frontiers in Physics,1,0.0007518796992481203
+post_ai,Frontiers in Radiology,1,0.0007518796992481203
+post_ai,Geburtshilfe und Frauenheilkunde,1,0.0007518796992481203
+post_ai,Gels,1,0.0007518796992481203
+post_ai,Genes,1,0.0007518796992481203
+post_ai,Genes to Cells,1,0.0007518796992481203
+post_ai,Genomics Proteomics & Bioinformatics,1,0.0007518796992481203
+post_ai,GeroScience,1,0.0007518796992481203
+post_ai,Global Qualitative Nursing Research,1,0.0007518796992481203
+post_ai,Health Care Management Review,1,0.0007518796992481203
+post_ai,Heliyon,1,0.0007518796992481203
+post_ai,Hip International,1,0.0007518796992481203
+post_ai,Hormone and Metabolic Research,1,0.0007518796992481203
+post_ai,Human Relations,1,0.0007518796992481203
+post_ai,Human Resource Management International Digest,1,0.0007518796992481203
+post_ai,Human Resources for Health,1,0.0007518796992481203
+post_ai,IEEE Journal of Translational Engineering in Health and Medicine,1,0.0007518796992481203
+post_ai,IEEE Transactions on Information Technology in Biomedicine,1,0.0007518796992481203
+post_ai,IEEE Transactions on Plasma Science,1,0.0007518796992481203
+post_ai,ISRN Inflammation,1,0.0007518796992481203
+post_ai,Immunological Reviews,1,0.0007518796992481203
+post_ai,Immunology,1,0.0007518796992481203
+post_ai,Immunology and Cell Biology,1,0.0007518796992481203
+post_ai,Immunopharmacology and Immunotoxicology,1,0.0007518796992481203
+post_ai,Indian Journal of Health and Wellbeing,1,0.0007518796992481203
+post_ai,Indian Journal of Nephrology,1,0.0007518796992481203
+post_ai,Indian Journal of Neurosurgery,1,0.0007518796992481203
+post_ai,Indian Journal of Obstetrics and Gynecology Research,1,0.0007518796992481203
+post_ai,Infectious Diseases and Therapy,1,0.0007518796992481203
+post_ai,Inflammation and Regeneration,1,0.0007518796992481203
+post_ai,Intensive Care Medicine,1,0.0007518796992481203
+post_ai,Interdisciplinary Neurosurgery,1,0.0007518796992481203
+post_ai,International Forum of Allergy & Rhinology,1,0.0007518796992481203
+post_ai,International Immunology,1,0.0007518796992481203
+post_ai,International Journal of Angiology,1,0.0007518796992481203
+post_ai,International Journal of Behavioral Nutrition and Physical Activity,1,0.0007518796992481203
+post_ai,International Journal of Biological Sciences,1,0.0007518796992481203
+post_ai,International Journal of Cardiology Hypertension,1,0.0007518796992481203
+post_ai,International Journal of Clinical Pediatric Dentistry,1,0.0007518796992481203
+post_ai,International Journal of Clinical Pharmacology and Therapeutics,1,0.0007518796992481203
+post_ai,International Journal of Eating Disorders,1,0.0007518796992481203
+post_ai,International Journal of Emergency Medicine,1,0.0007518796992481203
+post_ai,International Journal of Extreme Manufacturing,1,0.0007518796992481203
+post_ai,International Journal of Health Promotion and Education,1,0.0007518796992481203
+post_ai,International Journal of Health Sciences,1,0.0007518796992481203
+post_ai,International Journal of Infectious Diseases,1,0.0007518796992481203
+post_ai,International Journal of Mental Health Systems,1,0.0007518796992481203
+post_ai,International Journal of Neuroscience,1,0.0007518796992481203
+post_ai,International Journal of Nursing Practice,1,0.0007518796992481203
+post_ai,International Journal of Nutrology,1,0.0007518796992481203
+post_ai,International Journal of Reproduction Contraception Obstetrics and Gynecology,1,0.0007518796992481203
+post_ai,International Journal of Reproductive BioMedicine (IJRM),1,0.0007518796992481203
+post_ai,International Journal of Surgery,1,0.0007518796992481203
+post_ai,International Journal of Workplace Health Management,1,0.0007518796992481203
+post_ai,Iranian Journal of Psychiatry and Clinical Psychology,1,0.0007518796992481203
+post_ai,JAIDS Journal of Acquired Immune Deficiency Syndromes,1,0.0007518796992481203
+post_ai,JAMA Health Forum,1,0.0007518796992481203
+post_ai,JAMA Otolaryngology–Head & Neck Surgery,1,0.0007518796992481203
+post_ai,JCO Oncology Practice,1,0.0007518796992481203
+post_ai,JCPP Advances,1,0.0007518796992481203
+post_ai,JGH Open,1,0.0007518796992481203
+post_ai,JMIR Formative Research,1,0.0007518796992481203
+post_ai,JMIR Medical Informatics,1,0.0007518796992481203
+post_ai,JMIR Nursing,1,0.0007518796992481203
+post_ai,JMIR Research Protocols,1,0.0007518796992481203
+post_ai,JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH,1,0.0007518796992481203
+post_ai,JPGN Reports,1,0.0007518796992481203
+post_ai,JSLS Journal of the Society of Laparoscopic & Robotic Surgeons,1,0.0007518796992481203
+post_ai,Johns Hopkins University Press eBooks,1,0.0007518796992481203
+post_ai,Journal Of Big Data,1,0.0007518796992481203
+post_ai,Journal for Nurses in Professional Development,1,0.0007518796992481203
+post_ai,Journal of Aerosol Medicine and Pulmonary Drug Delivery,1,0.0007518796992481203
+post_ai,Journal of Applied Physiology,1,0.0007518796992481203
+post_ai,Journal of Assisted Reproduction and Genetics,1,0.0007518796992481203
+post_ai,Journal of Atherosclerosis and Thrombosis,1,0.0007518796992481203
+post_ai,Journal of Biochemical and Molecular Toxicology,1,0.0007518796992481203
+post_ai,Journal of Biological Chemistry,1,0.0007518796992481203
+post_ai,Journal of Biomedical Informatics,1,0.0007518796992481203
+post_ai,Journal of Bone and Joint Surgery,1,0.0007518796992481203
+post_ai,Journal of Bone and Joint Surgery - British Volume,1,0.0007518796992481203
+post_ai,Journal of Cancer Epidemiology,1,0.0007518796992481203
+post_ai,Journal of Cardiovascular Development and Disease,1,0.0007518796992481203
+post_ai,Journal of Cellular Physiology,1,0.0007518796992481203
+post_ai,Journal of Cheminformatics,1,0.0007518796992481203
+post_ai,Journal of Child Psychology and Psychiatry,1,0.0007518796992481203
+post_ai,Journal of Cleft Lip Palate and Craniofacial Anomalies,1,0.0007518796992481203
+post_ai,Journal of Clinical Microbiology,1,0.0007518796992481203
+post_ai,Journal of Clinical Monitoring and Computing,1,0.0007518796992481203
+post_ai,Journal of Clinical Nursing,1,0.0007518796992481203
+post_ai,Journal of Clinical Pathology,1,0.0007518796992481203
+post_ai,Journal of Clinical and Translational Research,1,0.0007518796992481203
+post_ai,Journal of Conservative Dentistry,1,0.0007518796992481203
+post_ai,Journal of Controlled Release,1,0.0007518796992481203
+post_ai,Journal of Crohn s and Colitis,1,0.0007518796992481203
+post_ai,Journal of Dental Research,1,0.0007518796992481203
+post_ai,Journal of Dentistry,1,0.0007518796992481203
+post_ai,Journal of Developmental & Behavioral Pediatrics,1,0.0007518796992481203
+post_ai,Journal of Diabetes Science and Technology,1,0.0007518796992481203
+post_ai,Journal of Evidence-Based Medicine,1,0.0007518796992481203
+post_ai,Journal of Gastroenterology,1,0.0007518796992481203
+post_ai,Journal of Geriatric Medicine and Gerontology,1,0.0007518796992481203
+post_ai,Journal of Geriatric Oncology,1,0.0007518796992481203
+post_ai,Journal of Geriatric Physical Therapy,1,0.0007518796992481203
+post_ai,Journal of Gerontology,1,0.0007518796992481203
+post_ai,Journal of Homosexuality,1,0.0007518796992481203
+post_ai,Journal of Hospital Medicine,1,0.0007518796992481203
+post_ai,Journal of Hypertension,1,0.0007518796992481203
+post_ai,Journal of Indian Academy of Oral Medicine and Radiology,1,0.0007518796992481203
+post_ai,Journal of Inflammation Research,1,0.0007518796992481203
+post_ai,Journal of Intensive Care,1,0.0007518796992481203
+post_ai,Journal of Intensive Care Medicine,1,0.0007518796992481203
+post_ai,Journal of Magnetic Resonance Imaging,1,0.0007518796992481203
+post_ai,Journal of Mathematical Biology,1,0.0007518796992481203
+post_ai,Journal of Medical Education and Curricular Development,1,0.0007518796992481203
+post_ai,Journal of Medical Signals & Sensors,1,0.0007518796992481203
+post_ai,Journal of Medical Systems,1,0.0007518796992481203
+post_ai,Journal of Medical Virology,1,0.0007518796992481203
+post_ai,Journal of Mental Health Counseling,1,0.0007518796992481203
+post_ai,Journal of Midwifery & Women s Health,1,0.0007518796992481203
+post_ai,Journal of Operative Dentistry & Endodontics,1,0.0007518796992481203
+post_ai,Journal of Oral Science,1,0.0007518796992481203
+post_ai,Journal of Orthodontic Science,1,0.0007518796992481203
+post_ai,Journal of Orthopaedic Research®,1,0.0007518796992481203
+post_ai,Journal of Parkinson s Disease,1,0.0007518796992481203
+post_ai,Journal of Pediatric Gastroenterology and Nutrition,1,0.0007518796992481203
+post_ai,Journal of Pharmacy and Pharmacology,1,0.0007518796992481203
+post_ai,Journal of Reproduction & Infertility,1,0.0007518796992481203
+post_ai,Journal of Thrombosis and Haemostasis,1,0.0007518796992481203
+post_ai,Journal of Veterinary Diagnostic Investigation,1,0.0007518796992481203
+post_ai,Journal of Veterinary Medical Science,1,0.0007518796992481203
+post_ai,Journal of Women s Health,1,0.0007518796992481203
+post_ai,Journal of obstetrics and gynaecology research,1,0.0007518796992481203
+post_ai,Journal of the American College of Cardiology,1,0.0007518796992481203
+post_ai,Journal of the American Medical Informatics Association,1,0.0007518796992481203
+post_ai,Journal of the American Society of Nephrology,1,0.0007518796992481203
+post_ai,Journal of the Intensive Care Society,1,0.0007518796992481203
+post_ai,Journal of the International Association of Providers of AIDS Care (JIAPAC),1,0.0007518796992481203
+post_ai,Kafkas Universitesi Veteriner Fakultesi Dergisi,1,0.0007518796992481203
+post_ai,Kidney & Blood Pressure Research,1,0.0007518796992481203
+post_ai,Kidney360,1,0.0007518796992481203
+post_ai,Korean Journal of Radiology,1,0.0007518796992481203
+post_ai,Language Speech and Hearing Services in Schools,1,0.0007518796992481203
+post_ai,Laser Physics,1,0.0007518796992481203
+post_ai,Liver Research,1,0.0007518796992481203
+post_ai,Lupus Science & Medicine,1,0.0007518796992481203
+post_ai,MAEDICA – a Journal of Clinical Medicine,1,0.0007518796992481203
+post_ai,Materials,1,0.0007518796992481203
+post_ai,Medical Gas Research,1,0.0007518796992481203
+post_ai,Medicina,1,0.0007518796992481203
+post_ai,Medicinal Chemistry,1,0.0007518796992481203
+post_ai,Medicine,1,0.0007518796992481203
+post_ai,Medicine & Science in Sports & Exercise,1,0.0007518796992481203
+post_ai,Mentoring & Tutoring Partnership in Learning,1,0.0007518796992481203
+post_ai,Micromachines,1,0.0007518796992481203
+post_ai,Military Medical Research,1,0.0007518796992481203
+post_ai,Molecular Biology and Evolution,1,0.0007518796992481203
+post_ai,Molecular Cancer Research,1,0.0007518796992481203
+post_ai,Molecular Cancer Therapeutics,1,0.0007518796992481203
+post_ai,Molecular Endocrinology,1,0.0007518796992481203
+post_ai,Molecular Oncology,1,0.0007518796992481203
+post_ai,Molecular Psychiatry,1,0.0007518796992481203
+post_ai,Mucosal Immunology,1,0.0007518796992481203
+post_ai,Mycoses,1,0.0007518796992481203
+post_ai,Nature,1,0.0007518796992481203
+post_ai,Nature Medicine,1,0.0007518796992481203
+post_ai,Nature Structural & Molecular Biology,1,0.0007518796992481203
+post_ai,Neuro-Oncology,1,0.0007518796992481203
+post_ai,Neurology Clinical Practice,1,0.0007518796992481203
+post_ai,New Journal of Physics,1,0.0007518796992481203
+post_ai,Nursing Management,1,0.0007518796992481203
+post_ai,Nutrients,1,0.0007518796992481203
+post_ai,OMICS A Journal of Integrative Biology,1,0.0007518796992481203
+post_ai,OTJR Occupational Therapy Journal of Research,1,0.0007518796992481203
+post_ai,Obesity,1,0.0007518796992481203
+post_ai,Obstetrical & Gynecological Survey,1,0.0007518796992481203
+post_ai,Obstetrics and Gynecology International,1,0.0007518796992481203
+post_ai,Oncology nursing forum,1,0.0007518796992481203
+post_ai,Open Access Journal of Contraception,1,0.0007518796992481203
+post_ai,Operative Dentistry,1,0.0007518796992481203
+post_ai,Organogenesis,1,0.0007518796992481203
+post_ai,Otolaryngology,1,0.0007518796992481203
+post_ai,Oxford Medical Case Reports,1,0.0007518796992481203
+post_ai,Paediatric and Perinatal Epidemiology,1,0.0007518796992481203
+post_ai,Pediatric Radiology,1,0.0007518796992481203
+post_ai,Pharmaceutics,1,0.0007518796992481203
+post_ai,Pharmacy,1,0.0007518796992481203
+post_ai,Physical Review Letters,1,0.0007518796992481203
+post_ai,Physiological Measurement,1,0.0007518796992481203
+post_ai,Physiotherapy Research International,1,0.0007518796992481203
+post_ai,Pilot and Feasibility Studies,1,0.0007518796992481203
+post_ai,Plasma Science and Technology,1,0.0007518796992481203
+post_ai,Plasma Sources Science and Technology,1,0.0007518796992481203
+post_ai,Plastic & Reconstructive Surgery,1,0.0007518796992481203
+post_ai,Pneumologie,1,0.0007518796992481203
+post_ai,Precision Medical Sciences,1,0.0007518796992481203
+post_ai,Preventive Medicine Reports,1,0.0007518796992481203
+post_ai,Proceedings of The Nutrition Society,1,0.0007518796992481203
+post_ai,Proceedings of the American Thoracic Society,1,0.0007518796992481203
+post_ai,Proceedings of the Royal Society B Biological Sciences,1,0.0007518796992481203
+post_ai,Progress in Transplantation,1,0.0007518796992481203
+post_ai,Protein Science,1,0.0007518796992481203
+post_ai,Psychological Bulletin,1,0.0007518796992481203
+post_ai,Psychometrika,1,0.0007518796992481203
+post_ai,Psychotherapy and Psychosomatics,1,0.0007518796992481203
+post_ai,Pulmonary Circulation,1,0.0007518796992481203
+post_ai,Qualitative Health Research,1,0.0007518796992481203
+post_ai,Qualitative Research Journal,1,0.0007518796992481203
+post_ai,Qualitative Research in Psychology,1,0.0007518796992481203
+post_ai,Regenerative Biomaterials,1,0.0007518796992481203
+post_ai,Regular and Young Investigator Award Abstracts,1,0.0007518796992481203
+post_ai,Renal Failure,1,0.0007518796992481203
+post_ai,Reproductive BioMedicine Online,1,0.0007518796992481203
+post_ai,Reproductive Biology and Endocrinology,1,0.0007518796992481203
+post_ai,Research in Nursing & Health,1,0.0007518796992481203
+post_ai,Research in autism spectrum disorders,1,0.0007518796992481203
+post_ai,Retina,1,0.0007518796992481203
+post_ai,Revista da Associação Médica Brasileira,1,0.0007518796992481203
+post_ai,Royal Society Open Science,1,0.0007518796992481203
+post_ai,Saudi Medical Journal,1,0.0007518796992481203
+post_ai,Saudi Pharmaceutical Journal,1,0.0007518796992481203
+post_ai,Scandinavian Journal of Clinical and Laboratory Investigation,1,0.0007518796992481203
+post_ai,Science Signaling,1,0.0007518796992481203
+post_ai,Scientific Data,1,0.0007518796992481203
+post_ai,Seminars in Liver Disease,1,0.0007518796992481203
+post_ai,Sexually Transmitted Infections,1,0.0007518796992481203
+post_ai,Signal Transduction and Targeted Therapy,1,0.0007518796992481203
+post_ai,Smart Medicine,1,0.0007518796992481203
+post_ai,Social Innovations Journal,1,0.0007518796992481203
+post_ai,Spine,1,0.0007518796992481203
+post_ai,Sri Lanka Journal of Child Health,1,0.0007518796992481203
+post_ai,Statistical Methods in Medical Research,1,0.0007518796992481203
+post_ai,Stem Cell Research,1,0.0007518796992481203
+post_ai,Stem Cell Research & Therapy,1,0.0007518796992481203
+post_ai,Stroke Vascular and Interventional Neurology,1,0.0007518796992481203
+post_ai,Telemedicine Journal and e-Health,1,0.0007518796992481203
+post_ai,The American Journal of Medicine,1,0.0007518796992481203
+post_ai,The Annals of Applied Statistics,1,0.0007518796992481203
+post_ai,The Duke Orthopaedic Journal,1,0.0007518796992481203
+post_ai,The Egyptian Journal of Otolaryngology,1,0.0007518796992481203
+post_ai,The FASEB Journal,1,0.0007518796992481203
+post_ai,The Indian Journal of Medical Research,1,0.0007518796992481203
+post_ai,The International Journal of Biostatistics,1,0.0007518796992481203
+post_ai,The Journal of Applied Management and Entrepreneurship,1,0.0007518796992481203
+post_ai,The Journal of Clinical Pharmacology,1,0.0007518796992481203
+post_ai,The Journal of Infectious Diseases,1,0.0007518796992481203
+post_ai,The Journal of Urology,1,0.0007518796992481203
+post_ai,The Lancet Global Health,1,0.0007518796992481203
+post_ai,The Lancet Public Health,1,0.0007518796992481203
+post_ai,The Lancet Regional Health - Western Pacific,1,0.0007518796992481203
+post_ai,The Medical Journal of Australia,1,0.0007518796992481203
+post_ai,The Milbank Memorial Fund Quarterly Health and Society,1,0.0007518796992481203
+post_ai,The Nurse Practitioner,1,0.0007518796992481203
+post_ai,The Open Respiratory Medicine Journal,1,0.0007518796992481203
+post_ai,The Prostate,1,0.0007518796992481203
+post_ai,The Qualitative Report,1,0.0007518796992481203
+post_ai,The Stata Journal Promoting communications on statistics and Stata,1,0.0007518796992481203
+post_ai,The Turkish Journal of Gastroenterology,1,0.0007518796992481203
+post_ai,The journal of nutrition health & aging,1,0.0007518796992481203
+post_ai,Therapeutic Advances in Neurological Disorders,1,0.0007518796992481203
+post_ai,Therapeutic Advances in Urology,1,0.0007518796992481203
+post_ai,Therapeutic Drug Monitoring,1,0.0007518796992481203
+post_ai,Thrombosis Journal,1,0.0007518796992481203
+post_ai,Thyroid,1,0.0007518796992481203
+post_ai,Tissue Engineering Part A,1,0.0007518796992481203
+post_ai,Tissue Engineering Part B Reviews,1,0.0007518796992481203
+post_ai,Transplant International,1,0.0007518796992481203
+post_ai,Transplantation Direct,1,0.0007518796992481203
+post_ai,Trends in Molecular Medicine,1,0.0007518796992481203
+post_ai,Trials,1,0.0007518796992481203
+post_ai,Tropical Journal of Pathology and Microbiology,1,0.0007518796992481203
+post_ai,Vaccines,1,0.0007518796992481203
+post_ai,Value in Health,1,0.0007518796992481203
+post_ai,Veterinary Medicine Research and Reports,1,0.0007518796992481203
+post_ai,Veterinary Pathology,1,0.0007518796992481203
+post_ai,Veterinary Radiology & Ultrasound,1,0.0007518796992481203
+post_ai,Veterinary Research,1,0.0007518796992481203
+post_ai,Veterinary Surgery,1,0.0007518796992481203
+post_ai,Veterinary and Comparative Oncology,1,0.0007518796992481203
+post_ai,View,1,0.0007518796992481203
+post_ai,Virology,1,0.0007518796992481203
+post_ai,World Journal of Hepatology,1,0.0007518796992481203
+post_ai,World Journal of Stem Cells,1,0.0007518796992481203
+post_ai,World Journal of Surgery,1,0.0007518796992481203
+post_ai,World Journal of Surgical Oncology,1,0.0007518796992481203
+post_ai,World health & population,1,0.0007518796992481203
+post_ai,Worldviews on Evidence-Based Nursing,1,0.0007518796992481203
+post_ai,Xenotransplantation,1,0.0007518796992481203
+post_ai,Zed Books,1,0.0007518796992481203
+post_ai,Zeitschrift für Rheumatologie,1,0.0007518796992481203
+post_ai,arXiv (Cornell University),1,0.0007518796992481203
+post_ai,eLife,1,0.0007518796992481203
+post_ai,The Nephron journals/Nephron journals,1,0.0007518796992481203
+pre_ai,PubMed,29,0.025086505190311418
+pre_ai,Journal of Virology,23,0.019896193771626297
+pre_ai,PLoS ONE,23,0.019896193771626297
+pre_ai,unknown,23,0.019896193771626297
+pre_ai,Circulation,16,0.01384083044982699
+pre_ai,Clinical Infectious Diseases,15,0.012975778546712802
+pre_ai,New England Journal of Medicine,15,0.012975778546712802
+pre_ai,Proceedings of the National Academy of Sciences,14,0.012110726643598616
+pre_ai,Science,14,0.012110726643598616
+pre_ai,Frontiers in Immunology,12,0.010380622837370242
+pre_ai,Liver Transplantation,12,0.010380622837370242
+pre_ai,Scientific Reports,12,0.010380622837370242
+pre_ai,Nature Communications,9,0.007785467128027681
+pre_ai,Cancer Research,8,0.006920415224913495
+pre_ai,Stroke,8,0.006920415224913495
+pre_ai,Cochrane Database of Systematic Reviews,7,0.006055363321799308
+pre_ai,Foot & Ankle International,7,0.006055363321799308
+pre_ai,JAMA,7,0.006055363321799308
+pre_ai,Journal of Orthopaedic Research®,7,0.006055363321799308
+pre_ai,Nucleic Acids Research,7,0.006055363321799308
+pre_ai,The American Journal of Sports Medicine,7,0.006055363321799308
+pre_ai,Alzheimer s & Dementia,6,0.005190311418685121
+pre_ai,Archives of General Psychiatry,6,0.005190311418685121
+pre_ai,European Heart Journal,6,0.005190311418685121
+pre_ai,Journal of Biological Chemistry,6,0.005190311418685121
+pre_ai,Journal of Clinical Oncology,6,0.005190311418685121
+pre_ai,Journal of the American Geriatrics Society,6,0.005190311418685121
+pre_ai,Molecular and Cellular Biology,6,0.005190311418685121
+pre_ai,American Journal of Neuroradiology,5,0.004325259515570935
+pre_ai,Anesthesia & Analgesia,5,0.004325259515570935
+pre_ai,Clinical Cancer Research,5,0.004325259515570935
+pre_ai,Endoscopy,5,0.004325259515570935
+pre_ai,Genes & Development,5,0.004325259515570935
+pre_ai,Infection and Immunity,5,0.004325259515570935
+pre_ai,Parasites & Vectors,5,0.004325259515570935
+pre_ai,Sensors,5,0.004325259515570935
+pre_ai,The Journal of Cell Biology,5,0.004325259515570935
+pre_ai,The Journal of Immunology,5,0.004325259515570935
+pre_ai,World Psychiatry,5,0.004325259515570935
+pre_ai,American Journal of Transplantation,4,0.0034602076124567475
+pre_ai,British Journal Of Nutrition,4,0.0034602076124567475
+pre_ai,Clinical Orthopaedics and Related Research,4,0.0034602076124567475
+pre_ai,Gut,4,0.0034602076124567475
+pre_ai,Heart,4,0.0034602076124567475
+pre_ai,Human Vaccines & Immunotherapeutics,4,0.0034602076124567475
+pre_ai,IEEE Transactions on Information Technology in Biomedicine,4,0.0034602076124567475
+pre_ai,Journal of Agricultural and Food Chemistry,4,0.0034602076124567475
+pre_ai,Journal of Clinical Investigation,4,0.0034602076124567475
+pre_ai,Journal of Neurotrauma,4,0.0034602076124567475
+pre_ai,Medicine & Science in Sports & Exercise,4,0.0034602076124567475
+pre_ai,Nursing Standard,4,0.0034602076124567475
+pre_ai,PEDIATRICS,4,0.0034602076124567475
+pre_ai,The FASEB Journal,4,0.0034602076124567475
+pre_ai,bioRxiv (Cold Spring Harbor Laboratory),4,0.0034602076124567475
+pre_ai,American Journal of Psychiatry,3,0.0025951557093425604
+pre_ai,American Journal on Addictions,3,0.0025951557093425604
+pre_ai,Annals of Internal Medicine,3,0.0025951557093425604
+pre_ai,Annual Review of Cell and Developmental Biology,3,0.0025951557093425604
+pre_ai,Autophagy,3,0.0025951557093425604
+pre_ai,BMC Bioinformatics,3,0.0025951557093425604
+pre_ai,BMJ,3,0.0025951557093425604
+pre_ai,Blood,3,0.0025951557093425604
+pre_ai,Carcinogenesis,3,0.0025951557093425604
+pre_ai,Cell Death and Disease,3,0.0025951557093425604
+pre_ai,Cell Reports,3,0.0025951557093425604
+pre_ai,Cellular Physiology and Biochemistry,3,0.0025951557093425604
+pre_ai,Cold Spring Harbor Perspectives in Biology,3,0.0025951557093425604
+pre_ai,Development,3,0.0025951557093425604
+pre_ai,Diabetes Care,3,0.0025951557093425604
+pre_ai,Epilepsia,3,0.0025951557093425604
+pre_ai,European Journal of Cardio-Thoracic Surgery,3,0.0025951557093425604
+pre_ai,Genome Research,3,0.0025951557093425604
+pre_ai,Human Mutation,3,0.0025951557093425604
+pre_ai,International Journal of Molecular Sciences,3,0.0025951557093425604
+pre_ai,Journal of Antimicrobial Chemotherapy,3,0.0025951557093425604
+pre_ai,Journal of Bone and Joint Surgery,3,0.0025951557093425604
+pre_ai,Journal of Cardiovascular Magnetic Resonance,3,0.0025951557093425604
+pre_ai,Journal of Cell Science,3,0.0025951557093425604
+pre_ai,Journal of Cellular Physiology,3,0.0025951557093425604
+pre_ai,Journal of Clinical Microbiology,3,0.0025951557093425604
+pre_ai,Journal of Developmental & Behavioral Pediatrics,3,0.0025951557093425604
+pre_ai,Journal of General Virology,3,0.0025951557093425604
+pre_ai,Journal of Inherited Metabolic Disease,3,0.0025951557093425604
+pre_ai,Journal of Personality and Social Psychology,3,0.0025951557093425604
+pre_ai,Journal of Ultrasound in Medicine,3,0.0025951557093425604
+pre_ai,Medicine,3,0.0025951557093425604
+pre_ai,Molecular Biology of the Cell,3,0.0025951557093425604
+pre_ai,Nutrients,3,0.0025951557093425604
+pre_ai,Oncotarget,3,0.0025951557093425604
+pre_ai,PLoS Genetics,3,0.0025951557093425604
+pre_ai,PLoS Pathogens,3,0.0025951557093425604
+pre_ai,PLoS neglected tropical diseases,3,0.0025951557093425604
+pre_ai,Radiation Oncology,3,0.0025951557093425604
+pre_ai,Reproduction,3,0.0025951557093425604
+pre_ai,Science Signaling,3,0.0025951557093425604
+pre_ai,Small GTPases,3,0.0025951557093425604
+pre_ai,The American Journal of Gastroenterology,3,0.0025951557093425604
+pre_ai,The Journal of Urology,3,0.0025951557093425604
+pre_ai,The Lancet Global Health,3,0.0025951557093425604
+pre_ai,Trials,3,0.0025951557093425604
+pre_ai,AIDS,2,0.0017301038062283738
+pre_ai,Addiction,2,0.0017301038062283738
+pre_ai,Addiction Science & Clinical Practice,2,0.0017301038062283738
+pre_ai,Alzheimer s & Dementia Diagnosis Assessment & Disease Monitoring,2,0.0017301038062283738
+pre_ai,Alzheimer s & Dementia Translational Research & Clinical Interventions,2,0.0017301038062283738
+pre_ai,Angewandte Chemie International Edition,2,0.0017301038062283738
+pre_ai,Annals of Neurology,2,0.0017301038062283738
+pre_ai,Archives of Internal Medicine,2,0.0017301038062283738
+pre_ai,Archives of Neurology,2,0.0017301038062283738
+pre_ai,Arthritis & Rheumatism,2,0.0017301038062283738
+pre_ai,BMC Medical Informatics and Decision Making,2,0.0017301038062283738
+pre_ai,BMJ Open,2,0.0017301038062283738
+pre_ai,Biochemical Society Transactions,2,0.0017301038062283738
+pre_ai,Biology of Reproduction,2,0.0017301038062283738
+pre_ai,Biomacromolecules,2,0.0017301038062283738
+pre_ai,British Journal of Radiology,2,0.0017301038062283738
+pre_ai,British Journal of Sports Medicine,2,0.0017301038062283738
+pre_ai,Cambridge University Press eBooks,2,0.0017301038062283738
+pre_ai,Cardiology,2,0.0017301038062283738
+pre_ai,Child Neuropsychology,2,0.0017301038062283738
+pre_ai,Clinical Chemistry,2,0.0017301038062283738
+pre_ai,Critical Care Medicine,2,0.0017301038062283738
+pre_ai,Current Opinion in Infectious Diseases,2,0.0017301038062283738
+pre_ai,Drug Design Development and Therapy,2,0.0017301038062283738
+pre_ai,Drug and Alcohol Dependence,2,0.0017301038062283738
+pre_ai,Drug and Alcohol Review,2,0.0017301038062283738
+pre_ai,Endocrinology,2,0.0017301038062283738
+pre_ai,Endoscopy International Open,2,0.0017301038062283738
+pre_ai,European Journal of Neurology,2,0.0017301038062283738
+pre_ai,European Radiology,2,0.0017301038062283738
+pre_ai,Frontiers in Aging Neuroscience,2,0.0017301038062283738
+pre_ai,Frontiers in Cellular and Infection Microbiology,2,0.0017301038062283738
+pre_ai,Frontiers in Endocrinology,2,0.0017301038062283738
+pre_ai,Frontiers in Microbiology,2,0.0017301038062283738
+pre_ai,Frontiers in Public Health,2,0.0017301038062283738
+pre_ai,Gastroenterology Research and Practice,2,0.0017301038062283738
+pre_ai,Genome biology,2,0.0017301038062283738
+pre_ai,Health Expectations,2,0.0017301038062283738
+pre_ai,IEEE Journal of Biomedical and Health Informatics,2,0.0017301038062283738
+pre_ai,IEEE Transactions on Affective Computing,2,0.0017301038062283738
+pre_ai,IEEE Transactions on Neural Systems and Rehabilitation Engineering,2,0.0017301038062283738
+pre_ai,IEEE Transactions on Ultrasonics Ferroelectrics and Frequency Control,2,0.0017301038062283738
+pre_ai,Immunological Reviews,2,0.0017301038062283738
+pre_ai,InTech eBooks,2,0.0017301038062283738
+pre_ai,Internal Medicine,2,0.0017301038062283738
+pre_ai,International Journal of Cancer,2,0.0017301038062283738
+pre_ai,International Journal of Surgery,2,0.0017301038062283738
+pre_ai,JAMA Psychiatry,2,0.0017301038062283738
+pre_ai,Journal of Addictive Diseases,2,0.0017301038062283738
+pre_ai,Journal of Applied Physiology,2,0.0017301038062283738
+pre_ai,Journal of Athletic Training,2,0.0017301038062283738
+pre_ai,Journal of Biomedical Optics,2,0.0017301038062283738
+pre_ai,Journal of Clinical Gastroenterology,2,0.0017301038062283738
+pre_ai,Journal of Infection,2,0.0017301038062283738
+pre_ai,Journal of Internal Medicine,2,0.0017301038062283738
+pre_ai,Journal of Medical Genetics,2,0.0017301038062283738
+pre_ai,Journal of Neuroscience,2,0.0017301038062283738
+pre_ai,Journal of Orthopaedic Surgery and Research,2,0.0017301038062283738
+pre_ai,Journal of Pediatric Psychology,2,0.0017301038062283738
+pre_ai,Journal of Visualized Experiments,2,0.0017301038062283738
+pre_ai,Journal of neurosurgery,2,0.0017301038062283738
+pre_ai,Journal of the American Statistical Association,2,0.0017301038062283738
+pre_ai,Knee Surgery Sports Traumatology Arthroscopy,2,0.0017301038062283738
+pre_ai,Macromolecules,2,0.0017301038062283738
+pre_ai,Methods in molecular biology,2,0.0017301038062283738
+pre_ai,Nature,2,0.0017301038062283738
+pre_ai,Oxidative Medicine and Cellular Longevity,2,0.0017301038062283738
+pre_ai,PLoS Biology,2,0.0017301038062283738
+pre_ai,PLoS Computational Biology,2,0.0017301038062283738
+pre_ai,Parasitology,2,0.0017301038062283738
+pre_ai,Pediatric Blood & Cancer,2,0.0017301038062283738
+pre_ai,Pharmaceutics,2,0.0017301038062283738
+pre_ai,Poultry Science,2,0.0017301038062283738
+pre_ai,PsycEXTRA Dataset,2,0.0017301038062283738
+pre_ai,Psychological Medicine,2,0.0017301038062283738
+pre_ai,Review of Scientific Instruments,2,0.0017301038062283738
+pre_ai,Revista da Sociedade Brasileira de Medicina Tropical,2,0.0017301038062283738
+pre_ai,Shock,2,0.0017301038062283738
+pre_ai,Statistical Methods in Medical Research,2,0.0017301038062283738
+pre_ai,Statistics in Medicine,2,0.0017301038062283738
+pre_ai,The American Journal of Surgical Pathology,2,0.0017301038062283738
+pre_ai,The Journal of Pathology,2,0.0017301038062283738
+pre_ai,"The Journal of Trauma: Injury, Infection, and Critical Care",2,0.0017301038062283738
+pre_ai,The Lancet,2,0.0017301038062283738
+pre_ai,Transplantation,2,0.0017301038062283738
+pre_ai,Traumatology and Orthopedics of Russia,2,0.0017301038062283738
+pre_ai,mBio,2,0.0017301038062283738
+pre_ai,npj Vaccines,2,0.0017301038062283738
+pre_ai,ACS Applied Materials & Interfaces,1,0.0008650519031141869
+pre_ai,ACS Combinatorial Science,1,0.0008650519031141869
+pre_ai,ANADOLU UNIVERSITY JOURNAL OF SCIENCE AND TECHNOLOGY –C Life Sciences and Biotechnology,1,0.0008650519031141869
+pre_ai,APOPTOSIS,1,0.0008650519031141869
+pre_ai,Acta Biochimica et Biophysica Sinica,1,0.0008650519031141869
+pre_ai,Acta Neurologica Scandinavica,1,0.0008650519031141869
+pre_ai,Acta Neuropathologica,1,0.0008650519031141869
+pre_ai,Acta Ophthalmologica,1,0.0008650519031141869
+pre_ai,Acta Paediatrica,1,0.0008650519031141869
+pre_ai,Acta Radiologica,1,0.0008650519031141869
+pre_ai,Acta chirurgiae orthopaedicae et traumatologiae Cechoslovaca,1,0.0008650519031141869
+pre_ai,Addiction Biology,1,0.0008650519031141869
+pre_ai,Advanced Functional Materials,1,0.0008650519031141869
+pre_ai,Advanced Materials Interfaces,1,0.0008650519031141869
+pre_ai,Advances in Dermatology and Allergology,1,0.0008650519031141869
+pre_ai,African Journal of Traditional Complementary and Alternative Medicines,1,0.0008650519031141869
+pre_ai,Age and Ageing,1,0.0008650519031141869
+pre_ai,Aging,1,0.0008650519031141869
+pre_ai,Aging Cell,1,0.0008650519031141869
+pre_ai,Alzheimer Disease & Associated Disorders,1,0.0008650519031141869
+pre_ai,American Journal of Biomedical Sciences,1,0.0008650519031141869
+pre_ai,American Journal of Case Reports,1,0.0008650519031141869
+pre_ai,American Journal of Clinical Nutrition,1,0.0008650519031141869
+pre_ai,American Journal of Epidemiology,1,0.0008650519031141869
+pre_ai,American Journal of Human Biology,1,0.0008650519031141869
+pre_ai,American Journal of Nephrology,1,0.0008650519031141869
+pre_ai,American Journal of Preventive Medicine,1,0.0008650519031141869
+pre_ai,American Journal of Respiratory and Critical Care Medicine,1,0.0008650519031141869
+pre_ai,American Journal of Roentgenology,1,0.0008650519031141869
+pre_ai,American journal of nursing research,1,0.0008650519031141869
+pre_ai,Analytical Chemistry,1,0.0008650519031141869
+pre_ai,Anatomia Histologia Embryologia,1,0.0008650519031141869
+pre_ai,Andrology,1,0.0008650519031141869
+pre_ai,Anesthesiology,1,0.0008650519031141869
+pre_ai,Annals of Behavioral Medicine,1,0.0008650519031141869
+pre_ai,Annals of Clinical Microbiology,1,0.0008650519031141869
+pre_ai,Annals of Clinical Microbiology and Antimicrobials,1,0.0008650519031141869
+pre_ai,Annals of Nutrition and Metabolism,1,0.0008650519031141869
+pre_ai,Annals of Oncology,1,0.0008650519031141869
+pre_ai,Annals of Thoracic and Cardiovascular Surgery,1,0.0008650519031141869
+pre_ai,Annual Review of Biomedical Engineering,1,0.0008650519031141869
+pre_ai,Annual Review of Immunology,1,0.0008650519031141869
+pre_ai,Anti-Cancer Agents in Medicinal Chemistry,1,0.0008650519031141869
+pre_ai,Anticancer Research,1,0.0008650519031141869
+pre_ai,Antimicrobial Agents and Chemotherapy,1,0.0008650519031141869
+pre_ai,Applied Sciences,1,0.0008650519031141869
+pre_ai,Archives of Pathology & Laboratory Medicine,1,0.0008650519031141869
+pre_ai,Archives of Trauma Research,1,0.0008650519031141869
+pre_ai,Arthritis Care & Research,1,0.0008650519031141869
+pre_ai,Arthritis Research & Therapy,1,0.0008650519031141869
+pre_ai,Asia-Pacific Journal of Ophthalmology,1,0.0008650519031141869
+pre_ai,Asian Pacific Journal of Reproduction,1,0.0008650519031141869
+pre_ai,Australian & New Zealand Journal of Psychiatry,1,0.0008650519031141869
+pre_ai,Australian Journal of General Practice,1,0.0008650519031141869
+pre_ai,BMC Cancer,1,0.0008650519031141869
+pre_ai,BMC Cardiovascular Disorders,1,0.0008650519031141869
+pre_ai,BMC Gastroenterology,1,0.0008650519031141869
+pre_ai,BMC Infectious Diseases,1,0.0008650519031141869
+pre_ai,BMC Medical Genetics,1,0.0008650519031141869
+pre_ai,BMC Medical Research Methodology,1,0.0008650519031141869
+pre_ai,BMC Medicine,1,0.0008650519031141869
+pre_ai,BMC Musculoskeletal Disorders,1,0.0008650519031141869
+pre_ai,BMC Proceedings,1,0.0008650519031141869
+pre_ai,BMC Psychiatry,1,0.0008650519031141869
+pre_ai,BMC Public Health,1,0.0008650519031141869
+pre_ai,Behavioural Neurology,1,0.0008650519031141869
+pre_ai,Best Practice & Research Clinical Endocrinology & Metabolism,1,0.0008650519031141869
+pre_ai,BioEssays,1,0.0008650519031141869
+pre_ai,BioMed Research International,1,0.0008650519031141869
+pre_ai,BioMedical Engineering OnLine,1,0.0008650519031141869
+pre_ai,Biochemical Journal,1,0.0008650519031141869
+pre_ai,Biochemical and Biophysical Research Communications,1,0.0008650519031141869
+pre_ai,Bioinformatics,1,0.0008650519031141869
+pre_ai,Bioinformation,1,0.0008650519031141869
+pre_ai,Biomaterials Science,1,0.0008650519031141869
+pre_ai,Biomedical Research,1,0.0008650519031141869
+pre_ai,Biomedicine & Pharmacotherapy,1,0.0008650519031141869
+pre_ai,Biotechnology and Genetic Engineering Reviews,1,0.0008650519031141869
+pre_ai,Bone Marrow Research,1,0.0008650519031141869
+pre_ai,Brain,1,0.0008650519031141869
+pre_ai,Breast Care,1,0.0008650519031141869
+pre_ai,British Journal of Cancer,1,0.0008650519031141869
+pre_ai,British Journal of Clinical Pharmacology,1,0.0008650519031141869
+pre_ai,British Journal of Dermatology,1,0.0008650519031141869
+pre_ai,British Journal of Haematology,1,0.0008650519031141869
+pre_ai,British Journal of Ophthalmology,1,0.0008650519031141869
+pre_ai,British Journal of Pharmacology,1,0.0008650519031141869
+pre_ai,British Journal of Social and Clinical Psychology,1,0.0008650519031141869
+pre_ai,British journal of surgery,1,0.0008650519031141869
+pre_ai,Brno University of Technology Digital Library (Brno University of Technology),1,0.0008650519031141869
+pre_ai,CA A Cancer Journal for Clinicians,1,0.0008650519031141869
+pre_ai,CHEST Journal,1,0.0008650519031141869
+pre_ai,Canadian Journal of Agricultural Economics/Revue canadienne d agroeconomie,1,0.0008650519031141869
+pre_ai,Canadian Journal of Plastic Surgery,1,0.0008650519031141869
+pre_ai,Canadian Medical Association Journal,1,0.0008650519031141869
+pre_ai,Cancer Cell,1,0.0008650519031141869
+pre_ai,Cancer Medicine,1,0.0008650519031141869
+pre_ai,Cancers,1,0.0008650519031141869
+pre_ai,Cell,1,0.0008650519031141869
+pre_ai,Cell & Bioscience,1,0.0008650519031141869
+pre_ai,Cell Cycle,1,0.0008650519031141869
+pre_ai,Cell Death and Differentiation,1,0.0008650519031141869
+pre_ai,Cell Host & Microbe,1,0.0008650519031141869
+pre_ai,Cell and Tissue Research,1,0.0008650519031141869
+pre_ai,Cell stem cell,1,0.0008650519031141869
+pre_ai,Cellular & Molecular Biology Letters,1,0.0008650519031141869
+pre_ai,Chemistry & Biodiversity,1,0.0008650519031141869
+pre_ai,Child Care Health and Development,1,0.0008650519031141869
+pre_ai,Child Development,1,0.0008650519031141869
+pre_ai,Choice Reviews Online,1,0.0008650519031141869
+pre_ai,Circulation Arrhythmia and Electrophysiology,1,0.0008650519031141869
+pre_ai,Circulation Cardiovascular Interventions,1,0.0008650519031141869
+pre_ai,Circulation Cardiovascular Quality and Outcomes,1,0.0008650519031141869
+pre_ai,Clinical Cardiology,1,0.0008650519031141869
+pre_ai,Clinical Chemistry and Laboratory Medicine (CCLM),1,0.0008650519031141869
+pre_ai,Clinical Endocrinology,1,0.0008650519031141869
+pre_ai,Clinical Endoscopy,1,0.0008650519031141869
+pre_ai,Clinical Epidemiology,1,0.0008650519031141869
+pre_ai,Clinical Epigenetics,1,0.0008650519031141869
+pre_ai,Clinical Journal of Pain,1,0.0008650519031141869
+pre_ai,Clinical Microbiology Reviews,1,0.0008650519031141869
+pre_ai,Clinical Neurophysiology Practice,1,0.0008650519031141869
+pre_ai,Clinical Pharmacology & Therapeutics,1,0.0008650519031141869
+pre_ai,Clinical Practice in Pediatric Psychology,1,0.0008650519031141869
+pre_ai,Clinical Rehabilitation,1,0.0008650519031141869
+pre_ai,Clinical Transplantation,1,0.0008650519031141869
+pre_ai,Clinical Trials,1,0.0008650519031141869
+pre_ai,Clinical and Experimental Gastroenterology,1,0.0008650519031141869
+pre_ai,Cold Spring Harbor Perspectives in Medicine,1,0.0008650519031141869
+pre_ai,Columbia Academic Commons (Columbia University),1,0.0008650519031141869
+pre_ai,Communication in Statistics- Theory and Methods,1,0.0008650519031141869
+pre_ai,Comprehensive Reviews in Food Science and Food Safety,1,0.0008650519031141869
+pre_ai,Curationis,1,0.0008650519031141869
+pre_ai,Current Neuropharmacology,1,0.0008650519031141869
+pre_ai,Current Opinion in Cell Biology,1,0.0008650519031141869
+pre_ai,Current Opinion in Endocrinology Diabetes and Obesity,1,0.0008650519031141869
+pre_ai,Current Opinion in Otolaryngology & Head & Neck Surgery,1,0.0008650519031141869
+pre_ai,Current Protocols in Microbiology,1,0.0008650519031141869
+pre_ai,Daehan saengsik uihak hoeji/Clinical and experimental reproductive medicine,1,0.0008650519031141869
+pre_ai,Dagstuhl Research Online Publication Server,1,0.0008650519031141869
+pre_ai,Dementia and Geriatric Cognitive Disorders Extra,1,0.0008650519031141869
+pre_ai,Developmental Science,1,0.0008650519031141869
+pre_ai,Diabetes Therapy,1,0.0008650519031141869
+pre_ai,Diabetes/Metabolism Research and Reviews,1,0.0008650519031141869
+pre_ai,Disability and Rehabilitation,1,0.0008650519031141869
+pre_ai,Dose-Response,1,0.0008650519031141869
+pre_ai,Drugs in Context,1,0.0008650519031141869
+pre_ai,EBioMedicine,1,0.0008650519031141869
+pre_ai,EMBO Molecular Medicine,1,0.0008650519031141869
+pre_ai,Electromagnetic waves,1,0.0008650519031141869
+pre_ai,Emerging Microbes & Infections,1,0.0008650519031141869
+pre_ai,Emerging infectious diseases,1,0.0008650519031141869
+pre_ai,Endocrine Reviews,1,0.0008650519031141869
+pre_ai,Epidemiologic Reviews,1,0.0008650519031141869
+pre_ai,Epilepsia Open,1,0.0008650519031141869
+pre_ai,Ethiopian Journal of Health Sciences,1,0.0008650519031141869
+pre_ai,Ethiopian Pharmaceutical Journal,1,0.0008650519031141869
+pre_ai,European Addiction Research,1,0.0008650519031141869
+pre_ai,European Heart Journal - Cardiovascular Imaging,1,0.0008650519031141869
+pre_ai,European Journal of Heart Failure,1,0.0008650519031141869
+pre_ai,European Journal of Neuroscience,1,0.0008650519031141869
+pre_ai,European Stroke Journal,1,0.0008650519031141869
+pre_ai,Evolution & Development,1,0.0008650519031141869
+pre_ai,Experimental Dermatology,1,0.0008650519031141869
+pre_ai,FEBS Journal,1,0.0008650519031141869
+pre_ai,FEBS Letters,1,0.0008650519031141869
+pre_ai,Figshare,1,0.0008650519031141869
+pre_ai,Food and Nutrition Bulletin,1,0.0008650519031141869
+pre_ai,Friction,1,0.0008650519031141869
+pre_ai,Frontiers in Cell and Developmental Biology,1,0.0008650519031141869
+pre_ai,Frontiers in Psychiatry,1,0.0008650519031141869
+pre_ai,Frontiers in Veterinary Science,1,0.0008650519031141869
+pre_ai,Frontline Gastroenterology,1,0.0008650519031141869
+pre_ai,Fundamenta Informaticae,1,0.0008650519031141869
+pre_ai,Future Microbiology,1,0.0008650519031141869
+pre_ai,Gait & Posture,1,0.0008650519031141869
+pre_ai,Genij Ortopedii,1,0.0008650519031141869
+pre_ai,Gerontology,1,0.0008650519031141869
+pre_ai,Head & Neck,1,0.0008650519031141869
+pre_ai,Health An Interdisciplinary Journal for the Social Study of Health Illness and Medicine,1,0.0008650519031141869
+pre_ai,Health Psychology,1,0.0008650519031141869
+pre_ai,Heart Rhythm,1,0.0008650519031141869
+pre_ai,Human Genomics,1,0.0008650519031141869
+pre_ai,IEEE Access,1,0.0008650519031141869
+pre_ai,IEEE Transactions on Biomedical Engineering,1,0.0008650519031141869
+pre_ai,IEEE Transactions on Industrial Informatics,1,0.0008650519031141869
+pre_ai,IEEE Transactions on Medical Imaging,1,0.0008650519031141869
+pre_ai,IEEE Transactions on Pattern Analysis and Machine Intelligence,1,0.0008650519031141869
+pre_ai,IEEE Transactions on Systems Man and Cybernetics,1,0.0008650519031141869
+pre_ai,IOSR Journal of Nursing and health Science,1,0.0008650519031141869
+pre_ai,IRE Transactions on Information Theory,1,0.0008650519031141869
+pre_ai,Immunity,1,0.0008650519031141869
+pre_ai,Indian Heart Journal,1,0.0008650519031141869
+pre_ai,Indian Journal of Endocrinology and Metabolism,1,0.0008650519031141869
+pre_ai,Indian Journal of Ophthalmology,1,0.0008650519031141869
+pre_ai,Indian Journal of Orthopaedics,1,0.0008650519031141869
+pre_ai,Indian Journal of Public Health Research & Development,1,0.0008650519031141869
+pre_ai,Infancy,1,0.0008650519031141869
+pre_ai,Infants & Young Children,1,0.0008650519031141869
+pre_ai,Integrated Computer-Aided Engineering,1,0.0008650519031141869
+pre_ai,Interactive Cardiovascular and Thoracic Surgery,1,0.0008650519031141869
+pre_ai,Interface Focus,1,0.0008650519031141869
+pre_ai,International Journal of Advanced Computer Science and Applications,1,0.0008650519031141869
+pre_ai,International Journal of Andrology,1,0.0008650519031141869
+pre_ai,International Journal of Automation and Computing,1,0.0008650519031141869
+pre_ai,International Journal of Cardiology,1,0.0008650519031141869
+pre_ai,International Journal of Clinical Practice,1,0.0008650519031141869
+pre_ai,International Journal of Geriatric Psychiatry,1,0.0008650519031141869
+pre_ai,International Journal of Gynecology & Obstetrics,1,0.0008650519031141869
+pre_ai,International Journal of Health Research,1,0.0008650519031141869
+pre_ai,International Journal of Medical Sciences,1,0.0008650519031141869
+pre_ai,International Journal of Molecular Medicine,1,0.0008650519031141869
+pre_ai,International Journal of Oral Science,1,0.0008650519031141869
+pre_ai,International Journal of Pediatrics,1,0.0008650519031141869
+pre_ai,International Journal of Pharmaceutics X,1,0.0008650519031141869
+pre_ai,International Reviews of Immunology,1,0.0008650519031141869
+pre_ai,JAMA Network Open,1,0.0008650519031141869
+pre_ai,JAMA Surgery,1,0.0008650519031141869
+pre_ai,JNCI Monographs,1,0.0008650519031141869
+pre_ai,Journal of Aging Research,1,0.0008650519031141869
+pre_ai,Journal of Alzheimer s Disease,1,0.0008650519031141869
+pre_ai,Journal of Alzheimer s Disease Reports,1,0.0008650519031141869
+pre_ai,Journal of Andrology,1,0.0008650519031141869
+pre_ai,Journal of Artificial Intelligence Research,1,0.0008650519031141869
+pre_ai,Journal of Atherosclerosis and Thrombosis,1,0.0008650519031141869
+pre_ai,Journal of Biological Engineering,1,0.0008650519031141869
+pre_ai,Journal of Biomaterials Science Polymer Edition,1,0.0008650519031141869
+pre_ai,Journal of Biomedical Materials Research,1,0.0008650519031141869
+pre_ai,Journal of Bone and Joint Surgery - British Volume,1,0.0008650519031141869
+pre_ai,Journal of Cancer Therapy,1,0.0008650519031141869
+pre_ai,Journal of Cannabis Therapeutics,1,0.0008650519031141869
+pre_ai,Journal of Cardiology,1,0.0008650519031141869
+pre_ai,Journal of Cardiothoracic Surgery,1,0.0008650519031141869
+pre_ai,Journal of Cardiovascular Electrophysiology,1,0.0008650519031141869
+pre_ai,Journal of Cardiovascular and Thoracic Research,1,0.0008650519031141869
+pre_ai,Journal of Cellular Biochemistry,1,0.0008650519031141869
+pre_ai,Journal of Cellular and Molecular Medicine,1,0.0008650519031141869
+pre_ai,Journal of Child Neurology,1,0.0008650519031141869
+pre_ai,Journal of Clinical Medicine,1,0.0008650519031141869
+pre_ai,Journal of Clinical Psychology,1,0.0008650519031141869
+pre_ai,Journal of Clinical Ultrasound,1,0.0008650519031141869
+pre_ai,Journal of Clinical and Experimental Neuropsychology,1,0.0008650519031141869
+pre_ai,Journal of Computational Chemistry,1,0.0008650519031141869
+pre_ai,Journal of Consulting and Clinical Psychology,1,0.0008650519031141869
+pre_ai,Journal of Controlled Release,1,0.0008650519031141869
+pre_ai,Journal of Counseling Psychology,1,0.0008650519031141869
+pre_ai,Journal of Craniofacial Surgery,1,0.0008650519031141869
+pre_ai,Journal of Diabetes Research,1,0.0008650519031141869
+pre_ai,Journal of Diseases and Medicinal Plants,1,0.0008650519031141869
+pre_ai,Journal of Emergencies Trauma and Shock,1,0.0008650519031141869
+pre_ai,Journal of Endocrinology,1,0.0008650519031141869
+pre_ai,Journal of Genetic Counseling,1,0.0008650519031141869
+pre_ai,Journal of Immunology Research,1,0.0008650519031141869
+pre_ai,Journal of Immunotherapy,1,0.0008650519031141869
+pre_ai,Journal of Innate Immunity,1,0.0008650519031141869
+pre_ai,Journal of Medical Radiation Sciences,1,0.0008650519031141869
+pre_ai,Journal of Medical Virology,1,0.0008650519031141869
+pre_ai,Journal of Molecular Cell Biology,1,0.0008650519031141869
+pre_ai,Journal of Molecular Endocrinology,1,0.0008650519031141869
+pre_ai,Journal of Nanomaterials,1,0.0008650519031141869
+pre_ai,Journal of Nanoscience and Nanotechnology,1,0.0008650519031141869
+pre_ai,Journal of NeuroEngineering and Rehabilitation,1,0.0008650519031141869
+pre_ai,Journal of Neurology Neurosurgery & Psychiatry,1,0.0008650519031141869
+pre_ai,Journal of Ocular Pharmacology and Therapeutics,1,0.0008650519031141869
+pre_ai,Journal of Oral and Maxillofacial Pathology,1,0.0008650519031141869
+pre_ai,Journal of Orthopaedic Trauma,1,0.0008650519031141869
+pre_ai,Journal of Orthopaedic and Sports Physical Therapy,1,0.0008650519031141869
+pre_ai,Journal of Paediatrics and Child Health,1,0.0008650519031141869
+pre_ai,Journal of Pediatric Hematology/Oncology,1,0.0008650519031141869
+pre_ai,Journal of Pediatric Oncology Nursing,1,0.0008650519031141869
+pre_ai,Journal of Rehabilitation and Assistive Technologies Engineering,1,0.0008650519031141869
+pre_ai,Journal of Skin Cancer,1,0.0008650519031141869
+pre_ai,Journal of Sport Rehabilitation,1,0.0008650519031141869
+pre_ai,Journal of Sports Sciences,1,0.0008650519031141869
+pre_ai,Journal of Statistical Software,1,0.0008650519031141869
+pre_ai,Journal of Stroke,1,0.0008650519031141869
+pre_ai,Journal of Thoracic Disease,1,0.0008650519031141869
+pre_ai,Journal of Trauma Management & Outcomes,1,0.0008650519031141869
+pre_ai,Journal of Tropical Medicine,1,0.0008650519031141869
+pre_ai,Journal of the American College of Cardiology,1,0.0008650519031141869
+pre_ai,Journal of the American College of Nutrition,1,0.0008650519031141869
+pre_ai,Journal of the American College of Surgeons,1,0.0008650519031141869
+pre_ai,Journal of the American Heart Association,1,0.0008650519031141869
+pre_ai,Journal of the American Society of Echocardiography,1,0.0008650519031141869
+pre_ai,Journal of the Canadian Association of Gastroenterology,1,0.0008650519031141869
+pre_ai,Journal of the National Comprehensive Cancer Network,1,0.0008650519031141869
+pre_ai,Journal of the Royal Statistical Society Series B (Statistical Methodology),1,0.0008650519031141869
+pre_ai,Jurnal Kedokteran Hewan - Indonesian Journal of Veterinary Sciences,1,0.0008650519031141869
+pre_ai,Jurnal Keperawatan Silampari,1,0.0008650519031141869
+pre_ai,Lipids,1,0.0008650519031141869
+pre_ai,Max Planck Institute for Plasma Physics,1,0.0008650519031141869
+pre_ai,Medical Care,1,0.0008650519031141869
+pre_ai,Medical Engineering & Physics,1,0.0008650519031141869
+pre_ai,Medical Entomology and Zoology,1,0.0008650519031141869
+pre_ai,Medical Journal of Dr D Y Patil University,1,0.0008650519031141869
+pre_ai,Medical Journal of the Islamic Republic of Iran,1,0.0008650519031141869
+pre_ai,Medical Reference Services Quarterly,1,0.0008650519031141869
+pre_ai,Medical Ultrasonography,1,0.0008650519031141869
+pre_ai,Memórias do Instituto Oswaldo Cruz,1,0.0008650519031141869
+pre_ai,Microbiology Resource Announcements,1,0.0008650519031141869
+pre_ai,Military Medical Research,1,0.0008650519031141869
+pre_ai,Molecular Biology and Evolution,1,0.0008650519031141869
+pre_ai,Molecular Cancer Research,1,0.0008650519031141869
+pre_ai,Molecular Genetics and Metabolism,1,0.0008650519031141869
+pre_ai,Molecular Human Reproduction,1,0.0008650519031141869
+pre_ai,Molecular Medicine Reports,1,0.0008650519031141869
+pre_ai,Molecular Nutrition & Food Research,1,0.0008650519031141869
+pre_ai,Molecular Reproduction and Development,1,0.0008650519031141869
+pre_ai,Multiple Sclerosis Journal,1,0.0008650519031141869
+pre_ai,Multiple Sclerosis and Related Disorders,1,0.0008650519031141869
+pre_ai,Muscle & Nerve,1,0.0008650519031141869
+pre_ai,N N Priorov Journal of Traumatology and Orthopedics,1,0.0008650519031141869
+pre_ai,Nature reviews. Cancer,1,0.0008650519031141869
+pre_ai,Neoplasia,1,0.0008650519031141869
+pre_ai,NeuroImage,1,0.0008650519031141869
+pre_ai,Neurology,1,0.0008650519031141869
+pre_ai,Neurology and Therapy,1,0.0008650519031141869
+pre_ai,Neurology neuropsychiatry Psychosomatics,1,0.0008650519031141869
+pre_ai,Neuropsychology,1,0.0008650519031141869
+pre_ai,Neuroscience & Biobehavioral Reviews,1,0.0008650519031141869
+pre_ai,Neurotherapeutics,1,0.0008650519031141869
+pre_ai,Nigerian Journal of Clinical Practice,1,0.0008650519031141869
+pre_ai,North American Journal of Medical Sciences,1,0.0008650519031141869
+pre_ai,Novartis Foundation symposium,1,0.0008650519031141869
+pre_ai,Nucleus,1,0.0008650519031141869
+pre_ai,Nutrition Bulletin,1,0.0008650519031141869
+pre_ai,Nutrition Journal,1,0.0008650519031141869
+pre_ai,Nutrition Research Reviews,1,0.0008650519031141869
+pre_ai,Nöro Psikiyatri Arşivi,1,0.0008650519031141869
+pre_ai,OncoTargets and Therapy,1,0.0008650519031141869
+pre_ai,Oncogene,1,0.0008650519031141869
+pre_ai,Oncology Letters,1,0.0008650519031141869
+pre_ai,Open MIND,1,0.0008650519031141869
+pre_ai,OpenSIUC (Southern Illinois University Carbondale),1,0.0008650519031141869
+pre_ai,Oral Microbiology and Immunology,1,0.0008650519031141869
+pre_ai,Orphanet Journal of Rare Diseases,1,0.0008650519031141869
+pre_ai,Orthopaedic Journal of Sports Medicine,1,0.0008650519031141869
+pre_ai,Orthopaedic Nursing,1,0.0008650519031141869
+pre_ai,Orthopedics,1,0.0008650519031141869
+pre_ai,Otolaryngology,1,0.0008650519031141869
+pre_ai,PLoS Medicine,1,0.0008650519031141869
+pre_ai,Paediatric and Perinatal Epidemiology,1,0.0008650519031141869
+pre_ai,Pain Research and Management,1,0.0008650519031141869
+pre_ai,Parallax,1,0.0008650519031141869
+pre_ai,Physical Therapy,1,0.0008650519031141869
+pre_ai,Physics Today,1,0.0008650519031141869
+pre_ai,Physics in Medicine and Biology,1,0.0008650519031141869
+pre_ai,Physiological Measurement,1,0.0008650519031141869
+pre_ai,Physiological Reviews,1,0.0008650519031141869
+pre_ai,Phytotherapy Research,1,0.0008650519031141869
+pre_ai,Problems of Endocrinology,1,0.0008650519031141869
+pre_ai,Proceedings of The Nutrition Society,1,0.0008650519031141869
+pre_ai,Protein & Cell,1,0.0008650519031141869
+pre_ai,Psychiatric Bulletin,1,0.0008650519031141869
+pre_ai,Psychiatry and Clinical Psychopharmacology,1,0.0008650519031141869
+pre_ai,Psychological Bulletin,1,0.0008650519031141869
+pre_ai,Psychological Methods,1,0.0008650519031141869
+pre_ai,Psychology and Health,1,0.0008650519031141869
+pre_ai,Pulmonary Circulation,1,0.0008650519031141869
+pre_ai,Radiology,1,0.0008650519031141869
+pre_ai,Renal Failure,1,0.0008650519031141869
+pre_ai,Research on Social Work Practice,1,0.0008650519031141869
+pre_ai,Review of Religious Research,1,0.0008650519031141869
+pre_ai,SIAM Review,1,0.0008650519031141869
+pre_ai,Saudi Journal of Biological Sciences,1,0.0008650519031141869
+pre_ai,Scandinavian Journal of Medicine and Science in Sports,1,0.0008650519031141869
+pre_ai,Scandinavian Journal of Plastic and Reconstructive Surgery,1,0.0008650519031141869
+pre_ai,Schizophrenia Bulletin,1,0.0008650519031141869
+pre_ai,Science Advances,1,0.0008650519031141869
+pre_ai,Science Immunology,1,0.0008650519031141869
+pre_ai,Seminars in Ophthalmology,1,0.0008650519031141869
+pre_ai,Seminars in Respiratory and Critical Care Medicine,1,0.0008650519031141869
+pre_ai,Small,1,0.0008650519031141869
+pre_ai,Social Behavior and Personality An International Journal,1,0.0008650519031141869
+pre_ai,Statistical Science,1,0.0008650519031141869
+pre_ai,Stem Cell Research,1,0.0008650519031141869
+pre_ai,Stem Cells and Development,1,0.0008650519031141869
+pre_ai,Substance Abuse Treatment Prevention and Policy,1,0.0008650519031141869
+pre_ai,The Brazilian Journal of Infectious Diseases,1,0.0008650519031141869
+pre_ai,The Canadian Journal of Addiction,1,0.0008650519031141869
+pre_ai,The International Journal of Biostatistics,1,0.0008650519031141869
+pre_ai,The International Journal of Lower Extremity Wounds,1,0.0008650519031141869
+pre_ai,The International Journal of Tropical Veterinary and Biomedical Research,1,0.0008650519031141869
+pre_ai,The Journal of Alternative and Complementary Medicine,1,0.0008650519031141869
+pre_ai,The Journal of Clinical Endocrinology & Metabolism,1,0.0008650519031141869
+pre_ai,The Journal of Experimental Medicine,1,0.0008650519031141869
+pre_ai,The Journal of Infectious Diseases,1,0.0008650519031141869
+pre_ai,The Journal of Psychology,1,0.0008650519031141869
+pre_ai,The Journal of Strength and Conditioning Research,1,0.0008650519031141869
+pre_ai,The Lancet Oncology,1,0.0008650519031141869
+pre_ai,The Lancet Psychiatry,1,0.0008650519031141869
+pre_ai,The Laryngoscope,1,0.0008650519031141869
+pre_ai,The Medical Journal of Australia,1,0.0008650519031141869
+pre_ai,The Oncologist,1,0.0008650519031141869
+pre_ai,The Open Neurology Journal,1,0.0008650519031141869
+pre_ai,Traffic,1,0.0008650519031141869
+pre_ai,Transboundary and Emerging Diseases,1,0.0008650519031141869
+pre_ai,Transplantation Direct,1,0.0008650519031141869
+pre_ai,Trends in Cell Biology,1,0.0008650519031141869
+pre_ai,Ultrasound Quarterly,1,0.0008650519031141869
+pre_ai,University of Alberta Library,1,0.0008650519031141869
+pre_ai,Vaccines,1,0.0008650519031141869
+pre_ai,Veterinary World,1,0.0008650519031141869
+pre_ai,Viral Immunology,1,0.0008650519031141869
+pre_ai,Viruses,1,0.0008650519031141869
+pre_ai,World Journal of Cardiology,1,0.0008650519031141869
+pre_ai,World Journal of Gastroenterology,1,0.0008650519031141869
+pre_ai,World Medical & Health Policy,1,0.0008650519031141869
+pre_ai,Xenotransplantation,1,0.0008650519031141869
+pre_ai,npj Breast Cancer,1,0.0008650519031141869

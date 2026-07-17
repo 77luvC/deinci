@@ -1,3 +1,0 @@
-query_genai_topic,n_pairs,n_positive,n_negative,mean_positive_score,mean_negative_score,positive_negative_diff,cohens_d,roc_auc,average_precision
-genai_topic,15,10,5,0.854163932800293,0.8138630986213684,0.040300834178924605,1.104473094585054,0.84,0.9296356421356421
-non_genai_topic,15,5,10,0.8854131102561951,0.795038890838623,0.09037421941757207,2.252964230012114,0.94,0.925

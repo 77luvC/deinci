@@ -1,0 +1,4 @@
+combined_group,n_pairs,n_positive,n_negative,mean_positive_score,mean_negative_score,positive_negative_diff,cohens_d,roc_auc,average_precision
+post_2020_post_ai,1330,1330,0,0.8880766003651727,,,,,
+post_2020_pre_ai,437,437,0,0.888104930485959,,,,,
+pre_2020_pre_ai,719,719,0,0.8789977307777246,,,,,
