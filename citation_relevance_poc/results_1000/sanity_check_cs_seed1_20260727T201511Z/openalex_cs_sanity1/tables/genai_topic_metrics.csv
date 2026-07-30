@@ -1,2 +1,0 @@
-query_genai_topic,n_pairs,n_positive,n_negative,mean_positive_score,mean_negative_score,positive_negative_diff,cohens_d,roc_auc,average_precision
-non_genai_topic,36,36,0,0.8788661509752274,,,,,
