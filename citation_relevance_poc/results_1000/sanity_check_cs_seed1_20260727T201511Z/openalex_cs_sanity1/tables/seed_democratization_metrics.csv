@@ -1,3 +1,0 @@
-query_id,query_ai_group,query_year,query_field,n_reference_pairs,median_cited_age,share_recent_refs_3yr,median_log1p_cited_by_count,share_low_citation_refs,top10pct_share_of_citation_mass,share_cross_field_refs,cited_field_entropy,mean_scincl,share_relevant_low_citation_refs
-W4416935962,post_ai,2025,Computer Science,30,2.5,0.7,2.833213344056216,0.23333333333333334,0.530156366344006,0.43333333333333335,1.1487724515076838,0.8770955761273702,0.2
-W3088431663,pre_ai,2020,Computer Science,6,3.0,0.5,2.456327442868026,0.5,0.8571428571428571,0.8333333333333334,1.242453324894,0.8877190252145132,0.5
