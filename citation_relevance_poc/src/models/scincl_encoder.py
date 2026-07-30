@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -9,6 +10,7 @@ import torch
 from tqdm import tqdm
 from transformers import AutoModel, AutoTokenizer
 
+from src.utils.cache import CACHE_SCHEMA_VERSION, hash_dataframe, slugify, write_manifest
 from src.utils.io import ensure_dir
 from src.utils.text import join_title_abstract
 
@@ -51,16 +53,49 @@ class SciNCLEncoder:
         return out
 
 
+def embedding_cache_paths(output_prefix: str | Path, model_name: str) -> dict[str, Path]:
+    """Return the stable cache file paths for one (output_prefix, model) pair.
+
+    Embeddings live under the caller-chosen prefix directory (one per
+    dataset/field), but the filenames are namespaced by model so switching
+    embedding models never silently reuses another model's vectors.
+    """
+    prefix = Path(output_prefix)
+    stem = f"{prefix.name}__{slugify(model_name)}"
+    return {
+        "npy": prefix.parent / f"{stem}.npy",
+        "metadata": prefix.parent / f"{stem}_metadata.parquet",
+        "manifest": prefix.parent / f"{stem}.manifest.json",
+    }
+
+
+def embedding_input_hash(papers: pd.DataFrame) -> str:
+    """Hash the paper text/id fields that determine embedding content."""
+    return hash_dataframe(papers, ["paper_id", "title", "abstract"])
+
+
 def save_embeddings(
     papers: pd.DataFrame,
     embeddings: np.ndarray,
     output_prefix: str | Path,
+    *,
+    model_name: str,
+    input_hash: str,
 ) -> tuple[Path, Path]:
-    prefix = Path(output_prefix)
-    ensure_dir(prefix.parent)
-    npy_path = prefix.with_suffix(".npy")
-    meta_path = prefix.parent / f"{prefix.name}_metadata.parquet"
-    np.save(npy_path, embeddings)
-    papers.to_parquet(meta_path, index=False)
-    return npy_path, meta_path
+    paths = embedding_cache_paths(output_prefix, model_name)
+    ensure_dir(paths["npy"].parent)
+    np.save(paths["npy"], embeddings)
+    papers.to_parquet(paths["metadata"], index=False)
+    write_manifest(
+        paths["manifest"],
+        {
+            "cache_schema_version": CACHE_SCHEMA_VERSION,
+            "model_name": model_name,
+            "input_hash": input_hash,
+            "n_papers": int(len(papers)),
+            "embedding_dim": int(embeddings.shape[1]) if embeddings.ndim == 2 else None,
+            "created_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        },
+    )
+    return paths["npy"], paths["metadata"]
 

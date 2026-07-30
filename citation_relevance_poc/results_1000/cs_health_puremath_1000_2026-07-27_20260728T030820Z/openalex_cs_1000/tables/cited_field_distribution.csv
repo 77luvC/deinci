@@ -1,0 +1,55 @@
+query_ai_group,candidate_field,n,share
+post_ai,Computer Science,14896,0.5811258924043226
+post_ai,Engineering,2982,0.11633441267116608
+post_ai,Social Sciences,1302,0.05079389849022744
+post_ai,Medicine,1058,0.041274919049662545
+post_ai,Physics and Astronomy,856,0.03339445246362111
+post_ai,Psychology,799,0.03117075644676784
+post_ai,"Business, Management and Accounting",538,0.020988569422229156
+post_ai,Decision Sciences,473,0.018452775718799986
+post_ai,"Biochemistry, Genetics and Molecular Biology",416,0.01622907970194671
+post_ai,Mathematics,405,0.01579994538290485
+post_ai,Environmental Science,298,0.01162563882495221
+post_ai,Neuroscience,296,0.011547614403308235
+post_ai,Arts and Humanities,282,0.011001443451800413
+post_ai,"Economics, Econometrics and Finance",210,0.00819256427261733
+post_ai,Health Professions,197,0.007685405531931495
+post_ai,Earth and Planetary Sciences,162,0.006319978153161939
+post_ai,Agricultural and Biological Sciences,126,0.0049155385635703975
+post_ai,Materials Science,116,0.004525416455350525
+post_ai,Chemistry,104,0.004057269925486677
+post_ai,Energy,51,0.0019896227519213515
+post_ai,"Pharmacology, Toxicology and Pharmaceutics",32,0.001248390746303593
+post_ai,Nursing,10,0.0003901221082198728
+post_ai,Dentistry,8,0.00031209768657589824
+post_ai,Immunology and Microbiology,7,0.000273085475753911
+post_ai,Chemical Engineering,6,0.00023407326493192368
+post_ai,Veterinary,2,7.802442164397456e-05
+post_ai,unknown,1,3.901221082198728e-05
+pre_ai,Computer Science,15272,0.6510914051841746
+pre_ai,Engineering,2399,0.10227660300136425
+pre_ai,Social Sciences,1106,0.047152114597544335
+pre_ai,Physics and Astronomy,682,0.029075716234652115
+pre_ai,Medicine,507,0.02161493860845839
+pre_ai,Psychology,454,0.019355388813096862
+pre_ai,"Biochemistry, Genetics and Molecular Biology",418,0.017820600272851296
+pre_ai,Decision Sciences,410,0.017479536152796727
+pre_ai,Mathematics,399,0.01701057298772169
+pre_ai,"Business, Management and Accounting",352,0.015006821282401092
+pre_ai,Arts and Humanities,265,0.01129774897680764
+pre_ai,Neuroscience,228,0.009720327421555252
+pre_ai,"Economics, Econometrics and Finance",194,0.008270804911323329
+pre_ai,Environmental Science,186,0.007929740791268758
+pre_ai,Health Professions,149,0.006352319236016371
+pre_ai,Earth and Planetary Sciences,109,0.00464699863574352
+pre_ai,Materials Science,93,0.003964870395634379
+pre_ai,Agricultural and Biological Sciences,60,0.002557980900409277
+pre_ai,Chemistry,58,0.0024727148703956345
+pre_ai,"Pharmacology, Toxicology and Pharmaceutics",55,0.0023448158253751706
+pre_ai,Energy,23,0.0009805593451568896
+pre_ai,Immunology and Microbiology,11,0.00046896316507503413
+pre_ai,Nursing,11,0.00046896316507503413
+pre_ai,Chemical Engineering,5,0.00021316507503410642
+pre_ai,Veterinary,4,0.00017053206002728513
+pre_ai,unknown,4,0.00017053206002728513
+pre_ai,Dentistry,2,8.526603001364257e-05

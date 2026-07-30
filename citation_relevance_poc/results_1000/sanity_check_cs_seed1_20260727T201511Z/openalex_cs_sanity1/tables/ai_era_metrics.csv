@@ -1,0 +1,3 @@
+query_ai_group,n_pairs,n_positive,n_negative,mean_positive_score,mean_negative_score,positive_negative_diff,cohens_d,roc_auc,average_precision
+post_ai,30,30,0,0.8770955761273702,,,,,
+pre_ai,6,6,0,0.8877190252145132,,,,,

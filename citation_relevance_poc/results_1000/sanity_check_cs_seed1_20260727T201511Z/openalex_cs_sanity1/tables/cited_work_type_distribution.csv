@@ -1,0 +1,9 @@
+query_ai_group,candidate_work_type,n,share
+post_ai,article,21,0.7
+post_ai,conference-paper,3,0.1
+post_ai,review,3,0.1
+post_ai,book-chapter,1,0.03333333333333333
+post_ai,preprint,1,0.03333333333333333
+post_ai,report,1,0.03333333333333333
+pre_ai,article,5,0.8333333333333334
+pre_ai,review,1,0.16666666666666666

@@ -1,3 +1,4 @@
+requests
 torch
 transformers
 sentence-transformers

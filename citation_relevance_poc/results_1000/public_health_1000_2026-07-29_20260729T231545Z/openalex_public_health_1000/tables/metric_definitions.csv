@@ -1,0 +1,10 @@
+metric,definition
+median_cited_age,Median valid cited-work age per seed: query year minus cited-work year.
+share_recent_refs_3yr,Share of references with cited-work age between 0 and 3 years.
+median_log1p_cited_by_count,Median log(1 + OpenAlex cited-by count at the seed paper's citation year) of referenced works.
+share_low_citation_refs,Share of references with citation-year cited-by count <= global bottom-quartile threshold (15.0).
+top10pct_share_of_citation_mass,Share of each seed's referenced-work citation-count mass held by its top 10% most-cited references.
+share_cross_field_refs,Share of references whose OpenAlex field differs from the seed-paper field.
+cited_field_entropy,Shannon entropy of cited-work OpenAlex field distribution per seed.
+mean_score,Mean SciNCL cosine score across actual references for the seed.
+share_relevant_low_citation_refs,Share of references that are low-citation and have SciNCL cosine >= 0.8.
