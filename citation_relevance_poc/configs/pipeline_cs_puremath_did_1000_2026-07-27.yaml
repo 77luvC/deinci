@@ -1,0 +1,72 @@
+# CS (treatment) vs Pure Math (negative-control) difference-in-differences.
+# Both datasets' raw/processed data already exist (built by
+# pipeline_cs_1000_2026-07-27.yaml and pipeline_pure_math_1000_2026-07-27.yaml
+# respectively); intended to be run with `--skip build_raw` so it reuses that
+# data. Pure Math showed no significant post-AI shift on any of the 9 core
+# metrics in the 3-field field-scan (CS + Health Informatics + Pure Math), so
+# it works as a plausible negative control: differencing out its own
+# pre/post drift should net out generic time-trend effects (e.g. citation
+# windows shrinking over time for any field) that aren't specific to CS/AI
+# exposure.
+
+run:
+  name: cs_puremath_did_1000_2026-07-27
+  project_dir: ..
+  python: python
+
+openalex:
+  mailto: ran0925@bu.edu
+  api_key_env: OPENALEX_API_KEY
+  sleep_seconds: 0.15
+
+sampling:
+  language: en
+  seeds_per_period: 1000
+  candidate_sample_size: 5000
+  min_references: 8
+  random_seed: 42
+
+historical_citations:
+  method: yearly
+  max_retries: 3
+  checkpoint_every: 100
+
+core_metrics:
+  low_citation_quantile: 0.25
+  relevance_threshold: 0.80
+  use_relevance_scores_when_available: true
+
+relevance_scoring:
+  enabled: true
+  model: malteos/scincl
+  force_recompute: false
+
+steps:
+  build_raw: true
+  load_pairs: true
+  pair_metadata: true
+  historical_metadata: true
+  relevance_scoring: true
+  historical_scores: true
+  cited_distribution: true
+  democratization: true
+  temporal_relevance: true
+  aggregate_core: true
+  plot_core: true
+  cross_field_did: true
+
+fields:
+  - dataset: openalex_cs_1000
+    label: CS
+    field_id: "17"
+  - dataset: openalex_pure_math_1000
+    label: Pure Math
+    subfield_ids: "2602|2607|2608"
+
+did:
+  # Folder name only (nested under results/<run-id>/aggregate/tables/), not a
+  # path from the project root -- DID output is per-run like everything else.
+  output_dir: did_cs_vs_puremath
+  treatment_field_label: CS
+  control_field_labels:
+    - Pure Math

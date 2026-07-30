@@ -1,0 +1,9 @@
+query_ai_group,visibility_quartile,n,share
+post_ai,Q1_lowest,6,0.2
+post_ai,Q2,9,0.3
+post_ai,Q3,8,0.26666666666666666
+post_ai,Q4_highest,7,0.23333333333333334
+pre_ai,Q1_lowest,3,0.5
+pre_ai,Q2,0,0.0
+pre_ai,Q3,1,0.16666666666666666
+pre_ai,Q4_highest,2,0.3333333333333333
